@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>FeeshSeeing</title>
+
+    <!-- Desktop browsers (including 16x6, 32x32 & 48x48 PNGs) -->
+    <link rel="shortcut icon" href="favicons/favicon.ico" />
+    <link rel="icon" type="image/png" href="favicons/favicon.png" />
+    <!-- Modern browsers (196x196 should cover all modern browsers) -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicons/apple-touch-icon-196x196.png"
+    />
+    <!-- iOS & other mobile devices (ideally 180x180, at least 120x120) -->
+    <link rel="apple-touch-icon" href="favicons/apple-touch-icon-120x120.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ruthie&display=swap" rel="stylesheet"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Ruthie&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="theme-color" content="#000" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="navigation">
+        <header><span class="highlight">Feesh</span> Seeing</header>
+        <nav class="fish-nav-menu freshwater-s" data-category="freshwater">
+          <div class="fish-nav--watertypes">
+            <button class="freshwater active" data-category="freshwater">Freshwater</button>
+            <button class="saltwater" data-category="saltwater">Saltwater</button>
+          </div>
+          <div class="fish-nav--categories">
+            <div class="fish-nav-categories--links">
+              <span>Fish Size: </span>
+              <a href="javascript:void(0)" class="active" data-category="s">S</a><span>/</span>
+              <a href="javascript:void(0)" data-category="m">M</a><span>/</span>
+              <a href="javascript:void(0)" data-category="l">L</a><span>/</span>
+              <a href="javascript:void(0)" data-category="xl">XL</a> 
+            </div>
+            <div class="fish-nav-categories--menu-list">
+              <div class="freshwater--menu-list">
+                <ul class="small"></ul>
+                <ul class="medium"></ul>
+                <ul class="large"></ul>
+                <ul class="xlarge"></ul>
+              </div>
+             
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="aquarium">
+        <div class="fish-tank" id="fish-tank">
+          <div class="fish s">
+            <img id="fish" src="/img/freshwater/s-fw-chub.png" alt="" />
+          </div>
+        </div>
+        <div class="fish-title">Chub</div>
+      </section>
+    </main>
+  </body>
+  <script src="/js/generate-fish.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="/js/bubble.js"></script>
+  <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+</html>
