@@ -1,3 +1,5 @@
+// Bubble JS is from https://codepen.io/cbolson/pen/VwNgyWv
+
 const containerEl = document.querySelector("#fish-tank");
 const BUBBLES_NUM = 35;
 const BUBBLES_WIDTH_MIN = 1;

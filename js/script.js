@@ -1,12 +1,11 @@
 const links = document.querySelectorAll('.feesh-link');
 const fishContainer = document.querySelector('.fish');
 const fish = document.getElementById('fish');
-const fishTitleHolder = document.querySelector('.fish-title');
+const fishTitleHolder = document.querySelector('.fish-title span');
 let fishName = "chub";
 let fishTitle = "chub";
 let fishCategory = "fw";
 let fishSize = "s";
-
 
 const fishNavMenu = document.querySelector('.fish-nav-menu');
 const freshwaterBtn = document.querySelector('.freshwater'); 
@@ -33,43 +32,22 @@ function removeActiveLinkClasses() {
     links.forEach( link => {link.classList.remove('active')})
 }
 
-
-
-
-freshwaterBtn.addEventListener('click', () =>{
-  fishNavMenuReset();
-  
-  fishNavMenu.dataset.category = "freshwater";
-  freshwaterBtn.classList.add('active');
-  saltwaterBtn.classList.remove('active');
-
-
-  fishCategoryLinks.forEach((fishCategoryLink) => {
-    if(fishCategoryLink.classList.contains("active")){
-      fishNavMenu.classList.add(`freshwater-${fishCategoryLink.dataset.category}`);
-    }
+function menuToggle(watertype, currentType, setNewType) {
+  setNewType.addEventListener('click', () =>{
+    fishNavMenu.dataset.category = watertype;
+    fishNavMenuReset();
+    currentType.classList.remove('active');
+    setNewType.classList.add('active');  
+    fishCategoryLinks.forEach((fishCategoryLink) => {
+      if(fishCategoryLink.classList.contains("active")){
+        fishNavMenu.classList.add(watertype+`-${fishCategoryLink.dataset.category}`);
+      }
+    })
   })
-  //fishNavMenu.classList.add(`freshwater-${fishCategoryActiveLink.dataset.category}`);
+}
 
-})
-
-saltwaterBtn.addEventListener('click', () =>{
-  fishNavMenu.dataset.category = "saltwater";
-  fishNavMenuReset();
-  saltwaterBtn.classList.add('active');
-  freshwaterBtn.classList.remove('active');
-  fishCategoryLinks.forEach((fishCategoryLink) => {
-    if(fishCategoryLink.classList.contains("active")){
-      fishNavMenu.classList.add(`saltwater-${fishCategoryLink.dataset.category}`);
-    }
-  })
-  //fishNavMenu.classList.add(`saltwater-${fishCategoryActiveLink.dataset.category}`);
-
-})
-
-
-
-
+menuToggle("freshwater", saltwaterBtn, freshwaterBtn ) // removes saltwater and adds freshwater
+menuToggle("saltwater", freshwaterBtn,saltwaterBtn  ) // removes freshwater and adds saltwater
 
 fishCategoryLinks.forEach((fishCategoryLink) => {
   fishCategoryLink.addEventListener('click', () =>{

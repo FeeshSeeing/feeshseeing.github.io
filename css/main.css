@@ -244,34 +244,94 @@ header {
   height: 100vh;
   flex-direction: column;
   margin-left: 20px;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .fish-title {
   font-size: 36px;
-  margin-left: 20px;
   transition-delay: 0.2s;
-  width: 100%;
+  width: 66%;
   color: #af7244;
-  margin-left: 35%;
+  margin-left: 20%;
+  position: absolute;
+  top: 104px;
+}
+
+h1 {
+  position: relative;
+  display: block;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  white-space: nowrap;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+h1:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -0.5em;
+  width: 1em;
+  height: 100%;
+  background-color: rgba(43, 26, 10, 0.5);
+  pointer-events: none;
+}
+h1:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -0.5em;
+  width: 1em;
+  height: 100%;
+  background-color: rgba(43, 26, 10, 0.5);
+  pointer-events: none;
+}
+h1:after {
+  right: -0.57em;
+  z-index: -1;
+}
+h1:before {
+  bottom: auto;
+  top: -0.5em;
+  left: -0.57em;
+  z-index: -1;
+}
+h1 span {
+  display: block;
+  position: relative;
+  padding: 0.15em 0.75em;
+  text-decoration: none;
+  color: #af7244;
+  background-color: rgba(34, 21, 8, 0.8);
+}
+h1 span:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -0.5em;
+  left: -0.05em;
+  pointer-events: none;
+  -webkit-mask: none;
+  mask: none;
+}
+h1 span:before {
+  bottom: auto;
+  top: -0.5em;
+  border-bottom: 0.5em solid rgba(0, 0, 0, 0.5);
+  border-left: 0.5em solid transparent;
+}
+h1 span:after {
+  left: auto;
+  right: -0.05em;
+  border-top: 0.5em solid rgba(0, 0, 0, 0.5);
+  border-right: 0.5em solid transparent;
 }
 
 .fish-tank {
-  height: 480px;
+  height: 318px;
   position: relative;
-}
-
-.fish.s img {
-  max-width: 100px;
-}
-.fish.m img {
-  max-width: 248px;
-}
-.fish.l img {
-  max-width: 530px;
-}
-.fish.xl img {
-  max-width: 700px;
 }
 
 .bubble {
@@ -309,19 +369,6 @@ header {
     transform: translateY(calc(var(--pop, 90svh) * -1)) translateX(calc(var(--horizontal-movement, 0) * 1px));
   }
 }
-.fish {
-  position: absolute;
-  bottom: 35%;
-  left: 35%;
-  width: 90px;
-  animation: swim 5s;
-  -webkit-animation: swim 5s;
-  animation-timing-function: linear;
-  -webkit-animation-timing-function: linear;
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-}
-
 #fish {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -422,4 +469,54 @@ header {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
   }
+}
+.fish.s img {
+  width: 100px;
+}
+.fish.m img {
+  width: 248px;
+}
+.fish.l img {
+  width: 330px;
+}
+.fish.xl img {
+  width: 596px;
+}
+
+.fish {
+  position: absolute;
+  bottom: 35%;
+  left: 35%;
+  animation: swim 5s;
+  -webkit-animation: swim 5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+.fish.s {
+  bottom: 50%;
+}
+.fish.m {
+  bottom: 45%;
+  left: 25%;
+}
+.fish.l {
+  bottom: 25%;
+  left: 25%;
+}
+.fish.xl {
+  bottom: 35%;
+  left: 12%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 20px;
+  color: grey;
+  font-size: 13px;
+}
+footer a {
+  color: grey;
 }/*# sourceMappingURL=main.css.map */

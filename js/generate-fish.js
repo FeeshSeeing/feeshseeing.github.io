@@ -60,7 +60,7 @@ const freshwaterSmallFish = [
     fishsize: "s",
     waterType: "fw",
     dblink: "",
-    image: false,
+    image: true,
     imageName: "darkcrown"
   },
   {
@@ -240,7 +240,6 @@ const freshwaterSmallFish = [
     imageName: "sunkentome"
   },
 ];
-
 
 const freshwaterMediumFish = [
   {
@@ -799,7 +798,7 @@ const freshwaterLargeFish = [
     fishsize: "l",
     waterType: "fw",
     dblink: "",
-    image: false,
+    image: true,
     imageName: "colossoma"
   }
   ,
@@ -952,12 +951,12 @@ const freshwaterLargeFish = [
 
 const freshwaterXLargeFish = [
   {
-    fishname: "Archer Fish",
-    fishsize: "s",
+    fishname: "Canavan",
+    fishsize: "xl",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "archerfish"
+    image: true,
+    imageName: "canavan"
   }
 ];
 

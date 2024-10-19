@@ -254,42 +254,113 @@ header {
   height: 100vh;
   flex-direction: column;
   margin-left: 20px;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .fish-title {
   font-size: 36px;
-  margin-left: 20px;
   transition-delay: 0.2s;
-  width: 100%;
+  width: 66%;
   color: #af7244;
-  margin-left: 35%;
+  margin-left: 20%;
+  // margin-top: 4%;
+  position: absolute;
+    top: 104px;
+}
+
+$freshcolor	  : rgba(26, 16, 6, 0.5);
+$darkcolor 		: #af7244;
+
+h1 {
+  position: relative;
+	display: block;
+	// font-family: $basefont;
+	font-weight: 400;
+	letter-spacing: 0.15em;
+	white-space: nowrap;
+	// text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+
+	&:after {
+		content: " ";
+		display: block;
+		position: absolute;
+		bottom: -.5em;
+		width: 1em;
+		height: 100%;
+		background-color: lighten($freshcolor,4);
+		pointer-events:none;
+	}
+  &:after {
+		content: " ";
+		display: block;
+		position: absolute;
+		bottom: -.5em;
+		width: 1em;
+		height: 100%;
+		background-color: lighten($freshcolor,4);
+		pointer-events:none;
+	}
+
+	&:after {
+		right: -.57em;
+		z-index: -1;
+	}
+
+	&:before {
+		bottom: auto;
+		top: -.5em;
+		left: -.57em;
+		z-index: -1;
+	}
+
+	span {
+		display: block;
+		position: relative;
+		padding: .15em .75em;
+		text-decoration: none;
+		color: darken($darkcolor,0);
+		background-color: rgba(lighten($freshcolor,2), 0.8);
+
+
+		&:after {
+			content: " ";
+			display: block;
+			position: absolute;
+			width: 0;
+			height: 0;
+			bottom: -.5em;
+			left: -.05em;
+			pointer-events: none;
+			-webkit-mask: none;
+			mask: none;
+		}
+
+		&:before {
+			bottom: auto;
+			top: -.5em;
+			border-bottom: .5em solid darken($freshcolor,10);
+			border-left: .5em solid transparent;
+		}
+
+		&:after {
+			left:  auto;
+			right: -.05em;
+			border-top: .5em solid darken($freshcolor,10);
+			border-right: .5em solid transparent;
+		}
+	}
+
 }
 
 .fish-tank {
   // width: 940px;
-  height: 480px;
+  height: 318px;
   position: relative;
 }
 
-.fish {
-  &.s img {
-    max-width: 100px;
-  }
-
-  &.m img {
-    max-width: 248px;
-  }
-
-  &.l img {
-    max-width: 530px;
-  }
-
-  &.xl img {
-    max-width: 700px;
-  }
-}
-
+// kudos for styles aswell https://codepen.io/cbolson/pen/VwNgyWv
 .bubble {
   position: absolute;
   z-index: -1;
@@ -326,24 +397,7 @@ header {
   }
 }
 
-.fish {
-  position: absolute;
-  bottom: 35%;
-  left: 35%;
-  width: 90px;
-  // animation-name: example;
-  // animation-duration: 15s;
 
-  animation: swim 5s;
-  -webkit-animation: swim 5s;
-  // animation-iteration-count: infinite;
-  // -webkit-animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  -webkit-animation-timing-function: linear;
-
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-}
 
 #fish {
   -moz-animation: bounce 2s infinite;
@@ -466,5 +520,72 @@ header {
     -ms-transform: translateY(-3px);
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
+  }
+}
+
+
+.fish {
+  &.s img {
+    width: 100px;
+  }
+
+  &.m img {
+    width: 248px;
+  }
+
+  &.l img {
+    width: 330px;
+  }
+
+  &.xl img {
+    width: 596px;
+  }
+}
+
+
+
+.fish {
+  position: absolute;
+  bottom: 35%;
+  left: 35%;
+  //width: 90px;
+  animation: swim 5s;
+  -webkit-animation: swim 5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+
+  &.s {
+    bottom: 50%;
+  }
+
+  &.m {
+    bottom: 45%;
+    left: 25%;
+  }
+
+  &.l {
+
+    bottom: 25%;
+    left: 25%;
+  }
+
+  &.xl {
+    bottom: 35%;
+    left: 12%;
+  }
+}
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  margin: 20px;
+  color: grey;
+  font-size: 13px;
+
+  a {
+    color: grey;
   }
 }
