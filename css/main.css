@@ -377,48 +377,48 @@ h1 span:after {
 
 @keyframes swim {
   0% {
-    left: 5%;
+    right: 5%;
   }
   14% {
-    left: 10%;
+    right: 10%;
   }
   42% {
-    left: 15%;
+    right: 15%;
   }
   56% {
-    left: 20%;
+    right: 20%;
   }
   70% {
-    left: 25%;
+    right: 25%;
   }
   84% {
-    left: 30%;
+    right: 30%;
   }
   100% {
-    left: 35%;
+    right: 35%;
   }
 }
 @-webkit-keyframes swim {
   0% {
-    left: 5%;
+    right: 5%;
   }
   14% {
-    left: 10%;
+    right: 10%;
   }
   42% {
-    left: 15%;
+    right: 15%;
   }
   56% {
-    left: 20%;
+    right: 20%;
   }
   70% {
-    left: 25%;
+    right: 25%;
   }
   84% {
-    left: 30%;
+    right: 30%;
   }
   100% {
-    left: 35%;
+    right: 35%;
   }
 }
 /**/
