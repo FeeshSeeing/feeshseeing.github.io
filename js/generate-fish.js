@@ -84,7 +84,7 @@ const freshwaterSmallFish = [
     fishsize: "s",
     waterType: "fw",
     dblink: "",
-    image: false,
+    image: true,
     imageName: "domanbubbleeye"
   },
   {
@@ -852,7 +852,7 @@ const freshwaterLargeFish = [
     fishsize: "l",
     waterType: "fw",
     dblink: "",
-    image: false,
+    image: true,
     imageName: "grassshark"
   }
   ,

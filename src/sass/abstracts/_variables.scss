@@ -7,15 +7,24 @@
 
 
 :root {
-    
-	--arrow-fill: #333231;
-	--body-font: "Montserrat", sans-serif;
-	--italic-font: "EB Garamond", serif;
 
-	--body-color: #FBC490;
-	--savanna-bg: #e9bf8b;
-	--beach-bg: #e7dfcf;
-	--glacier-bg: #b6d6c8;
-	--coral-bg: #e86357;
-	--arrow-fill: #333231;
+	
+	// colour palette numbers are ascending ligther to darker
+	--palette-color-1 : 237, 224, 212;	//#EDE0D4
+	--palette-color-2 : 230, 204, 178;	//#E6CCB2
+	--palette-color-3 : 221, 184, 146;	//#DDB892;
+	--palette-color-4 : 176, 137, 104;	//#B08968
+	--palette-color-5 : 127, 85, 57;	//#7F5539
+	--palette-color-6 : 156, 102, 68;	//#9C6644
+
+
+	--body-font: "Lexend Deca", sans-serif;
+	--logo-font: "Ruthie", cursive;
+	--logo-theme-color-1 :#f7d336;
+	--logo-theme-color-2 :#8ae99c;
+
+	--background-color: 14, 7, 4;
+	--background-image-url: url("/img/20241016232305_1.jpg");
+
+
   }
