@@ -947,8 +947,6 @@ const freshwaterLargeFish = [
   }
 ];
 
-
-
 const freshwaterXLargeFish = [
   {
     fishname: "Canavan",
@@ -957,15 +955,753 @@ const freshwaterXLargeFish = [
     dblink: "",
     image: true,
     imageName: "canavan"
+  },
+  {
+    fishname: "Euphotic Pirarucu",
+    fishsize: "xl",
+    waterType: "fw",
+    dblink: "",
+    image: false,
+    imageName: "euphoticpirarucu"
+  },
+  {
+    fishname: "Giant Takitaro",
+    fishsize: "xl",
+    waterType: "fw",
+    dblink: "",
+    image: false,
+    imageName: "gianttakitaro"
+  },
+  {
+    fishname: "Loosetongue",
+    fishsize: "xl",
+    waterType: "fw",
+    dblink: "",
+    image: false,
+    imageName: "loosetongue"
+  },
+  {
+    fishname: "Paikiller",
+    fishsize: "xl",
+    waterType: "fw",
+    dblink: "",
+    image: false,
+    imageName: "paikiller"
+  },
+  {
+    fishname: "Tigerfish",
+    fishsize: "xl",
+    waterType: "fw",
+    dblink: "",
+    image: false,
+    imageName: "tigerfish"
+  },
+  {
+    fishname: "Vicejaw",
+    fishsize: "xl",
+    waterType: "fw",
+    dblink: "",
+    image: false,
+    imageName: "vicejaw"
+  },
+  {
+    fishname: "Warden of the Seven Hues",
+    fishsize: "xl",
+    waterType: "fw",
+    dblink: "",
+    image: false,
+    imageName: "wardenofthesevenhues"
+  },
+  {
+    fishname: "Xenacanthus",
+    fishsize: "xl",
+    waterType: "fw",
+    dblink: "",
+    image: false,
+    imageName: "xenacanthus"
   }
 ];
+
+const saltWaterSmallFish = [
+  {
+    fishname: "Bubble Angler",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "bubbleangler"
+  },
+  {
+    fishname: "Coral Butterfly",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "coralbutterfly"
+  },
+  {
+    fishname: "Dog-faced Puffer",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "dogfacedpuffer"
+  },
+  {
+    fishname: "Eulmore Butterfly",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "eulmorebutterfly"
+  },
+  {
+    fishname: "Fiery Goby",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "fierygoby"
+  },
+  {
+    fishname: "Harbor Herring",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "harborherring"
+  },
+  {
+    fishname: "Harutsuge",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "harutsuge"
+  },
+  {
+    fishname: "Hatchetfish",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "hatchetfish"
+  },
+  {
+    fishname: "Meyhane Reveler",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "meyhanereveler"
+  },
+  {
+    fishname: "Mini Yasha",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "miniyasha"
+  },
+  {
+    fishname: "Onihige",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "onihige"
+  },
+  {
+    fishname: "Spectral Butterfly",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "spectralbutterfly"
+  },
+  {
+    fishname: "Spectral Wrasse",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "spectralwrasse"
+  },
+  {
+    fishname: "Tebqeyiq Smelt",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "tebqeyiqsmelt"
+  },
+  {
+    fishname: "Tiger Cod",
+    fishsize: "s",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "tigercod"
+  }
+];
+
+const saltWaterMediumFish = [
+  {
+    fishname: "Aetherolectric Guitarfish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "aetherolectricguitarfish"
+  },
+  {
+    fishname: "Angelfish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "angelfish"
+  },
+  {
+    fishname: "Black Boxfish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "blackboxfish"
+  },
+  {
+    fishname: "Blowfish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "blowfish"
+  },
+  {
+    fishname: "Bonefish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "bonefish"
+  },
+  {
+    fishname: "Cobalt Chromis",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "cobaltchromis"
+  },
+  {
+    fishname: "Crown Fish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "crownfish"
+  },
+  {
+    fishname: "Deepbody Boarfish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "deepbodyboarfish"
+  },
+  {
+    fishname: "False Scad",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "falsescad"
+  },
+  {
+    fishname: "Fate's Design",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "fatesdesign"
+  },
+  {
+    fishname: "Fullmoon Sardine",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "fullmoonsardine"
+  },
+  {
+    fishname: "Gilled Topknot",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "gilledtopknot"
+  },
+  {
+    fishname: "Glass Tuna",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "glasstuna"
+  },
+  {
+    fishname: "Goldenfin",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "goldenfin"
+  },
+  {
+    fishname: "Heavensent Shark",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "heavensentshark"
+  },
+  {
+    fishname: "Indigo Herring",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "indigoherring"
+  },
+  {
+    fishname: "Jasperhead",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "jasperhead"
+  },
+  {
+    fishname: "Keeled Fugu",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "keeledfugu"
+  },
+  {
+    fishname: "Kholusian Wrasse",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "kholusianwrasse"
+  },
+  {
+    fishname: "Lansquenet",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "lansquenet"
+  },
+  {
+    fishname: "Mythril Sovereign",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "mythrilsovereign"
+  },
+  {
+    fishname: "Navigator's Brand",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "navigatorsbrand"
+  },
+  {
+    fishname: "Othardian Lumpsucker",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "othardianlumpsucker"
+  },
+  {
+    fishname: "Othardian Wrasse",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "othardianwrasse"
+  },
+  {
+    fishname: "Rasa Fish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "rasafish"
+  },
+  {
+    fishname: "Redcoat",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "redcoat"
+  },
+  {
+    fishname: "Shadowdart Sardine",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "shadowdartsardine"
+  },
+  {
+    fishname: "Sirensong Mullet",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "sirensongmullet"
+  },
+  {
+    fishname: "Spectral Discus",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "spectraldiscus"
+  },
+  {
+    fishname: "Spectral Discus",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "spectraldiscus"
+  },
+  {
+    fishname: "Swordfish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "swordfish"
+  },
+  {
+    fishname: "Tripod Fish",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "tripodfish"
+  },
+  {
+    fishname: "Vidyutvat Wrasse",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "vidyutvatwrasse"
+  },
+  {
+    fishname: "Zekki Grouper",
+    fishsize: "m",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "zekkigrouper"
+  }
+];
+
+const saltWaterLargeFish = [
+  {
+    fishname: "Blue Marlin",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "bluemarlin"
+  },
+  {
+    fishname: "Bombardfish",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "bombardfish"
+  },
+  {
+    fishname: "Coelacanth",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "coelacanth"
+  },
+  {
+    fishname: "Corpse-eater",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "corpseeater"
+  },
+  {
+    fishname: "Hammerhead Shark",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "hammerheadshark"
+  },
+  {
+    fishname: "Hanatatsu",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "hanatatsu"
+  },
+  {
+    fishname: "Kitefin Shark",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "kitefinshark"
+  },
+  {
+    fishname: "Motley Beakfish",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "motleybeakfish"
+  },
+  {
+    fishname: "Mummer Wrasse",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "mummerwrasse"
+  },
+  {
+    fishname: "Roosterfish",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "roosterfish"
+  },
+  {
+    fishname: "Spectral Bass",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "spectralbass"
+  },
+  {
+    fishname: "Ukiki",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "ukiki"
+  },
+  {
+    fishname: "Zebra Shark",
+    fishsize: "l",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "zebrashark"
+  }
+];
+const saltWaterXLargeFish = [
+  {
+    fishname: "Basilosaurus",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "basilosaurus"
+  },
+  {
+    fishname: "Coral Manta",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "coral Manta"
+  },
+  {
+    fishname: "Dinichthys",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "dinichthys"
+  },
+  {
+    fishname: "Funnel Shark",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "funnelshark"
+  },
+  {
+    fishname: "Gharlichthys",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "gharlichthys"
+  },
+  {
+    fishname: "Helmsman's Hand",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "helmsmanshand"
+  },
+  {
+    fishname: "Junkmonger",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "junkmonger"
+  },
+  {
+    fishname: "Lancetfish",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "lancetfish"
+  },
+  {
+    fishname: "Liopleurodon",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "liopleurodon"
+  },
+  {
+    fishname: "Mazlaya Marlin",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "mazlayamarlin"
+  },
+  {
+    fishname: "Megalodon",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "megalodon"
+  },
+  {
+    fishname: "Ondobane",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "ondobane"
+  },
+  {
+    fishname: "Red Hammerhead",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "redhammerhead"
+  },
+  {
+    fishname: "Shrieker",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "shrieker"
+  },
+  {
+    fishname: "Silver Shark",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "silvershark"
+  },
+  {
+    fishname: "Silver Sovereign",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "silversovereign"
+  },
+  {
+    fishname: "Sothis",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "sothis"
+  },
+  {
+    fishname: "Spectral Megalodon",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "spectralmegalodon"
+  },
+  {
+    fishname: "Stonescale",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "stonescale"
+  },
+  {
+    fishname: "Taniwha",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "taniwha"
+  },
+  {
+    fishname: "Titanic Sawfish",
+    fishsize: "xl",
+    waterType: "sw",
+    dblink: "",
+    image: false,
+    imageName: "titanicsawfish"
+  },
+];
+ 
 
 
 function generateFishList (listName, containerName) {
   listName.forEach((item) => {
     let li = document.createElement("li");
-    
-  
     if (item.image) {
       let ahref = document.createElement("a");
       let span = document.createElement("span");
@@ -1011,3 +1747,18 @@ generateFishList(freshwaterLargeFish, freshWaterLargeList);
 const freshWaterXLargeList = document.querySelector(".freshwater--menu-list ul.xlarge");
 generateFishList(freshwaterXLargeFish, freshWaterXLargeList);
 
+// Saltwater
+//Small Fish
+const saltWaterSmallList = document.querySelector(".saltwater--menu-list ul.small");
+generateFishList(saltWaterSmallFish, saltWaterSmallList);
+
+//Medium Fish
+const saltWaterMediumList = document.querySelector(".saltwater--menu-list ul.medium");
+generateFishList(saltWaterMediumFish, saltWaterMediumList);
+
+//Large Fish
+const saltWaterLargeList = document.querySelector(".saltwater--menu-list ul.large");
+generateFishList(saltWaterLargeFish, saltWaterLargeList);
+//XLarge Fish
+const saltWaterXLargeList = document.querySelector(".saltwater--menu-list ul.xlarge");
+generateFishList(saltWaterXLargeFish, saltWaterXLargeList);

@@ -17,8 +17,6 @@ a {
 }
 
 body {
-  font-family: var(--body-font);
-
   margin: 0;
   background: url(/img/20241016232305_1.jpg);
   background-size: cover;
@@ -30,6 +28,7 @@ body {
   background-position-y: -160px;
   background-position-x: right;
   background-repeat: no-repeat;
+  background-color: #0e0704;
 }
 
 .container {
@@ -589,3 +588,20 @@ footer{
     color: grey;
   }
 }
+
+
+// 1440*900
+// 1920 x 922
+// 1280 x 720 (720p, HD, HD Ready, Standard HD)
+// 1920 x 1080 (1080p, Full HD, FHD)
+// 2560 x 1440 (1440p, Wide Quad HD, Quad HD, WQHD, QHD)
+// 3840 x 2160 (4K, Ultra HD, UHD, 4K UHD)
+// 7680 x 4320 (8K, 8K UHD)
+
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
