@@ -1540,8 +1540,8 @@ const saltWaterXLargeFish = [
     fishsize: "xl",
     waterType: "sw",
     dblink: "",
-    image: false,
-    imageName: "coral Manta"
+    image: true,
+    imageName: "coralmanta"
   },
   {
     fishname: "Dinichthys",

@@ -21,7 +21,7 @@ links.forEach((link) => {
     fishSize = link.dataset.size;
     fishCategory = link.dataset.category;
     fishName = link.dataset.name;
-    fish.src = `/img/freshwater/${fishSize}-${fishCategory}-${fishName}.png`;
+    fish.src = `/img/${fishCategory}/${fishSize}-${fishCategory}-${fishName}.png`;
     fishContainer.className = "fish";
     fishContainer.classList.add(fishSize);
     fishTitleHolder.innerText = fishTitle;
