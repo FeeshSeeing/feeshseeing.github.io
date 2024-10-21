@@ -169,9 +169,9 @@ a {
 .fish-nav-categories--menu-list {
 
   ul {
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 60vh;
-    width: 95%;
+    width: 93%;
     display: none;
   }
 
@@ -183,17 +183,20 @@ a {
 }
 
   ul::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(var(--palette-color-3),0.8);
-    background-color: rgba(var(--background-color), 0.3);
+    //-webkit-box-shadow: inset 0 0 6px rgba(var(--palette-color-5),0.8);
+    background-color: rgba(0,0,0, 0.5);
+
   }
   
   ul::-webkit-scrollbar {
     width: 6px;
-    background-color: rgba(var(--palette-color-6), 0.8);
+    background-color: rgba(var(--palette-color-5), 0.8);
+   
   }
   
   ul::-webkit-scrollbar-thumb {
-    background-color: rgba(var(--background-color), 0.8);
+    background-color: rgba(var(--palette-color-5), 0.8);
+    border-radius: 3px;
   }
 
   a {
@@ -254,30 +257,27 @@ a {
   justify-content: center;
 }
 
+
+$darkcolor 		: #7F5539;
+
 .fish-title {
   font-size: 36px;
   transition-delay: 0.2s;
   width: 66%;
   color: rgb(var(--palette-color-4));
   margin-left: 20%;
-  // margin-top: 4%;
   position: absolute;
-    top: 104px;
+  top: 104px;
 }
 
 
-$darkcolor 		: #7F5539;
 
 h1 {
   position: relative;
 	display: block;
-	// font-family: $basefont;
 	font-weight: 400;
-	letter-spacing: 0.15em;
 	white-space: nowrap;
-	// text-align: center;
   font-size: 1em;
-  text-transform: uppercase;
 
 	&:after {
 		content: " ";
@@ -289,28 +289,13 @@ h1 {
 		background-color: lighten($darkcolor,4);
 		pointer-events:none;
 	}
-  &:after {
-		content: " ";
-		display: block;
-		position: absolute;
-		bottom: -.5em;
-		width: 1em;
-		height: 100%;
-		background-color: lighten($darkcolor,4);
-		pointer-events:none;
-	}
+
 
 	&:after {
 		right: -.57em;
 		z-index: -1;
 	}
 
-	&:before {
-		bottom: auto;
-		top: -.5em;
-		left: -.57em;
-		z-index: -1;
-	}
 
 	span {
 		display: block;
@@ -332,13 +317,6 @@ h1 {
 			pointer-events: none;
 			-webkit-mask: none;
 			mask: none;
-		}
-
-		&:before {
-			bottom: auto;
-			top: -.5em;
-			border-bottom: .5em solid darken($darkcolor,10);
-			border-left: .5em solid transparent;
 		}
 
 		&:after {
@@ -398,7 +376,27 @@ h1 {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+  
 }
+
+.fade-in {
+  animation: fadeIn 3s;
+}
+
+.fade-out {
+  animation: fadeOut 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 
 // @keyframes swim {
 //   0% {
@@ -512,15 +510,15 @@ h1 {
   }
 
   &.m img {
-    width: 248px;
+    width: 200px;
   }
 
   &.l img {
-    width: 330px;
+    width: 340px;
   }
 
   &.xl img {
-    width: 596px;
+    width: 440px;
   }
 }
 

@@ -745,7 +745,7 @@ const freshwaterMediumFish = [
     fishsize: "m",
     waterType: "fw",
     dblink: "",
-    image: false,
+    image: true,
     imageName: "yellowpipira"
   },
   {
@@ -879,7 +879,7 @@ const freshwaterLargeFish = [
     fishsize: "l",
     waterType: "fw",
     dblink: "",
-    image: false,
+    image: true,
     imageName: "ichthyosaur"
   }
   ,

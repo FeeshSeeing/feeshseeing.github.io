@@ -161,9 +161,9 @@ a:hover {
 }
 
 .fish-nav-categories--menu-list ul {
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 60vh;
-  width: 95%;
+  width: 93%;
   display: none;
 }
 .fish-nav-categories--menu-list ul li {
@@ -173,15 +173,15 @@ a:hover {
   content: "├ ";
 }
 .fish-nav-categories--menu-list ul::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(var(--palette-color-3), 0.8);
-  background-color: rgba(var(--background-color), 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .fish-nav-categories--menu-list ul::-webkit-scrollbar {
   width: 6px;
-  background-color: rgba(var(--palette-color-6), 0.8);
+  background-color: rgba(var(--palette-color-5), 0.8);
 }
 .fish-nav-categories--menu-list ul::-webkit-scrollbar-thumb {
-  background-color: rgba(var(--background-color), 0.8);
+  background-color: rgba(var(--palette-color-5), 0.8);
+  border-radius: 3px;
 }
 .fish-nav-categories--menu-list a {
   display: block;
@@ -267,20 +267,8 @@ h1 {
   position: relative;
   display: block;
   font-weight: 400;
-  letter-spacing: 0.15em;
   white-space: nowrap;
   font-size: 1em;
-  text-transform: uppercase;
-}
-h1:after {
-  content: " ";
-  display: block;
-  position: absolute;
-  bottom: -0.5em;
-  width: 1em;
-  height: 100%;
-  background-color: #8d5e3f;
-  pointer-events: none;
 }
 h1:after {
   content: " ";
@@ -294,12 +282,6 @@ h1:after {
 }
 h1:after {
   right: -0.57em;
-  z-index: -1;
-}
-h1:before {
-  bottom: auto;
-  top: -0.5em;
-  left: -0.57em;
   z-index: -1;
 }
 h1 span {
@@ -321,12 +303,6 @@ h1 span:after {
   pointer-events: none;
   -webkit-mask: none;
   mask: none;
-}
-h1 span:before {
-  bottom: auto;
-  top: -0.5em;
-  border-bottom: 0.5em solid #5c3d29;
-  border-left: 0.5em solid transparent;
 }
 h1 span:after {
   left: auto;
@@ -381,6 +357,30 @@ h1 span:after {
   animation: bounce 2s infinite;
 }
 
+.fade-in {
+  animation: fadeIn 3s;
+}
+
+.fade-out {
+  animation: fadeOut 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /**/
 @-moz-keyframes bounce {
   0%, 50%, 100% {
@@ -434,13 +434,13 @@ h1 span:after {
   width: 100px;
 }
 .fish.m img {
-  width: 248px;
+  width: 200px;
 }
 .fish.l img {
-  width: 330px;
+  width: 340px;
 }
 .fish.xl img {
-  width: 596px;
+  width: 440px;
 }
 
 .fish {

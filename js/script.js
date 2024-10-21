@@ -14,19 +14,30 @@ const saltwaterBtn = document.querySelector('.saltwater');
 const fishCategoryLinks = document.querySelectorAll('.fish-nav-categories--links a');
 const fishCategoryActiveLink = document.querySelector('.fish-nav-categories--links a.active');
 
+const fishTank = document.getElementById("fish-tank");
+
 links.forEach((link) => {
   
     link.addEventListener('click', () => {
+      resetFade();
+    
     fishTitle = link.innerText;
     fishSize = link.dataset.size;
     fishCategory = link.dataset.category;
     fishName = link.dataset.name;
     fish.src = `/img/${fishCategory}/${fishSize}-${fishCategory}-${fishName}.png`;
+    
     fishContainer.className = "fish";
     fishContainer.classList.add(fishSize);
+    
+    fishTank.classList.add("fade-in");
     fishTitleHolder.innerText = fishTitle;
   })
 })
+
+function resetFade(){
+  fishTank.className = "fish-tank";
+}
 
 function removeActiveLinkClasses() {
     links.forEach( link => {link.classList.remove('active')})
