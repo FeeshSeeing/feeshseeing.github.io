@@ -23,7 +23,7 @@ body {
   font-weight: 300;
   font-style: normal;
   color: rgb(var(--palette-color-3));
-  background-position-y: -160px;
+  background-position-y: bottom;
   background-position-x: right;
   background-repeat: no-repeat;
   background-color: rgba(var(--background-color), 1);
@@ -279,7 +279,7 @@ h1:after {
   bottom: -0.5em;
   width: 1em;
   height: 100%;
-  background-color: rgba(43, 26, 10, 0.5);
+  background-color: #8d5e3f;
   pointer-events: none;
 }
 h1:after {
@@ -289,7 +289,7 @@ h1:after {
   bottom: -0.5em;
   width: 1em;
   height: 100%;
-  background-color: rgba(43, 26, 10, 0.5);
+  background-color: #8d5e3f;
   pointer-events: none;
 }
 h1:after {
@@ -307,8 +307,8 @@ h1 span {
   position: relative;
   padding: 0.15em 0.75em;
   text-decoration: none;
-  color: #af7244;
-  background-color: rgba(34, 21, 8, 0.8);
+  color: rgb(var(--background-color));
+  background-color: rgba(134, 90, 60, 0.8);
 }
 h1 span:after {
   content: " ";
@@ -325,18 +325,18 @@ h1 span:after {
 h1 span:before {
   bottom: auto;
   top: -0.5em;
-  border-bottom: 0.5em solid rgba(0, 0, 0, 0.5);
+  border-bottom: 0.5em solid #5c3d29;
   border-left: 0.5em solid transparent;
 }
 h1 span:after {
   left: auto;
   right: -0.05em;
-  border-top: 0.5em solid rgba(0, 0, 0, 0.5);
+  border-top: 0.5em solid #5c3d29;
   border-right: 0.5em solid transparent;
 }
 
 .fish-tank {
-  height: 318px;
+  height: 308px;
   position: relative;
 }
 
@@ -381,52 +381,6 @@ h1 span:after {
   animation: bounce 2s infinite;
 }
 
-@keyframes swim {
-  0% {
-    right: 5%;
-  }
-  14% {
-    right: 10%;
-  }
-  42% {
-    right: 15%;
-  }
-  56% {
-    right: 20%;
-  }
-  70% {
-    right: 25%;
-  }
-  84% {
-    right: 30%;
-  }
-  100% {
-    right: 35%;
-  }
-}
-@-webkit-keyframes swim {
-  0% {
-    right: 5%;
-  }
-  14% {
-    right: 10%;
-  }
-  42% {
-    right: 15%;
-  }
-  56% {
-    right: 20%;
-  }
-  70% {
-    right: 25%;
-  }
-  84% {
-    right: 30%;
-  }
-  100% {
-    right: 35%;
-  }
-}
 /**/
 @-moz-keyframes bounce {
   0%, 50%, 100% {
@@ -490,30 +444,17 @@ h1 span:after {
 }
 
 .fish {
-  position: absolute;
-  bottom: 35%;
-  left: 35%;
+  position: fixed;
+  top: 50%;
+  left: 65%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
   animation: swim 5s;
   -webkit-animation: swim 5s;
   animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
   animation-delay: 0.5s;
   -webkit-animation-delay: 0.5s;
-}
-.fish.s {
-  bottom: 50%;
-}
-.fish.m {
-  bottom: 45%;
-  left: 25%;
-}
-.fish.l {
-  bottom: 25%;
-  left: 25%;
-}
-.fish.xl {
-  bottom: 35%;
-  left: 12%;
 }
 
 footer {
@@ -528,6 +469,7 @@ footer a {
 }
 
 div.device-test {
+  display: none;
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -535,39 +477,39 @@ div.device-test {
   right: 0;
   top: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: -2;
 }
 
 @media (min-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   div.device-test {
-    background-color: rgba(91, 192, 235, 0.1);
+    background-color: rgba(91, 192, 235, 0.5);
   }
 }
 @media (min-width: 480px) {
   /* smartphones, Android phones, landscape iPhone */
   div.device-test {
-    background-color: rgba(253, 231, 76, 0.1);
+    background-color: rgba(253, 231, 76, 0.5);
   }
 }
 @media (min-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   div.device-test {
-    background-color: rgba(155, 197, 61, 0.1);
+    background-color: rgba(155, 197, 61, 0.5);
   }
 }
 @media (min-width: 801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
   div.device-test {
-    background-color: rgba(195, 66, 63, 0.1);
+    background-color: rgba(195, 66, 63, 0.5);
   }
 }
 @media (min-width: 1025px) { /* big landscape tablets, laptops, and desktops */
   div.device-test {
-    background-color: rgba(33, 26, 30, 0.1);
+    background-color: rgba(33, 26, 30, 0.5);
   }
 }
 @media (min-width: 1281px) { /* hi-res laptops and desktops */
   div.device-test {
-    background-color: rgba(33, 26, 30, 0.1);
+    background-color: rgba(33, 26, 30, 0.5);
   }
 }/*# sourceMappingURL=main.css.map */

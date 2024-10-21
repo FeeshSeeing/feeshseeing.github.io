@@ -36,7 +36,7 @@ function generateBubble() {
 
   // random animation
   const floatDuration = generateRandom(BUBBLES_SPEED_MIN, BUBBLES_SPEED_MAX);
-  const bubblesHeight = containerEl.offsetHeight - 180; // offest for bottom
+  const bubblesHeight = containerEl.offsetHeight - 50; // offest for bottom
   const popDistance = generateRandom(bubblesHeight - 30, bubblesHeight);
   bubble.style.animationDuration = `${floatDuration}ms`;
   bubble.style.setProperty("--pop", `${popDistance}px`);
