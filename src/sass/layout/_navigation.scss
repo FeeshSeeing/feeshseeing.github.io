@@ -2,3 +2,11 @@
 //  Layout > 01 - Navigation
 //  
 //  -------------------------------------------------
+.navigation {
+    width: 25%;
+    position: fixed;
+    background-color: rgba(var(--background-color),0.8);
+    height: 100vh;
+    left: 8%;
+  }
+  

@@ -1,19 +1,25 @@
 const freshwaterSmallFish = [
   {
+    id: 17590,
+    eorzeaDb: "163947084c9",
     fishname: "Armor Fish",
+    alias: "Armor_Fish",
     fishsize: "s",
     waterType: "fw",
-    dblink: "",
-    image: false,
-    imageName: "armorfish"
+    image: true,
+    imageName: "armorfish",
+    imageDescription : "A massive glowing freshwater fish found living in the Thaliak River."
   },
   {
+    id: 27483,
+    eorzeaDb: "936a8eba187",
     fishname: "Black Tri-star",
+    alias: "Black_Tri-star",
     fishsize: "s",
     waterType: "fw",
-    dblink: "",
     image: true,
-    imageName: "blacktristar"
+    imageName: "blacktristar",
+    imageDescription : "A spotted freshwater fish found at Lozatl's Conquest."
   },
   {
     fishname: "Blowgun",
@@ -21,7 +27,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "blowgun"
+    imageName: "blowgun",
   },
   {
     fishname: "Bubble Eye",
@@ -29,7 +35,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "bubbleeye"
+    imageName: "bubbleeye",
   },
   {
     fishname: "Catastrophizer",
@@ -37,7 +43,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "catastrophizer"
+    imageName: "catastrophizer",
   },
   {
     fishname: "Chub",
@@ -45,15 +51,15 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "chub"
+    imageName: "chub",
   },
   {
     fishname: "Copperfish",
     fishsize: "s",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "copperfish"
+    image: true,
+    imageName: "copperfish",
   },
   {
     fishname: "Dark Crown",
@@ -61,7 +67,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "darkcrown"
+    imageName: "darkcrown",
   },
   {
     fishname: "Darkdweller",
@@ -69,15 +75,15 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "darkdweller"
+    imageName: "darkdweller",
   },
   {
     fishname: "Dermogenys",
     fishsize: "s",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "dermogenys"
+    image: true,
+    imageName: "dermogenys",
   },
   {
     fishname: "Doman Bubble Eye",
@@ -85,7 +91,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "domanbubbleeye"
+    imageName: "domanbubbleeye",
   },
   {
     fishname: "Dravanian Squeaker",
@@ -93,15 +99,15 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "dravaniansqueaker"
+    imageName: "dravaniansqueaker",
   },
   {
     fishname: "Eternal Eye",
     fishsize: "s",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "eternaleye"
+    image: true,
+    imageName: "eternaleye",
   },
   {
     fishname: "Furcacauda",
@@ -109,7 +115,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "furcacauda"
+    imageName: "furcacauda",
   },
   {
     fishname: "Green Prismfish",
@@ -117,7 +123,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "greenprismfish"
+    imageName: "greenprismfish",
   },
   {
     fishname: "Green Swordtail",
@@ -125,7 +131,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "greenswordtail"
+    imageName: "greenswordtail",
   },
   {
     fishname: "Grip Killifish",
@@ -133,7 +139,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "gripkillifish"
+    imageName: "gripkillifish",
   },
   {
     fishname: "Guppy",
@@ -141,7 +147,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "guppy"
+    imageName: "guppy",
   },
   {
     fishname: "Half-moon Betta",
@@ -149,7 +155,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "halfmoonbetta"
+    imageName: "halfmoonbetta",
   },
   {
     fishname: "Handy Hamsa",
@@ -157,7 +163,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "handyhamsa"
+    imageName: "handyhamsa",
   },
   {
     fishname: "Indigo Prismfish",
@@ -165,7 +171,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "Indigo Prismfish"
+    imageName: "Indigo Prismfish",
   },
   {
     fishname: "Lemonfish",
@@ -173,7 +179,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "lemonfish"
+    imageName: "lemonfish",
   },
   {
     fishname: "Loose Pendant",
@@ -181,15 +187,15 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "loosependant"
+    imageName: "loosependant",
   },
   {
     fishname: "Moonlight Guppy",
     fishsize: "s",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "moonlightguppy"
+    image: true,
+    imageName: "moonlightguppy",
   },
   {
     fishname: "Poecilia",
@@ -197,7 +203,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "poecilia"
+    imageName: "poecilia",
   },
   {
     fishname: "Rockfish",
@@ -205,7 +211,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "rockfish"
+    imageName: "rockfish",
   },
   {
     fishname: "Rummy-nosed Tetra",
@@ -213,7 +219,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "rummynosedtetra"
+    imageName: "rummynosedtetra",
   },
   {
     fishname: "Seraphim",
@@ -221,7 +227,7 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "seraphim"
+    imageName: "seraphim",
   },
   {
     fishname: "Spotted Blue-eye",
@@ -229,15 +235,15 @@ const freshwaterSmallFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "spottedblueeye"
+    imageName: "spottedblueeye",
   },
   {
     fishname: "Sunken Tome",
     fishsize: "s",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "sunkentome"
+    image: true,
+    imageName: "sunkentome",
   },
 ];
 
@@ -248,7 +254,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "archerfish"
+    imageName: "archerfish",
   },
   {
     fishname: "Atamra Cichlid",
@@ -256,7 +262,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "Atamra Cichlid"
+    imageName: "Atamra Cichlid",
   },
   {
     fishname: "Big-eye",
@@ -264,7 +270,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "Big eye"
+    imageName: "Big eye",
   },
   {
     fishname: "Blue Mountain Bubble",
@@ -272,7 +278,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "Blue Mountain Bubble"
+    imageName: "Blue Mountain Bubble",
   },
   {
     fishname: "Blue Prismfish",
@@ -280,7 +286,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "Blue Prismfish"
+    imageName: "Blue Prismfish",
   },
   {
     fishname: "Blue Widow",
@@ -288,7 +294,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "bluewidow"
+    imageName: "bluewidow",
   },
   {
     fishname: "Bluegill",
@@ -296,7 +302,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "bluegill"
+    imageName: "bluegill",
   },
   {
     fishname: "Bonytongue",
@@ -304,7 +310,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "bonytongue"
+    imageName: "bonytongue",
   },
   {
     fishname: "Cherubfish",
@@ -312,7 +318,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "cherubfish"
+    imageName: "cherubfish",
   },
   {
     fishname: "Clown Loach",
@@ -320,7 +326,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "clownloach"
+    imageName: "clownloach",
   },
   {
     fishname: "Clown Tetra",
@@ -328,7 +334,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "clowntetra"
+    imageName: "clowntetra",
   },
   {
     fishname: "Cupfish",
@@ -336,7 +342,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "cupfish"
+    imageName: "cupfish",
   },
   {
     fishname: "Dark Bass",
@@ -344,7 +350,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "darkbass"
+    imageName: "darkbass",
   },
   {
     fishname: "Discus",
@@ -352,7 +358,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "discus"
+    imageName: "discus",
   },
   {
     fishname: "Dragonhead",
@@ -360,15 +366,15 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "dragonhead"
+    imageName: "dragonhead",
   },
   {
     fishname: "Dusk Herald",
     fishsize: "m",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "duskherald"
+    image: true,
+    imageName: "duskherald",
   },
   {
     fishname: "Elder Gourami",
@@ -376,7 +382,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "eldergourami"
+    imageName: "eldergourami",
   },
   {
     fishname: "Everdark Bass",
@@ -384,7 +390,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "everdarkbass"
+    imageName: "everdarkbass",
   },
   {
     fishname: "Flowerhorn",
@@ -392,7 +398,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "flowerhorn"
+    imageName: "flowerhorn",
   },
 
   {
@@ -401,7 +407,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "forgeflame"
+    imageName: "forgeflame",
   },
   {
     fishname: "Geayi",
@@ -409,7 +415,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "geayi"
+    imageName: "geayi",
   },
   {
     fishname: "Goldfish",
@@ -417,7 +423,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "goldfish"
+    imageName: "goldfish",
   },
   {
     fishname: "Greengill Salmon",
@@ -425,7 +431,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "greengillsalmon"
+    imageName: "greengillsalmon",
   },
   {
     fishname: "High Perch",
@@ -433,7 +439,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "highperch"
+    imageName: "highperch",
   },
   {
     fishname: "Idle Goby",
@@ -441,7 +447,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "idlegoby"
+    imageName: "idlegoby",
   },
   {
     fishname: "Imperial Pleco",
@@ -449,7 +455,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "imperialpleco"
+    imageName: "imperialpleco",
   },
   {
     fishname: "Jester Fish",
@@ -457,7 +463,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "jesterfish"
+    imageName: "jesterfish",
   },
   {
     fishname: "Judgment Staff",
@@ -465,7 +471,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "judgmentstaff"
+    imageName: "judgmentstaff",
   },
   {
     fishname: "Katoptron",
@@ -473,7 +479,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "katoptron"
+    imageName: "katoptron",
   },
   {
     fishname: "Kissing Fish",
@@ -481,7 +487,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "kissingfish"
+    imageName: "kissingfish",
   },
   {
     fishname: "Longear Sunfish",
@@ -489,7 +495,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "longearsunfish"
+    imageName: "longearsunfish",
   },
   {
     fishname: "Marble Oscar",
@@ -497,7 +503,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "marbleoscar"
+    imageName: "marbleoscar",
   },
   {
     fishname: "Mirrorfish",
@@ -505,7 +511,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "mirrorfish"
+    imageName: "mirrorfish",
   },
   {
     fishname: "Mirrorscale",
@@ -513,7 +519,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "mirrorscale"
+    imageName: "mirrorscale",
   },
   {
     fishname: "Nagxian Mullet",
@@ -521,7 +527,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "nagxian Mullet"
+    imageName: "nagxian Mullet",
   },
   {
     fishname: "Noblefish",
@@ -529,7 +535,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "noblefish"
+    imageName: "noblefish",
   },
   {
     fishname: "Noontide Oscar",
@@ -537,7 +543,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "noontideoscar"
+    imageName: "noontideoscar",
   },
   {
     fishname: "Orn Butterfly",
@@ -545,7 +551,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "ornbutterfly"
+    imageName: "ornbutterfly",
   },
   {
     fishname: "Paglth'an Discus",
@@ -553,7 +559,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "paglthandiscus"
+    imageName: "paglthandiscus",
   },
   {
     fishname: "Peacock Bass",
@@ -561,7 +567,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "peacockbass"
+    imageName: "peacockbass",
   },
   {
     fishname: "Pipira Pira",
@@ -569,7 +575,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "pipirapira"
+    imageName: "pipirapira",
   },
   {
     fishname: "Platinum Bream",
@@ -577,7 +583,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "platinumbream"
+    imageName: "platinumbream",
   },
   {
     fishname: "Queensgown",
@@ -585,7 +591,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "queensgown"
+    imageName: "queensgown",
   },
   {
     fishname: "Radzbalik",
@@ -593,7 +599,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "radzbalik"
+    imageName: "radzbalik",
   },
   {
     fishname: "Raiamas",
@@ -601,7 +607,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "raiamas"
+    imageName: "raiamas",
   },
   {
     fishname: "Raincaller",
@@ -609,7 +615,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "raincaller"
+    imageName: "raincaller",
   },
 
   {
@@ -618,23 +624,23 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "redprismfish"
+    imageName: "redprismfish",
   },
   {
     fishname: "Redfin",
     fishsize: "m",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "redfin"
+    image: true,
+    imageName: "redfin",
   },
   {
     fishname: "River Bream",
     fishsize: "m",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "riverbream"
+    image: true,
+    imageName: "riverbream",
   },
   {
     fishname: "Sailfin",
@@ -642,7 +648,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "sailfin"
+    imageName: "sailfin",
   },
   {
     fishname: "Silken Koi",
@@ -650,7 +656,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "silkenkoi"
+    imageName: "silkenkoi",
   },
   {
     fishname: "Sinspitter",
@@ -658,7 +664,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "sinspitter"
+    imageName: "sinspitter",
   },
   {
     fishname: "Tessera",
@@ -666,7 +672,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "tessera"
+    imageName: "tessera",
   },
   {
     fishname: "The Archbishop",
@@ -674,7 +680,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "thearchbishop"
+    imageName: "thearchbishop",
   },
   {
     fishname: "Tricolored Carp",
@@ -682,7 +688,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "tricoloredcarp"
+    imageName: "tricoloredcarp",
   },
   {
     fishname: "Violet Prismfish",
@@ -690,7 +696,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "violetprismfish"
+    imageName: "violetprismfish",
   },
   {
     fishname: "Wandering Sculpin",
@@ -698,7 +704,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "wanderingsculpin"
+    imageName: "wanderingsculpin",
   },
   {
     fishname: "White Ronso",
@@ -706,7 +712,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "whiteronso"
+    imageName: "whiteronso",
   },
   {
     fishname: "Wimple Carp",
@@ -714,7 +720,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "wimplecarp"
+    imageName: "wimplecarp",
   },
   {
     fishname: "Xanthic Bass",
@@ -722,15 +728,16 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "xanthicbass"
+    imageName: "xanthicbass",
   },
   {
     fishname: "Xenocypris",
     fishsize: "m",
     waterType: "fw",
-    dblink: "https://na.finalfantasyxiv.com/lodestone/playguide/db/item/a652c88e481",
+    dblink:
+      "https://na.finalfantasyxiv.com/lodestone/playguide/db/item/a652c88e481",
     image: true,
-    imageName: "xenocypris"
+    imageName: "xenocypris",
   },
   {
     fishname: "Yanxian Barramundi",
@@ -738,7 +745,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "yanxianbarramundi"
+    imageName: "yanxianbarramundi",
   },
   {
     fishname: "Yellow Pipira",
@@ -746,7 +753,7 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "yellowpipira"
+    imageName: "yellowpipira",
   },
   {
     fishname: "Yellow Prismfish",
@@ -754,8 +761,8 @@ const freshwaterMediumFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "yellowprismfish"
-  }
+    imageName: "yellowprismfish",
+  },
 ];
 const freshwaterLargeFish = [
   {
@@ -764,7 +771,7 @@ const freshwaterLargeFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "albinogarfish"
+    imageName: "albinogarfish",
   },
   {
     fishname: "Anpa's Handmaid",
@@ -772,179 +779,160 @@ const freshwaterLargeFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "anpashandmaid"
-  }
-  ,
+    imageName: "anpashandmaid",
+  },
   {
     fishname: "Blood Red Bonytongue",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "bloodredbonytongue"
-  }
-  ,
+    imageName: "bloodredbonytongue",
+  },
   {
     fishname: "Cavalry Catfish",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "cavalrycatfish"
-  }
-  ,
+    image: true,
+    imageName: "cavalrycatfish",
+  },
   {
     fishname: "Colossoma",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "colossoma"
-  }
-  ,
+    imageName: "colossoma",
+  },
   {
     fishname: "Emperor Fish",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "emperorfish"
-  }
-  ,
+    imageName: "emperorfish",
+  },
   {
     fishname: "Fifty-summer Cod",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "fiftysummercod"
-  }
-  ,
+    imageName: "fiftysummercod",
+  },
   {
     fishname: "Ghoulfish",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "ghoulfish"
-  }
-  ,
+    imageName: "ghoulfish",
+  },
   {
     fishname: "Giant Taimen",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "gianttaimen"
-  }
-  ,
+    imageName: "gianttaimen",
+  },
   {
     fishname: "Goblin Perch",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "goblinperch"
-  }
-  ,
+    imageName: "goblinperch",
+  },
   {
     fishname: "Grass Shark",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "grassshark"
-  }
-  ,
+    imageName: "grassshark",
+  },
   {
     fishname: "Greatsword Snook",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "greatswordsnook"
-  }
-  ,
+    imageName: "greatswordsnook",
+  },
   {
     fishname: "Hannibal",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "hannibal"
-  }
-  ,
+    imageName: "hannibal",
+  },
   {
     fishname: "Ichthyosaur",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "ichthyosaur"
-  }
-  ,
+    imageName: "ichthyosaur",
+  },
   {
     fishname: "Little Bismarck",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "littlebismarck"
-  }
-  ,
+    imageName: "littlebismarck",
+  },
   {
     fishname: "Measan Deala",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "measandeala"
-  }
-  ,
+    imageName: "measandeala",
+  },
   {
     fishname: "Mirage Mahi",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "miragemahi"
-  }
-  ,
+    imageName: "miragemahi",
+  },
   {
     fishname: "Misteye",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "misteye"
-  }
-  ,
+    imageName: "misteye",
+  },
   {
     fishname: "Spectral Kotsu Zetsu",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "spectralkotsuzetsu"
-  }
-  ,
+    imageName: "spectralkotsuzetsu",
+  },
   {
     fishname: "Vanuhead",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "vanuhead"
-  }
-  ,
+    imageName: "vanuhead",
+  },
   {
     fishname: "Whilom Catfish",
     fishsize: "l",
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "whilomcatfish"
-  }
+    imageName: "whilomcatfish",
+  },
 ];
 
 const freshwaterXLargeFish = [
@@ -954,55 +942,55 @@ const freshwaterXLargeFish = [
     waterType: "fw",
     dblink: "",
     image: true,
-    imageName: "canavan"
+    imageName: "canavan",
   },
   {
     fishname: "Euphotic Pirarucu",
     fishsize: "xl",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "euphoticpirarucu"
+    image: true,
+    imageName: "euphoticpirarucu",
   },
   {
     fishname: "Giant Takitaro",
     fishsize: "xl",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "gianttakitaro"
+    image: true,
+    imageName: "gianttakitaro",
   },
   {
     fishname: "Loosetongue",
     fishsize: "xl",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "loosetongue"
+    image: true,
+    imageName: "loosetongue",
   },
   {
     fishname: "Paikiller",
     fishsize: "xl",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "paikiller"
+    image: true,
+    imageName: "paikiller",
   },
   {
     fishname: "Tigerfish",
     fishsize: "xl",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "tigerfish"
+    image: true,
+    imageName: "tigerfish",
   },
   {
     fishname: "Vicejaw",
     fishsize: "xl",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "vicejaw"
+    image: true,
+    imageName: "vicejaw",
   },
   {
     fishname: "Warden of the Seven Hues",
@@ -1010,16 +998,16 @@ const freshwaterXLargeFish = [
     waterType: "fw",
     dblink: "",
     image: false,
-    imageName: "wardenofthesevenhues"
+    imageName: "wardenofthesevenhues",
   },
   {
     fishname: "Xenacanthus",
     fishsize: "xl",
     waterType: "fw",
     dblink: "",
-    image: false,
-    imageName: "xenacanthus"
-  }
+    image: true,
+    imageName: "xenacanthus",
+  },
 ];
 
 const saltWaterSmallFish = [
@@ -1029,7 +1017,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "bubbleangler"
+    imageName: "bubbleangler",
   },
   {
     fishname: "Coral Butterfly",
@@ -1037,7 +1025,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "coralbutterfly"
+    imageName: "coralbutterfly",
   },
   {
     fishname: "Dog-faced Puffer",
@@ -1045,7 +1033,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "dogfacedpuffer"
+    imageName: "dogfacedpuffer",
   },
   {
     fishname: "Eulmore Butterfly",
@@ -1053,7 +1041,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "eulmorebutterfly"
+    imageName: "eulmorebutterfly",
   },
   {
     fishname: "Fiery Goby",
@@ -1061,7 +1049,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "fierygoby"
+    imageName: "fierygoby",
   },
   {
     fishname: "Harbor Herring",
@@ -1069,7 +1057,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "harborherring"
+    imageName: "harborherring",
   },
   {
     fishname: "Harutsuge",
@@ -1077,7 +1065,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "harutsuge"
+    imageName: "harutsuge",
   },
   {
     fishname: "Hatchetfish",
@@ -1085,7 +1073,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "hatchetfish"
+    imageName: "hatchetfish",
   },
   {
     fishname: "Meyhane Reveler",
@@ -1093,7 +1081,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "meyhanereveler"
+    imageName: "meyhanereveler",
   },
   {
     fishname: "Mini Yasha",
@@ -1101,7 +1089,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "miniyasha"
+    imageName: "miniyasha",
   },
   {
     fishname: "Onihige",
@@ -1109,7 +1097,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "onihige"
+    imageName: "onihige",
   },
   {
     fishname: "Spectral Butterfly",
@@ -1117,7 +1105,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "spectralbutterfly"
+    imageName: "spectralbutterfly",
   },
   {
     fishname: "Spectral Wrasse",
@@ -1125,7 +1113,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "spectralwrasse"
+    imageName: "spectralwrasse",
   },
   {
     fishname: "Tebqeyiq Smelt",
@@ -1133,7 +1121,7 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "tebqeyiqsmelt"
+    imageName: "tebqeyiqsmelt",
   },
   {
     fishname: "Tiger Cod",
@@ -1141,8 +1129,8 @@ const saltWaterSmallFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "tigercod"
-  }
+    imageName: "tigercod",
+  },
 ];
 
 const saltWaterMediumFish = [
@@ -1152,7 +1140,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "aetherolectricguitarfish"
+    imageName: "aetherolectricguitarfish",
   },
   {
     fishname: "Angelfish",
@@ -1160,7 +1148,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "angelfish"
+    imageName: "angelfish",
   },
   {
     fishname: "Black Boxfish",
@@ -1168,7 +1156,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "blackboxfish"
+    imageName: "blackboxfish",
   },
   {
     fishname: "Blowfish",
@@ -1176,7 +1164,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "blowfish"
+    imageName: "blowfish",
   },
   {
     fishname: "Bonefish",
@@ -1184,7 +1172,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "bonefish"
+    imageName: "bonefish",
   },
   {
     fishname: "Cobalt Chromis",
@@ -1192,7 +1180,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "cobaltchromis"
+    imageName: "cobaltchromis",
   },
   {
     fishname: "Crown Fish",
@@ -1200,7 +1188,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "crownfish"
+    imageName: "crownfish",
   },
   {
     fishname: "Deepbody Boarfish",
@@ -1208,7 +1196,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "deepbodyboarfish"
+    imageName: "deepbodyboarfish",
   },
   {
     fishname: "False Scad",
@@ -1216,7 +1204,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "falsescad"
+    imageName: "falsescad",
   },
   {
     fishname: "Fate's Design",
@@ -1224,7 +1212,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "fatesdesign"
+    imageName: "fatesdesign",
   },
   {
     fishname: "Fullmoon Sardine",
@@ -1232,7 +1220,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "fullmoonsardine"
+    imageName: "fullmoonsardine",
   },
   {
     fishname: "Gilled Topknot",
@@ -1240,7 +1228,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "gilledtopknot"
+    imageName: "gilledtopknot",
   },
   {
     fishname: "Glass Tuna",
@@ -1248,7 +1236,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "glasstuna"
+    imageName: "glasstuna",
   },
   {
     fishname: "Goldenfin",
@@ -1256,7 +1244,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "goldenfin"
+    imageName: "goldenfin",
   },
   {
     fishname: "Heavensent Shark",
@@ -1264,7 +1252,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "heavensentshark"
+    imageName: "heavensentshark",
   },
   {
     fishname: "Indigo Herring",
@@ -1272,7 +1260,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "indigoherring"
+    imageName: "indigoherring",
   },
   {
     fishname: "Jasperhead",
@@ -1280,7 +1268,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "jasperhead"
+    imageName: "jasperhead",
   },
   {
     fishname: "Keeled Fugu",
@@ -1288,7 +1276,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "keeledfugu"
+    imageName: "keeledfugu",
   },
   {
     fishname: "Kholusian Wrasse",
@@ -1296,7 +1284,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "kholusianwrasse"
+    imageName: "kholusianwrasse",
   },
   {
     fishname: "Lansquenet",
@@ -1304,7 +1292,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "lansquenet"
+    imageName: "lansquenet",
   },
   {
     fishname: "Mythril Sovereign",
@@ -1312,7 +1300,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "mythrilsovereign"
+    imageName: "mythrilsovereign",
   },
   {
     fishname: "Navigator's Brand",
@@ -1320,7 +1308,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "navigatorsbrand"
+    imageName: "navigatorsbrand",
   },
   {
     fishname: "Othardian Lumpsucker",
@@ -1328,7 +1316,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "othardianlumpsucker"
+    imageName: "othardianlumpsucker",
   },
   {
     fishname: "Othardian Wrasse",
@@ -1336,7 +1324,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "othardianwrasse"
+    imageName: "othardianwrasse",
   },
   {
     fishname: "Rasa Fish",
@@ -1344,7 +1332,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "rasafish"
+    imageName: "rasafish",
   },
   {
     fishname: "Redcoat",
@@ -1352,7 +1340,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "redcoat"
+    imageName: "redcoat",
   },
   {
     fishname: "Shadowdart Sardine",
@@ -1360,7 +1348,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "shadowdartsardine"
+    imageName: "shadowdartsardine",
   },
   {
     fishname: "Sirensong Mullet",
@@ -1368,7 +1356,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "sirensongmullet"
+    imageName: "sirensongmullet",
   },
   {
     fishname: "Spectral Discus",
@@ -1376,7 +1364,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "spectraldiscus"
+    imageName: "spectraldiscus",
   },
   {
     fishname: "Spectral Discus",
@@ -1384,7 +1372,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "spectraldiscus"
+    imageName: "spectraldiscus",
   },
   {
     fishname: "Swordfish",
@@ -1392,7 +1380,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "swordfish"
+    imageName: "swordfish",
   },
   {
     fishname: "Tripod Fish",
@@ -1400,7 +1388,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "tripodfish"
+    imageName: "tripodfish",
   },
   {
     fishname: "Vidyutvat Wrasse",
@@ -1408,7 +1396,7 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "vidyutvatwrasse"
+    imageName: "vidyutvatwrasse",
   },
   {
     fishname: "Zekki Grouper",
@@ -1416,8 +1404,8 @@ const saltWaterMediumFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "zekkigrouper"
-  }
+    imageName: "zekkigrouper",
+  },
 ];
 
 const saltWaterLargeFish = [
@@ -1427,7 +1415,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "bluemarlin"
+    imageName: "bluemarlin",
   },
   {
     fishname: "Bombardfish",
@@ -1435,7 +1423,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "bombardfish"
+    imageName: "bombardfish",
   },
   {
     fishname: "Coelacanth",
@@ -1443,7 +1431,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "coelacanth"
+    imageName: "coelacanth",
   },
   {
     fishname: "Corpse-eater",
@@ -1451,7 +1439,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "corpseeater"
+    imageName: "corpseeater",
   },
   {
     fishname: "Hammerhead Shark",
@@ -1459,7 +1447,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "hammerheadshark"
+    imageName: "hammerheadshark",
   },
   {
     fishname: "Hanatatsu",
@@ -1467,7 +1455,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "hanatatsu"
+    imageName: "hanatatsu",
   },
   {
     fishname: "Kitefin Shark",
@@ -1475,7 +1463,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "kitefinshark"
+    imageName: "kitefinshark",
   },
   {
     fishname: "Motley Beakfish",
@@ -1483,7 +1471,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "motleybeakfish"
+    imageName: "motleybeakfish",
   },
   {
     fishname: "Mummer Wrasse",
@@ -1491,7 +1479,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "mummerwrasse"
+    imageName: "mummerwrasse",
   },
   {
     fishname: "Roosterfish",
@@ -1499,7 +1487,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "roosterfish"
+    imageName: "roosterfish",
   },
   {
     fishname: "Spectral Bass",
@@ -1507,7 +1495,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "spectralbass"
+    imageName: "spectralbass",
   },
   {
     fishname: "Ukiki",
@@ -1515,7 +1503,7 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "ukiki"
+    imageName: "ukiki",
   },
   {
     fishname: "Zebra Shark",
@@ -1523,8 +1511,8 @@ const saltWaterLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "zebrashark"
-  }
+    imageName: "zebrashark",
+  },
 ];
 const saltWaterXLargeFish = [
   {
@@ -1533,7 +1521,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "basilosaurus"
+    imageName: "basilosaurus",
   },
   {
     fishname: "Coral Manta",
@@ -1541,7 +1529,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: true,
-    imageName: "coralmanta"
+    imageName: "coralmanta",
   },
   {
     fishname: "Dinichthys",
@@ -1549,7 +1537,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "dinichthys"
+    imageName: "dinichthys",
   },
   {
     fishname: "Funnel Shark",
@@ -1557,7 +1545,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "funnelshark"
+    imageName: "funnelshark",
   },
   {
     fishname: "Gharlichthys",
@@ -1565,7 +1553,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "gharlichthys"
+    imageName: "gharlichthys",
   },
   {
     fishname: "Helmsman's Hand",
@@ -1573,7 +1561,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "helmsmanshand"
+    imageName: "helmsmanshand",
   },
   {
     fishname: "Junkmonger",
@@ -1581,7 +1569,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "junkmonger"
+    imageName: "junkmonger",
   },
   {
     fishname: "Lancetfish",
@@ -1589,7 +1577,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "lancetfish"
+    imageName: "lancetfish",
   },
   {
     fishname: "Liopleurodon",
@@ -1597,7 +1585,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "liopleurodon"
+    imageName: "liopleurodon",
   },
   {
     fishname: "Mazlaya Marlin",
@@ -1605,7 +1593,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "mazlayamarlin"
+    imageName: "mazlayamarlin",
   },
   {
     fishname: "Megalodon",
@@ -1613,7 +1601,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "megalodon"
+    imageName: "megalodon",
   },
   {
     fishname: "Ondobane",
@@ -1621,7 +1609,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "ondobane"
+    imageName: "ondobane",
   },
   {
     fishname: "Red Hammerhead",
@@ -1629,7 +1617,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "redhammerhead"
+    imageName: "redhammerhead",
   },
   {
     fishname: "Shrieker",
@@ -1637,7 +1625,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "shrieker"
+    imageName: "shrieker",
   },
   {
     fishname: "Silver Shark",
@@ -1645,7 +1633,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "silvershark"
+    imageName: "silvershark",
   },
   {
     fishname: "Silver Sovereign",
@@ -1653,7 +1641,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "silversovereign"
+    imageName: "silversovereign",
   },
   {
     fishname: "Sothis",
@@ -1661,7 +1649,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "sothis"
+    imageName: "sothis",
   },
   {
     fishname: "Spectral Megalodon",
@@ -1669,7 +1657,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "spectralmegalodon"
+    imageName: "spectralmegalodon",
   },
   {
     fishname: "Stonescale",
@@ -1677,7 +1665,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "stonescale"
+    imageName: "stonescale",
   },
   {
     fishname: "Taniwha",
@@ -1685,7 +1673,7 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "taniwha"
+    imageName: "taniwha",
   },
   {
     fishname: "Titanic Sawfish",
@@ -1693,72 +1681,94 @@ const saltWaterXLargeFish = [
     waterType: "sw",
     dblink: "",
     image: false,
-    imageName: "titanicsawfish"
+    imageName: "titanicsawfish",
   },
 ];
- 
 
-
-function generateFishList (listName, containerName) {
+function generateFishList(listName, containerName) {
   listName.forEach((item) => {
     let li = document.createElement("li");
     if (item.image) {
       let ahref = document.createElement("a");
-      let span = document.createElement("span");
-  
-      ahref.href = "javascript:void(0)";
-      ahref.classList.add("feesh-link");
-      ahref.dataset.name = item.imageName;
-      ahref.dataset.category = item.waterType;
-      ahref.dataset.size = item.fishsize;
-      ahref.innerHTML = item.fishname;
-  
-      // better usage to give it fish title maybe since href not useable with span?
-      // if (item.dblink) {
-      //   span.dataset.href = item.dblink;
-      //   span.classList.add("eorzeadb_link");
-      //   span.innerHTML = item.fishname;
-      //   ahref.appendChild(span);
-      // }
+      let dataset = {
+        name: item.imageName,
+        size: item.fishsize,
+        category: item.waterType,
+        id: item.id,
+        eorzeaDb: item.eorzeaDb,
+        alias: item.alias
+      };
+
+      for (const prop in dataset) {
+        ahref.setAttribute(`data-${prop}`, dataset[prop]);
+      }
+      Object.assign(ahref, {
+        className: "feesh-link",
+        href: "javascript:void(0)",
+        innerHTML: item.fishname,
+        title: item.imageDescription || ''
+      });
 
       li.appendChild(ahref);
     } else {
       li.innerHTML = item.fishname;
     }
     containerName.appendChild(li);
-  });
 
+  });
 }
+
+// let additionalLinkContainer = document.querySelector(".fish-header--additional-links");
+// let eorzeaDb = document.createElement("a");
+// if(item.dblink.eorzeaDB !== null) {
+//   additionalLinkContainer.appendChild(eorzeaDb);
+// }
 
 // Freshwater
 //Small Fish
-const freshWaterSmallList = document.querySelector(".freshwater--menu-list ul.small");
+const freshWaterSmallList = document.querySelector(
+  ".freshwater--menu-list ul.small"
+);
 generateFishList(freshwaterSmallFish, freshWaterSmallList);
 
 //Medium Fish
-const freshWaterMediumList = document.querySelector(".freshwater--menu-list ul.medium");
+const freshWaterMediumList = document.querySelector(
+  ".freshwater--menu-list ul.medium"
+);
 generateFishList(freshwaterMediumFish, freshWaterMediumList);
 
 //Large Fish
-const freshWaterLargeList = document.querySelector(".freshwater--menu-list ul.large");
+const freshWaterLargeList = document.querySelector(
+  ".freshwater--menu-list ul.large"
+);
 generateFishList(freshwaterLargeFish, freshWaterLargeList);
 
 //XLarge Fish
-const freshWaterXLargeList = document.querySelector(".freshwater--menu-list ul.xlarge");
+const freshWaterXLargeList = document.querySelector(
+  ".freshwater--menu-list ul.xlarge"
+);
 generateFishList(freshwaterXLargeFish, freshWaterXLargeList);
 
 // Saltwater
 //Small Fish
-const saltWaterSmallList = document.querySelector(".saltwater--menu-list ul.small");
+const saltWaterSmallList = document.querySelector(
+  ".saltwater--menu-list ul.small"
+);
 generateFishList(saltWaterSmallFish, saltWaterSmallList);
 
 //Medium Fish
-const saltWaterMediumList = document.querySelector(".saltwater--menu-list ul.medium");
+const saltWaterMediumList = document.querySelector(
+  ".saltwater--menu-list ul.medium"
+);
 generateFishList(saltWaterMediumFish, saltWaterMediumList);
 
 //Large Fish
-const saltWaterLargeList = document.querySelector(".saltwater--menu-list ul.large");
+const saltWaterLargeList = document.querySelector(
+  ".saltwater--menu-list ul.large"
+);
 generateFishList(saltWaterLargeFish, saltWaterLargeList);
 //XLarge Fish
-const saltWaterXLargeList = document.querySelector(".saltwater--menu-list ul.xlarge");
+const saltWaterXLargeList = document.querySelector(
+  ".saltwater--menu-list ul.xlarge"
+);
 generateFishList(saltWaterXLargeFish, saltWaterXLargeList);

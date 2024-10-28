@@ -19,6 +19,27 @@ body {
   background-color: rgba(var(--background-color),1);
 }
 
+a {
+  text-decoration: none;
+  color: rgb(var(--palette-color-2));
+
+  &:hover {
+    color: rgba(var(--palette-color-2),0.8);
+  }
+}
+
+h1 {
+  position: relative;
+	display: block;
+	font-weight: 400;
+	white-space: nowrap;
+  font-size: 1em;
+  margin: 0;
+
+	
+
+}
+
 .container {
   display: grid;
   justify-items: end;
@@ -31,222 +52,6 @@ body {
   }
 }
 
-header {
-  font-family: var(--logo-font);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
-  border-bottom: 1px solid rgba(var(--palette-color-4),0.8);
-  margin-top: 20px;
-  padding-bottom: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(var(--palette-color-2));
-
-  &:hover {
-    color: rgba(var(--palette-color-2),0.8);
-  }
-}
-
-
-.highlight {
-  display: inline-block;
-  position: relative;
-  color: rgba(var(--background-color),1);
-  padding-right: 24px;
-
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: perspective(300px) skewX(10deg) rotateX(10deg) rotateY(20deg)
-      scale(1.15);
-    background-image: linear-gradient(78deg, var(--logo-theme-color-1) 30%, var(--logo-theme-color-2));
-    z-index: -1;
-    transition: all 0.3s;
-    border-radius: 0.2rem;
-  }
-  &:hover:before {
-    transform: perspective(300px) skewX(-5deg) rotateX(-10deg) rotateY(-5deg)
-      scale(1.2);
-  }
-}
-.navigation {
-  width: 25%;
-  position: fixed;
-  background-color: rgba(var(--background-color),0.8);
-  height: 100vh;
-  left: 8%;
-}
-
-.fish-nav-menu {
-  ul {
-    list-style: none;
-    margin: 20px;
-    padding: 0;
-    line-height: 1.5;
-  }
-
-}
-
-.fish-nav--watertypes {
-  position: relative;
-
-  button {
-    font-family: inherit;
-    padding: 10px 20px;
-    text-align: center;
-    margin: 0;
-    display: block;
-    background-color: rgba(var(--background-color),0.8);
-    color: rgb(var(--palette-color-1));
-    z-index: 15;
-    border-radius: 5px 5px 0px 0px;
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    transform-origin: bottom right;
-    position: absolute;
-    right: 0;
-    cursor: pointer;
-    border: 0;
-    font-size: 18px;
-    font-weight: 300;
-
-    &:focus {
-      outline: 0;
-    }
-
-    &.active {
-      background: rgb(var(--palette-color-4));
-      color: rgb(var(--background-color));
-    }
-    &:hover {
-      background: rgb(var(--palette-color-3));
-      color: rgb(var(--background-color));
-      
-    }
-  }
-
-  .freshwater {
-    top: 90px;
-  }
-
-  .saltwater {
-    top: 210px;
-  }
-}
-
-.fish-nav-categories--links {
-  margin: 10px 20px;
-  display: flex;
-  a {
-    padding: 0 10px;
-  }
-  a.active {
-    background: rgb(var(--palette-color-3));
-    color: rgb(var(--background-color));
-
-  }
-
-  span {
-    margin: 0 20px;
-
-    &:first-child {
-      margin-left: 0;
-
-    }
-  }
-}
-
-.fish-nav-categories--menu-list {
-
-  ul {
-    overflow-y: auto;
-    height: 60vh;
-    width: 93%;
-    display: none;
-  }
-
-  ul li {
-    color: grey;
-  }
-  a::before {
-    content: "├ ";
-}
-
-  ul::-webkit-scrollbar-track {
-    //-webkit-box-shadow: inset 0 0 6px rgba(var(--palette-color-5),0.8);
-    background-color: rgba(0,0,0, 0.5);
-
-  }
-  
-  ul::-webkit-scrollbar {
-    width: 6px;
-    background-color: rgba(var(--palette-color-5), 0.8);
-   
-  }
-  
-  ul::-webkit-scrollbar-thumb {
-    background-color: rgba(var(--palette-color-5), 0.8);
-    border-radius: 3px;
-  }
-
-  a {
-    display: block;
-  }
-
-}
-
-
-//toggle menu
-.freshwater-s {
-  .freshwater--menu-list ul {display: none;}
-  .freshwater--menu-list ul.small {display: block;}
-  
-}
-.freshwater-m {
-  .freshwater--menu-list ul {display: none;}
-  .freshwater--menu-list ul.medium {display: block;}
-
-}
-.freshwater-l {
-  .freshwater--menu-list ul {display: none;}
-  .freshwater--menu-list ul.large {display: block;}
-
-}
-.freshwater-xl {
-  .freshwater--menu-list ul {display: none;}
-  .freshwater--menu-list ul.xlarge {display: block;}
-}
-
-.saltwater-s {
-  .saltwater--menu-list ul {display: none;}
-  .saltwater--menu-list ul.small {display: block;}
-  
-}
-.saltwater-m {
-  .saltwater--menu-list ul {display: none;}
-  .saltwater--menu-list ul.medium {display: block;}
-
-}
-.saltwater-l {
-  .saltwater--menu-list ul {display: none;}
-  .saltwater--menu-list ul.large {display: block;}
-
-}
-.saltwater-xl {
-  .saltwater--menu-list ul {display: none;}
-  .saltwater--menu-list ul.xlarge {display: block;}
-} 
-
 .aquarium {
   width: 58%;
   position: relative;
@@ -257,10 +62,8 @@ a {
   justify-content: center;
 }
 
-
 $darkcolor 		: #7F5539;
-
-.fish-title {
+.fish-header {
   font-size: 36px;
   transition-delay: 0.2s;
   width: 66%;
@@ -268,18 +71,11 @@ $darkcolor 		: #7F5539;
   margin-left: 20%;
   position: absolute;
   top: 104px;
-}
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(lighten($darkcolor,2), 0.8);
 
-
-
-h1 {
-  position: relative;
-	display: block;
-	font-weight: 400;
-	white-space: nowrap;
-  font-size: 1em;
-
-	&:after {
+  &:after {
 		content: " ";
 		display: block;
 		position: absolute;
@@ -288,23 +84,23 @@ h1 {
 		height: 100%;
 		background-color: lighten($darkcolor,4);
 		pointer-events:none;
-	}
-
-
-	&:after {
-		right: -.57em;
+    right: -.57em;
 		z-index: -1;
 	}
 
-
-	span {
+  #title {
 		display: block;
 		position: relative;
 		padding: .15em .75em;
 		text-decoration: none;
 		color: rgb(var(--background-color));
-		background-color: rgba(lighten($darkcolor,2), 0.8);
+		
+	}
 
+  &--additional-links {
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
 
 		&:after {
 			content: " ";
@@ -317,59 +113,45 @@ h1 {
 			pointer-events: none;
 			-webkit-mask: none;
 			mask: none;
-		}
-
-		&:after {
-			left:  auto;
+      left:  auto;
 			right: -.05em;
 			border-top: .5em solid darken($darkcolor,10);
 			border-right: .5em solid transparent;
 		}
-	}
 
+
+    a {
+      width: 16px;
+      height: 16px;
+      // background-color: rgb(var(--palette-color-4));
+      border-radius: 15%;
+      margin-left: 5px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: top center;
+      opacity: 75%;
+
+      &:hover{
+        opacity: 1;
+      }
+    }
+  }
 }
+
+
+.eorzea-db {
+  background:url(/img/lodestone.png);
+}
+
+.garland-tools {background:url(/img/garland.png);}
+.universalis {background:url(/img/universalis.png);}
+.gamerescape {background: url(/img/gamerescape.png);}
+
 
 .fish-tank {
   // width: 940px;
   height: 308px;
   position: relative;
-}
-
-// kudos for styles aswell https://codepen.io/cbolson/pen/VwNgyWv
-.bubble {
-  position: absolute;
-  z-index: -1;
-  border-radius: 9999px;
-  background-color: #fecdd3;
-  bottom: 20px;
-  box-shadow: inset 0 0.3vmin #2563eb, inset 0 0.3vmin #f97316,
-    inset 0.3vmin 0.3vmin #f97316;
-  animation-name: float-up;
-  animation-iteration-count: infinite;
-  opacity: 0;
-  /* animation delays etc defined in JS */
-}
-.bubble::after {
-  content: "";
-  position: absolute;
-  border-radius: 9999px;
-  background-color: transparent;
-  inset: 0px;
-  border-right: 4px solid #fff;
-  transform: rotate(-45deg);
-  backdrop-filter: blur(10px);
-  background: rgba(0, 0, 0, 0.4);
-}
-@keyframes float-up {
-  from {
-    opacity: 0.1;
-    transform: translateX(calc(var(--horizontal-movement, 0) * 1px));
-  }
-  to {
-    opacity: 0.2;
-    transform: translateY(calc(var(--pop, 90svh) * -1))
-      translateX(calc(var(--horizontal-movement, 0) * 1px));
-  }
 }
 
 #fish {
@@ -378,7 +160,6 @@ h1 {
   animation: bounce 2s infinite;
   
 }
-
 .fade-in {
   animation: fadeIn 3s;
 }
@@ -386,131 +167,24 @@ h1 {
 .fade-out {
   animation: fadeOut 5s;
 }
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-
-// @keyframes swim {
-//   0% {
-//     right: 5%;
-//   }
-//   14% {
-//     right: 10%;
-//   }
-//   42% {
-//     right: 15%;
-//   }
-//   56% {
-//     right: 20%;
-//   }
-//   70% {
-//     right: 25%;
-//   }
-//   84% {
-//     right: 30%;
-//   }
-//   100% {
-//     right: 35%;
-//   }
-// }
-// @-webkit-keyframes swim {
-//   0% {
-//     right: 5%;
-//   }
-//   14% {
-//     right: 10%;
-//   }
-//   42% {
-//     right: 15%;
-//   }
-//   56% {
-//     right: 20%;
-//   }
-//   70% {
-//     right: 25%;
-//   }
-//   84% {
-//     right: 30%;
-//   }
-//   100% {
-//     right: 35%;
-//   }
-// }
-
-
-
-/**/
-@-moz-keyframes bounce {
-  0%,
-  50%,
-  100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-  25% {
-    -moz-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
-  75% {
-    -moz-transform: translateY(-3px);
-    transform: translateY(-3px);
-  }
-}
-@-webkit-keyframes bounce {
-  0%,
-  50%,
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  25% {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
-  75% {
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
-  }
-}
-@keyframes bounce {
-  0%,
-  50%,
-  100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  25% {
-    -moz-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
-  75% {
-    -moz-transform: translateY(-3px);
-    -ms-transform: translateY(-3px);
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
-  }
-}
-
-
 .fish {
+  position: fixed;
+  top: 46%;
+  left: 65%;
+  margin-right: -56%;
+  transform: translate(-50%, -50%);
+  animation: swim 5s;
+  -webkit-animation: swim 5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
   &.s img {
     width: 100px;
   }
 
   &.m img {
-    width: 200px;
+    width: 240px;
   }
 
   &.l img {
@@ -518,126 +192,6 @@ h1 {
   }
 
   &.xl img {
-    width: 440px;
+    width: 490px;
   }
 }
-
-
-
-.fish {
-
-  
-  position: fixed;
-  top: 50%;
-  left: 65%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  
-
-  // position: absolute;
-  // bottom: 35%;
-  // left: 35%;
-  // //width: 90px;
-
-
-
-  animation: swim 5s;
-  -webkit-animation: swim 5s;
-  animation-timing-function: linear;
-  -webkit-animation-timing-function: linear;
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-
-  // &.s {
-  //   bottom: 50%;
-  // }
-
-  // &.m {
-  //   bottom: 45%;
-  //   left: 25%;
-  // }
-
-  // &.l {
-
-  //   bottom: 25%;
-  //   left: 25%;
-  // }
-
-  // &.xl {
-  //   bottom: 35%;
-  //   left: 12%;
-  // }
-}
-
-
-footer{
-  position: absolute;
-  bottom: 0;
-  margin: 20px;
-  color: grey;
-  font-size: 13px;
-
-  a {
-    color: grey;
-  }
-}
-
-
-// 1440*900
-// 1920 x 922
-// 1280 x 720 (720p, HD, HD Ready, Standard HD)
-// 1920 x 1080 (1080p, Full HD, FHD)
-// 2560 x 1440 (1440p, Wide Quad HD, Quad HD, WQHD, QHD)
-// 3840 x 2160 (4K, Ultra HD, UHD, 4K UHD)
-// 7680 x 4320 (8K, 8K UHD)
-
-div.device-test {
-  display: none;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -2;
-  
-}
-@media (min-width:320px)  { 
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-  div.device-test {
-    background-color: rgba(91, 192, 235,0.5);
-  }
-}
-@media (min-width:480px)  { 
-  /* smartphones, Android phones, landscape iPhone */ 
-  div.device-test {
-    background-color: rgba(253, 231, 76,0.5);
-  }
-}
-@media (min-width:600px)  {
-   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-   div.device-test {
-    background-color: rgba(155, 197, 61,0.5);
-  }
-  }
-@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-  div.device-test {
-    background-color: rgba(195, 66, 63,0.5);
-  }
- }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-  
-  div.device-test {
-    background-color: rgba(33, 26, 30,0.5);
-  }
-}
-@media (min-width:1281px) { /* hi-res laptops and desktops */ 
-  div.device-test {
-    background-color: rgba(33, 26, 30,0.5);
-  }
-}
-
-
-
-// https://coolors.co/352208-e1bb80-7b6b43-685634-806443

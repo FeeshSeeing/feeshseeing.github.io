@@ -1,0 +1,41 @@
+//
+//  Vendors 
+//
+//  -------------------------------------------------
+
+// kudos for styles aswell https://codepen.io/cbolson/pen/VwNgyWv
+.bubble {
+    position: absolute;
+    z-index: -1;
+    border-radius: 9999px;
+    background-color: #fecdd3;
+    bottom: 20px;
+    box-shadow: inset 0 0.3vmin #2563eb, inset 0 0.3vmin #f97316,
+      inset 0.3vmin 0.3vmin #f97316;
+    animation-name: float-up;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    /* animation delays etc defined in JS */
+  }
+  .bubble::after {
+    content: "";
+    position: absolute;
+    border-radius: 9999px;
+    background-color: transparent;
+    inset: 0px;
+    border-right: 4px solid #fff;
+    transform: rotate(-45deg);
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.4);
+  }
+  @keyframes float-up {
+    from {
+      opacity: 0.1;
+      transform: translateX(calc(var(--horizontal-movement, 0) * 1px));
+    }
+    to {
+      opacity: 0.2;
+      transform: translateY(calc(var(--pop, 90svh) * -1))
+        translateX(calc(var(--horizontal-movement, 0) * 1px));
+    }
+  }

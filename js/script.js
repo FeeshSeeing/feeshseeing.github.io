@@ -1,11 +1,8 @@
 const links = document.querySelectorAll('.feesh-link');
 const fishContainer = document.querySelector('.fish');
-const fish = document.getElementById('fish');
-const fishTitleHolder = document.querySelector('.fish-title span');
-let fishName = "chub";
-let fishTitle = "chub";
-let fishCategory = "fw";
-let fishSize = "s";
+const fishIdContainer = document.getElementById('fish');
+const fishTitleHolder = document.getElementById('title');
+let fish = {};
 
 const fishNavMenu = document.querySelector('.fish-nav-menu');
 const freshwaterBtn = document.querySelector('.freshwater'); 
@@ -13,25 +10,70 @@ const saltwaterBtn = document.querySelector('.saltwater');
 
 const fishCategoryLinks = document.querySelectorAll('.fish-nav-categories--links a');
 const fishCategoryActiveLink = document.querySelector('.fish-nav-categories--links a.active');
-
 const fishTank = document.getElementById("fish-tank");
 
+const additionalLinkContainer = document.querySelector('.fish-header--additional-links');
+
 links.forEach((link) => {
-  
     link.addEventListener('click', () => {
-      resetFade();
-    
-    fishTitle = link.innerText;
-    fishSize = link.dataset.size;
-    fishCategory = link.dataset.category;
-    fishName = link.dataset.name;
-    fish.src = `/img/${fishCategory}/${fishSize}-${fishCategory}-${fishName}.png`;
-    
+    resetFade();
+    fish.title = link.innerText;
+    fish.size = link.dataset.size;
+    fish.category = link.dataset.category;
+    fish.name = link.dataset.name;
+    fish.id = link.dataset.id;
+    fish.alias = link.dataset.alias;
+    fish.eorzeadb = link.dataset.eorzeadb;
+
+    Object.assign(fishIdContainer, {
+      src : `/img/${fish.category}/${fish.size}-${fish.category}-${fish.name}.png`
+    });
+   
     fishContainer.className = "fish";
-    fishContainer.classList.add(fishSize);
+    fishContainer.classList.add(fish.size);
     
     fishTank.classList.add("fade-in");
-    fishTitleHolder.innerText = fishTitle;
+    fishTitleHolder.innerText = fish.title;
+    additionalLinkContainer.innerHTML = '';
+    // add additional links
+    if(fish.id !== 'undefined' && fish.id !== null) {
+      let garlandToolsLink = document.createElement("a");
+      let universalisLink = document.createElement("a");
+      Object.assign(garlandToolsLink, {
+        href: `https://www.garlandtools.org/db/#item/`+ fish.id,
+        classList : 'garland-tools',
+        target: '_blank'
+      });
+
+      Object.assign(universalisLink, {
+        href: `https://universalis.app/market/`+ fish.id,
+        classList : 'universalis',
+        target: '_blank'
+      });
+      additionalLinkContainer.appendChild(garlandToolsLink);
+      additionalLinkContainer.appendChild(universalisLink);
+    }
+    
+    if(fish.eorzeadb !== 'undefined' && fish.eorzeadb !== null) {
+      let eorzeaDBLink = document.createElement("a");
+      Object.assign(eorzeaDBLink, {
+        href: `https://na.finalfantasyxiv.com/lodestone/playguide/db/item/`+ fish.eorzeadb,
+        classList : 'eorzeadb_link eorzea-db',
+        target: '_blank'
+      });
+    
+      additionalLinkContainer.appendChild(eorzeaDBLink);
+    }
+    if (fish.alias !== 'undefined' && fish.alias !== null) {
+      let gamerescapeLink = document.createElement("a");
+      Object.assign(gamerescapeLink, {
+        href: `https://ffxiv.gamerescape.com/wiki/`+ fish.alias,
+        classList : 'gamerescape',
+        target: '_blank'
+      });
+      additionalLinkContainer.appendChild(gamerescapeLink);
+    }
+   
   })
 })
 

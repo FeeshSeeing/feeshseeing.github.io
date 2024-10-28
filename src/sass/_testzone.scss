@@ -1,7 +1,33 @@
-//
-//  > Shame/Correct
-//  
-//  -------------------------------------------------
+.fish-test-l {
+    display: none;
+    background: url(/img/l-size-test.png);
+    position: fixed;
+    top: 56%;
+    left: 68%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 801px;
+    height: 351px;
+    opacity: 77%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fish-test-xl {
+    display: none;
+    background: url(/img/xl-size-test.png);
+    position: fixed;
+    top: 49%;
+    left: 66%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 916px;
+    height: 351px;
+    opacity: 77%;
+    background-repeat: no-repeat;
+}
+
+
 
 
 

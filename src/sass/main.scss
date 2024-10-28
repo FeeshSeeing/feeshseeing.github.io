@@ -10,34 +10,22 @@
   'abstracts/mixins',
   'abstracts/placeholders';
 
-@import
-  'vendors/bootstrap',
-  'vendors/jquery-ui';
 
 @import
   'base/reset',
   'base/typography';
 
 @import
-  'layout/navigation',
-  'layout/grid',
   'layout/header',
+  'layout/navigation',
   'layout/footer',
-  'layout/sidebar',
-  'layout/forms';
+  'layout/sidebar';
 
 @import
-  'components/buttons',
-  'components/carousel',
-  'components/cover',
-  'components/dropdown';
+  'pages/home';
 
-@import
-  'pages/home',
-  'pages/contact';
+  @import
+  'vendors/bubbles';
 
-@import
-  'themes/theme',
-  'themes/admin';
-
-@import 'shame.scss'
+@import 'shame.scss';
+@import 'testzone.scss';
