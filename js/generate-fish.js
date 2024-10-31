@@ -101,7 +101,7 @@ const freshwaterSmallFish = [
     alias: "Darkdweller",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "darkdweller",
     imageDescription: "A sinister-looking cave dweller native to Woven Oath.",
   },
@@ -172,7 +172,7 @@ const freshwaterSmallFish = [
     alias: "Green_Prismfish",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "greenprismfish",
     imageDescription:
       "Due to its shockingly bright coloration, this wind-aspected fish is oft sought after for display in garden ponds, but almost never for consumption.",
@@ -184,7 +184,7 @@ const freshwaterSmallFish = [
     alias: "Green_Swordtail",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "greenswordtail",
     imageDescription:
       "A long-tailed freshwater fish found throughout Thavnair.",
@@ -196,7 +196,7 @@ const freshwaterSmallFish = [
     alias: "Grip_Killifish",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "gripkillifish",
     imageDescription:
       "A rare type of fish oft found in stagnant waters such as the isolated pools which collect in the basin of Empty Heart on the western finger of the Gods' Grip.",
@@ -256,7 +256,7 @@ const freshwaterSmallFish = [
     alias: "Lemonfish",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "lemonfish",
     imageDescription: "A speckled, bright-yellow freshwater fish.",
   },
@@ -291,7 +291,7 @@ const freshwaterSmallFish = [
     alias: "Poecilia",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "poecilia",
     imageDescription:
       "A freshwater wavekin with bright coloration resembling that of many pixies.",
