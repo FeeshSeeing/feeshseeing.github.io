@@ -6,17 +6,17 @@
 
 body {
   margin: 0;
-  background: var(--background-image-url);
-  background-size: cover;
   font-family: var(--body-font);
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  font-size: clamp(1rem, 1vw + 0.8rem, 1rem);
   color: rgb(var(--palette-color-3));
-  background-position-y: bottom;
-  background-position-x: right;
+  background: var(--background-image-url);
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(var(--background-color),1);
+  @include responsive-bg-image(right, bottom);
 }
 
 a {
@@ -33,17 +33,16 @@ h1 {
 	display: block;
 	font-weight: 400;
 	white-space: nowrap;
-  font-size: 1em;
+  //font-size: 1em;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem); //Responsive Typography with clamp()
   margin: 0;
-
-	
-
 }
 
 .container {
   display: grid;
   justify-items: end;
-  width: 100%;
+  //width: 100%;
+  width: min(100%, 100vw); //This helps ensure that layouts are compatible across devices by adapting fluidly based on screen size.
   overflow: hidden;
   color: rgb(var(--palette-color-3));
 
@@ -64,13 +63,12 @@ h1 {
 
 $darkcolor 		: #7F5539;
 .fish-header {
-  font-size: 36px;
+  //font-size: 36px;
   transition-delay: 0.2s;
-  width: 66%;
   color: rgb(var(--palette-color-4));
   margin-left: 20%;
   position: absolute;
-  top: 104px;
+  @include fish-header(10%, 66%);
   display: flex;
   justify-content: space-between;
   background-color: rgba(lighten($darkcolor,2), 0.8);
@@ -100,6 +98,7 @@ $darkcolor 		: #7F5539;
   &--additional-links {
     margin-right: 35px;
     display: flex;
+    
     align-items: center;
 
 		&:after {
@@ -121,8 +120,8 @@ $darkcolor 		: #7F5539;
 
 
     a {
-      width: 16px;
-      height: 16px;
+      width: 24px;
+      height: 24px;
       // background-color: rgb(var(--palette-color-4));
       border-radius: 15%;
       margin-left: 5px;
@@ -169,9 +168,8 @@ $darkcolor 		: #7F5539;
 }
 .fish {
   position: fixed;
-  top: 46%;
-  left: 65%;
-  margin-right: -56%;
+  @include responsive-fish-position(46%, 65%);
+  //margin-right: -56%;
   transform: translate(-50%, -50%);
   animation: swim 5s;
   -webkit-animation: swim 5s;

@@ -1,35 +1,33 @@
 .fish-test-l {
-    display: none;
-    background: url(/img/l-size-test.png);
-    position: fixed;
-    top: 56%;
-    left: 68%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 801px;
-    height: 351px;
-    opacity: 77%;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  background: url(/img/l-size-test.png);
+  position: fixed;
+  top: 56%;
+  left: 68%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 801px;
+  height: 351px;
+  opacity: 77%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .fish-test-xl {
-    display: none;
-    background: url(/img/xl-size-test.png);
-    position: fixed;
-    top: 49%;
-    left: 66%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 916px;
-    height: 351px;
-    opacity: 77%;
-    background-repeat: no-repeat;
+  display: none;
+  background: url(/img/xl-size-test.png);
+  position: fixed;
+  top: 49%;
+  left: 66%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 916px;
+  height: 351px;
+  opacity: 77%;
+  background-repeat: no-repeat;
 }
 
-
-
-
+// https://coolors.co/352208-e1bb80-7b6b43-685634-806443
 
 // 1440*900
 // 1920 x 922
@@ -40,52 +38,180 @@
 // 7680 x 4320 (8K, 8K UHD)
 
 div.device-test {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -3;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Styles for extra small screens */
+  div.device-test {
+    background-color: rgba(91, 192, 235, 0.5);
+  }
+  body {
+    @include responsive-bg-image(75%, bottom);
+  }
+  .fish {
+    @include responsive-fish-position(55vh, 50vw);
+  }
+
+  .bubble {bottom: -20px}
+  .aquarium {
+    width: 100%;
+  }
+  .fish-header {
+    @include fish-header(28%, 100%);
+  }
+  .fish-header--additional-links {
     display: none;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small screens */
+  div.device-test {
+    background-color: rgba(253, 231, 76, 0.5);
+  }
+
+  body {
+    @include responsive-bg-image(75%, bottom);
+  }
+  .fish {
+    @include responsive-fish-position(55vh, 50vw);
+  }
+  .bubble {bottom: -20px}
+  .aquarium {
+    width: 100%;
+  }
+  .fish-header {
+    @include fish-header(28%, 80%);
+  }
+  .fish-header--additional-links {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for medium screens */
+  div.device-test {
+    background-color: rgba(155, 197, 61, 0.5);
+  }
+  body {
+    @include responsive-bg-image(86%, bottom);
+  }
+  .fish {
+    @include responsive-fish-position(55vh, 50vw);
+  }
+  .bubble {bottom: -20px}
+  .aquarium {
+    width: 100%;
+  }
+  .fish-header {
+    @include fish-header(28%, 78%);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Styles for large screens */
+  div.device-test {
+    background-color: rgba(195, 66, 63, 0.5);
+  }
+  .fish {
+    @include responsive-fish-position(55vh, 50vw);
+  }
+  .bubble {bottom: -20px}
+  .navigation {left:0;
+  }
+  .fish-nav-categories--menu-list ul {
+    height: 40vh;
+    width: 90%;
+  }
+  .aquarium {
+    width: 75%;
+  }
+  .fish-header {
+    @include fish-header(25%, 70%);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1440px) {
+  /* Styles for extra large screens */
+  div.device-test {
+    background-color: rgba(33, 26, 30, 0.5);
+  }
+  .fish {
+    @include responsive-fish-position(55%, 63%);
+  }
+  .bubble {bottom: -15px}
+  .fish-header {
+    @include fish-header(22%, 70%);
+  }
+}
+
+@media (min-width: 1441px) {
+  div.device-test {
+    background-color: rgba(175, 55, 123, 0.5);
+  }
+  .fish {
+    @include responsive-fish-position(46%, 65%);
+  }
+}
+
+//Reduced Motion for Accessibility
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none;
+    transition: none;
+  }
+}
+
+
+// mobile menu 
+@media (max-width: 769px) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  .logo {
+    padding-left: 30px;
+  }
+  .navigation {
+    z-index: 3;
+    background-color: transparent;
     left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -2;
+    width: 100%;
+  }
+
+
+  .mobile-menu-icons {
+    display: flex;
+  }
+  .fish-nav-menu {
     
+    position: absolute;
+    background: rgba(var(--background-color),1);
+    height: 100vh;
+    transform: translate(-120%);
+    transition: 0.5s;
   }
-  @media (min-width:320px)  { 
-    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-    div.device-test {
-      background-color: rgba(91, 192, 235,0.5);
-    }
+
+  .navigation.active .fish-nav-menu {
+    transform: translate(0);
+    transition: 0.5s;
   }
-  @media (min-width:480px)  { 
-    /* smartphones, Android phones, landscape iPhone */ 
-    div.device-test {
-      background-color: rgba(253, 231, 76,0.5);
-    }
-  }
-  @media (min-width:600px)  {
-     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-     div.device-test {
-      background-color: rgba(155, 197, 61,0.5);
-    }
-    }
-  @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-    div.device-test {
-      background-color: rgba(195, 66, 63,0.5);
-    }
-   }
-  @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-    
-    div.device-test {
-      background-color: rgba(33, 26, 30,0.5);
-    }
-  }
-  @media (min-width:1281px) { /* hi-res laptops and desktops */ 
-    div.device-test {
-      background-color: rgba(33, 26, 30,0.5);
-    }
-  }
-  
-  
-  
-  // https://coolors.co/352208-e1bb80-7b6b43-685634-806443
+}

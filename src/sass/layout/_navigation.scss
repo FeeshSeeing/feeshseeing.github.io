@@ -3,10 +3,48 @@
 //  
 //  -------------------------------------------------
 .navigation {
-    width: 25%;
+    // width: 25%;
+    width: clamp(20%, 1vw + 1rem, 25%);
     position: fixed;
     background-color: rgba(var(--background-color),0.8);
     height: 100vh;
     left: 8%;
+
+    &.active {
+      .mobile-list { display: none;}
+      .mobile-close {display: block;}
+    }
   }
+
+
+  .mobile-menu-icons {
+    display: none;
+    align-items: center;
+
+
+    button {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 30px;
+      background-color: transparent;
+      border: none;
+    }
+
+    button,
+    svg {
+      width: 48px;
+      height: 48px;
+      fill: rgba(var(--palette-color-1),1)
+    }
+
+    .mobile-list { display: block;}
+      .mobile-close {display: none;}
+    
+
   
+
+
+    
+  }

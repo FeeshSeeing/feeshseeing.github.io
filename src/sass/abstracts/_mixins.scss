@@ -1,161 +1,171 @@
 //
 //  Abstract > 03 - Mixins
-//  
+//
 //  -------------------------------------------------
 
+@mixin triangle($size, $color, $direction) {
+  height: 0;
+  width: 0;
 
-@mixin triangle ($size, $color, $direction) {
-    height: 0;
-    width: 0;
-  
-    $width: nth($size, 1);
-    $height: nth($size, length($size));
-  
-    $foreground-color: nth($color, 1);
-    $background-color: transparent !default;
-    @if (length($color) == 2) {
-      $background-color: nth($color, 2);
-    }
-  
-    @if ($direction == up) or ($direction == down) or ($direction == right) or ($direction == left) {
-  
-      $width: $width / 2;
-  
-      @if $direction == up {
-        border-left: $width solid $background-color;
-        border-right: $width solid $background-color;
-        border-bottom: $height solid $foreground-color;
-  
-      } @else if $direction == right {
-        border-top: $width solid $background-color;
-        border-bottom: $width solid $background-color;
-        border-left: $height solid $foreground-color;
-  
-      } @else if $direction == down {
-        border-left: $width solid $background-color;
-        border-right: $width solid $background-color;
-        border-top: $height solid $foreground-color;
-  
-      } @else if $direction == left {
-        border-top: $width solid $background-color;
-        border-bottom: $width solid $background-color;
-        border-right: $height solid $foreground-color;
-      }
-    }
-  
-    @else if ($direction == up-right) or ($direction == up-left) {
-      border-top: $height solid $foreground-color;
-  
-      @if $direction == up-right {
-        border-left:  $width solid $background-color;
-  
-      } @else if $direction == up-left {
-        border-right: $width solid $background-color;
-      }
-    }
-  
-    @else if ($direction == down-right) or ($direction == down-left) {
+  $width: nth($size, 1);
+  $height: nth($size, length($size));
+
+  $foreground-color: nth($color, 1);
+  $background-color: transparent !default;
+  @if (length($color) == 2) {
+    $background-color: nth($color, 2);
+  }
+
+  @if ($direction == up) or
+    ($direction == down) or
+    ($direction == right) or
+    ($direction == left)
+  {
+    $width: $width / 2;
+
+    @if $direction == up {
+      border-left: $width solid $background-color;
+      border-right: $width solid $background-color;
       border-bottom: $height solid $foreground-color;
-  
-      @if $direction == down-right {
-        border-left:  $width solid $background-color;
-  
-      } @else if $direction == down-left {
-        border-right: $width solid $background-color;
-      }
+    } @else if $direction == right {
+      border-top: $width solid $background-color;
+      border-bottom: $width solid $background-color;
+      border-left: $height solid $foreground-color;
+    } @else if $direction == down {
+      border-left: $width solid $background-color;
+      border-right: $width solid $background-color;
+      border-top: $height solid $foreground-color;
+    } @else if $direction == left {
+      border-top: $width solid $background-color;
+      border-bottom: $width solid $background-color;
+      border-right: $height solid $foreground-color;
     }
-  
-    @else if ($direction == inset-up) {
-      border-width: $height $width;
-      border-style: solid;
-      border-color: $background-color $background-color $foreground-color;
-    }
-  
-    @else if ($direction == inset-down) {
-      border-width: $height $width;
-      border-style: solid;
-      border-color: $foreground-color $background-color $background-color;
-    }
-  
-    @else if ($direction == inset-right) {
-      border-width: $width $height;
-      border-style: solid;
-      border-color: $background-color $background-color $background-color $foreground-color;
-    }
-  
-    @else if ($direction == inset-left) {
-      border-width: $width $height;
-      border-style: solid;
-      border-color: $background-color $foreground-color $background-color $background-color;
-    }
-  }
-  
+  } @else if ($direction == up-right) or ($direction == up-left) {
+    border-top: $height solid $foreground-color;
 
+    @if $direction == up-right {
+      border-left: $width solid $background-color;
+    } @else if $direction == up-left {
+      border-right: $width solid $background-color;
+    }
+  } @else if ($direction == down-right) or ($direction == down-left) {
+    border-bottom: $height solid $foreground-color;
 
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    @if $direction == down-right {
+      border-left: $width solid $background-color;
+    } @else if $direction == down-left {
+      border-right: $width solid $background-color;
+    }
+  } @else if ($direction == inset-up) {
+    border-width: $height $width;
+    border-style: solid;
+    border-color: $background-color $background-color $foreground-color;
+  } @else if ($direction == inset-down) {
+    border-width: $height $width;
+    border-style: solid;
+    border-color: $foreground-color $background-color $background-color;
+  } @else if ($direction == inset-right) {
+    border-width: $width $height;
+    border-style: solid;
+    border-color: $background-color
+      $background-color
+      $background-color
+      $foreground-color;
+  } @else if ($direction == inset-left) {
+    border-width: $width $height;
+    border-style: solid;
+    border-color: $background-color
+      $foreground-color
+      $background-color
+      $background-color;
   }
-  
-  @keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+}
+
+@mixin responsive-bg-image($position-x, $position-y) {
+  background-position-y: $position-y;
+  background-position-x: $position-x;
+}
+
+@mixin responsive-fish-position($top, $left) {
+  top : $top;
+  left: $left;
+}
+
+@mixin fish-header($top, $width) {
+  top: $top;
+  width: $width;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  
-  /**/
-  @-moz-keyframes bounce {
-    0%,
-    50%,
-    100% {
-      -moz-transform: translateY(0);
-      transform: translateY(0);
-    }
-    25% {
-      -moz-transform: translateY(-5px);
-      transform: translateY(-5px);
-    }
-    75% {
-      -moz-transform: translateY(-3px);
-      transform: translateY(-3px);
-    }
+  100% {
+    opacity: 1;
   }
-  @-webkit-keyframes bounce {
-    0%,
-    50%,
-    100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    25% {
-      -webkit-transform: translateY(-5px);
-      transform: translateY(-5px);
-    }
-    75% {
-      -webkit-transform: translateY(-3px);
-      transform: translateY(-3px);
-    }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
   }
-  @keyframes bounce {
-    0%,
-    50%,
-    100% {
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    25% {
-      -moz-transform: translateY(-5px);
-      -ms-transform: translateY(-5px);
-      -webkit-transform: translateY(-5px);
-      transform: translateY(-5px);
-    }
-    75% {
-      -moz-transform: translateY(-3px);
-      -ms-transform: translateY(-3px);
-      -webkit-transform: translateY(-3px);
-      transform: translateY(-3px);
-    }
+  100% {
+    opacity: 0;
   }
-  
+}
+
+/**/
+@-moz-keyframes bounce {
+  0%,
+  50%,
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@keyframes bounce {
+  0%,
+  50%,
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}

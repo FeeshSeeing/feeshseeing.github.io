@@ -1,0 +1,73 @@
+.fish-test-l {
+  display: none;
+  background: url(/img/l-size-test.png);
+  position: fixed;
+  top: 56%;
+  left: 68%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 801px;
+  height: 351px;
+  opacity: 77%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fish-test-xl {
+  display: none;
+  background: url(/img/xl-size-test.png);
+  position: fixed;
+  top: 49%;
+  left: 66%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 916px;
+  height: 351px;
+  opacity: 77%;
+  background-repeat: no-repeat;
+}
+
+div.device-test {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  div.device-test {
+    background-color: rgba(91, 192, 235, 0.5);
+  }
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  div.device-test {
+    background-color: rgba(253, 231, 76, 0.5);
+  }
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  div.device-test {
+    background-color: rgba(155, 197, 61, 0.5);
+  }
+}
+@media (min-width: 801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  div.device-test {
+    background-color: rgba(195, 66, 63, 0.5);
+  }
+}
+@media (min-width: 1025px) { /* big landscape tablets, laptops, and desktops */
+  div.device-test {
+    background-color: rgba(33, 26, 30, 0.5);
+  }
+}
+@media (min-width: 1281px) { /* hi-res laptops and desktops */
+  div.device-test {
+    background-color: rgba(33, 26, 30, 0.5);
+  }
+}/*# sourceMappingURL=testzone.css.map */

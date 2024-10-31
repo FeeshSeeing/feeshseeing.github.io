@@ -13,6 +13,11 @@ const fishTank = document.getElementById("fish-tank");
 
 const additionalLinkContainer = document.querySelector('.fish-header--additional-links');
 
+const mobileMenuClose = document.querySelector('.mobile-close');
+const mobileMenuList = document.querySelector('.mobile-list');
+const navigation = document.querySelector('.navigation');
+
+
 links.forEach((link) => {
     link.addEventListener('click', () => {
     resetFade();
@@ -23,11 +28,14 @@ links.forEach((link) => {
     fish.id = link.dataset.id;
     fish.alias = link.dataset.alias;
     fish.eorzeadb = link.dataset.eorzeadb;
+    fish.description = link.title;
 
     Object.assign(fishIdContainer, {
-      src : `/img/${fish.category}/${fish.size}-${fish.category}-${fish.name}.png`
+      src : `/img/${fish.category}/${fish.size}-${fish.category}-${fish.name}.png`,
+      alt: fish.description
     });
 
+    navigation.classList.toggle("active");
     fishContainer.className = "fish";
     fishContainer.classList.add(fish.size);
     
@@ -109,7 +117,7 @@ fishCategoryLinks.forEach((fishCategoryLink) => {
   fishCategoryLink.addEventListener('click', () =>{
     fishNavMenuReset();
     removeEachActiveCategoryLinkClasses();
-
+    
     fishCategoryLink.classList.add('active');
     fishNavMenu.classList.add(`${fishNavMenu.dataset.category}-${fishCategoryLink.dataset.category}`);
     
@@ -123,3 +131,12 @@ function removeEachActiveCategoryLinkClasses() {
 function fishNavMenuReset() {
   fishNavMenu.className = 'fish-nav-menu';
 }
+
+
+mobileMenuClose.addEventListener('click', ()=> {
+  navigation.classList.toggle("active");
+})
+
+mobileMenuList.addEventListener('click', ()=> {
+  navigation.classList.toggle("active");
+})
