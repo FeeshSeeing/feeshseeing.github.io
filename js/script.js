@@ -3,7 +3,6 @@ const fishContainer = document.querySelector('.fish');
 const fishIdContainer = document.getElementById('fish');
 const fishTitleHolder = document.getElementById('title');
 let fish = {};
-
 const fishNavMenu = document.querySelector('.fish-nav-menu');
 const freshwaterBtn = document.querySelector('.freshwater'); 
 const saltwaterBtn = document.querySelector('.saltwater'); 
@@ -28,7 +27,7 @@ links.forEach((link) => {
     Object.assign(fishIdContainer, {
       src : `/img/${fish.category}/${fish.size}-${fish.category}-${fish.name}.png`
     });
-   
+
     fishContainer.className = "fish";
     fishContainer.classList.add(fish.size);
     
@@ -42,13 +41,15 @@ links.forEach((link) => {
       Object.assign(garlandToolsLink, {
         href: `https://www.garlandtools.org/db/#item/`+ fish.id,
         classList : 'garland-tools',
-        target: '_blank'
+        target: '_blank',
+        title: 'Garland Tools'
       });
 
       Object.assign(universalisLink, {
         href: `https://universalis.app/market/`+ fish.id,
         classList : 'universalis',
-        target: '_blank'
+        target: '_blank',
+        title: 'Universalis'
       });
       additionalLinkContainer.appendChild(garlandToolsLink);
       additionalLinkContainer.appendChild(universalisLink);
@@ -59,7 +60,8 @@ links.forEach((link) => {
       Object.assign(eorzeaDBLink, {
         href: `https://na.finalfantasyxiv.com/lodestone/playguide/db/item/`+ fish.eorzeadb,
         classList : 'eorzeadb_link eorzea-db',
-        target: '_blank'
+        target: '_blank',
+        title: 'Eorzea Database'
       });
     
       additionalLinkContainer.appendChild(eorzeaDBLink);
@@ -69,7 +71,8 @@ links.forEach((link) => {
       Object.assign(gamerescapeLink, {
         href: `https://ffxiv.gamerescape.com/wiki/`+ fish.alias,
         classList : 'gamerescape',
-        target: '_blank'
+        target: '_blank',
+        title: 'Gamer Escape'
       });
       additionalLinkContainer.appendChild(gamerescapeLink);
     }

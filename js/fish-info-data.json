@@ -1,4 +1,5 @@
-const FISH_INFO = [
+
+{ "FISH_INFO" : [
     {
       "id": 4776,
       "name_en": "Malm Kelp",
@@ -55301,4 +55302,5 @@ const FISH_INFO = [
       "zone_fr": "La Mémoire vivante",
       "zone_ko": "Living Memory"
     }
-  ];
+  ]
+}
