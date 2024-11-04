@@ -41,7 +41,7 @@ const freshwaterSmallFish = [
     alias: "Bubble_Eye",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "bubbleeye",
     imageDescription:
       "A freshwater fish found only in the pools and lakes of Abalathia's floating islets.",
@@ -136,7 +136,7 @@ const freshwaterSmallFish = [
     alias: "Dravanian_Squeaker",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "dravaniansqueaker",
     imageDescription:
       "A peculiar breed of freshwater catfish that swims upside down. It was first discovered in Weston Waters.",
@@ -208,7 +208,7 @@ const freshwaterSmallFish = [
     alias: "Guppy",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "guppy",
     imageDescription:
       "This tiny fish once found throughout the Three Great Continents has been harvested to near extinction, and is now prized by pisciculturists.",
@@ -355,13 +355,25 @@ const freshwaterSmallFish = [
     imageDescription:
       "A king among spotted ctenopoma, and lord of the waters of the Haughty One.",
   },
+  {
+    id: 38939,
+    eorzeaDb: "5b69b079d95",
+    fishname: "Verdigris Guppy",
+    alias: "Verdigris_Guppy",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "verdigrisguppy",
+    imageDescription:
+      "A fish prized not only for its green mottled beauty, but for the rarity of materials its body provides.",
+  },
 ];
 
 const freshwaterMediumFish = [
   {
     id: 4999,
     eorzeaDb: "3c03d034e30",
-    fishname: "Archer Fish",
+    fishname: "Archerfish",
     alias: "Archerfish",
     fishsize: "m",
     waterType: "fw",
@@ -376,14 +388,14 @@ const freshwaterMediumFish = [
     alias: "Atamra_Cichlid",
     fishsize: "m",
     waterType: "fw",
-    image: false,
-    imageName: "Atamra Cichlid",
+    image: true,
+    imageName: "atamracichlid",
     mageDescription: "The red of this tropical wavekin is reminiscent of a certain fruit."
   },
   {
     id: 27536,
     eorzeaDb: "75d74b61567",
-    fishname: "Big eye",
+    fishname: "Big-eye",
     alias: "Big-eye",
     fishsize: "m",
     waterType: "fw",
@@ -420,7 +432,7 @@ const freshwaterMediumFish = [
     alias: "Blue_Widow",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "bluewidow",
     imageDescription: "A king among bluebell salmon, and lord of the waters of Murmur Rills."
   },
@@ -442,7 +454,7 @@ const freshwaterMediumFish = [
     alias: "Bonytongue",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "bonytongue",
     imageDescription: "A single flat tooth on the bottom of this freshwater species' mouth gives the bonytongue its name."
   },
@@ -453,7 +465,7 @@ const freshwaterMediumFish = [
     alias: "Cherubfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "cherubfish",
     imageDescription: "A rare freshwater fish native to Yanxia and the Azim Steppe."
   },
@@ -718,7 +730,7 @@ const freshwaterMediumFish = [
     alias: "Mirrorfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "mirrorfish",
     imageDescription: "A freshwater wavekin native to Il Mheg known for its reflective scales."
   },
