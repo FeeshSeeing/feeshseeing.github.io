@@ -53,7 +53,7 @@ const freshwaterSmallFish = [
     alias: "Catastrophizer",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "catastrophizer",
     imageDescription:
       "A king among ponderers, and lord of the waters of the reflecting pool.",
@@ -267,7 +267,7 @@ const freshwaterSmallFish = [
     alias: "Loose_Pendant",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "loosependant",
     imageDescription:
       "A king among Crystarium tetra, and lord of the waters that flow through the Crystarium Personal Suites.",
@@ -377,7 +377,7 @@ const freshwaterMediumFish = [
     alias: "Archerfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "archerfish",
     imageDescription: "When feeding, the archerfish will lift its head ever so slightly above a lake's or river's surface and spit a stream of water up to a yalm to strike flies from low-lying branches into the water with remarkable accuracy."
   },
@@ -421,7 +421,7 @@ const freshwaterMediumFish = [
     alias: "Blue_Prismfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "blueprismfish",
     imageDescription: "The pale blue glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours."
   },
@@ -498,7 +498,7 @@ const freshwaterMediumFish = [
     alias: "Cupfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "cupfish",
     imageDescription: "A rare freshwater fish which spends the entirety of its life hiding in locations which rarely see the light of the sun."
   },
@@ -1072,7 +1072,7 @@ const freshwaterMediumFish = [
     alias: "Yellow_Prismfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "yellowprismfish",
     imageDescription: "The pale yellow glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours."
   },
