@@ -160,7 +160,7 @@ const freshwaterSmallFish = [
     alias: "Furcacauda",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "furcacauda",
     imageDescription:
       "Named for its forked tail, this elusive inhabitant of Lethe sports a remarkable bone structure rarely found among wavekin.",
@@ -220,7 +220,7 @@ const freshwaterSmallFish = [
     alias: "Half-moon_Betta",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "halfmoonbetta",
     imageDescription:
       "This tropical fish is known for its fluttering tail fin.",
@@ -232,7 +232,7 @@ const freshwaterSmallFish = [
     alias: "Handy_Hamsa",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "handyhamsa",
     imageDescription:
       "This small freshwater fish is named after the Thavnairian fowl it so adorably resembles─according to the Hannish, anyway.",
@@ -244,8 +244,8 @@ const freshwaterSmallFish = [
     alias: "Indigo_Prismfish",
     fishsize: "s",
     waterType: "fw",
-    image: false,
-    imageName: "Indigo Prismfish",
+    image: true,
+    imageName: "indigoprismfish",
     imageDescription:
       "An elementally aspected, elegantly colored, and vanishingly rare cousin to the common carp.",
   },
@@ -315,7 +315,7 @@ const freshwaterSmallFish = [
     alias: "Rummy-nosed_Tetra",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "rummynosedtetra",
     imageDescription:
       "A crimson-faced wavekin which has found a home in the Font of Maya.",
@@ -327,7 +327,7 @@ const freshwaterSmallFish = [
     alias: "Seraphim",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "seraphim",
     imageDescription:
       "The beauty of this small freshwater fish native to Yanxia is oft compared to the angels of ancient eastern scripture.",
@@ -339,7 +339,7 @@ const freshwaterSmallFish = [
     alias: "Spotted_Blue-eye",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "spottedblueeye",
     imageDescription: "A large-finned killifish found in Il Mheg.",
   },
