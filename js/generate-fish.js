@@ -598,7 +598,7 @@ const freshwaterMediumFish = [
     alias: "Geayi",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "geayi",
     imageDescription: "This wavekin is instantly recognizable by the two bold black stripes that stand out starkly against its otherwise pale scales."
   },
@@ -642,7 +642,7 @@ const freshwaterMediumFish = [
     alias: "Idle_Goby",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "idlegoby",
     imageDescription: "This large goby uses its natural black and brown mottling to conceal itself in the sandy bed of the Slow Wash."
   },
@@ -653,7 +653,7 @@ const freshwaterMediumFish = [
     alias: "Imperial_Pleco",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "imperialpleco",
     imageDescription: "A striped fish which can be seen flitting about the waters of the capital, much to its people's chagrin."
   },
@@ -664,7 +664,7 @@ const freshwaterMediumFish = [
     alias: "Jester_Fish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "jesterfish",
     imageDescription: "A freshwater wavekin with colorful fins and bulging eyes."
   },
@@ -686,7 +686,7 @@ const freshwaterMediumFish = [
     alias: "Katoptron",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "katoptron",
     imageDescription: "A mystifying fish whose scales seem to reflect the movement of the stars."
   },
@@ -719,7 +719,7 @@ const freshwaterMediumFish = [
     alias: "Marble_Oscar",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "marbleoscar",
     imageDescription: "A freshwater fish which prefers the heated pools of the Smoldering Wastes to the cooler waters of surrounding rivers."
   },
@@ -741,7 +741,7 @@ const freshwaterMediumFish = [
     alias: "Mirrorscale",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "mirrorscale",
     imageDescription: "A king among silverfish."
   },
@@ -752,8 +752,8 @@ const freshwaterMediumFish = [
     alias: "Nagxian_Mullet",
     fishsize: "m",
     waterType: "fw",
-    image: false,
-    imageName: "nagxian Mullet",
+    image: true,
+    imageName: "nagxianmullet",
     imageDescription: "A thin, eel-like fish native to Nagxia, but found throughout the One River."
   },
   {
@@ -763,7 +763,7 @@ const freshwaterMediumFish = [
     alias: "Noblefish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "noblefish",
     imageDescription: "An elegantly shaped freshwater wavekin."
   },
@@ -807,7 +807,7 @@ const freshwaterMediumFish = [
     alias: "Peacock_Bass",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "peacockbass",
     imageDescription: "A decent-sized fish known for its speckled scales."
   },
@@ -818,7 +818,7 @@ const freshwaterMediumFish = [
     alias: "Pipira_Pira",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "pipirapira",
     imageDescription: "A deadly freshwater fish which will tear away flesh with its razor-sharp teeth. Crossing the Whilom River barefoot is not recommended."
   },
@@ -829,7 +829,7 @@ const freshwaterMediumFish = [
     alias: "Platinum_Bream",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "platinumbream",
     imageDescription: "A shimmering, silvery fish."
   },
@@ -851,7 +851,7 @@ const freshwaterMediumFish = [
     alias: "Radzbalik",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "radzbalik",
     imageDescription: "A freshwater fish beloved for its resplendent coloration."
   },
@@ -873,7 +873,7 @@ const freshwaterMediumFish = [
     alias: "Raincaller",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "raincaller",
     imageDescription: "A deep-blue freshwater fish native to the lakes and swamps of the Black Shroud. They can be seen sticking their heads out of the water whenever it rains, leading people to believe it is the fish summoning the storm. However, naturalists have surmised that the fish are simply rising to the surface in search of food, mistaking the drops of water for insects."
   },
@@ -885,7 +885,7 @@ const freshwaterMediumFish = [
     alias: "Red_Prismfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "redprismfish",
     imageDescription: "The pale red glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours."
   },
@@ -918,7 +918,7 @@ const freshwaterMediumFish = [
     alias: "Sailfin",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "sailfin",
     imageDescription: "A unique freshwater fish featuring astonishingly overgrown dorsal and anal fins."
   },
@@ -962,7 +962,7 @@ const freshwaterMediumFish = [
     alias: "The_Archbishop",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "thearchbishop",
     imageDescription: "A king among cardinalfish, and lord of the waters of the Comet's Tail."
   },
@@ -973,7 +973,7 @@ const freshwaterMediumFish = [
     alias: "Tricolored_Carp",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "tricoloredcarp",
     imageDescription: "Patches of gold, silver, and bronze cover this medium-sized freshwater fish's body, making it a favorite choice for the private garden pools of Ul'dahn nobles."
   },
@@ -984,7 +984,7 @@ const freshwaterMediumFish = [
     alias: "Violet_Prismfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "violetprismfish",
     imageDescription: "The pale violet glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours."
   },
@@ -1006,7 +1006,7 @@ const freshwaterMediumFish = [
     alias: "White_Ronso",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "whiteronso",
     imageDescription: "A king among zebra catfish, and lord of the waters of lower Watts River."
   },
@@ -1028,7 +1028,7 @@ const freshwaterMediumFish = [
     alias: "Xanthic_Bass",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "xanthicbass",
     imageDescription: "This unusually vivid freshwater bass has scales of yellow and burnt orange."
   },
