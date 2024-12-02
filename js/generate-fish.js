@@ -785,7 +785,7 @@ const freshwaterMediumFish = [
     alias: "Orn_Butterfly",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "ornbutterfly",
     imageDescription: "A freshwater fish native to the Orn Wild, yet also found in the Quickspill Delta of the Thaliak River."
   },
@@ -840,7 +840,7 @@ const freshwaterMediumFish = [
     alias: "Queensgown",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "queensgown",
     imageDescription: "A freshwater fish named for its fabulously frilly fins."
   },
@@ -862,7 +862,7 @@ const freshwaterMediumFish = [
     alias: "Raiamas",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "raiamas",
     imageDescription: "A freshwater fish known for its shimmering emerald scales."
   },
@@ -951,7 +951,7 @@ const freshwaterMediumFish = [
     alias: "Tessera",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "tessera",
     imageDescription: "This cichlid doubles as a mosaic tile to the imaginative minds of Labyrinthos. (No fish were harmed in the making of this secret underground facility.)"
   },
@@ -995,7 +995,7 @@ const freshwaterMediumFish = [
     alias: "Wandering_Sculpin",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "wanderingsculpin",
     imageDescription: "Legend states that this particular variety of sculpin is a favorite of Oschon, the Wanderer, and that the god will oft dine on this fish while on His journeys through the realm of man."
   },
@@ -1050,7 +1050,7 @@ const freshwaterMediumFish = [
     alias: "Yanxian_Barramundi",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "yanxianbarramundi",
     imageDescription: "This large carnivorous specimen is native to the southeastern reaches of the One River where the waters run slow and deep."
   },
