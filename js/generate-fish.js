@@ -399,7 +399,7 @@ const freshwaterMediumFish = [
     alias: "Big-eye",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "bigeye",
     imageDescription: "A colorful freshwater fish native to Il Mheg."
   },
@@ -410,7 +410,7 @@ const freshwaterMediumFish = [
     alias: "Blue_Mountain_Bubble",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "bluemountainbubble",
     imageDescription: "The fins of this rotund fish, native to Longmirror Lake, are suggestive of butterfly wings."
   },
@@ -476,7 +476,7 @@ const freshwaterMediumFish = [
     alias: "Clown_Loach",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "clownloach",
     imageDescription: "Bright patterns, similar to a clown's motley, cover this small freshwater fish from head to tail."
   },
@@ -487,7 +487,7 @@ const freshwaterMediumFish = [
     alias: "Clown_Tetra",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "clowntetra",
     imageDescription: "A freshwater fish patterned with broad black stripes."
   },
@@ -509,7 +509,7 @@ const freshwaterMediumFish = [
     alias: "Dark_Bass",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "darkbass",
     imageDescription: "This freshwater fish, known for its voracious appetite, is originally native to the southern continent of Meracydia."
   },
@@ -520,7 +520,7 @@ const freshwaterMediumFish = [
     alias: "Discus",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "discus",
     imageDescription: "A colorful freshwater fish that can only survive in rivers located in more temperate climes."
   },
@@ -531,7 +531,7 @@ const freshwaterMediumFish = [
     alias: "Dragonhead",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "dragonhead",
     imageDescription: "A freshwater fish native to the Iron Feast. The skull on its head does not appear to be that of a dragon, but rather of a dragonfly."
   },
@@ -564,7 +564,7 @@ const freshwaterMediumFish = [
     alias: "Everdark_Bass",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "everdarkbass",
     imageDescription: "This species was allegedly bred by the Voeburtites in their homeland before making its way to the Rak'tika Greatwood."
   },
@@ -575,7 +575,7 @@ const freshwaterMediumFish = [
     alias: "Flowerhorn",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "flowerhorn",
     imageDescription: "A colorful freshwater fish with an enormous hump on its head."
   },
@@ -587,7 +587,7 @@ const freshwaterMediumFish = [
     alias: "Forgeflame",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "forgeflame",
     imageDescription: "With its brightly colored fins, this fish evokes the image of metal on its way to becoming something greater."
   },
@@ -609,7 +609,7 @@ const freshwaterMediumFish = [
     alias: "Goldfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "goldfish",
     imageDescription: "The brilliant luster of this freshwater fish native to the Far East has made it a popular addition to the aquariums and garden ponds of Ul'dahn patricians."
   },
@@ -620,7 +620,7 @@ const freshwaterMediumFish = [
     alias: "Greengill_Salmon",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "greengillsalmon",
     imageDescription: "This freshwater wavekin is bred for research purposes at the Mover Alpha."
   },
@@ -631,7 +631,7 @@ const freshwaterMediumFish = [
     alias: "High_Perch",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "highperch",
     imageDescription: "A king among La Noscean perch, and lord of the waters of the Nym River."
   },
@@ -796,7 +796,7 @@ const freshwaterMediumFish = [
     alias: "Paglth%27an_Discus",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "paglthandiscus",
     imageDescription: "A brightly colored freshwater fish native to the warm waters in and around the Amalj'aa territory of Paglth'an."
   },

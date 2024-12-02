@@ -31,7 +31,7 @@ links.forEach((link) => {
     fish.description = link.title;
 
     Object.assign(fishIdContainer, {
-      src : `/img/${fish.category}/${fish.size}-${fish.category}-${fish.name}.png`,
+      src : `/img/${fish.category}/${fish.size}/${fish.name}.png`,
       alt: fish.description
     });
 
