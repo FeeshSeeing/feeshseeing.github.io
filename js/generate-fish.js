@@ -303,7 +303,7 @@ const freshwaterSmallFish = [
     alias: "Rockfish",
     fishsize: "s",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "rockfish",
     imageDescription:
       "Despite the insistence of fishers raised on colorful local folklore, the massive knob atop this freshwater fish's head does not contain hidden treasure.",
@@ -443,7 +443,7 @@ const freshwaterMediumFish = [
     alias: "Bluegill",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "bluegill",
     imageDescription: "This voracious freshwater fish, once indigenous to the island, has long since found its way into Thavnair's water sources."
   },
@@ -697,7 +697,7 @@ const freshwaterMediumFish = [
     alias: "Kissing_Fish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "kissingfish",
     imageDescription: "An adorable freshwater fish native to the waters of Eil Tohm."
   },
@@ -1085,7 +1085,7 @@ const freshwaterLargeFish = [
     alias: "Albino_Garfish",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "albinogarfish",
     imageDescription: "Its ghostly color and threatening size makes encountering this sort of garfish a uniquely alarming experience for folk fishing in the Source."
   },
@@ -1107,7 +1107,7 @@ const freshwaterLargeFish = [
     alias: "Blood_Red_Bonytongue",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "bloodredbonytongue",
     imageDescription: "A king among bonytongue."
   },
@@ -1140,7 +1140,7 @@ const freshwaterLargeFish = [
     alias: "Emperor_Fish",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "emperorfish",
     imageDescription: "This giant freshwater fish lives out its adulthood feeding in the Indigo Deep before returning all the way back up to the head of the White Maiden to spawn."
   },
@@ -1151,7 +1151,7 @@ const freshwaterLargeFish = [
     alias: "Fifty-summer_Cod",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "fiftysummercod",
     imageDescription: "This long-living freshwater cod is commonly found in the One River."
   },
@@ -1162,7 +1162,7 @@ const freshwaterLargeFish = [
     alias: "Ghoulfish",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "ghoulfish",
     imageDescription: "The flesh of this Il Mheg native's head is transparent, rendering its bright-purple innards visible to all who gaze upon it─whether they like it or not."
   },
@@ -1206,7 +1206,7 @@ const freshwaterLargeFish = [
     alias: "Greatsword_Snook",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "greatswordsnook",
     imageDescription: "A king among swordspine snook, and lord of the waters of Oinops."
   },
@@ -1217,7 +1217,7 @@ const freshwaterLargeFish = [
     alias: "Hannibal",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "hannibal",
     imageDescription: "A king among alligator garfish."
   },
@@ -1239,7 +1239,7 @@ const freshwaterLargeFish = [
     alias: "Little_Bismarck",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "littlebismarck",
     imageDescription: "Fishers who wish to keep all of their remaining limbs intact would do well to remember that the name of this wavekin is not indicative of diminutive size─almost all creatures are “little” compared to Bismarck."
   },
@@ -1250,7 +1250,7 @@ const freshwaterLargeFish = [
     alias: "Measan_Deala",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "measandeala",
     imageDescription: "A lemon yellow freshwater fish native to Il Mheg."
   },
@@ -1261,7 +1261,7 @@ const freshwaterLargeFish = [
     alias: "Mirage_Mahi",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "miragemahi",
     imageDescription: "A sizable catch found primarily in the freshwater highland rivers of Gyr Abania."
   },
@@ -1272,7 +1272,7 @@ const freshwaterLargeFish = [
     alias: "Misteye",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "misteye",
     imageDescription: "Whether this ancient wavekin was always blind or if its eyes have simply been clouded by time is a riddle that no still-living person can answer."
   },
@@ -1294,7 +1294,7 @@ const freshwaterLargeFish = [
     alias: "Vanuhead",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "vanuhead",
     imageDescription: "A freshwater fish inhabiting the Eddies─an isolated lake found atop one of Abalathia's floating islets."
   },
@@ -1305,7 +1305,7 @@ const freshwaterLargeFish = [
     alias: "Whilom_Catfish",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "whilomcatfish",
     imageDescription: "A small, red catfish native to the Whilom River."
   },
