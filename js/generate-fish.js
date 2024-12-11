@@ -553,7 +553,7 @@ const freshwaterMediumFish = [
     alias: "Elder_Gourami",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "eldergourami",
     imageDescription: "Despite the beard-like ventral fins which give this freshwater wavekin an aged look, gourami only have an average lifespan of three to five summers."
   },
@@ -675,7 +675,7 @@ const freshwaterMediumFish = [
     alias: "Judgment_Staff",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "judgmentstaff",
     imageDescription: "Named after the primal Ramuh's signature weapon, this strange freshwater fish will only feed when the weather is rainy."
   },
@@ -708,7 +708,7 @@ const freshwaterMediumFish = [
     alias: "Longear_Sunfish",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "longearsunfish",
     imageDescription: "A freshwater fish named for the earlike protrusions on the sides of its face."
   },
@@ -774,7 +774,7 @@ const freshwaterMediumFish = [
     alias: "Noontide_Oscar",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "noontideoscar",
     imageDescription: "An albino marble oscar only found with consistency in the corrupted waters of Eil Tohm."
   },
@@ -929,7 +929,7 @@ const freshwaterMediumFish = [
     alias: "Silken_Koi",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "silkenkoi",
     imageDescription: "A plump freshwater wavekin with pearlescent scales and a name that sounds better than the fish tastes."
   },
@@ -940,7 +940,7 @@ const freshwaterMediumFish = [
     alias: "Sinspitter",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "sinspitter",
     imageDescription: "This Crystarium freshwater fish is in fact much prettier than its crude name implies."
   },
@@ -1017,7 +1017,7 @@ const freshwaterMediumFish = [
     alias: "Wimple_Carp",
     fishsize: "m",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "wimplecarp",
     imageDescription: "A striped freshwater fish found in Handmirror Lake."
   },
@@ -1096,7 +1096,7 @@ const freshwaterLargeFish = [
     alias: "Anpa%27s_Handmaid",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "anpashandmaid",
     imageDescription: "A large, silvery wavekin that features in Ronkan myth."
   },
@@ -1173,7 +1173,7 @@ const freshwaterLargeFish = [
     alias: "Giant_Taimen",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "gianttaimen",
     imageDescription: "A king among hucho taimen, and lord of the waters of upper Watts River."
   },
@@ -1184,7 +1184,7 @@ const freshwaterLargeFish = [
     alias: "Goblin_Perch",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "goblinperch",
     imageDescription: "The goblins claim that they brought this variety of perch back from their years-long pilgrimage into Othard and Ilsabard...because it tasted so divine."
   },
@@ -1283,7 +1283,7 @@ const freshwaterLargeFish = [
     alias: "Spectral_Kotsu_Zetsu",
     fishsize: "l",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "spectralkotsuzetsu",
     imageDescription: "The bone-like tongues of these spectral wavekin are surprisingly sturdy despite their crystalline appearance, and are often used by highly skilled artisans to craft priceless accessories."
   },
@@ -1396,7 +1396,7 @@ const freshwaterXLargeFish = [
     alias: "Warden_of_the_Seven_Hues",
     fishsize: "xl",
     waterType: "fw",
-    image: false,
+    image: true,
     imageName: "wardenofthesevenhues",
     imageDescription: "Though beautiful, this polychromatic carp ruled Prism Lake with an iron fin...until now."
   },
