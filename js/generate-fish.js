@@ -1421,7 +1421,7 @@ const saltWaterSmallFish = [
     alias:"Bubble_Angler",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "bubbleangler",
     imageDescription: "The see-through flesh of this bizarre anglerfish makes it all the more disturbing to look at."
   },
@@ -1432,7 +1432,7 @@ const saltWaterSmallFish = [
     alias: "Coral_Butterfly",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "coralbutterfly",
     imageDescription: "A colorful saltwater fish commonly found in the warm seas around the island of Bianaq. Not known for its flavor, the wavekin is most often kept as a pet."
   },
@@ -1443,7 +1443,7 @@ const saltWaterSmallFish = [
     alias: "Dog-faced_Puffer",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "dogfacedpuffer",
     imageDescription: "A saltwater fish recognized by its dark facial markings."
   },
@@ -1465,7 +1465,7 @@ const saltWaterSmallFish = [
     alias: "Fiery_Goby",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "fierygoby",
     imageDescription: "This saltwater fish sputters along like a flickering flame."
   },
@@ -1476,7 +1476,7 @@ const saltWaterSmallFish = [
     alias: "Harbor_Herring",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "harborherring",
     imageDescription: "This particular variety of herring will gather in busy harbors to feed on the small sea creatures which consume the waste dumped from ships."
   },
@@ -1498,7 +1498,7 @@ const saltWaterSmallFish = [
     alias: "Hatchetfish",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "hatchetfish",
     imageDescription: "The Ruby Sea hatchetfish earns its name from its overgrown head which, if you squint hard enough, might appear similar to the head of a timberlord's hatchet."
   },
@@ -1520,7 +1520,7 @@ const saltWaterSmallFish = [
     alias: "Mini_Yasha",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "miniyasha",
     imageDescription: "A saltwater wavekin with distinctive red and amber coloration."
   },
@@ -1531,7 +1531,7 @@ const saltWaterSmallFish = [
     alias: "Onihige",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "onihige",
     imageDescription: "Do not let its size fool you─this fish is a terror of the seas. Mainly because of its appearance."
   },
@@ -1542,7 +1542,7 @@ const saltWaterSmallFish = [
     alias: "Spectral_Butterfly",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "spectralbutterfly",
     imageDescription: "Some believe their appearance to be an omen of considerable riches on the horizon. Considering that these wavekin fetch a pretty gil at market, perhaps there is some truth to it."
   },
@@ -1553,7 +1553,7 @@ const saltWaterSmallFish = [
     alias: "Spectral_Wrasse",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "spectralwrasse",
     imageDescription: "Though this wavekin may be small, it attempts to remedy such shortcomings by sporting splendidly spectral scales. In doing so, however, it has become more vulnerable to predators and skilled anglers."
   },
@@ -1564,7 +1564,7 @@ const saltWaterSmallFish = [
     alias: "Tebqeyiq_Smelt",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "tebqeyiqsmelt",
     imageDescription: "For every vivid specimen of this species found, there is another far less interesting to look upon─but such is the nature of tropical fish."
   },
@@ -1575,7 +1575,7 @@ const saltWaterSmallFish = [
     alias: "Tiger_Cod",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "tigercod",
     imageDescription: "A striped saltwater fish indigenous to the cold northern waters of the Bloodbrine Sea."
   },
@@ -1688,7 +1688,7 @@ const saltWaterMediumFish = [
     alias: "Fate%27s_Design",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "fatesdesign",
     imageDescription: "A tropical fish known for its dazzling coloration and unique scale patterns."
   },
@@ -1897,7 +1897,7 @@ const saltWaterMediumFish = [
     alias: "Spectral_Discus",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "spectraldiscus",
     imageDescription: "This aetherially infused wavekin gathers rather a lot of unwanted attention, and it has no natural defenses to fend off curious predators."
   },
