@@ -32,7 +32,8 @@ links.forEach((link) => {
 
     Object.assign(fishIdContainer, {
       src : `/img/${fish.category}/${fish.size}/${fish.name}.png`,
-      alt: fish.description
+      alt: fish.description,
+      classList: fish.name 
     });
 
     navigation.classList.toggle("active");

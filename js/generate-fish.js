@@ -1454,7 +1454,7 @@ const saltWaterSmallFish = [
     alias: "Eulmore_Butterfly",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "eulmorebutterfly",
     imageDescription: "A brightly colored and riotously patterned fish that looks right at home in the gaudy environs of Eulmore."
   },
@@ -1487,7 +1487,7 @@ const saltWaterSmallFish = [
     alias: "Harutsuge",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "harutsuge",
     imageDescription: "This saltwater fish has a distinct crimson coloring that makes it popular amongst aquarium owners."
   },
@@ -1509,7 +1509,7 @@ const saltWaterSmallFish = [
     alias: "Meyhane_Reveler",
     fishsize: "s",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "meyhanereveler",
     imageDescription: "The beauty of this saltwater fish is of great interest to the people of Thavnair─and even greater interest to travelers passing through."
   },
@@ -1600,7 +1600,7 @@ const saltWaterMediumFish = [
     alias: "Angelfish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "angelfish",
     imageDescription: "A small colorful fish native to the warmer waters of the seas near Meracydia. Since the Calamity, more and more have been caught off Eorzea's southern coastline."
   },
@@ -1611,7 +1611,7 @@ const saltWaterMediumFish = [
     alias: "Black_Boxfish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "blackboxfish",
     imageDescription: "This saltwater cousin to the puffers changes color several times during its development, and it is only in the final years of adulthood that it bears the hue from which it earns its moniker."
   },
@@ -1622,7 +1622,7 @@ const saltWaterMediumFish = [
     alias: "Blowfish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "blowfish",
     imageDescription: "A saltwater fish that, when provoked, blows up to three times its normal size to intimidate the would-be attacker. It is also known to have an organ which contains a potent silencing poison."
   },
@@ -1633,7 +1633,7 @@ const saltWaterMediumFish = [
     alias: "Bonefish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "bonefish",
     imageDescription: "These unappetizing specimens proliferate in the Derelicts, where residents have little choice but to scrape what flesh they can from them."
   },
@@ -1655,7 +1655,7 @@ const saltWaterMediumFish = [
     alias: "Crown_Fish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "crownfish",
     imageDescription: "If one were judging by appearances alone, the marking around this fish's face would make it ruler of the seas. Alas, in the real world, the best it can hope for is to not be confused with the common clown fish."
   },
@@ -1666,7 +1666,7 @@ const saltWaterMediumFish = [
     alias: "Deepbody_Boarfish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "deepbodyboarfish",
     imageDescription: "These saltwater wavekin are known far and wide for their unique shape and bright color."
   },
@@ -1699,7 +1699,7 @@ const saltWaterMediumFish = [
     alias: "Fullmoon_Sardine",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "fullmoonsardine",
     imageDescription: "A tiny saltwater fish native to the waters of Vylbrand. Unlike other wavekin, they feed only at night, their activity increasing as Menphina waxes."
   },
@@ -1721,7 +1721,7 @@ const saltWaterMediumFish = [
     alias: "Glass_Tuna",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "glasstuna",
     imageDescription: "One of the most popular ingredients in Hingan sushi, the giant Glass tuna are thought to follow the strong ocean currents for thousands of malms in their lifetime."
   },
@@ -1754,7 +1754,7 @@ const saltWaterMediumFish = [
     alias: "Indigo_Herring",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "indigoherring",
     imageDescription: "This blue-backed, white-bellied saltwater fish native to the Indigo Deep is known to migrate in large schools from north to south in the winter, and back again in the summer."
   },
@@ -1776,7 +1776,7 @@ const saltWaterMediumFish = [
     alias: "Keeled_Fugu",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "keeledfugu",
     imageDescription: "Living within the abyssal zone, this fish is much smaller than it leads its predators to believe."
   },
@@ -1787,7 +1787,7 @@ const saltWaterMediumFish = [
     alias: "Kholusian_Wrasse",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "kholusianwrasse",
     imageDescription: "A knobbly-headed fish native to the oceans surrounding Kholusia."
   },
@@ -1831,7 +1831,7 @@ const saltWaterMediumFish = [
     alias: "Othardian_Lumpsucker",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "othardianlumpsucker",
     imageDescription: "A deep-sea wavekin with fins that will cling desperately to just about anything to avoid swimming."
   },
@@ -1853,7 +1853,7 @@ const saltWaterMediumFish = [
     alias: "Rasa_Fish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "rasafish",
     imageDescription: "This wavekin's scales are so beautiful that they appear wrought from copper, and as such it fetches a rather impressive price at market."
   },
@@ -1908,7 +1908,7 @@ const saltWaterMediumFish = [
     alias: "Swordfish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "swordfish",
     imageDescription: "Fishers seeking to land ocean-dwelling swordfish must take care not to accidentally impale themselves on the wavekin's serrated bladelike maw."
   },
@@ -2010,7 +2010,7 @@ const saltWaterLargeFish = [
     alias: "Hanatatsu",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "hanatatsu",
     imageDescription: "Similar to the sea horse, the hanatatsu swims “standing,” though instead of resembling a beast of burden, this saltwater fish has taken on the appearance of a sprig of coral."
   },

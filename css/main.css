@@ -504,6 +504,10 @@ h1 {
   width: 450px;
 }
 
+.hanatatsu {
+  width: 220px !important;
+}
+
 .bubble {
   position: absolute;
   z-index: -1;
