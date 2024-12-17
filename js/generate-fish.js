@@ -1644,7 +1644,7 @@ const saltWaterMediumFish = [
     alias: "Cobalt_Chromis",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "cobaltchromis",
     imageDescription: "This saltwater fish is prized for its brilliant blue hue."
   },
@@ -1710,7 +1710,7 @@ const saltWaterMediumFish = [
     alias: "Gilled_Topknot",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "gilledtopknot",
     imageDescription: "A tropical fish with sizable fins that protrude perhaps a little too far from its body."
   },
@@ -1732,7 +1732,7 @@ const saltWaterMediumFish = [
     alias: "Goldenfin",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "goldenfin",
     imageDescription: "A king among coral butterflies, and lord of the waters of the Limsa Lominsa upper decks."
   },
@@ -1743,7 +1743,7 @@ const saltWaterMediumFish = [
     alias: "Heavensent_Shark",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "heavensentshark",
     imageDescription: "This shark is believed to be the reincarnation of a tiger descended from Heaven-on-High."
   },
@@ -1765,7 +1765,7 @@ const saltWaterMediumFish = [
     alias: "Jasperhead",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "jasperhead",
     imageDescription: "Sought for the gemlike objects that form in their stomachs, not in their heads, as the name might suggest."
   },
@@ -1798,7 +1798,7 @@ const saltWaterMediumFish = [
     alias: "Lansquenet",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "lansquenet",
     imageDescription: "Something of a mercenary among fish, it offers protection to smaller fish, though it seems to receive little in return. Perhaps it eats a few of them when the others are not looking?"
   },
@@ -1809,7 +1809,7 @@ const saltWaterMediumFish = [
     alias: "Mythril_Sovereign",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "mythrilsovereign",
     imageDescription: "Known for its beautifully shimmering scales, which are in contrast to its rather lackluster meat."
   },
@@ -1864,7 +1864,7 @@ const saltWaterMediumFish = [
     alias: "Redcoat",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "redcoat",
     imageDescription: "A large, reddish orange fish with distinctively enormous eyes to help it see in the murky depths of the Ruby Sea."
   },
@@ -1875,7 +1875,7 @@ const saltWaterMediumFish = [
     alias: "Shadowdart_Sardine",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "shadowdartsardine",
     imageDescription: "This black-bodied fish makes its home in the seas surrounding Thavnair."
   },
@@ -1886,7 +1886,7 @@ const saltWaterMediumFish = [
     alias: "Sirensong_Mullet",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "sirensongmullet",
     imageDescription: "Business in the front. Sirensong in the back."
   },
@@ -1919,7 +1919,7 @@ const saltWaterMediumFish = [
     alias: "Tripod_Fish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "tripodfish",
     imageDescription: "Many a seafarer has lain awake contemplating the cursed knowledge that, as its name implies, this fish can indeed stand on its fins."
   },
@@ -1930,7 +1930,7 @@ const saltWaterMediumFish = [
     alias: "Vidyutvat_Wrasse",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "vidyutvatwrasse",
     imageDescription: "A king among garjana wrasse, and lord of the waters of the Great Runoff."
   },
@@ -1941,7 +1941,7 @@ const saltWaterMediumFish = [
     alias: "Zekki_Grouper",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "zekkigrouper",
     imageDescription: "Groupers gather in swift currents of the Ruby Sea and the Rasen Kaikyo to feed on the abundant life drawn to the area."
   },
