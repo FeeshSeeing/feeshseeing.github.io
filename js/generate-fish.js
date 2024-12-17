@@ -356,6 +356,39 @@ const freshwaterSmallFish = [
       "A king among spotted ctenopoma, and lord of the waters of the Haughty One.",
   },
   {
+    id: "24995",
+    eorzeaDb: "9ca5d5e1921",
+    fishname: "The Unconditional",
+    alias: "The_Unconditional",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "theunconditional",
+    imageDescription: "Not so much a lord as a god of Dotharl Khaa, this particular specimen is thought to be a blessing sent by the Dusk Mother and Dawn Father themselves. As such, this catch might be best left unboasted of.",
+  },
+  {
+    id: "27481",
+    eorzeaDb: "bb22fe472ce",
+    fishname: "Toadhead",
+    alias: "Toadhead",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "toadhead",
+    imageDescription: "A dazed-looking fish found in Il Mheg.",
+  },
+  {
+    id: "43738",
+    eorzeaDb: "9e10a14480c",
+    fishname: "Variatus",
+    alias: "Variatus",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "variatus",
+    imageDescription: "A colorful freshwater fish prized for its striking red and yellow scales.",
+  },
+  {
     id: 38939,
     eorzeaDb: "5b69b079d95",
     fishname: "Verdigris Guppy",
@@ -680,6 +713,17 @@ const freshwaterMediumFish = [
     imageDescription: "Named after the primal Ramuh's signature weapon, this strange freshwater fish will only feed when the weather is rainy."
   },
   {
+    id: "43707",
+    eorzeaDb: "d928050d15b",
+    fishname: "Ka Puyhu",
+    alias: "Ka_Puyhu",
+    fishsize: "m",
+    waterType: "fw",
+    image: true,
+    imageName: "kapuyhu",
+    imageDescription: "A multitude of colors adorn the scales of this aesthetically pleasing wavekin."
+  },
+  {
     id: 36499,
     eorzeaDb: "abb0f513f22",
     fishname: "Katoptron",
@@ -967,6 +1011,17 @@ const freshwaterMediumFish = [
     imageDescription: "A king among cardinalfish, and lord of the waters of the Comet's Tail."
   },
   {
+    id: "43754",
+    eorzeaDb: "373d34a0b45",
+    fishname: "Trailtrout",
+    alias: "Trailtrout",
+    fishsize: "m",
+    waterType: "fw",
+    image: true,
+    imageName: "trailtrout",
+    imageDescription: "Coveted for its fatty flesh, this type of trout dwells in the depths of Lake Toari."
+  },
+  {
     id: 4951,
     eorzeaDb: "0477d9c70cd",
     fishname: "Tricolored Carp",
@@ -1165,6 +1220,17 @@ const freshwaterLargeFish = [
     image: true,
     imageName: "ghoulfish",
     imageDescription: "The flesh of this Il Mheg native's head is transparent, rendering its bright-purple innards visible to all who gaze upon it─whether they like it or not."
+  },
+  {
+    id: "43785",
+    eorzeaDb: "63714291b2a",
+    fishname: "Giant Snakehead",
+    alias: "Giant_Snakehead",
+    fishsize: "l",
+    waterType: "fw",
+    image: true,
+    imageName: "giantsnakehead",
+    imageDescription: "Easily mistaken for a mighty scalekin, this vibrant fish can be found in Mu Springs Eternal."
   },
   {
     id: 30434,
@@ -1536,6 +1602,17 @@ const saltWaterSmallFish = [
     imageDescription: "Do not let its size fool you─this fish is a terror of the seas. Mainly because of its appearance."
   },
   {
+    id: "43669",
+    eorzeaDb: "646b77a7b4f",
+    fishname: "Shallows Sot",
+    alias: "Shallows_Sot",
+    fishsize: "s",
+    waterType: "sw",
+    image: true,
+    imageName: "shallowssot",
+    imageDescription: "This saltwater fish can be found lurking in the shallows beneath the For'ard Cabins, where it tries to avoid the attention of predators and inquisitive anglers besides."
+  },
+  {
     id: 32063,
     eorzeaDb: "a6199a61961",
     fishname: "Spectral Butterfly",
@@ -1589,7 +1666,7 @@ const saltWaterMediumFish = [
     alias: "Aetherolectric_Guitarfish",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "aetherolectricguitarfish",
     imageDescription: "A king among guitarfish, and lord of the waters of Scholar's Harbor."
   },
@@ -1677,7 +1754,7 @@ const saltWaterMediumFish = [
     alias: "False_Scad",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "falsescad",
     imageDescription: "A common saltwater fish doing its best scad impression."
   },
@@ -1691,6 +1768,28 @@ const saltWaterMediumFish = [
     image: true,
     imageName: "fatesdesign",
     imageDescription: "A tropical fish known for its dazzling coloration and unique scale patterns."
+  },
+  {
+    id: "43672",
+    eorzeaDb: "fda093c6fda",
+    fishname: "Floating Fife",
+    alias: "Floating_Fife",
+    fishsize: "m",
+    waterType: "sw",
+    image: true,
+    imageName: "floatingfife",
+    imageDescription: "Though its name may imply otherwise, attempting to play lovely little ditties with this wavekin is ill-advised."
+  },
+  {
+    id: "43794",
+    eorzeaDb: "83df62caddc",
+    fishname: "Forgotten One",
+    alias: "Forgotten_One",
+    fishsize: "m",
+    waterType: "sw",
+    image: true,
+    imageName: "forgottenone",
+    imageDescription: "A mysterious saltwater fish, about which next to nothing is known."
   },
   {
     id: 4898,
@@ -1820,7 +1919,7 @@ const saltWaterMediumFish = [
     alias: "Navigator%27s_Brand",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "navigatorsbrand",
     imageDescription: "A king among Navigator's daggers, and lord of the waters of the Brewer's Beacon."
   },
@@ -1842,7 +1941,7 @@ const saltWaterMediumFish = [
     alias: "Othardian_Wrasse",
     fishsize: "m",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "othardianwrasse",
     imageDescription: "A saltwater creature known for its beautiful coloration."
   },
@@ -1955,7 +2054,7 @@ const saltWaterLargeFish = [
     alias: "Blue_Marlin",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "bluemarlin",
     imageDescription: "A large saltwater fish whose lustrous skin seems to shimmer even without sunlight."
   },
@@ -1966,7 +2065,7 @@ const saltWaterLargeFish = [
     alias: "Bombardfish",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "bombardfish",
     imageDescription: "A king among balloonfish."
   },
@@ -1977,7 +2076,7 @@ const saltWaterLargeFish = [
     alias: "Coelacanth",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "coelacanth",
     imageDescription: "An ancient species of saltwater fish which appears to have flourished in times well before the Allagans built their empire."
   },
@@ -1988,7 +2087,7 @@ const saltWaterLargeFish = [
     alias: "Corpse-eater",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "corpseeater",
     imageDescription: "A large carnivorous wavekin that dwells in the warm currents of the southern seas."
   },
@@ -1999,7 +2098,7 @@ const saltWaterLargeFish = [
     alias: "Hammerhead_Shark",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "hammerheadshark",
     imageDescription: "A ravenous shark with a hammer-shaped head it uses to quickly detect its prey. This wavekin is most commonly found living in small schools in the Strait of Merlthor."
   },
@@ -2021,7 +2120,7 @@ const saltWaterLargeFish = [
     alias: "Kitefin_Shark",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "kitefinshark",
     imageDescription: "A shark with shining, surreal eyes that stand out like gems against the dull background of its body."
   },
@@ -2032,7 +2131,7 @@ const saltWaterLargeFish = [
     alias: "Motley_Beakfish",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "motleybeakfish",
     imageDescription: "A striped carnivore that hunts the Ruby Sea."
   },
@@ -2043,7 +2142,7 @@ const saltWaterLargeFish = [
     alias: "Mummer_Wrasse",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "mummerwrasse",
     imageDescription: "This saltwater fish's name comes from the odd lump on its head, thought to resemble a mummer's motley cap."
   },
@@ -2054,7 +2153,7 @@ const saltWaterLargeFish = [
     alias: "Roosterfish",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "roosterfish",
     imageDescription: "A saltwater fish with a spindly dorsal fin that makes its home in the Perfumed Tides."
   },
@@ -2065,7 +2164,7 @@ const saltWaterLargeFish = [
     alias: "Spectral_Bass",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "spectralbass",
     imageDescription: "This most ordinary of fish has become rather extraordinary thanks to being bathed in otherworldly aether, giving it a fetching blue tinge."
   },
@@ -2076,7 +2175,7 @@ const saltWaterLargeFish = [
     alias: "Ukiki",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "ukiki",
     imageDescription: "Its Hingan name roughly translating to “floating tree,” this variety of Eastern sunfish neither floats nor is a tree."
   },
@@ -2087,7 +2186,7 @@ const saltWaterLargeFish = [
     alias: "Zebra_Shark",
     fishsize: "l",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "zebrashark",
     imageDescription: "Unlike those of the mystical zebra, the pronounced “stripes” upon this wavekin's back are more accurately compared to a tiger's spots."
   },
@@ -2100,7 +2199,7 @@ const saltWaterXLargeFish = [
     alias: "Basilosaurus",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "basilosaurus",
     imageDescription: "This scourge of the seas bears physiological similarities to prehistoric whales."
   },
@@ -2122,7 +2221,7 @@ const saltWaterXLargeFish = [
     alias: "Dinichthys",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "dinichthys",
     imageDescription: "A legendary saltwater fish covered in thick armor and said to have once been worshipped by the Sahagin."
   },
@@ -2133,7 +2232,7 @@ const saltWaterXLargeFish = [
     alias: "Funnel_Shark",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "funnelshark",
     imageDescription: "Its gaping maw draws in all manner of ocean life, along with a range of less-than-edible objects."
   },
@@ -2144,7 +2243,7 @@ const saltWaterXLargeFish = [
     alias: "Gharlichthys",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "gharlichthys",
     imageDescription: "This colossal inhabitant of the Perfumed Tides is thought to be one of the largest living fish on the star, growing nearly twenty fulms long. Those who miraculously haul one up from the depths should either be commended for their bravery or scolded for their folly."
   },
@@ -2155,9 +2254,20 @@ const saltWaterXLargeFish = [
     alias: "Helmsman%27s_Hand",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "helmsmanshand",
     imageDescription: "A king among sunfish."
+  },
+  {
+    id: "43792",
+    eorzeaDb: "d349604b216",
+    fishname: "Hydro Louvar",
+    alias: "Hydro_Louvar",
+    fishsize: "xl",
+    waterType: "sw",
+    image: true,
+    imageName: "hydrolouvar",
+    imageDescription: "This hulking, formerly migratory species thrives in temperate seas."
   },
   {
     id: 7684,
@@ -2166,7 +2276,7 @@ const saltWaterXLargeFish = [
     alias: "Junkmonger_(Seafood)",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "junkmonger",
     imageDescription: "A king among goosefish, and lord of the waters of Skull Valley."
   },
@@ -2177,7 +2287,7 @@ const saltWaterXLargeFish = [
     alias: "Lancetfish",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "lancetfish",
     imageDescription: "Those fishing the waters of the northwest Caliban Gorge are advised that, if they attempt to handle this bellicose wavekin, they should avoid the pointy bits. Many will attest, however, that as practically the entire fish fits that description, it is best to simply give it as wide a berth as possible."
   },
@@ -2188,7 +2298,7 @@ const saltWaterXLargeFish = [
     alias: "Liopleurodon",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "liopleurodon",
     imageDescription: "Though king of the five seas and beyond, scholars classify the liopleurodon with scalekin rather than wavekin."
   },
@@ -2199,7 +2309,7 @@ const saltWaterXLargeFish = [
     alias: "Mazlaya_Marlin",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "mazlayamarlin",
     imageDescription: "A large saltwater fish found in the warm waters south of the Sea of Ash and known for its remarkable swimming speed."
   },
@@ -2210,7 +2320,7 @@ const saltWaterXLargeFish = [
     alias: "Megalodon",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "megalodon",
     imageDescription: "A legendary shark with a mouth so big and an appetite so large, it is said it can swallow an adult Roegadyn whole."
   },
@@ -2221,7 +2331,7 @@ const saltWaterXLargeFish = [
     alias: "Ondobane",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "ondobane",
     imageDescription: "This shark, native to the Tempest, is voracious, territorial, and massive─which savvy fishers may recognize as the worst combination of traits for a shark to have."
   },
@@ -2232,7 +2342,7 @@ const saltWaterXLargeFish = [
     alias: "Red_Hammerhead",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "redhammerhead",
     imageDescription: "Despite its whimsical appearance, this shark is nevertheless perfectly capable of biting one's face off if provoked."
   },
@@ -2243,7 +2353,7 @@ const saltWaterXLargeFish = [
     alias: "Shrieker",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "shrieker",
     imageDescription: "Anyone who has seen far enough into the maw of a shrieker to confirm whether its rows of teeth line not just one, but two pharyngeal jaws could not have lived to tell the tale, so the anatomy of this cryptid remains shrouded in mystery."
   },
@@ -2254,7 +2364,7 @@ const saltWaterXLargeFish = [
     alias: "Silver_Shark",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "silvershark",
     imageDescription: "A large, spindle-shaped shark commonly found in the Sea of Ash and known to attack without provocation."
   },
@@ -2265,7 +2375,7 @@ const saltWaterXLargeFish = [
     alias: "Silver_Sovereign",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "silversovereign",
     imageDescription: "Known also by the name of tarpon, this rare fish is said to have swum the oceans of Eorzea since the dawn of time. Lord of the waters of Oschon's Torch."
   },
@@ -2276,7 +2386,7 @@ const saltWaterXLargeFish = [
     alias: "Sothis",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "sothis",
     imageDescription: "It is unclear how this species of turtle came to have a shell covered in glittering crystal, though it does give oceanic hunters pause for thought before they attempt to bite down on it. This could be considered a form of unnatural protection."
   },
@@ -2287,7 +2397,7 @@ const saltWaterXLargeFish = [
     alias: "Spectral_Megalodon",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "spectralmegalodon",
     imageDescription: "Due to the fact that most of its prey are petrified upon catching sight of this ominously glowing predator, it has rather an easy time finding a steady supply of food."
   },
@@ -2298,7 +2408,7 @@ const saltWaterXLargeFish = [
     alias: "Stonescale",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "stonescale",
     imageDescription: "The thick covering of rock-like substance does little to improve this shark's mobility. Being an apex predator means it has little need of excessive armor plating."
   },
@@ -2309,7 +2419,7 @@ const saltWaterXLargeFish = [
     alias: "Taniwha",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "taniwha",
     imageDescription: "Respected and feared by the peoples of the south sea isles, this ancient sea creature is the subject of myriad myths and legends."
   },
@@ -2320,7 +2430,7 @@ const saltWaterXLargeFish = [
     alias: "Titanic_Sawfish",
     fishsize: "xl",
     waterType: "sw",
-    image: false,
+    image: true,
     imageName: "titanicsawfish",
     imageDescription: "Legends say that this gargantuan saltwater fish once ripped a hundred-man galleon in two with its saw-like head."
   },

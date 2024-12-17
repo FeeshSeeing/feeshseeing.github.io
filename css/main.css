@@ -245,8 +245,14 @@ footer a {
 .fish-nav-categories--menu-list ul li {
   color: grey;
 }
+.fish-nav-categories--menu-list a.active {
+  color: rgb(var(--palette-color-4));
+}
+.fish-nav-categories--menu-list a.active::before {
+  content: "● ";
+}
 .fish-nav-categories--menu-list a::before {
-  content: "├ ";
+  content: "○ ";
 }
 .fish-nav-categories--menu-list ul::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.5);
@@ -506,6 +512,10 @@ h1 {
 
 .hanatatsu {
   width: 220px !important;
+}
+
+.helmsmanshand {
+  width: 355px !important;
 }
 
 .bubble {

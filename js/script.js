@@ -19,7 +19,10 @@ const navigation = document.querySelector('.navigation');
 
 
 links.forEach((link) => {
+ 
     link.addEventListener('click', () => {
+    removeActiveLinkClasses();
+    link.classList.add("active");
     resetFade();
     fish.title = link.innerText;
     fish.size = link.dataset.size;
