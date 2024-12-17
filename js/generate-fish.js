@@ -189,6 +189,19 @@ const freshwaterSmallFish = [
     imageDescription:
       "A long-tailed freshwater fish found throughout Thavnair.",
   },
+  
+  {
+    id: 43741,
+    eorzeaDb: "a7aae5fe047",
+    fishname: "Glittergill",
+    alias: "Glittergill",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "glittergill",
+    imageDescription:
+      "Renowned for its ethereal shine, this small freshwater fish calls the Sapsweet Cenote home.",
+  },
   {
     id: 4970,
     eorzeaDb: "6d11aecfb7a",
@@ -283,6 +296,18 @@ const freshwaterSmallFish = [
     imageName: "moonlightguppy",
     imageDescription:
       "A queen among platinum guppies, and lady of the waters of the rusted reservoir.",
+  },
+  {
+    id: 43666,
+    eorzeaDb: "08ec2716f00",
+    fishname: "Petticoat Tetra",
+    alias: "Petticoat_Tetra",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "petticoattetra",
+    imageDescription:
+      "Native to Downripple, this freshwater fish is readily identified by its black skirt-like fins.",
   },
   {
     id: 27543,
