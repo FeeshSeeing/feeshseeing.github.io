@@ -2,9 +2,12 @@
 //  Pages > 01 - Home
 //
 //  -------------------------------------------------
-
+html, body {
+  overflow-x: hidden;
+}
 
 body {
+  position: relative;
   margin: 0;
   font-family: var(--body-font);
   font-optical-sizing: auto;

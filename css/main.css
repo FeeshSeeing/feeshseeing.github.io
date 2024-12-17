@@ -329,7 +329,12 @@ footer a {
   display: block;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
+  position: relative;
   margin: 0;
   font-family: var(--body-font);
   font-optical-sizing: auto;
