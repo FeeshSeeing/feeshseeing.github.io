@@ -2,6 +2,5 @@
 Fun project to make aquarium fish previewable in FFXIV
 
 Todo :
-* Active menu link style
-* Catch lots of fish and fill the aquarium!
+* Remove universalis link from untradable fish
 * Share selected fish via links
