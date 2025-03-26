@@ -1135,6 +1135,17 @@ const freshwaterMediumFish = [
     imageDescription: "This large carnivorous specimen is native to the southeastern reaches of the One River where the waters run slow and deep."
   },
   {
+    id: 43713,
+    eorzeaDb: "e8f25bbca6c",
+    fishname: "Yellow Peacock Bass",
+    alias: "Yellow_Peacock_Bass",
+    fishsize: "m",
+    waterType: "fw",
+    image: true,
+    imageName: "yellowpeacockbass",
+    imageDescription: "The banded markings of this moderately large wavekin set it apart from other varieties of peacock bass."
+  },
+  {
     id: 27486,
     eorzeaDb: "3d08e225939",
     fishname: "Yellow Pipira",
@@ -1321,6 +1332,17 @@ const freshwaterLargeFish = [
     waterType: "fw",
     image: true,
     imageName: "ichthyosaur",
+    imageDescription: "Let not its dolphin-like appearance fool you. The ichthyosaur is a ravenous scalekin that feeds on squid, fish, and the occasional man overboard."
+  },
+  {
+    id: 43808,
+    eorzeaDb: "94b3ad9bfcb",
+    fishname: "Karvarichthys",
+    alias: "Karvarichthys",
+    fishsize: "l",
+    waterType: "fw",
+    image: true,
+    imageName: "karvarichthys",
     imageDescription: "Let not its dolphin-like appearance fool you. The ichthyosaur is a ravenous scalekin that feeds on squid, fish, and the occasional man overboard."
   },
   {
@@ -2013,6 +2035,17 @@ const saltWaterMediumFish = [
     image: true,
     imageName: "sirensongmullet",
     imageDescription: "Business in the front. Sirensong in the back."
+  },
+  {
+    id: 44342,
+    eorzeaDb: "9097b6a5a5e",
+    fishname: "Stardust Sleeper",
+    alias: "Stardust_Sleeper",
+    fishsize: "m",
+    waterType: "sw",
+    image: true,
+    imageName: "stardustsleeper",
+    imageDescription: "A king among Xty'iinbek sleepers, and lord of the depths of Xty'iinbek Tsoly"
   },
   {
     id: 29785,
