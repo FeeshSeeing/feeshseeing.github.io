@@ -17,6 +17,33 @@ const mobileMenuClose = document.querySelector('.mobile-close');
 const mobileMenuList = document.querySelector('.mobile-list');
 const navigation = document.querySelector('.navigation');
 
+//Search feature
+window.addEventListener("load", () => {
+  // Get elements
+  let clearSearch = document.getElementById("clear-search"); // clear search button
+  let filter = document.getElementById("the-filter"), // search box
+      list = document.querySelectorAll(".fish-nav-categories--menu-list li"); // all list items
+
+  clearSearch.addEventListener('click', () => {
+    window.location.reload();
+  });
+  // Attach keyup listener to search box
+  filter.onkeyup = () => {
+    // Get current search term
+    let search = filter.value.toLowerCase();
+    // Loop through list items and only show those that match search
+    clearSearch.classList.remove("hide");
+    list.forEach((item)=> {
+      listItemText = item.innerText.toLowerCase();
+      if (listItemText.indexOf(search) == -1) {
+        item.classList.add("hide");
+      } else { 
+        item.classList.remove("hide");  
+      }
+    })
+  };
+});
+
 
 links.forEach((link) => {
  

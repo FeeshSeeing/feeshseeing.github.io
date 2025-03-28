@@ -168,7 +168,7 @@ footer a {
 
 .fish-nav-menu ul {
   list-style: none;
-  margin: 20px;
+  margin: 10px 20px;
   padding: 0;
   line-height: 1.5;
 }
@@ -453,6 +453,79 @@ h1 {
 }
 .fish-header--additional-links a:hover {
   opacity: 1;
+}
+
+.fish-nav-categories--menu-list li.hide {
+  display: none;
+}
+
+.search-box {
+  position: relative;
+  height: 30px;
+  width: 90%;
+  margin: 0px 5%;
+}
+.search-box i,
+.search-box input,
+.search-box button {
+  position: absolute;
+}
+.search-box i {
+  left: 2px;
+  top: 2px;
+}
+.search-box button {
+  right: 6px;
+  top: 7px;
+  cursor: pointer;
+  z-index: 2;
+  background-color: rgba(var(--background-color), 0.4);
+  border-style: none;
+  text-align: center;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 16px;
+  font-size: 7px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.search-box button:hover {
+  background-color: rgba(var(--background-color), 0.3);
+}
+.search-box button.hide {
+  display: none;
+}
+
+#the-filter {
+  font-family: inherit;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px 0 30px;
+  display: block;
+  background-color: rgba(var(--palette-color-1), 0.2);
+  color: rgb(var(--palette-color-1));
+  z-index: 15;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 300;
+  box-sizing: border-box;
+  z-index: 1;
+}
+#the-filter:focus {
+  outline: 0;
+  border-color: rgba(var(--palette-color-1), 0.2);
+  box-shadow: 0px 0px 10px rgba(var(--palette-color-1), 0.2);
+}
+#the-filter::placeholder {
+  color: rgba(var(--palette-color-1), 0.4);
+  opacity: 1; /* Firefox */
+}
+#the-filter::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgb(var(--palette-color-1));
 }
 
 .eorzea-db {
