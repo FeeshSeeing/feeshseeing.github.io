@@ -859,9 +859,10 @@ div.device-test {
   }
   .update-info {
     position: fixed;
-    bottom: 26%;
+    bottom: 16%;
     right: 2%;
     margin: 0;
+    width: 100%;
   }
   .logo {
     padding-left: 30px;
