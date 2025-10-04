@@ -83,6 +83,25 @@ function menuToggle(watertype, currentType, setNewType) {
 menuToggle("freshwater", saltwaterBtn, freshwaterBtn);
 menuToggle("saltwater", freshwaterBtn, saltwaterBtn);
 
+// Create a temporary tooltip for copy feedback
+function showCopyMessage(element, message = "Copied!") {
+  const tooltip = document.createElement("span");
+  tooltip.className = "copy-tooltip";
+  tooltip.innerText = message;
+  element.appendChild(tooltip);
+
+  // Animate and remove after 1.5s
+  setTimeout(() => {
+    tooltip.classList.add("fade-out");
+  }, 1000);
+
+  setTimeout(() => {
+    tooltip.remove();
+  }, 1500);
+}
+
+
+
 // ---------------- Size link clicks ----------------
 fishCategoryLinks.forEach(link => {
   link.addEventListener('click', () => {
@@ -126,6 +145,32 @@ document.addEventListener("click", e => {
   fishContainer.className = "fish " + fish.size;
   fishTitleHolder.innerText = fish.title;
   additionalLinkContainer.innerHTML = "";
+
+  // Share link
+  let shareLink = document.createElement("a");
+  Object.assign(shareLink, {
+    href: "#",
+    className: "share-fish",
+    title: `Share ${fish.title}`
+  });
+
+  // Optional: add icon
+  shareLink.innerHTML = "📤"; // can add svg later
+
+  // Copy to clipboard on click
+  shareLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    const shareURL = `${window.location.origin}${window.location.pathname}?fish=${fish.name.toLowerCase()}&size=${fish.size}&category=${fish.category}`;
+    navigator.clipboard.writeText(shareURL).then(() => {
+      showCopyMessage(shareLink); // shows tooltip instead of alert
+    }).catch(err => {
+      console.error("Could not copy URL: ", err);
+    });
+  });
+
+  additionalLinkContainer.appendChild(shareLink);
+
+  
 
   if(fish.id) {
     let garlandToolsLink = document.createElement("a");
@@ -186,7 +231,7 @@ links.forEach(link => {
 });
 
 // ---------------- Scaling ----------------
-const fishScaleMap = { s: 35, m: 40, l: 60, xl: 85 };
+const fishScaleMap = { s: 35, m: 40, l: 50, xl: 85 };
 function scaleFishPreview(fish) {
   const scale = fishScaleMap[fish.size];
   if (!scale) return;
