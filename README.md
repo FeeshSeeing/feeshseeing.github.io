@@ -1,6 +1,3 @@
 # Feesh Seeing
-Fun project to make aquarium fish previewable in FFXIV
-
-Todo :
-* Remove universalis link from untradable fish
-* Share selected fish via links
+A little hobby project to preview FFXIV aquarium fish. Browse, filter, and share your favorite fish.
+Have fun exploring!
