@@ -10,6 +10,7 @@ const freshwaterSmallFish = [
     imageName: "armorfish",
     imageDescription:
       "A massive glowing freshwater fish found living in the Thaliak River.",
+    isTradable: true
   },
   {
     id: 27483,
@@ -21,6 +22,7 @@ const freshwaterSmallFish = [
     image: true,
     imageName: "blacktristar",
     imageDescription: "A spotted freshwater fish found at Lozatl's Conquest.",
+    isTradable: true
   },
   {
     id: 36410,
@@ -33,6 +35,7 @@ const freshwaterSmallFish = [
     imageName: "blowgun",
     imageDescription:
       "Researchers are currently observing the life-cycle of this freshwater fish at the Mover Beta.",
+    isTradable: true
   },
   {
     id: 12739,
@@ -45,6 +48,7 @@ const freshwaterSmallFish = [
     imageName: "bubbleeye",
     imageDescription:
       "A freshwater fish found only in the pools and lakes of Abalathia's floating islets.",
+    isTradable: true
   },
   {
     id: 38830,
@@ -57,6 +61,7 @@ const freshwaterSmallFish = [
     imageName: "catastrophizer",
     imageDescription:
       "A king among ponderers, and lord of the waters of the reflecting pool.",
+    isTradable: true
   },
   {
     id: 4926,
@@ -69,6 +74,7 @@ const freshwaterSmallFish = [
     imageName: "chub",
     imageDescription:
       "A common freshwater fish found in rivers across Eorzea. Prefers the slow-moving waters found near a river's mouth to the rapids found upstream.",
+    isTradable: true
   },
   {
     id: 4948,
@@ -81,6 +87,7 @@ const freshwaterSmallFish = [
     imageName: "copperfish",
     imageDescription:
       "The copperfish's dull orange scales─a hue rare in freshwater wavekin─make this species popular amongst Ul'dahn nobles, who apparently prefer even their fish to be the color of their coin.",
+    isTradable: true
   },
   {
     id: 36460,
@@ -93,6 +100,7 @@ const freshwaterSmallFish = [
     imageName: "darkcrown",
     imageDescription:
       "A fish whose long, beautiful fin ensures it stands out at all times. If it had the cognitive capacity, it would no doubt be so vain.",
+    isTradable: true
   },
   {
     id: 27494,
@@ -104,6 +112,7 @@ const freshwaterSmallFish = [
     image: true,
     imageName: "darkdweller",
     imageDescription: "A sinister-looking cave dweller native to Woven Oath.",
+    isTradable: true
   },
   {
     id: 36481,
@@ -116,6 +125,7 @@ const freshwaterSmallFish = [
     imageName: "dermogenys",
     imageDescription:
       "A small, pale fish with a snout that is hard to ignore. Testing to determine whether it is self-conscious has thus far been inconclusive.",
+    isTradable: true
   },
   {
     id: 20211,
@@ -128,6 +138,7 @@ const freshwaterSmallFish = [
     imageName: "domanbubbleeye",
     imageDescription:
       "A variety of bubble eye goldfish selectively bred by Doman royalty for innumerable generations.",
+    isTradable: true
   },
   {
     id: 12742,
@@ -140,6 +151,7 @@ const freshwaterSmallFish = [
     imageName: "dravaniansqueaker",
     imageDescription:
       "A peculiar breed of freshwater catfish that swims upside down. It was first discovered in Weston Waters.",
+    isTradable: true
   },
   {
     id: 20233,
@@ -152,6 +164,7 @@ const freshwaterSmallFish = [
     imageName: "eternaleye",
     imageDescription:
       "This tiny species' skin exhibits a violet hue rarely seen in freshwater fish.",
+    isTradable: true
   },
   {
     id: 41410,
@@ -164,6 +177,7 @@ const freshwaterSmallFish = [
     imageName: "furcacauda",
     imageDescription:
       "Named for its forked tail, this elusive inhabitant of Lethe sports a remarkable bone structure rarely found among wavekin.",
+    isTradable: true
   },
   {
     id: 24204,
@@ -176,6 +190,7 @@ const freshwaterSmallFish = [
     imageName: "greenprismfish",
     imageDescription:
       "Due to its shockingly bright coloration, this wind-aspected fish is oft sought after for display in garden ponds, but almost never for consumption.",
+    isTradable: true
   },
   {
     id: 36436,
@@ -188,6 +203,7 @@ const freshwaterSmallFish = [
     imageName: "greenswordtail",
     imageDescription:
       "A long-tailed freshwater fish found throughout Thavnair.",
+    isTradable: true
   },
 
   {
@@ -201,6 +217,7 @@ const freshwaterSmallFish = [
     imageName: "glittergill",
     imageDescription:
       "Renowned for its ethereal shine, this small freshwater fish calls the Sapsweet Cenote home.",
+    isTradable: true
   },
   {
     id: 4970,
@@ -213,6 +230,7 @@ const freshwaterSmallFish = [
     imageName: "gripkillifish",
     imageDescription:
       "A rare type of fish oft found in stagnant waters such as the isolated pools which collect in the basin of Empty Heart on the western finger of the Gods' Grip.",
+    isTradable: true
   },
   {
     id: 21178,
@@ -225,6 +243,7 @@ const freshwaterSmallFish = [
     imageName: "guppy",
     imageDescription:
       "This tiny fish once found throughout the Three Great Continents has been harvested to near extinction, and is now prized by pisciculturists.",
+    isTradable: true
   },
   {
     id: 36444,
@@ -237,6 +256,7 @@ const freshwaterSmallFish = [
     imageName: "halfmoonbetta",
     imageDescription:
       "This tropical fish is known for its fluttering tail fin.",
+    isTradable: true
   },
   {
     id: 36447,
@@ -249,6 +269,7 @@ const freshwaterSmallFish = [
     imageName: "handyhamsa",
     imageDescription:
       "This small freshwater fish is named after the Thavnairian fowl it so adorably resembles─according to the Hannish, anyway.",
+    isTradable: true
   },
   {
     id: 24203,
@@ -261,6 +282,7 @@ const freshwaterSmallFish = [
     imageName: "indigoprismfish",
     imageDescription:
       "An elementally aspected, elegantly colored, and vanishingly rare cousin to the common carp.",
+    isTradable: true
   },
   {
     id: 27475,
@@ -272,6 +294,7 @@ const freshwaterSmallFish = [
     image: true,
     imageName: "lemonfish",
     imageDescription: "A speckled, bright-yellow freshwater fish.",
+    isTradable: true
   },
   {
     id: 28065,
@@ -284,6 +307,7 @@ const freshwaterSmallFish = [
     imageName: "loosependant",
     imageDescription:
       "A king among Crystarium tetra, and lord of the waters that flow through the Crystarium Personal Suites.",
+    isTradable: true
   },
   {
     id: 32049,
@@ -296,6 +320,7 @@ const freshwaterSmallFish = [
     imageName: "moonlightguppy",
     imageDescription:
       "A queen among platinum guppies, and lady of the waters of the rusted reservoir.",
+    isTradable: true
   },
   {
     id: 43666,
@@ -308,6 +333,7 @@ const freshwaterSmallFish = [
     imageName: "petticoattetra",
     imageDescription:
       "Native to Downripple, this freshwater fish is readily identified by its black skirt-like fins.",
+    isTradable: true
   },
   {
     id: 27543,
@@ -320,6 +346,7 @@ const freshwaterSmallFish = [
     imageName: "poecilia",
     imageDescription:
       "A freshwater wavekin with bright coloration resembling that of many pixies.",
+    isTradable: true
   },
   {
     id: 21175,
@@ -332,6 +359,7 @@ const freshwaterSmallFish = [
     imageName: "rockfish",
     imageDescription:
       "Despite the insistence of fishers raised on colorful local folklore, the massive knob atop this freshwater fish's head does not contain hidden treasure.",
+    isTradable: true
   },
   {
     id: 36541,
@@ -344,6 +372,7 @@ const freshwaterSmallFish = [
     imageName: "rummynosedtetra",
     imageDescription:
       "A crimson-faced wavekin which has found a home in the Font of Maya.",
+    isTradable: true
   },
   {
     id: 20021,
@@ -356,6 +385,7 @@ const freshwaterSmallFish = [
     imageName: "seraphim",
     imageDescription:
       "The beauty of this small freshwater fish native to Yanxia is oft compared to the angels of ancient eastern scripture.",
+    isTradable: true
   },
   {
     id: 27468,
@@ -367,6 +397,7 @@ const freshwaterSmallFish = [
     image: true,
     imageName: "spottedblueeye",
     imageDescription: "A large-finned killifish found in Il Mheg.",
+    isTradable: true
   },
   {
     id: 32052,
@@ -379,6 +410,7 @@ const freshwaterSmallFish = [
     imageName: "sunkentome",
     imageDescription:
       "A king among spotted ctenopoma, and lord of the waters of the Haughty One.",
+    isTradable: true
   },
   {
     id: "24995",
@@ -391,6 +423,7 @@ const freshwaterSmallFish = [
     imageName: "theunconditional",
     imageDescription:
       "Not so much a lord as a god of Dotharl Khaa, this particular specimen is thought to be a blessing sent by the Dusk Mother and Dawn Father themselves. As such, this catch might be best left unboasted of.",
+    isTradable: true
   },
   {
     id: "27481",
@@ -402,6 +435,7 @@ const freshwaterSmallFish = [
     image: true,
     imageName: "toadhead",
     imageDescription: "A dazed-looking fish found in Il Mheg.",
+    isTradable: true
   },
   {
     id: "43738",
@@ -414,6 +448,7 @@ const freshwaterSmallFish = [
     imageName: "variatus",
     imageDescription:
       "A colorful freshwater fish prized for its striking red and yellow scales.",
+    isTradable: true
   },
   {
     id: 38939,
@@ -426,6 +461,7 @@ const freshwaterSmallFish = [
     imageName: "verdigrisguppy",
     imageDescription:
       "A fish prized not only for its green mottled beauty, but for the rarity of materials its body provides.",
+    isTradable: true
   },
 ];
 
@@ -441,6 +477,7 @@ const freshwaterMediumFish = [
     imageName: "archerfish",
     imageDescription:
       "When feeding, the archerfish will lift its head ever so slightly above a lake's or river's surface and spit a stream of water up to a yalm to strike flies from low-lying branches into the water with remarkable accuracy.",
+    isTradable: true
   },
   {
     id: 36543,
@@ -453,6 +490,7 @@ const freshwaterMediumFish = [
     imageName: "atamracichlid",
     mageDescription:
       "The red of this tropical wavekin is reminiscent of a certain fruit.",
+    isTradable: true
   },
   {
     id: 27536,
@@ -464,6 +502,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "bigeye",
     imageDescription: "A colorful freshwater fish native to Il Mheg.",
+    isTradable: true
   },
   {
     id: 27566,
@@ -476,6 +515,7 @@ const freshwaterMediumFish = [
     imageName: "bluemountainbubble",
     imageDescription:
       "The fins of this rotund fish, native to Longmirror Lake, are suggestive of butterfly wings.",
+    isTradable: true
   },
   {
     id: 20053,
@@ -488,6 +528,7 @@ const freshwaterMediumFish = [
     imageName: "blueprismfish",
     imageDescription:
       "The pale blue glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
+    isTradable: true
   },
   {
     id: 7699,
@@ -500,6 +541,7 @@ const freshwaterMediumFish = [
     imageName: "bluewidow",
     imageDescription:
       "A king among bluebell salmon, and lord of the waters of Murmur Rills.",
+    isTradable: true
   },
   {
     id: 36434,
@@ -512,6 +554,7 @@ const freshwaterMediumFish = [
     imageName: "bluegill",
     imageDescription:
       "This voracious freshwater fish, once indigenous to the island, has long since found its way into Thavnair's water sources.",
+    isTradable: true
   },
   {
     id: 4973,
@@ -524,6 +567,7 @@ const freshwaterMediumFish = [
     imageName: "bonytongue",
     imageDescription:
       "A single flat tooth on the bottom of this freshwater species' mouth gives the bonytongue its name.",
+    isTradable: true
   },
   {
     id: 20220,
@@ -536,6 +580,7 @@ const freshwaterMediumFish = [
     imageName: "cherubfish",
     imageDescription:
       "A rare freshwater fish native to Yanxia and the Azim Steppe.",
+    isTradable: true
   },
   {
     id: 4979,
@@ -548,6 +593,7 @@ const freshwaterMediumFish = [
     imageName: "clownloach",
     imageDescription:
       "Bright patterns, similar to a clown's motley, cover this small freshwater fish from head to tail.",
+    isTradable: true
   },
   {
     id: 27490,
@@ -559,6 +605,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "clowntetra",
     imageDescription: "A freshwater fish patterned with broad black stripes.",
+    isTradable: true
   },
   {
     id: 7902,
@@ -571,6 +618,7 @@ const freshwaterMediumFish = [
     imageName: "cupfish",
     imageDescription:
       "A rare freshwater fish which spends the entirety of its life hiding in locations which rarely see the light of the sun.",
+    isTradable: true
   },
   {
     id: 4959,
@@ -583,6 +631,7 @@ const freshwaterMediumFish = [
     imageName: "darkbass",
     imageDescription:
       "This freshwater fish, known for its voracious appetite, is originally native to the southern continent of Meracydia.",
+    isTradable: true
   },
   {
     id: 4987,
@@ -595,6 +644,7 @@ const freshwaterMediumFish = [
     imageName: "discus",
     imageDescription:
       "A colorful freshwater fish that can only survive in rivers located in more temperate climes.",
+    isTradable: true
   },
   {
     id: 12764,
@@ -607,6 +657,7 @@ const freshwaterMediumFish = [
     imageName: "dragonhead",
     imageDescription:
       "A freshwater fish native to the Iron Feast. The skull on its head does not appear to be that of a dragon, but rather of a dragonfly.",
+    isTradable: true
   },
   {
     id: 20221,
@@ -619,6 +670,7 @@ const freshwaterMediumFish = [
     imageName: "duskherald",
     imageDescription:
       "The dusk herald is a fair-sized fish commonly found in the One River.",
+    isTradable: true
   },
   {
     id: 22398,
@@ -631,6 +683,7 @@ const freshwaterMediumFish = [
     imageName: "eldergourami",
     imageDescription:
       "Despite the beard-like ventral fins which give this freshwater wavekin an aged look, gourami only have an average lifespan of three to five summers.",
+    isTradable: true
   },
   {
     id: 27577,
@@ -643,6 +696,7 @@ const freshwaterMediumFish = [
     imageName: "everdarkbass",
     imageDescription:
       "This species was allegedly bred by the Voeburtites in their homeland before making its way to the Rak'tika Greatwood.",
+    isTradable: true
   },
   {
     id: 36448,
@@ -655,6 +709,7 @@ const freshwaterMediumFish = [
     imageName: "flowerhorn",
     imageDescription:
       "A colorful freshwater fish with an enormous hump on its head.",
+    isTradable: true
   },
 
   {
@@ -668,6 +723,7 @@ const freshwaterMediumFish = [
     imageName: "forgeflame",
     imageDescription:
       "With its brightly colored fins, this fish evokes the image of metal on its way to becoming something greater.",
+    isTradable: true
   },
   {
     id: 27530,
@@ -680,6 +736,7 @@ const freshwaterMediumFish = [
     imageName: "geayi",
     imageDescription:
       "This wavekin is instantly recognizable by the two bold black stripes that stand out starkly against its otherwise pale scales.",
+    isTradable: true
   },
   {
     id: 5011,
@@ -692,6 +749,7 @@ const freshwaterMediumFish = [
     imageName: "goldfish",
     imageDescription:
       "The brilliant luster of this freshwater fish native to the Far East has made it a popular addition to the aquariums and garden ponds of Ul'dahn patricians.",
+    isTradable: true
   },
   {
     id: 36405,
@@ -704,6 +762,7 @@ const freshwaterMediumFish = [
     imageName: "greengillsalmon",
     imageDescription:
       "This freshwater wavekin is bred for research purposes at the Mover Alpha.",
+    isTradable: true
   },
   {
     id: 7709,
@@ -716,6 +775,7 @@ const freshwaterMediumFish = [
     imageName: "highperch",
     imageDescription:
       "A king among La Noscean perch, and lord of the waters of the Nym River.",
+    isTradable: true
   },
   {
     id: 20045,
@@ -728,6 +788,7 @@ const freshwaterMediumFish = [
     imageName: "idlegoby",
     imageDescription:
       "This large goby uses its natural black and brown mottling to conceal itself in the sandy bed of the Slow Wash.",
+    isTradable: true
   },
   {
     id: 36461,
@@ -740,6 +801,7 @@ const freshwaterMediumFish = [
     imageName: "imperialpleco",
     imageDescription:
       "A striped fish which can be seen flitting about the waters of the capital, much to its people's chagrin.",
+    isTradable: true
   },
   {
     id: 27563,
@@ -752,6 +814,7 @@ const freshwaterMediumFish = [
     imageName: "jesterfish",
     imageDescription:
       "A freshwater wavekin with colorful fins and bulging eyes.",
+    isTradable: true
   },
   {
     id: 5023,
@@ -764,6 +827,7 @@ const freshwaterMediumFish = [
     imageName: "judgmentstaff",
     imageDescription:
       "Named after the primal Ramuh's signature weapon, this strange freshwater fish will only feed when the weather is rainy.",
+    isTradable: true
   },
   {
     id: "43707",
@@ -776,6 +840,7 @@ const freshwaterMediumFish = [
     imageName: "kapuyhu",
     imageDescription:
       "A multitude of colors adorn the scales of this aesthetically pleasing wavekin.",
+    isTradable: true
   },
   {
     id: 36499,
@@ -788,6 +853,7 @@ const freshwaterMediumFish = [
     imageName: "katoptron",
     imageDescription:
       "A mystifying fish whose scales seem to reflect the movement of the stars.",
+    isTradable: true
   },
   {
     id: 12743,
@@ -800,6 +866,7 @@ const freshwaterMediumFish = [
     imageName: "kissingfish",
     imageDescription:
       "An adorable freshwater fish native to the waters of Eil Tohm.",
+    isTradable: true
   },
   {
     id: 36418,
@@ -812,6 +879,7 @@ const freshwaterMediumFish = [
     imageName: "longearsunfish",
     imageDescription:
       "A freshwater fish named for the earlike protrusions on the sides of its face.",
+    isTradable: true
   },
   {
     id: 12750,
@@ -824,6 +892,7 @@ const freshwaterMediumFish = [
     imageName: "marbleoscar",
     imageDescription:
       "A freshwater fish which prefers the heated pools of the Smoldering Wastes to the cooler waters of surrounding rivers.",
+    isTradable: true
   },
   {
     id: 27546,
@@ -836,6 +905,7 @@ const freshwaterMediumFish = [
     imageName: "mirrorfish",
     imageDescription:
       "A freshwater wavekin native to Il Mheg known for its reflective scales.",
+    isTradable: true
   },
   {
     id: 7940,
@@ -847,6 +917,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "mirrorscale",
     imageDescription: "A king among silverfish.",
+    isTradable: true
   },
   {
     id: 20185,
@@ -859,6 +930,7 @@ const freshwaterMediumFish = [
     imageName: "nagxianmullet",
     imageDescription:
       "A thin, eel-like fish native to Nagxia, but found throughout the One River.",
+    isTradable: true
   },
   {
     id: 27531,
@@ -870,6 +942,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "noblefish",
     imageDescription: "An elegantly shaped freshwater wavekin.",
+    isTradable: true
   },
   {
     id: 12768,
@@ -882,6 +955,7 @@ const freshwaterMediumFish = [
     imageName: "noontideoscar",
     imageDescription:
       "An albino marble oscar only found with consistency in the corrupted waters of Eil Tohm.",
+    isTradable: true
   },
   {
     id: 12781,
@@ -894,6 +968,7 @@ const freshwaterMediumFish = [
     imageName: "ornbutterfly",
     imageDescription:
       "A freshwater fish native to the Orn Wild, yet also found in the Quickspill Delta of the Thaliak River.",
+    isTradable: true
   },
   {
     id: 5007,
@@ -906,6 +981,7 @@ const freshwaterMediumFish = [
     imageName: "paglthandiscus",
     imageDescription:
       "A brightly colored freshwater fish native to the warm waters in and around the Amalj'aa territory of Paglth'an.",
+    isTradable: true
   },
   {
     id: 36392,
@@ -917,6 +993,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "peacockbass",
     imageDescription: "A decent-sized fish known for its speckled scales.",
+    isTradable: true
   },
   {
     id: 12741,
@@ -929,6 +1006,7 @@ const freshwaterMediumFish = [
     imageName: "pipirapira",
     imageDescription:
       "A deadly freshwater fish which will tear away flesh with its razor-sharp teeth. Crossing the Whilom River barefoot is not recommended.",
+    isTradable: true
   },
   {
     id: 27525,
@@ -940,6 +1018,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "platinumbream",
     imageDescription: "A shimmering, silvery fish.",
+    isTradable: true
   },
   {
     id: 27557,
@@ -951,6 +1030,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "queensgown",
     imageDescription: "A freshwater fish named for its fabulously frilly fins.",
+    isTradable: true
   },
   {
     id: 36443,
@@ -963,6 +1043,7 @@ const freshwaterMediumFish = [
     imageName: "radzbalik",
     imageDescription:
       "A freshwater fish beloved for its resplendent coloration.",
+    isTradable: true
   },
   {
     id: 36407,
@@ -975,6 +1056,7 @@ const freshwaterMediumFish = [
     imageName: "raiamas",
     imageDescription:
       "A freshwater fish known for its shimmering emerald scales.",
+    isTradable: true
   },
   {
     id: 4905,
@@ -987,6 +1069,7 @@ const freshwaterMediumFish = [
     imageName: "raincaller",
     imageDescription:
       "A deep-blue freshwater fish native to the lakes and swamps of the Black Shroud. They can be seen sticking their heads out of the water whenever it rains, leading people to believe it is the fish summoning the storm. However, naturalists have surmised that the fish are simply rising to the surface in search of food, mistaking the drops of water for insects.",
+    isTradable: true
   },
 
   {
@@ -1000,6 +1083,7 @@ const freshwaterMediumFish = [
     imageName: "redprismfish",
     imageDescription:
       "The pale red glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
+    isTradable: true
   },
   {
     id: 20193,
@@ -1012,6 +1096,7 @@ const freshwaterMediumFish = [
     imageName: "redfin",
     imageDescription:
       "Second only to the blue-fish in mediocrity of monikers, the freshwater redfin of the One River─unsurprisingly─has bright-red fins.",
+    isTradable: true
   },
   {
     id: 20218,
@@ -1024,6 +1109,7 @@ const freshwaterMediumFish = [
     imageName: "riverbream",
     imageDescription:
       "Unlike sea breams, this quirky cousin will travel back and forth 'twixt the brackish waters of a river's delta and the fresher waters upstream.",
+    isTradable: true
   },
   {
     id: 20229,
@@ -1036,6 +1122,7 @@ const freshwaterMediumFish = [
     imageName: "sailfin",
     imageDescription:
       "A unique freshwater fish featuring astonishingly overgrown dorsal and anal fins.",
+    isTradable: true
   },
   {
     id: 20051,
@@ -1048,6 +1135,7 @@ const freshwaterMediumFish = [
     imageName: "silkenkoi",
     imageDescription:
       "A plump freshwater wavekin with pearlescent scales and a name that sounds better than the fish tastes.",
+    isTradable: true
   },
   {
     id: 27415,
@@ -1060,6 +1148,7 @@ const freshwaterMediumFish = [
     imageName: "sinspitter",
     imageDescription:
       "This Crystarium freshwater fish is in fact much prettier than its crude name implies.",
+    isTradable: true
   },
   {
     id: 36400,
@@ -1072,6 +1161,7 @@ const freshwaterMediumFish = [
     imageName: "tessera",
     imageDescription:
       "This cichlid doubles as a mosaic tile to the imaginative minds of Labyrinthos. (No fish were harmed in the making of this secret underground facility.)",
+    isTradable: true
   },
   {
     id: 23059,
@@ -1084,6 +1174,7 @@ const freshwaterMediumFish = [
     imageName: "thearchbishop",
     imageDescription:
       "A king among cardinalfish, and lord of the waters of the Comet's Tail.",
+    isTradable: true
   },
   {
     id: "43754",
@@ -1096,6 +1187,7 @@ const freshwaterMediumFish = [
     imageName: "trailtrout",
     imageDescription:
       "Coveted for its fatty flesh, this type of trout dwells in the depths of Lake Toari.",
+    isTradable: true
   },
   {
     id: 4951,
@@ -1108,6 +1200,7 @@ const freshwaterMediumFish = [
     imageName: "tricoloredcarp",
     imageDescription:
       "Patches of gold, silver, and bronze cover this medium-sized freshwater fish's body, making it a favorite choice for the private garden pools of Ul'dahn nobles.",
+    isTradable: true
   },
   {
     id: 21177,
@@ -1120,6 +1213,7 @@ const freshwaterMediumFish = [
     imageName: "violetprismfish",
     imageDescription:
       "The pale violet glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
+    isTradable: true
   },
   {
     id: 5013,
@@ -1132,6 +1226,7 @@ const freshwaterMediumFish = [
     imageName: "wanderingsculpin",
     imageDescription:
       "Legend states that this particular variety of sculpin is a favorite of Oschon, the Wanderer, and that the god will oft dine on this fish while on His journeys through the realm of man.",
+    isTradable: true
   },
   {
     id: 28926,
@@ -1144,6 +1239,7 @@ const freshwaterMediumFish = [
     imageName: "whiteronso",
     imageDescription:
       "A king among zebra catfish, and lord of the waters of lower Watts River.",
+    isTradable: true
   },
   {
     id: 27474,
@@ -1155,6 +1251,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "wimplecarp",
     imageDescription: "A striped freshwater fish found in Handmirror Lake.",
+    isTradable: true
   },
   {
     id: 27430,
@@ -1167,6 +1264,7 @@ const freshwaterMediumFish = [
     imageName: "xanthicbass",
     imageDescription:
       "This unusually vivid freshwater bass has scales of yellow and burnt orange.",
+    isTradable: true
   },
   {
     id: 36398,
@@ -1179,6 +1277,7 @@ const freshwaterMediumFish = [
     imageName: "xenocypris",
     imageDescription:
       "This unusually hardy freshwater koi is found throughout Labyrinthos.",
+    isTradable: true
   },
   {
     id: 20020,
@@ -1191,6 +1290,7 @@ const freshwaterMediumFish = [
     imageName: "yanxianbarramundi",
     imageDescription:
       "This large carnivorous specimen is native to the southeastern reaches of the One River where the waters run slow and deep.",
+    isTradable: true
   },
   {
     id: 43713,
@@ -1203,6 +1303,7 @@ const freshwaterMediumFish = [
     imageName: "yellowpeacockbass",
     imageDescription:
       "The banded markings of this moderately large wavekin set it apart from other varieties of peacock bass.",
+    isTradable: true
   },
   {
     id: 27486,
@@ -1214,6 +1315,7 @@ const freshwaterMediumFish = [
     image: true,
     imageName: "yellowpipira",
     imageDescription: "A tiny-yet-fierce fish from the Rak'tika Greatwood.",
+    isTradable: true
   },
   {
     id: 20052,
@@ -1226,6 +1328,7 @@ const freshwaterMediumFish = [
     imageName: "yellowprismfish",
     imageDescription:
       "The pale yellow glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
+    isTradable: true
   },
 ];
 const freshwaterLargeFish = [
@@ -1240,6 +1343,7 @@ const freshwaterLargeFish = [
     imageName: "albinogarfish",
     imageDescription:
       "Its ghostly color and threatening size makes encountering this sort of garfish a uniquely alarming experience for folk fishing in the Source.",
+    isTradable: true
   },
   {
     id: 27579,
@@ -1251,6 +1355,7 @@ const freshwaterLargeFish = [
     image: true,
     imageName: "anpashandmaid",
     imageDescription: "A large, silvery wavekin that features in Ronkan myth.",
+    isTradable: true
   },
   {
     id: 8776,
@@ -1262,6 +1367,7 @@ const freshwaterLargeFish = [
     image: true,
     imageName: "bloodredbonytongue",
     imageDescription: "A king among bonytongue.",
+    isTradable: true
   },
   {
     id: 20192,
@@ -1274,6 +1380,7 @@ const freshwaterLargeFish = [
     imageName: "cavalrycatfish",
     imageDescription:
       "This large, aggressive freshwater fish will “charge” most anything moving, regardless of its size.",
+    isTradable: true
   },
   {
     id: 36485,
@@ -1286,6 +1393,7 @@ const freshwaterLargeFish = [
     imageName: "colossoma",
     imageDescription:
       "This impressive specimen can be found lingering among the aquatic vegetation in the lower Hungering Gardens.",
+    isTradable: true
   },
   {
     id: 5025,
@@ -1298,6 +1406,7 @@ const freshwaterLargeFish = [
     imageName: "emperorfish",
     imageDescription:
       "This giant freshwater fish lives out its adulthood feeding in the Indigo Deep before returning all the way back up to the head of the White Maiden to spawn.",
+    isTradable: true
   },
   {
     id: 20184,
@@ -1310,6 +1419,7 @@ const freshwaterLargeFish = [
     imageName: "fiftysummercod",
     imageDescription:
       "This long-living freshwater cod is commonly found in the One River.",
+    isTradable: true
   },
   {
     id: 27559,
@@ -1322,6 +1432,7 @@ const freshwaterLargeFish = [
     imageName: "ghoulfish",
     imageDescription:
       "The flesh of this Il Mheg native's head is transparent, rendering its bright-purple innards visible to all who gaze upon it─whether they like it or not.",
+    isTradable: true
   },
   {
     id: "43785",
@@ -1334,6 +1445,7 @@ const freshwaterLargeFish = [
     imageName: "giantsnakehead",
     imageDescription:
       "Easily mistaken for a mighty scalekin, this vibrant fish can be found in Mu Springs Eternal.",
+    isTradable: true
   },
   {
     id: 30434,
@@ -1346,6 +1458,7 @@ const freshwaterLargeFish = [
     imageName: "gianttaimen",
     imageDescription:
       "A king among hucho taimen, and lord of the waters of upper Watts River.",
+    isTradable: true
   },
   {
     id: 5000,
@@ -1358,6 +1471,7 @@ const freshwaterLargeFish = [
     imageName: "goblinperch",
     imageDescription:
       "The goblins claim that they brought this variety of perch back from their years-long pilgrimage into Othard and Ilsabard...because it tasted so divine.",
+    isTradable: true
   },
   {
     id: 20204,
@@ -1370,6 +1484,7 @@ const freshwaterLargeFish = [
     imageName: "grassshark",
     imageDescription:
       "Grass sharks are massive, their size rivaling that of even the Glass Ocean's greatest predators─an amazing feat considering grass sharks live their entire lives in the confines of the One River.",
+    isTradable: true
   },
   {
     id: 37845,
@@ -1382,6 +1497,7 @@ const freshwaterLargeFish = [
     imageName: "greatswordsnook",
     imageDescription:
       "A king among swordspine snook, and lord of the waters of Oinops.",
+    isTradable: true
   },
   {
     id: 7943,
@@ -1393,6 +1509,7 @@ const freshwaterLargeFish = [
     image: true,
     imageName: "hannibal",
     imageDescription: "A king among alligator garfish.",
+    isTradable: true
   },
   {
     id: 20228,
@@ -1405,6 +1522,7 @@ const freshwaterLargeFish = [
     imageName: "ichthyosaur",
     imageDescription:
       "Let not its dolphin-like appearance fool you. The ichthyosaur is a ravenous scalekin that feeds on squid, fish, and the occasional man overboard.",
+    isTradable: true
   },
   {
     id: 43808,
@@ -1417,6 +1535,7 @@ const freshwaterLargeFish = [
     imageName: "karvarichthys",
     imageDescription:
       "Let not its dolphin-like appearance fool you. The ichthyosaur is a ravenous scalekin that feeds on squid, fish, and the occasional man overboard.",
+    isTradable: true
   },
   {
     id: 27534,
@@ -1429,6 +1548,7 @@ const freshwaterLargeFish = [
     imageName: "littlebismarck",
     imageDescription:
       "Fishers who wish to keep all of their remaining limbs intact would do well to remember that the name of this wavekin is not indicative of diminutive size─almost all creatures are “little” compared to Bismarck.",
+    isTradable: true
   },
   {
     id: 27560,
@@ -1440,6 +1560,7 @@ const freshwaterLargeFish = [
     image: true,
     imageName: "measandeala",
     imageDescription: "A lemon yellow freshwater fish native to Il Mheg.",
+    isTradable: true
   },
   {
     id: 22389,
@@ -1452,6 +1573,7 @@ const freshwaterLargeFish = [
     imageName: "miragemahi",
     imageDescription:
       "A sizable catch found primarily in the freshwater highland rivers of Gyr Abania.",
+    isTradable: true
   },
   {
     id: 27532,
@@ -1464,6 +1586,7 @@ const freshwaterLargeFish = [
     imageName: "misteye",
     imageDescription:
       "Whether this ancient wavekin was always blind or if its eyes have simply been clouded by time is a riddle that no still-living person can answer.",
+    isTradable: true
   },
   {
     id: 40589,
@@ -1476,6 +1599,7 @@ const freshwaterLargeFish = [
     imageName: "spectralkotsuzetsu",
     imageDescription:
       "The bone-like tongues of these spectral wavekin are surprisingly sturdy despite their crystalline appearance, and are often used by highly skilled artisans to craft priceless accessories.",
+    isTradable: true
   },
   {
     id: 12749,
@@ -1488,6 +1612,7 @@ const freshwaterLargeFish = [
     imageName: "vanuhead",
     imageDescription:
       "A freshwater fish inhabiting the Eddies─an isolated lake found atop one of Abalathia's floating islets.",
+    isTradable: true
   },
   {
     id: 12721,
@@ -1499,6 +1624,7 @@ const freshwaterLargeFish = [
     image: true,
     imageName: "whilomcatfish",
     imageDescription: "A small, red catfish native to the Whilom River.",
+    isTradable: true
   },
 ];
 
@@ -1513,6 +1639,7 @@ const freshwaterXLargeFish = [
     image: true,
     imageName: "canavan",
     imageDescription: "A king among morinabaligi.",
+    isTradable: true
   },
   {
     id: 12803,
@@ -1525,6 +1652,7 @@ const freshwaterXLargeFish = [
     imageName: "euphoticpirarucu",
     imageDescription:
       "A biologically engineered fish found in Azys Lla's Delta Quadrant.",
+    isTradable: true
   },
   {
     id: 8774,
@@ -1536,6 +1664,7 @@ const freshwaterXLargeFish = [
     image: true,
     imageName: "gianttakitaro",
     imageDescription: "A king among takitaro.",
+    isTradable: true
   },
   {
     id: 12830,
@@ -1548,6 +1677,7 @@ const freshwaterXLargeFish = [
     imageName: "loosetongue",
     imageDescription:
       "A giant freshwater cousin of the bonytongue found only in the Thaliak River.",
+    isTradable: true
   },
   {
     id: 17579,
@@ -1560,6 +1690,7 @@ const freshwaterXLargeFish = [
     imageName: "paikiller",
     imageDescription:
       "A king among catkillers, and lord of the waters of the Eddies.",
+    isTradable: true
   },
   {
     id: 12752,
@@ -1572,6 +1703,7 @@ const freshwaterXLargeFish = [
     imageName: "tigerfish",
     imageDescription:
       "A striped freshwater fish native to the Quickspill Delta.",
+    isTradable: true
   },
     {
     id: 47993,
@@ -1584,6 +1716,7 @@ const freshwaterXLargeFish = [
     imageName: "ttokatoa",
     imageDescription:
       "A king among Turali paddlefish, and lord of the expanse of Lake Toari.",
+    isTradable: true
   },
   {
     id: 27437,
@@ -1596,6 +1729,7 @@ const freshwaterXLargeFish = [
     imageName: "vicejaw",
     imageDescription:
       "An armor-plated fish found near the Isle of Ken, as vicious as it is ancient.",
+    isTradable: true
   },
   {
     id: 24994,
@@ -1608,6 +1742,7 @@ const freshwaterXLargeFish = [
     imageName: "wardenofthesevenhues",
     imageDescription:
       "Though beautiful, this polychromatic carp ruled Prism Lake with an iron fin...until now.",
+    isTradable: true
   },
   {
     id: 24990,
@@ -1620,6 +1755,7 @@ const freshwaterXLargeFish = [
     imageName: "xenacanthus",
     imageDescription:
       "This massive predator has haunted the nightmares of Gyr Abanians for generations as the legendary “impaler of Timmon Beck,” thanks to its centuries-old legacy of terrorizing smallfolk attempting to do their washing.",
+    isTradable: true
   },
 ];
 
@@ -1635,6 +1771,7 @@ const saltWaterSmallFish = [
     imageName: "bubbleangler",
     imageDescription:
       "The see-through flesh of this bizarre anglerfish makes it all the more disturbing to look at.",
+    isTradable: true
   },
   {
     id: 4876,
@@ -1647,6 +1784,7 @@ const saltWaterSmallFish = [
     imageName: "coralbutterfly",
     imageDescription:
       "A colorful saltwater fish commonly found in the warm seas around the island of Bianaq. Not known for its flavor, the wavekin is most often kept as a pet.",
+    isTradable: true
   },
   {
     id: 36387,
@@ -1659,6 +1797,7 @@ const saltWaterSmallFish = [
     imageName: "dogfacedpuffer",
     imageDescription:
       "A saltwater fish recognized by its dark facial markings.",
+    isTradable: true
   },
   {
     id: 27423,
@@ -1671,6 +1810,7 @@ const saltWaterSmallFish = [
     imageName: "eulmorebutterfly",
     imageDescription:
       "A brightly colored and riotously patterned fish that looks right at home in the gaudy environs of Eulmore.",
+    isTradable: true
   },
   {
     id: 36450,
@@ -1683,6 +1823,7 @@ const saltWaterSmallFish = [
     imageName: "fierygoby",
     imageDescription:
       "This saltwater fish sputters along like a flickering flame.",
+    isTradable: true
   },
   {
     id: 4874,
@@ -1695,6 +1836,7 @@ const saltWaterSmallFish = [
     imageName: "harborherring",
     imageDescription:
       "This particular variety of herring will gather in busy harbors to feed on the small sea creatures which consume the waste dumped from ships.",
+    isTradable: true
   },
   {
     id: 20048,
@@ -1707,6 +1849,7 @@ const saltWaterSmallFish = [
     imageName: "harutsuge",
     imageDescription:
       "This saltwater fish has a distinct crimson coloring that makes it popular amongst aquarium owners.",
+    isTradable: true
   },
   {
     id: 20162,
@@ -1719,6 +1862,7 @@ const saltWaterSmallFish = [
     imageName: "hatchetfish",
     imageDescription:
       "The Ruby Sea hatchetfish earns its name from its overgrown head which, if you squint hard enough, might appear similar to the head of a timberlord's hatchet.",
+    isTradable: true
   },
   {
     id: 36537,
@@ -1731,6 +1875,7 @@ const saltWaterSmallFish = [
     imageName: "meyhanereveler",
     imageDescription:
       "The beauty of this saltwater fish is of great interest to the people of Thavnair─and even greater interest to travelers passing through.",
+    isTradable: true
   },
   {
     id: 36575,
@@ -1743,6 +1888,7 @@ const saltWaterSmallFish = [
     imageName: "miniyasha",
     imageDescription:
       "A saltwater wavekin with distinctive red and amber coloration.",
+    isTradable: true
   },
   {
     id: 36549,
@@ -1755,6 +1901,7 @@ const saltWaterSmallFish = [
     imageName: "onihige",
     imageDescription:
       "Do not let its size fool you─this fish is a terror of the seas. Mainly because of its appearance.",
+    isTradable: true
   },
   {
     id: "43669",
@@ -1767,6 +1914,7 @@ const saltWaterSmallFish = [
     imageName: "shallowssot",
     imageDescription:
       "This saltwater fish can be found lurking in the shallows beneath the For'ard Cabins, where it tries to avoid the attention of predators and inquisitive anglers besides.",
+    isTradable: true
   },
   {
     id: 32063,
@@ -1779,6 +1927,7 @@ const saltWaterSmallFish = [
     imageName: "spectralbutterfly",
     imageDescription:
       "Some believe their appearance to be an omen of considerable riches on the horizon. Considering that these wavekin fetch a pretty gil at market, perhaps there is some truth to it.",
+    isTradable: true
   },
   {
     id: 40549,
@@ -1791,6 +1940,7 @@ const saltWaterSmallFish = [
     imageName: "spectralwrasse",
     imageDescription:
       "Though this wavekin may be small, it attempts to remedy such shortcomings by sporting splendidly spectral scales. In doing so, however, it has become more vulnerable to predators and skilled anglers.",
+    isTradable: true
   },
   {
     id: 36535,
@@ -1803,6 +1953,7 @@ const saltWaterSmallFish = [
     imageName: "tebqeyiqsmelt",
     imageDescription:
       "For every vivid specimen of this species found, there is another far less interesting to look upon─but such is the nature of tropical fish.",
+    isTradable: true
   },
   {
     id: 4879,
@@ -1815,6 +1966,7 @@ const saltWaterSmallFish = [
     imageName: "tigercod",
     imageDescription:
       "A striped saltwater fish indigenous to the cold northern waters of the Bloodbrine Sea.",
+    isTradable: true
   },
 ];
 
@@ -1830,6 +1982,7 @@ const saltWaterMediumFish = [
     imageName: "aetherolectricguitarfish",
     imageDescription:
       "A king among guitarfish, and lord of the waters of Scholar's Harbor.",
+    isTradable: true
   },
   {
     id: 4883,
@@ -1842,6 +1995,7 @@ const saltWaterMediumFish = [
     imageName: "angelfish",
     imageDescription:
       "A small colorful fish native to the warmer waters of the seas near Meracydia. Since the Calamity, more and more have been caught off Eorzea's southern coastline.",
+    isTradable: true
   },
   {
     id: 20145,
@@ -1854,6 +2008,7 @@ const saltWaterMediumFish = [
     imageName: "blackboxfish",
     imageDescription:
       "This saltwater cousin to the puffers changes color several times during its development, and it is only in the final years of adulthood that it bears the hue from which it earns its moniker.",
+    isTradable: true
   },
   {
     id: 4886,
@@ -1866,6 +2021,7 @@ const saltWaterMediumFish = [
     imageName: "blowfish",
     imageDescription:
       "A saltwater fish that, when provoked, blows up to three times its normal size to intimidate the would-be attacker. It is also known to have an organ which contains a potent silencing poison.",
+    isTradable: true
   },
   {
     id: 27422,
@@ -1878,6 +2034,7 @@ const saltWaterMediumFish = [
     imageName: "bonefish",
     imageDescription:
       "These unappetizing specimens proliferate in the Derelicts, where residents have little choice but to scrape what flesh they can from them.",
+    isTradable: true
   },
   {
     id: 36388,
@@ -1890,6 +2047,7 @@ const saltWaterMediumFish = [
     imageName: "cobaltchromis",
     imageDescription:
       "This saltwater fish is prized for its brilliant blue hue.",
+    isTradable: true
   },
   {
     id: 36557,
@@ -1902,6 +2060,7 @@ const saltWaterMediumFish = [
     imageName: "crownfish",
     imageDescription:
       "If one were judging by appearances alone, the marking around this fish's face would make it ruler of the seas. Alas, in the real world, the best it can hope for is to not be confused with the common clown fish.",
+    isTradable: true
   },
   {
     id: 36571,
@@ -1914,6 +2073,7 @@ const saltWaterMediumFish = [
     imageName: "deepbodyboarfish",
     imageDescription:
       "These saltwater wavekin are known far and wide for their unique shape and bright color.",
+    isTradable: true
   },
   {
     id: 20180,
@@ -1925,6 +2085,7 @@ const saltWaterMediumFish = [
     image: true,
     imageName: "falsescad",
     imageDescription: "A common saltwater fish doing its best scad impression.",
+    isTradable: true
   },
   {
     id: 36425,
@@ -1937,6 +2098,7 @@ const saltWaterMediumFish = [
     imageName: "fatesdesign",
     imageDescription:
       "A tropical fish known for its dazzling coloration and unique scale patterns.",
+    isTradable: true
   },
   {
     id: "43672",
@@ -1949,6 +2111,7 @@ const saltWaterMediumFish = [
     imageName: "floatingfife",
     imageDescription:
       "Though its name may imply otherwise, attempting to play lovely little ditties with this wavekin is ill-advised.",
+    isTradable: true
   },
   {
     id: "43794",
@@ -1961,6 +2124,7 @@ const saltWaterMediumFish = [
     imageName: "forgottenone",
     imageDescription:
       "A mysterious saltwater fish, about which next to nothing is known.",
+    isTradable: true
   },
   {
     id: 4898,
@@ -1973,6 +2137,7 @@ const saltWaterMediumFish = [
     imageName: "fullmoonsardine",
     imageDescription:
       "A tiny saltwater fish native to the waters of Vylbrand. Unlike other wavekin, they feed only at night, their activity increasing as Menphina waxes.",
+    isTradable: true
   },
   {
     id: 36525,
@@ -1985,6 +2150,7 @@ const saltWaterMediumFish = [
     imageName: "gilledtopknot",
     imageDescription:
       "A tropical fish with sizable fins that protrude perhaps a little too far from its body.",
+    isTradable: true
   },
   {
     id: 20110,
@@ -1997,6 +2163,7 @@ const saltWaterMediumFish = [
     imageName: "glasstuna",
     imageDescription:
       "One of the most popular ingredients in Hingan sushi, the giant Glass tuna are thought to follow the strong ocean currents for thousands of malms in their lifetime.",
+    isTradable: true
   },
   {
     id: 7685,
@@ -2009,6 +2176,7 @@ const saltWaterMediumFish = [
     imageName: "goldenfin",
     imageDescription:
       "A king among coral butterflies, and lord of the waters of the Limsa Lominsa upper decks.",
+    isTradable: true
   },
   {
     id: 40570,
@@ -2021,6 +2189,7 @@ const saltWaterMediumFish = [
     imageName: "heavensentshark",
     imageDescription:
       "This shark is believed to be the reincarnation of a tiger descended from Heaven-on-High.",
+    isTradable: true
   },
   {
     id: 4895,
@@ -2033,6 +2202,7 @@ const saltWaterMediumFish = [
     imageName: "indigoherring",
     imageDescription:
       "This blue-backed, white-bellied saltwater fish native to the Indigo Deep is known to migrate in large schools from north to south in the winter, and back again in the summer.",
+    isTradable: true
   },
   {
     id: 29719,
@@ -2045,6 +2215,7 @@ const saltWaterMediumFish = [
     imageName: "jasperhead",
     imageDescription:
       "Sought for the gemlike objects that form in their stomachs, not in their heads, as the name might suggest.",
+    isTradable: true
   },
   {
     id: 36563,
@@ -2057,6 +2228,7 @@ const saltWaterMediumFish = [
     imageName: "keeledfugu",
     imageDescription:
       "Living within the abyssal zone, this fish is much smaller than it leads its predators to believe.",
+    isTradable: true
   },
   {
     id: 27454,
@@ -2069,6 +2241,7 @@ const saltWaterMediumFish = [
     imageName: "kholusianwrasse",
     imageDescription:
       "A knobbly-headed fish native to the oceans surrounding Kholusia.",
+    isTradable: true
   },
   {
     id: 32100,
@@ -2081,6 +2254,7 @@ const saltWaterMediumFish = [
     imageName: "lansquenet",
     imageDescription:
       "Something of a mercenary among fish, it offers protection to smaller fish, though it seems to receive little in return. Perhaps it eats a few of them when the others are not looking?",
+    isTradable: true
   },
   {
     id: 29755,
@@ -2093,6 +2267,7 @@ const saltWaterMediumFish = [
     imageName: "mythrilsovereign",
     imageDescription:
       "Known for its beautifully shimmering scales, which are in contrast to its rather lackluster meat.",
+    isTradable: true
   },
   {
     id: 7693,
@@ -2105,6 +2280,7 @@ const saltWaterMediumFish = [
     imageName: "navigatorsbrand",
     imageDescription:
       "A king among Navigator's daggers, and lord of the waters of the Brewer's Beacon.",
+    isTradable: true
   },
   {
     id: 36577,
@@ -2117,6 +2293,7 @@ const saltWaterMediumFish = [
     imageName: "othardianlumpsucker",
     imageDescription:
       "A deep-sea wavekin with fins that will cling desperately to just about anything to avoid swimming.",
+    isTradable: true
   },
   {
     id: 36568,
@@ -2129,6 +2306,7 @@ const saltWaterMediumFish = [
     imageName: "othardianwrasse",
     imageDescription:
       "A saltwater creature known for its beautiful coloration.",
+    isTradable: true
   },
   {
     id: 36539,
@@ -2141,6 +2319,7 @@ const saltWaterMediumFish = [
     imageName: "rasafish",
     imageDescription:
       "This wavekin's scales are so beautiful that they appear wrought from copper, and as such it fetches a rather impressive price at market.",
+    isTradable: true
   },
   {
     id: 20186,
@@ -2153,6 +2332,7 @@ const saltWaterMediumFish = [
     imageName: "redcoat",
     imageDescription:
       "A large, reddish orange fish with distinctively enormous eyes to help it see in the murky depths of the Ruby Sea.",
+    isTradable: true
   },
   {
     id: 36426,
@@ -2165,6 +2345,7 @@ const saltWaterMediumFish = [
     imageName: "shadowdartsardine",
     imageDescription:
       "This black-bodied fish makes its home in the seas surrounding Thavnair.",
+    isTradable: true
   },
   {
     id: 40525,
@@ -2176,6 +2357,7 @@ const saltWaterMediumFish = [
     image: true,
     imageName: "sirensongmullet",
     imageDescription: "Business in the front. Sirensong in the back.",
+    isTradable: true
   },
   {
     id: 44342,
@@ -2188,6 +2370,7 @@ const saltWaterMediumFish = [
     imageName: "stardustsleeper",
     imageDescription:
       "A king among Xty'iinbek sleepers, and lord of the depths of Xty'iinbek Tsoly",
+    isTradable: true
   },
   {
     id: 29785,
@@ -2200,6 +2383,7 @@ const saltWaterMediumFish = [
     imageName: "spectraldiscus",
     imageDescription:
       "This aetherially infused wavekin gathers rather a lot of unwanted attention, and it has no natural defenses to fend off curious predators.",
+    isTradable: true
   },
   {
     id: 20100,
@@ -2212,6 +2396,7 @@ const saltWaterMediumFish = [
     imageName: "swordfish",
     imageDescription:
       "Fishers seeking to land ocean-dwelling swordfish must take care not to accidentally impale themselves on the wavekin's serrated bladelike maw.",
+    isTradable: true
   },
   {
     id: 28940,
@@ -2224,6 +2409,7 @@ const saltWaterMediumFish = [
     imageName: "tripodfish",
     imageDescription:
       "Many a seafarer has lain awake contemplating the cursed knowledge that, as its name implies, this fish can indeed stand on its fins.",
+    isTradable: true
   },
   {
     id: 38832,
@@ -2236,6 +2422,7 @@ const saltWaterMediumFish = [
     imageName: "vidyutvatwrasse",
     imageDescription:
       "A king among garjana wrasse, and lord of the waters of the Great Runoff.",
+    isTradable: true
   },
   {
     id: 20038,
@@ -2248,6 +2435,7 @@ const saltWaterMediumFish = [
     imageName: "zekkigrouper",
     imageDescription:
       "Groupers gather in swift currents of the Ruby Sea and the Rasen Kaikyo to feed on the abundant life drawn to the area.",
+    isTradable: true
   },
 ];
 
@@ -2263,6 +2451,7 @@ const saltWaterLargeFish = [
     imageName: "bluemarlin",
     imageDescription:
       "A large saltwater fish whose lustrous skin seems to shimmer even without sunlight.",
+    isTradable: true
   },
   {
     id: 7924,
@@ -2274,6 +2463,7 @@ const saltWaterLargeFish = [
     image: true,
     imageName: "bombardfish",
     imageDescription: "A king among balloonfish.",
+    isTradable: true
   },
   {
     id: 4918,
@@ -2286,6 +2476,7 @@ const saltWaterLargeFish = [
     imageName: "coelacanth",
     imageDescription:
       "An ancient species of saltwater fish which appears to have flourished in times well before the Allagans built their empire.",
+    isTradable: true
   },
   {
     id: 20171,
@@ -2298,6 +2489,7 @@ const saltWaterLargeFish = [
     imageName: "corpseeater",
     imageDescription:
       "A large carnivorous wavekin that dwells in the warm currents of the southern seas.",
+    isTradable: true
   },
   {
     id: 4893,
@@ -2310,6 +2502,7 @@ const saltWaterLargeFish = [
     imageName: "hammerheadshark",
     imageDescription:
       "A ravenous shark with a hammer-shaped head it uses to quickly detect its prey. This wavekin is most commonly found living in small schools in the Strait of Merlthor.",
+    isTradable: true
   },
   {
     id: 20054,
@@ -2322,6 +2515,7 @@ const saltWaterLargeFish = [
     imageName: "hanatatsu",
     imageDescription:
       "Similar to the sea horse, the hanatatsu swims “standing,” though instead of resembling a beast of burden, this saltwater fish has taken on the appearance of a sprig of coral.",
+    isTradable: true
   },
   {
     id: 36580,
@@ -2334,6 +2528,7 @@ const saltWaterLargeFish = [
     imageName: "kitefinshark",
     imageDescription:
       "A shark with shining, surreal eyes that stand out like gems against the dull background of its body.",
+    isTradable: true
   },
   {
     id: 20226,
@@ -2345,6 +2540,7 @@ const saltWaterLargeFish = [
     image: true,
     imageName: "motleybeakfish",
     imageDescription: "A striped carnivore that hunts the Ruby Sea.",
+    isTradable: true
   },
   {
     id: 4908,
@@ -2357,6 +2553,7 @@ const saltWaterLargeFish = [
     imageName: "mummerwrasse",
     imageDescription:
       "This saltwater fish's name comes from the odd lump on its head, thought to resemble a mummer's motley cap.",
+    isTradable: true
   },
   {
     id: 36453,
@@ -2369,6 +2566,7 @@ const saltWaterLargeFish = [
     imageName: "roosterfish",
     imageDescription:
       "A saltwater fish with a spindly dorsal fin that makes its home in the Perfumed Tides.",
+    isTradable: true
   },
   {
     id: 29787,
@@ -2381,6 +2579,7 @@ const saltWaterLargeFish = [
     imageName: "spectralbass",
     imageDescription:
       "This most ordinary of fish has become rather extraordinary thanks to being bathed in otherworldly aether, giving it a fetching blue tinge.",
+    isTradable: true
   },
   {
     id: 21176,
@@ -2393,6 +2592,7 @@ const saltWaterLargeFish = [
     imageName: "ukiki",
     imageDescription:
       "Its Hingan name roughly translating to “floating tree,” this variety of Eastern sunfish neither floats nor is a tree.",
+    isTradable: true
   },
   {
     id: 20157,
@@ -2405,6 +2605,7 @@ const saltWaterLargeFish = [
     imageName: "zebrashark",
     imageDescription:
       "Unlike those of the mystical zebra, the pronounced “stripes” upon this wavekin's back are more accurately compared to a tiger's spots.",
+    isTradable: true
   },
 ];
 const saltWaterXLargeFish = [
@@ -2419,6 +2620,7 @@ const saltWaterXLargeFish = [
     imageName: "basilosaurus",
     imageDescription:
       "This scourge of the seas bears physiological similarities to prehistoric whales.",
+    isTradable: true
   },
   {
     id: 29789,
@@ -2431,6 +2633,7 @@ const saltWaterXLargeFish = [
     imageName: "coralmanta",
     imageDescription:
       "Few creatures can claim to have an entire ecosystem on their back, although this appears to afford the host no practical benefits whatsoever.",
+    isTradable: false
   },
   {
     id: 4922,
@@ -2443,6 +2646,7 @@ const saltWaterXLargeFish = [
     imageName: "dinichthys",
     imageDescription:
       "A legendary saltwater fish covered in thick armor and said to have once been worshipped by the Sahagin.",
+    isTradable: true
   },
   {
     id: 29782,
@@ -2455,6 +2659,7 @@ const saltWaterXLargeFish = [
     imageName: "funnelshark",
     imageDescription:
       "Its gaping maw draws in all manner of ocean life, along with a range of less-than-edible objects.",
+    isTradable: true
   },
   {
     id: 41408,
@@ -2467,6 +2672,7 @@ const saltWaterXLargeFish = [
     imageName: "gharlichthys",
     imageDescription:
       "This colossal inhabitant of the Perfumed Tides is thought to be one of the largest living fish on the star, growing nearly twenty fulms long. Those who miraculously haul one up from the depths should either be commended for their bravery or scolded for their folly.",
+    isTradable: true
   },
   {
     id: 7941,
@@ -2478,6 +2684,7 @@ const saltWaterXLargeFish = [
     image: true,
     imageName: "helmsmanshand",
     imageDescription: "A king among sunfish.",
+    isTradable: true
   },
   {
     id: "43792",
@@ -2490,6 +2697,7 @@ const saltWaterXLargeFish = [
     imageName: "hydrolouvar",
     imageDescription:
       "This hulking, formerly migratory species thrives in temperate seas.",
+    isTradable: true
   },
   {
     id: 7684,
@@ -2502,6 +2710,7 @@ const saltWaterXLargeFish = [
     imageName: "junkmonger",
     imageDescription:
       "A king among goosefish, and lord of the waters of Skull Valley.",
+    isTradable: true
   },
   {
     id: 33244,
@@ -2514,6 +2723,7 @@ const saltWaterXLargeFish = [
     imageName: "lancetfish",
     imageDescription:
       "Those fishing the waters of the northwest Caliban Gorge are advised that, if they attempt to handle this bellicose wavekin, they should avoid the pointy bits. Many will attest, however, that as practically the entire fish fits that description, it is best to simply give it as wide a berth as possible.",
+    isTradable: true
   },
   {
     id: 20018,
@@ -2526,6 +2736,7 @@ const saltWaterXLargeFish = [
     imageName: "liopleurodon",
     imageDescription:
       "Though king of the five seas and beyond, scholars classify the liopleurodon with scalekin rather than wavekin.",
+    isTradable: true
   },
   {
     id: 4917,
@@ -2538,6 +2749,7 @@ const saltWaterXLargeFish = [
     imageName: "mazlayamarlin",
     imageDescription:
       "A large saltwater fish found in the warm waters south of the Sea of Ash and known for its remarkable swimming speed.",
+    isTradable: true
   },
   {
     id: 4923,
@@ -2550,6 +2762,7 @@ const saltWaterXLargeFish = [
     imageName: "megalodon",
     imageDescription:
       "A legendary shark with a mouth so big and an appetite so large, it is said it can swallow an adult Roegadyn whole.",
+    isTradable: true
   },
   {
     id: 27503,
@@ -2562,6 +2775,7 @@ const saltWaterXLargeFish = [
     imageName: "ondobane",
     imageDescription:
       "This shark, native to the Tempest, is voracious, territorial, and massive─which savvy fishers may recognize as the worst combination of traits for a shark to have.",
+    isTradable: true
   },
   {
     id: 27424,
@@ -2574,6 +2788,7 @@ const saltWaterXLargeFish = [
     imageName: "redhammerhead",
     imageDescription:
       "Despite its whimsical appearance, this shark is nevertheless perfectly capable of biting one's face off if provoked.",
+    isTradable: true
   },
   {
     id: 23054,
@@ -2586,6 +2801,7 @@ const saltWaterXLargeFish = [
     imageName: "shrieker",
     imageDescription:
       "Anyone who has seen far enough into the maw of a shrieker to confirm whether its rows of teeth line not just one, but two pharyngeal jaws could not have lived to tell the tale, so the anatomy of this cryptid remains shrouded in mystery.",
+    isTradable: true
   },
   {
     id: 4903,
@@ -2598,6 +2814,7 @@ const saltWaterXLargeFish = [
     imageName: "silvershark",
     imageDescription:
       "A large, spindle-shaped shark commonly found in the Sea of Ash and known to attack without provocation.",
+    isTradable: true
   },
   {
     id: 7690,
@@ -2610,6 +2827,7 @@ const saltWaterXLargeFish = [
     imageName: "silversovereign",
     imageDescription:
       "Known also by the name of tarpon, this rare fish is said to have swum the oceans of Eorzea since the dawn of time. Lord of the waters of Oschon's Torch.",
+    isTradable: true
   },
   {
     id: 29788,
@@ -2622,6 +2840,7 @@ const saltWaterXLargeFish = [
     imageName: "sothis",
     imageDescription:
       "It is unclear how this species of turtle came to have a shell covered in glittering crystal, though it does give oceanic hunters pause for thought before they attempt to bite down on it. This could be considered a form of unnatural protection.",
+    isTradable: true
   },
   {
     id: 29784,
@@ -2634,6 +2853,7 @@ const saltWaterXLargeFish = [
     imageName: "spectralmegalodon",
     imageDescription:
       "Due to the fact that most of its prey are petrified upon catching sight of this ominously glowing predator, it has rather an easy time finding a steady supply of food.",
+    isTradable: true
   },
   {
     id: 29790,
@@ -2646,6 +2866,7 @@ const saltWaterXLargeFish = [
     imageName: "stonescale",
     imageDescription:
       "The thick covering of rock-like substance does little to improve this shark's mobility. Being an apex predator means it has little need of excessive armor plating.",
+    isTradable: true
   },
   {
     id: 40540,
@@ -2658,6 +2879,7 @@ const saltWaterXLargeFish = [
     imageName: "taniwha",
     imageDescription:
       "Respected and feared by the peoples of the south sea isles, this ancient sea creature is the subject of myriad myths and legends.",
+    isTradable: true
   },
   {
     id: 4924,
@@ -2670,6 +2892,7 @@ const saltWaterXLargeFish = [
     imageName: "titanicsawfish",
     imageDescription:
       "Legends say that this gargantuan saltwater fish once ripped a hundred-man galleon in two with its saw-like head.",
+    isTradable: true
   }
 ];
 
@@ -2687,10 +2910,16 @@ function generateFishList(listName, containerName) {
         id: item.id,
         eorzeadb: item.eorzeaDb,
         alias: item.alias,
+        isTradable: item.isTradable
       };
 
       for (const prop in dataset) {
-        if (dataset[prop]) ahref.setAttribute(`data-${prop}`, dataset[prop]);
+        //if (dataset[prop]) ahref.setAttribute(`data-${prop}`, dataset[prop]);
+        if (dataset[prop] !== undefined) {
+          // convert boolean to string explicitly
+          ahref.setAttribute(`data-${prop.replace(/[A-Z]/g, m => "-" + m.toLowerCase())}`, dataset[prop]);
+        }
+        
       }
 
       Object.assign(ahref, {

@@ -69,6 +69,61 @@ window.addEventListener("load", () => {
 });
 
 
+// Helper: select fish by name
+function selectFishByName(fishName) {
+  const link = [...document.querySelectorAll('.feesh-link')].find(
+    a => a.dataset.name.toLowerCase() === fishName.toLowerCase()
+  );
+  if (link) link.click();
+}
+
+// Update URL without reloading
+function updateURL(fishName) {
+  const url = new URL(window.location);
+  url.searchParams.set('fish', fishName.toLowerCase());
+  history.replaceState(null, '', url); // updates the URL in the address bar
+}
+
+// On page load
+window.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const fishName = params.get('fish');
+  
+  if (fishName) {
+    selectFishByName(fishName);
+  } else {
+    // Default: first fish in the list
+    const firstFish = document.querySelector('.feesh-link');
+    if (firstFish) firstFish.click();
+  }
+});
+
+// Update URL whenever a fish is clicked
+document.querySelectorAll('.feesh-link').forEach(link => {
+  link.addEventListener('click', () => {
+    updateURL(link.dataset.name);
+  });
+});
+
+
+
+// map FFXIV capacity to percentage of tank width
+const fishScaleMap = {
+  s: 35,   // small
+  m: 40,   // medium
+  l: 60,   // large
+  xl: 85   // extra large
+};
+
+function scaleFishPreview(fish) {
+  const scale = fishScaleMap[fish.size]; // s, m, l, xl
+  if (!scale) return;
+
+  // Apply as percentage of tank width
+  fishIdContainer.style.width = scale + "%";
+  fishIdContainer.style.height = "auto"; // keep aspect ratio
+}
+
 // links.forEach((link) => {
 //     link.addEventListener('click', () => {
 //     removeActiveLinkClasses();
@@ -158,9 +213,10 @@ document.addEventListener("click", e => {
     id: link.dataset.id,
     alias: link.dataset.alias,
     eorzeadb: link.dataset.eorzeadb,
-    description: link.title
+    description: link.title,
+    isTradable: link.dataset.isTradable
   };
-
+  scaleFishPreview(fish);
   Object.assign(fishIdContainer, {
     src: `/img/${fish.category}/${fish.size}/${fish.name}.png`,
     alt: fish.description
@@ -174,20 +230,25 @@ document.addEventListener("click", e => {
 
   if (fish.id) {
     let garlandToolsLink = document.createElement("a");
-    let universalisLink = document.createElement("a");
     Object.assign(garlandToolsLink, {
       href: `https://www.garlandtools.org/db/#item/${fish.id}`,
       classList: "garland-tools",
       target: "_blank",
       title: "Garland Tools"
     });
+    additionalLinkContainer.appendChild(garlandToolsLink);
+  }
+
+  // Add Universalis only if tradable
+  if (fish.id && fish.isTradable === "true") {
+    let universalisLink = document.createElement("a");
     Object.assign(universalisLink, {
-      href: `https://universalis.app/market/${fish.id}`,
-      classList: "universalis",
-      target: "_blank",
-      title: "Universalis"
+      href: `https://universalis.app/market/` + fish.id,
+      classList: 'universalis',
+      target: '_blank',
+      title: 'Universalis'
     });
-    additionalLinkContainer.append(garlandToolsLink, universalisLink);
+    additionalLinkContainer.appendChild(universalisLink);
   }
 
   if (fish.eorzeadb) {

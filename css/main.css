@@ -399,7 +399,7 @@ h1 {
   width: 66%;
   display: flex;
   justify-content: space-between;
-  background-color: rgba(134, 90, 60, 0.8);
+  background-color: rgba(134.0402173913, 89.7119565217, 60.1597826087, 0.8);
 }
 .fish-header:after {
   content: " ";
@@ -408,7 +408,7 @@ h1 {
   bottom: -0.5em;
   width: 1em;
   height: 100%;
-  background-color: #8d5e3f;
+  background-color: rgb(141.0804347826, 94.4239130435, 63.3195652174);
   pointer-events: none;
   right: -0.57em;
   z-index: -1;
@@ -438,7 +438,7 @@ h1 {
   mask: none;
   left: auto;
   right: -0.05em;
-  border-top: 0.5em solid #5c3d29;
+  border-top: 0.5em solid rgb(91.7989130435, 61.4402173913, 41.2010869565);
   border-right: 0.5em solid transparent;
 }
 .fish-header--additional-links a {
@@ -544,17 +544,6 @@ h1 {
   background: url(/img/gamerescape.png);
 }
 
-.fish-tank {
-  height: 308px;
-  position: relative;
-}
-
-#fish {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
 .fade-in {
   animation: fadeIn 3s;
 }
@@ -563,39 +552,55 @@ h1 {
   animation: fadeOut 5s;
 }
 
+.fish-tank {
+  width: 100%;
+  max-width: 600px; /* responsive max width */
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  /* Remove flex centering so bubbles can start from bottom */
+}
+
 .fish {
   position: fixed;
-  top: 46%;
-  left: 65%;
   transform: translate(-50%, -50%);
-  animation: swim 5s;
-  -webkit-animation: swim 5s;
-  animation-timing-function: linear;
-  -webkit-animation-timing-function: linear;
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-}
-.fish.s img {
-  width: 100px;
-}
-.fish.m img {
-  width: 200px;
-}
-.fish.l img {
-  width: 340px;
-}
-.fish.xl img {
-  width: 450px;
+  display: block;
+  margin: 0 auto;
+  transition: width 0.3s ease;
 }
 
-.hanatatsu {
-  width: 220px !important;
+#fish {
+  display: block;
+  margin: 0 auto;
+  animation: bounce 2s infinite;
+  height: auto;
+  transition: width 0.3s ease, height 0.3s ease;
+  object-fit: contain;
 }
 
-.helmsmanshand {
-  width: 355px !important;
+/* Fish subtle swim */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
-
+@keyframes swim {
+  0%, 100% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(-50%, -51%);
+  }
+  50% {
+    transform: translate(-50%, -50%);
+  }
+  75% {
+    transform: translate(-50%, -49%);
+  }
+}
 .bubble {
   position: absolute;
   z-index: -1;
