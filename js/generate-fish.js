@@ -2674,6 +2674,8 @@ const saltWaterXLargeFish = [
 ];
 
 function generateFishList(listName, containerName) {
+  const fragment = document.createDocumentFragment();
+
   listName.forEach((item) => {
     let li = document.createElement("li");
     if (item.image) {
@@ -2683,26 +2685,31 @@ function generateFishList(listName, containerName) {
         size: item.fishsize,
         category: item.waterType,
         id: item.id,
-        eorzeaDb: item.eorzeaDb,
+        eorzeadb: item.eorzeaDb,
         alias: item.alias,
       };
 
       for (const prop in dataset) {
-        ahref.setAttribute(`data-${prop}`, dataset[prop]);
+        if (dataset[prop]) ahref.setAttribute(`data-${prop}`, dataset[prop]);
       }
+
       Object.assign(ahref, {
         className: "feesh-link",
-        href: "javascript:void(0)",
+        href: "#",
         innerHTML: item.fishname,
         title: item.imageDescription || "",
       });
+      ahref.addEventListener("click", e => e.preventDefault());
 
       li.appendChild(ahref);
     } else {
-      li.innerHTML = item.fishname;
+      li.textContent = item.fishname;
+      li.classList.add("no-image"); // fallback when image = false 
     }
-    containerName.appendChild(li);
+    fragment.appendChild(li);
   });
+
+  containerName.appendChild(fragment);
 }
 
 // Freshwater
