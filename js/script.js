@@ -160,12 +160,23 @@ document.addEventListener("click", e => {
   // Copy to clipboard on click
   shareLink.addEventListener("click", (e) => {
     e.preventDefault();
-    const shareURL = `${window.location.origin}${window.location.pathname}?fish=${fish.name.toLowerCase()}&size=${fish.size}&category=${fish.category}`;
-    navigator.clipboard.writeText(shareURL).then(() => {
-      showCopyMessage(shareLink); // shows tooltip instead of alert
-    }).catch(err => {
-      console.error("Could not copy URL: ", err);
-    });
+
+    // Map shorthand to full category names
+    const categoryMap = {
+      fw: "freshwater",
+      sw: "saltwater"
+    };
+    const fullCategory = categoryMap[fish.category] || fish.category;
+
+    const shareURL = `${window.location.origin}${window.location.pathname}?fish=${fish.name.toLowerCase()}&size=${fish.size}&category=${fullCategory}`;
+
+    navigator.clipboard.writeText(shareURL)
+      .then(() => {
+        showCopyMessage(shareLink); // shows tooltip instead of alert
+      })
+      .catch(err => {
+        console.error("Could not copy URL: ", err);
+      });
   });
 
   additionalLinkContainer.appendChild(shareLink);
