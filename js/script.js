@@ -74,7 +74,11 @@ function selectFishByName(fishName) {
   const link = [...document.querySelectorAll('.feesh-link')].find(
     a => a.dataset.name.toLowerCase() === fishName.toLowerCase()
   );
-  if (link) link.click();
+  if (link) {
+    removeActiveLinkClasses();  // clear any previous active
+    link.classList.add("active"); // set active class
+    link.click(); // trigger the existing click behavior
+  }
 }
 
 // Update URL without reloading
@@ -94,7 +98,10 @@ window.addEventListener("DOMContentLoaded", () => {
   } else {
     // Default: first fish in the list
     const firstFish = document.querySelector('.feesh-link');
-    if (firstFish) firstFish.click();
+    if (firstFish) {
+      firstFish.classList.add("active");
+      firstFish.click();
+    }
   }
 });
 
