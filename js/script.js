@@ -16,35 +16,6 @@ const mobileMenuClose = document.querySelector('.mobile-close');
 const mobileMenuList = document.querySelector('.mobile-list');
 const navigation = document.querySelector('.navigation');
 
-// ---------------- Search feature ----------------
-window.addEventListener("load", () => {
-  const clearSearch = document.getElementById("clear-search");
-  const filter = document.getElementById("the-filter");
-  const list = document.querySelectorAll(".fish-nav-categories--menu-list li");
-
-  clearSearch.addEventListener('click', () => {
-    filter.value = "";
-    clearSearch.classList.add("hide");
-    list.forEach(item => item.classList.remove("hide"));
-  });
-
-  function debounce(fn, delay) {
-    let timeout;
-    return (...args) => {
-      clearTimeout(timeout);
-      timeout = setTimeout(() => fn(...args), delay);
-    };
-  }
-
-  filter.addEventListener("keyup", debounce(() => {
-    let search = filter.value.toLowerCase();
-    clearSearch.classList.remove("hide");
-    list.forEach(item => {
-      item.classList.toggle("hide", !item.innerText.toLowerCase().includes(search));
-    });
-  }, 200));
-});
-
 // ---------------- Helper functions ----------------
 function resetFade() {
   fishTank.classList.remove("fade-in");
@@ -53,7 +24,7 @@ function resetFade() {
 }
 
 function removeActiveLinkClasses() {
-  links.forEach(link => link.classList.remove('active'));
+  document.querySelectorAll('.feesh-link').forEach(link => link.classList.remove('active'));
 }
 
 function removeEachActiveCategoryLinkClasses() {
@@ -62,6 +33,15 @@ function removeEachActiveCategoryLinkClasses() {
 
 function fishNavMenuReset() {
   fishNavMenu.className = 'fish-nav-menu';
+}
+
+// ---------------- Scaling ----------------
+const fishScaleMap = { s: 35, m: 40, l: 50, xl: 85 };
+function scaleFishPreview(fish) {
+  const scale = fishScaleMap[fish.size];
+  if (!scale) return;
+  fishIdContainer.style.width = scale + "%";
+  fishIdContainer.style.height = "auto";
 }
 
 // ---------------- Water Type Toggle ----------------
@@ -83,43 +63,25 @@ function menuToggle(watertype, currentType, setNewType) {
 menuToggle("freshwater", saltwaterBtn, freshwaterBtn);
 menuToggle("saltwater", freshwaterBtn, saltwaterBtn);
 
-// Create a temporary tooltip for copy feedback
-function showCopyMessage(element, message = "Copied!") {
-  const tooltip = document.createElement("span");
-  tooltip.className = "copy-tooltip";
-  tooltip.innerText = message;
-  element.appendChild(tooltip);
+// ---------------- URL Handling ----------------
+function updateURLParams() {
+  const activeFish = document.querySelector(".feesh-link.active");
+  const activeSizeLink = [...fishCategoryLinks].find(link => link.classList.contains("active"));
+  const activeCategoryBtn = freshwaterBtn.classList.contains("active") ? freshwaterBtn :
+                            saltwaterBtn.classList.contains("active") ? saltwaterBtn : null;
 
-  // Animate and remove after 1.5s
-  setTimeout(() => {
-    tooltip.classList.add("fade-out");
-  }, 1000);
-
-  setTimeout(() => {
-    tooltip.remove();
-  }, 1500);
+  const url = new URL(window.location);
+  if(activeFish) url.searchParams.set("fish", activeFish.dataset.name);
+  if(activeSizeLink) url.searchParams.set("size", activeSizeLink.dataset.category);
+  if(activeCategoryBtn) url.searchParams.set("category", activeCategoryBtn.dataset.category);
+  history.replaceState(null, "", url);
 }
 
-
-
-// ---------------- Size link clicks ----------------
-fishCategoryLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    fishNavMenuReset();
-    removeEachActiveCategoryLinkClasses();
-    link.classList.add('active');
-    fishNavMenu.classList.add(`${fishNavMenu.dataset.category}-${link.dataset.category}`);
-    updateURLParams();
-  });
-});
-
-// ---------------- Fish click ----------------
-document.addEventListener("click", e => {
-  const link = e.target.closest(".feesh-link");
+// ---------------- Activate Fish ----------------
+function activateFishLink(link) {
   if (!link) return;
-
   removeActiveLinkClasses();
-  link.classList.add("active");
+  link.classList.add('active');
   resetFade();
 
   fish = {
@@ -153,81 +115,67 @@ document.addEventListener("click", e => {
     className: "share-fish",
     title: `Share ${fish.title}`
   });
-
-  // Optional: add icon
-  shareLink.innerHTML = "📤"; // can add svg later
-
-  // Copy to clipboard on click
+  shareLink.innerHTML = "📤";
   shareLink.addEventListener("click", (e) => {
     e.preventDefault();
-
-    // Map shorthand to full category names
-    const categoryMap = {
-      fw: "freshwater",
-      sw: "saltwater"
-    };
+    const categoryMap = { fw: "freshwater", sw: "saltwater" };
     const fullCategory = categoryMap[fish.category] || fish.category;
-
     const shareURL = `${window.location.origin}${window.location.pathname}?fish=${fish.name.toLowerCase()}&size=${fish.size}&category=${fullCategory}`;
-
-    navigator.clipboard.writeText(shareURL)
-      .then(() => {
-        showCopyMessage(shareLink); // shows tooltip instead of alert
-      })
-      .catch(err => {
-        console.error("Could not copy URL: ", err);
-      });
+    navigator.clipboard.writeText(shareURL).then(() => showCopyMessage(shareLink));
   });
-
   additionalLinkContainer.appendChild(shareLink);
 
-  
-
-  if(fish.id) {
+  // External links
+  if(fish.id){
     let garlandToolsLink = document.createElement("a");
-    Object.assign(garlandToolsLink, {
-      href: `https://www.garlandtools.org/db/#item/${fish.id}`,
-      classList: "garland-tools",
-      target: "_blank",
-      title: "Garland Tools"
-    });
+    Object.assign(garlandToolsLink, { href:`https://www.garlandtools.org/db/#item/${fish.id}`, classList:"garland-tools", target:"_blank", title:"Garland Tools" });
     additionalLinkContainer.appendChild(garlandToolsLink);
   }
-
-  if(fish.id && fish.isTradable === "true") {
+  if(fish.id && fish.isTradable === "true"){
     let universalisLink = document.createElement("a");
-    Object.assign(universalisLink, {
-      href: `https://universalis.app/market/${fish.id}`,
-      classList: 'universalis',
-      target: '_blank',
-      title: 'Universalis'
-    });
+    Object.assign(universalisLink, { href:`https://universalis.app/market/${fish.id}`, classList:'universalis', target:'_blank', title:'Universalis' });
     additionalLinkContainer.appendChild(universalisLink);
   }
-
-  if(fish.eorzeadb) {
+  if(fish.eorzeadb){
     let eorzeaDBLink = document.createElement("a");
-    Object.assign(eorzeaDBLink, {
-      href: `https://na.finalfantasyxiv.com/lodestone/playguide/db/item/${fish.eorzeadb}`,
-      classList: "eorzeadb_link eorzea-db",
-      target: "_blank",
-      title: "Eorzea Database"
-    });
+    Object.assign(eorzeaDBLink, { href:`https://na.finalfantasyxiv.com/lodestone/playguide/db/item/${fish.eorzeadb}`, classList:"eorzeadb_link eorzea-db", target:"_blank", title:"Eorzea Database" });
     additionalLinkContainer.appendChild(eorzeaDBLink);
   }
-
-  if(fish.alias) {
+  if(fish.alias){
     let gamerescapeLink = document.createElement("a");
-    Object.assign(gamerescapeLink, {
-      href: `https://ffxiv.gamerescape.com/wiki/${fish.alias}`,
-      classList: "gamerescape",
-      target: "_blank",
-      title: "Gamer Escape"
-    });
+    Object.assign(gamerescapeLink, { href:`https://ffxiv.gamerescape.com/wiki/${fish.alias}`, classList:"gamerescape", target:"_blank", title:"Gamer Escape" });
     additionalLinkContainer.appendChild(gamerescapeLink);
   }
 
-  updateURLParams(); // update URL on fish click
+  updateURLParams();
+}
+
+// ---------------- Copy tooltip ----------------
+function showCopyMessage(element, message = "Copied!") {
+  const tooltip = document.createElement("span");
+  tooltip.className = "copy-tooltip";
+  tooltip.innerText = message;
+  element.appendChild(tooltip);
+  setTimeout(() => tooltip.classList.add("fade-out"), 1000);
+  setTimeout(() => tooltip.remove(), 1500);
+}
+
+// ---------------- Fish category links ----------------
+fishCategoryLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    fishNavMenuReset();
+    removeEachActiveCategoryLinkClasses();
+    link.classList.add('active');
+    fishNavMenu.classList.add(`${fishNavMenu.dataset.category}-${link.dataset.category}`);
+    updateURLParams();
+  });
+});
+
+// ---------------- Fish click ----------------
+document.addEventListener("click", e => {
+  const link = e.target.closest(".feesh-link");
+  if (!link) return;
+  activateFishLink(link);
 });
 
 // ---------------- Keyboard accessibility ----------------
@@ -236,84 +184,92 @@ links.forEach(link => {
   link.addEventListener("keydown", e => {
     if(e.key === "Enter" || e.key === " ") {
       e.preventDefault();
-      link.click();
+      activateFishLink(link);
     }
   });
 });
-
-// ---------------- Scaling ----------------
-const fishScaleMap = { s: 35, m: 40, l: 50, xl: 85 };
-function scaleFishPreview(fish) {
-  const scale = fishScaleMap[fish.size];
-  if (!scale) return;
-  fishIdContainer.style.width = scale + "%";
-  fishIdContainer.style.height = "auto";
-}
 
 // ---------------- Mobile menu ----------------
 mobileMenuClose.addEventListener('click', () => navigation.classList.toggle("active"));
 mobileMenuList.addEventListener('click', () => navigation.classList.toggle("active"));
 
-// ---------------- URL Handling ----------------
-function selectFishByName(fishName) {
-  const link = [...document.querySelectorAll('.feesh-link')].find(
-    a => a.dataset.name.toLowerCase() === fishName.toLowerCase()
-  );
-  if (!link) return;
+// ---------------- Search feature ----------------
+window.addEventListener("load", () => {
+  const clearSearch = document.getElementById("clear-search");
+  const filter = document.getElementById("the-filter");
+  const searchBoxWrapper = document.querySelector(".searchbox-data");
+  const searchBoxUL = searchBoxWrapper ? searchBoxWrapper.querySelector("ul") : null;
+  const fwListWrapper = document.querySelector(".freshwater--menu-list");
+  const swListWrapper = document.querySelector(".saltwater--menu-list");
+  const originalLinks = Array.from(document.querySelectorAll(".feesh-link"));
+  const categoryFullMap = { fw:"freshwater", sw:"saltwater", freshwater:"freshwater", saltwater:"saltwater" };
 
-  removeActiveLinkClasses();
-  link.classList.add('active');
-  link.click();
-}
+  function showMainLists(){ if(fwListWrapper) fwListWrapper.style.display=""; if(swListWrapper) swListWrapper.style.display=""; if(searchBoxWrapper) searchBoxWrapper.classList.add("hide"); }
+  function hideMainLists(){ if(fwListWrapper) fwListWrapper.style.display="none"; if(swListWrapper) swListWrapper.style.display="none"; if(searchBoxWrapper) searchBoxWrapper.classList.remove("hide"); }
+  function hideSearchUI(){ filter.value=""; clearSearch.classList.add("hide"); showMainLists(); if(searchBoxUL) searchBoxUL.innerHTML=""; else document.querySelectorAll(".fish-nav-categories--menu-list li").forEach(li=>li.classList.remove("hide")); }
 
-function selectSize(size) {
-  const sizeLink = [...fishCategoryLinks].find(link => link.dataset.category === size);
-  if(!sizeLink) return;
+  clearSearch.addEventListener("click", e=>{ e.preventDefault(); hideSearchUI(); });
+  function debounce(fn, delay=200){ let t; return (...args)=>{ clearTimeout(t); t=setTimeout(()=>fn(...args), delay); }; }
 
-  removeEachActiveCategoryLinkClasses();
-  sizeLink.classList.add('active');
-  fishNavMenuReset();
-  fishNavMenu.classList.add(`${fishNavMenu.dataset.category}-${sizeLink.dataset.category}`);
-}
+  if(searchBoxWrapper && searchBoxUL){
+    searchBoxWrapper.classList.add("hide");
+    filter.addEventListener("input", debounce(()=>{
+      const q=(filter.value||"").trim().toLowerCase();
+      if(!q){ hideSearchUI(); return; }
+      clearSearch.classList.remove("hide"); hideMainLists();
+      const matches = originalLinks.filter(a=>a.textContent.toLowerCase().includes(q));
+      searchBoxUL.innerHTML="";
+      if(matches.length===0){ const li=document.createElement("li"); li.className="no-results"; li.textContent="No results"; searchBoxUL.appendChild(li); return; }
+      matches.forEach(orig=>{ const li=document.createElement("li"); const clone=orig.cloneNode(true); clone.setAttribute("tabindex","0"); li.appendChild(clone); searchBoxUL.appendChild(li); });
+    },180));
 
-function selectCategory(category) {
-  if(category === "freshwater") {
-    freshwaterBtn.click();
-  } else if(category === "saltwater") {
-    saltwaterBtn.click();
+    let ignoreBlur=false;
+    searchBoxWrapper.addEventListener("mousedown",()=>ignoreBlur=true);
+    searchBoxWrapper.addEventListener("mouseup",()=>ignoreBlur=false);
+    filter.addEventListener("blur",()=>{ setTimeout(()=>{ if(!ignoreBlur) hideSearchUI(); ignoreBlur=false; },120); });
+
+    searchBoxUL.addEventListener("click", e=>{
+      const anchor = e.target.closest(".feesh-link");
+      if(!anchor) return; e.preventDefault();
+      const name=anchor.dataset.name, size=anchor.dataset.size, catShort=anchor.dataset.category;
+      const fullCategory=categoryFullMap[catShort]||catShort;
+      selectCategory(fullCategory); selectSize(size);
+      const original = document.querySelector(`.feesh-link[data-name="${name}"][data-size="${size}"][data-category="${catShort}"]`);
+      if(original){ const parentUL=original.closest('ul'); const wasHidden=parentUL && parentUL.style.display==='none'; if(wasHidden) parentUL.style.display='block'; activateFishLink(original); if(wasHidden) setTimeout(()=>parentUL.style.display='none',10); }
+      else activateFishLink(anchor);
+      hideSearchUI();
+    });
+
+    searchBoxUL.addEventListener("keydown", e=>{
+      const focused=document.activeElement;
+      if(e.key==="Enter" && focused && focused.classList.contains("feesh-link")) activateFishLink(focused);
+    });
   }
+});
+
+// ---------------- URL + Selection helpers ----------------
+function selectFishByName(fishName){
+  const link=[...document.querySelectorAll('.feesh-link')].find(a=>a.dataset.name.toLowerCase()===fishName.toLowerCase());
+  if(!link) return; activateFishLink(link);
 }
-
-function updateURLParams() {
-  const activeFish = document.querySelector(".feesh-link.active");
-  const activeSizeLink = [...fishCategoryLinks].find(link => link.classList.contains("active"));
-  const activeCategoryBtn = freshwaterBtn.classList.contains("active") ? freshwaterBtn :
-                            saltwaterBtn.classList.contains("active") ? saltwaterBtn : null;
-
-  const url = new URL(window.location);
-  if(activeFish) url.searchParams.set("fish", activeFish.dataset.name);
-  if(activeSizeLink) url.searchParams.set("size", activeSizeLink.dataset.category);
-  if(activeCategoryBtn) url.searchParams.set("category", activeCategoryBtn.dataset.category);
-  history.replaceState(null, "", url);
+function selectSize(size){
+  const sizeLink=[...fishCategoryLinks].find(link=>link.dataset.category===size);
+  if(!sizeLink) return; removeEachActiveCategoryLinkClasses(); sizeLink.classList.add('active'); fishNavMenuReset(); fishNavMenu.classList.add(`${fishNavMenu.dataset.category}-${sizeLink.dataset.category}`);
+}
+function selectCategory(category){
+  if(category==="freshwater") freshwaterBtn.click();
+  else if(category==="saltwater") saltwaterBtn.click();
 }
 
 // ---------------- On page load ----------------
-window.addEventListener("DOMContentLoaded", () => {
-  const params = new URLSearchParams(window.location.search);
-  const fishName = params.get("fish");
-  const size = params.get("size");
-  const category = params.get("category");
-
+window.addEventListener("DOMContentLoaded", ()=>{
+  const params=new URLSearchParams(window.location.search);
+  const fishName=params.get("fish"), size=params.get("size"), category=params.get("category");
   if(fishName) selectFishByName(fishName);
   if(category) selectCategory(category);
   if(size) selectSize(size);
-
-  // Fallback: if no fish selected, pick first
-  if(!fishName) {
-    const firstFish = document.querySelector('.feesh-link');
-    if(firstFish) {
-      firstFish.classList.add("active");
-      firstFish.click();
-    }
+  if(!fishName){
+    const firstFish=document.querySelector('.feesh-link');
+    if(firstFish) activateFishLink(firstFish);
   }
 });

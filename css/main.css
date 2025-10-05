@@ -500,6 +500,10 @@ h1 {
   display: none;
 }
 
+.hide {
+  display: none;
+}
+
 #the-filter {
   font-family: inherit;
   width: 100%;
@@ -628,6 +632,14 @@ h1 {
 
 .copy-tooltip.fade-out {
   opacity: 0;
+}
+
+.searchbox-data.hide {
+  display: none;
+}
+
+.searchbox-data ul {
+  display: block;
 }
 
 .bubble {

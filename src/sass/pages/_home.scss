@@ -189,6 +189,7 @@ $darkcolor 		: #7F5539;
     }
   }
 }
+.hide {display: none;}
 
 #the-filter {
   font-family: inherit;
@@ -308,4 +309,16 @@ $darkcolor 		: #7F5539;
 
 .copy-tooltip.fade-out {
   opacity: 0;
+}
+
+
+
+
+
+.searchbox-data.hide {
+  display: none;
+}
+.searchbox-data ul {
+
+  display: block;
 }
