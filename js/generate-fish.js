@@ -2280,7 +2280,7 @@ const saltWaterMediumFish = [
     imageName: "navigatorsbrand",
     imageDescription:
       "A king among Navigator's daggers, and lord of the waters of the Brewer's Beacon.",
-    isTradable: true
+    isTradable: false
   },
   {
     id: 36577,
@@ -2827,7 +2827,7 @@ const saltWaterXLargeFish = [
     imageName: "silversovereign",
     imageDescription:
       "Known also by the name of tarpon, this rare fish is said to have swum the oceans of Eorzea since the dawn of time. Lord of the waters of Oschon's Torch.",
-    isTradable: true
+    isTradable: false
   },
   {
     id: 29788,
@@ -2840,7 +2840,7 @@ const saltWaterXLargeFish = [
     imageName: "sothis",
     imageDescription:
       "It is unclear how this species of turtle came to have a shell covered in glittering crystal, though it does give oceanic hunters pause for thought before they attempt to bite down on it. This could be considered a form of unnatural protection.",
-    isTradable: true
+    isTradable: false
   },
   {
     id: 29784,
@@ -2866,7 +2866,7 @@ const saltWaterXLargeFish = [
     imageName: "stonescale",
     imageDescription:
       "The thick covering of rock-like substance does little to improve this shark's mobility. Being an apex predator means it has little need of excessive armor plating.",
-    isTradable: true
+    isTradable: false
   },
   {
     id: 40540,
@@ -2879,7 +2879,7 @@ const saltWaterXLargeFish = [
     imageName: "taniwha",
     imageDescription:
       "Respected and feared by the peoples of the south sea isles, this ancient sea creature is the subject of myriad myths and legends.",
-    isTradable: true
+    isTradable: false
   },
   {
     id: 4924,
