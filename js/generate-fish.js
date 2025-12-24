@@ -166,6 +166,19 @@ const freshwaterSmallFish = [
       "This tiny species' skin exhibits a violet hue rarely seen in freshwater fish.",
     isTradable: true
   },
+    {
+    id: 43684,
+    eorzeaDb: "d67058d2fb3",
+    fishname: "First Feastfish",
+    alias: "First_Feastfish",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "firstfeastfish",
+    imageDescription:
+      "A vaguely egg-shaped freshwater fish found in the depths of Karvarhur the First.",
+    isTradable: true
+  },
   {
     id: 41410,
     eorzeaDb: "29272b0d980",
@@ -284,6 +297,32 @@ const freshwaterSmallFish = [
       "An elementally aspected, elegantly colored, and vanishingly rare cousin to the common carp.",
     isTradable: true
   },
+    {
+    id: 43724,
+    eorzeaDb: "d900ed6da48",
+    fishname: "Iq Rrax Leaffish",
+    alias: "Iq_Rrax_Leaffish",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "iqrraxleaffish",
+    imageDescription:
+      "Able to disguise itself as a dead leaf, this wavekin plies the cenote in search of prey.",
+    isTradable: true
+  },
+    {
+    id: 43704,
+    eorzeaDb: "3d1711f9242",
+    fishname: "Ku'uxage Bitterling",
+    alias: "Ku%27uxage_Bitterling",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "kuuxagebitterling",
+    imageDescription:
+      "This variety of bitterling has a habit of leaping through the waterfalls of Ku'uxage.",
+    isTradable: true
+  },
   {
     id: 27475,
     eorzeaDb: "89dc5c9ae4e",
@@ -320,6 +359,32 @@ const freshwaterSmallFish = [
     imageName: "moonlightguppy",
     imageDescription:
       "A queen among platinum guppies, and lady of the waters of the rusted reservoir.",
+    isTradable: true
+  },
+  {
+    id: 43698,
+    eorzeaDb: "c8c093ea47b",
+    fishname: "Oho Hunu",
+    alias: "Oho_Hunu",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "ohohunu",
+    imageDescription:
+      "This diminutive wavekin is known as one of the swiftest swimmers in Ihuykatumu.",
+    isTradable: true
+},
+    {
+    id: 43766,
+    eorzeaDb: "9c231821255",
+    fishname: "Outskirts Sniffer",
+    alias: "Outskirts_Sniffer",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "outskirtssniffer",
+    imageDescription:
+      "Although peculiar in appearance, this wavekin is as hardy and tenacious as the people of the outskirts themselves.",
     isTradable: true
   },
   {
@@ -399,6 +464,19 @@ const freshwaterSmallFish = [
     imageDescription: "A large-finned killifish found in Il Mheg.",
     isTradable: true
   },
+    {
+    id: 43829,
+    eorzeaDb: "3821f4617fd",
+    fishname: "Sunlit Prism",
+    alias: "Sunlit_Prism",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "sunlitprism",
+    imageDescription:
+      "This small freshwater fish is drawn to shallow, well-lit waters.",
+    isTradable: true
+  },
   {
     id: 32052,
     eorzeaDb: "78826b6128d",
@@ -412,6 +490,19 @@ const freshwaterSmallFish = [
       "A king among spotted ctenopoma, and lord of the waters of the Haughty One.",
     isTradable: true
   },
+    {
+    id: 43777,
+    eorzeaDb: "f16dbefe42b",
+    fishname: "Stickleback",
+    alias: "Stickleback",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "stickleback",
+    imageDescription:
+      "This moderately sized wavekin is easily identified by its prickly spines.",
+    isTradable: true
+  },
   {
     id: "24995",
     eorzeaDb: "9ca5d5e1921",
@@ -423,6 +514,19 @@ const freshwaterSmallFish = [
     imageName: "theunconditional",
     imageDescription:
       "Not so much a lord as a god of Dotharl Khaa, this particular specimen is thought to be a blessing sent by the Dusk Mother and Dawn Father themselves. As such, this catch might be best left unboasted of.",
+    isTradable: true
+  },
+    {
+    id: 43772,
+    eorzeaDb: "94ac01548b5",
+    fishname: "Thundering Redbelly",
+    alias: "Thundering_Redbelly",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "thunderingredbelly",
+    imageDescription:
+      "The flashes of red adorning this diminutive wavekin's belly bring to mind raging thunderstorms─according to the scholar that named this species, at the very least.",
     isTradable: true
   },
   {
@@ -450,6 +554,19 @@ const freshwaterSmallFish = [
       "A colorful freshwater fish prized for its striking red and yellow scales.",
     isTradable: true
   },
+    {
+    id: 43815,
+    eorzeaDb: "978601a3e73",
+    fishname: "Variegated Sisterscale",
+    alias: "Variegated_Sisterscale",
+    fishsize: "s",
+    waterType: "fw",
+    image: true,
+    imageName: "variegatedsisterscale",
+    imageDescription:
+      "With resplendent rainbow scales and pink fins, this pretty fish has many admirers in the angler community.",
+    isTradable: true
+  },
   {
     id: 38939,
     eorzeaDb: "5b69b079d95",
@@ -462,7 +579,7 @@ const freshwaterSmallFish = [
     imageDescription:
       "A fish prized not only for its green mottled beauty, but for the rarity of materials its body provides.",
     isTradable: true
-  },
+  }
 ];
 
 const freshwaterMediumFish = [
@@ -492,6 +609,18 @@ const freshwaterMediumFish = [
       "The red of this tropical wavekin is reminiscent of a certain fruit.",
     isTradable: true
   },
+  {
+  id: 43710,
+  eorzeaDb: "f580ab8ea14",
+  fishname: "Banded Candiru",
+  alias: "Banded_Candiru",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "bandedcandiru",
+  imageDescription: "A deceptive wavekin that utilizes its striking scales to deter predators.",
+  isTradable: true
+},
   {
     id: 27536,
     eorzeaDb: "75d74b61567",
@@ -582,6 +711,7 @@ const freshwaterMediumFish = [
       "A rare freshwater fish native to Yanxia and the Azim Steppe.",
     isTradable: true
   },
+
   {
     id: 4979,
     eorzeaDb: "5471a2d1fb9",
@@ -607,6 +737,18 @@ const freshwaterMediumFish = [
     imageDescription: "A freshwater fish patterned with broad black stripes.",
     isTradable: true
   },
+    {
+  id: 46190,
+  eorzeaDb: "912bc9a9369",
+  fishname: "Crenicichla Miyaka",
+  alias: "Crenicichla_Miyaka",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "crenicichlamiyaka",
+  imageDescription: "A king among crenicichla, and lord of the waters of the Dewspun Bank.",
+  isTradable: true
+},
   {
     id: 7902,
     eorzeaDb: "17f1b0a9edc",
@@ -685,6 +827,18 @@ const freshwaterMediumFish = [
       "Despite the beard-like ventral fins which give this freshwater wavekin an aged look, gourami only have an average lifespan of three to five summers.",
     isTradable: true
   },
+    {
+  id: 43812,
+  eorzeaDb: "ab236a20755",
+  fishname: "Emberwisp",
+  alias: "Emberwisp",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "emberwisp",
+  imageDescription: "This wavekin is said to be a discarded torch come to life, fated to roam the waters forevermore.", 
+  isTradable: true
+},
   {
     id: 27577,
     eorzeaDb: "bbaa1652b47",
@@ -777,6 +931,30 @@ const freshwaterMediumFish = [
       "A king among La Noscean perch, and lord of the waters of the Nym River.",
     isTradable: true
   },
+  {
+  id: 43701,
+  eorzeaDb: "82b40a09038",
+  fishname: "Hunu Peacock Bass",
+  alias: "Hunu_Peacock_Bass",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "hunupeacockbass",
+  imageDescription: "This member of the peacock bass family is readily identified by its fiery lateral markings.",
+  isTradable: true
+},
+  {
+  id: 44345,
+  eorzeaDb: "145c94809fa",
+  fishname: "Hwittayoanaan Cichlid",
+  alias: "Hwittayoanaan_Cichlid",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "hwittayoanaancichlid",
+  imageDescription: "A king among Pyariyoanaan cichlids, and lord of the waters of Niikwerepi.",
+  isTradable: true
+},
   {
     id: 20045,
     eorzeaDb: "1167434a3fc",
@@ -1009,6 +1187,18 @@ const freshwaterMediumFish = [
     isTradable: true
   },
   {
+  id: 44344,
+  eorzeaDb: "5df1f69facb",
+  fishname: "Pixel Loach",
+  alias: "Pixel_Loach",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "pixelloach",
+  imageDescription: "A king among Mosaic loaches, and lord of the artificial ponds of Solution Nine's residential sector.",
+  isTradable: true
+},
+  {
     id: 27525,
     eorzeaDb: "2fe67c7bca6",
     fishname: "Platinum Bream",
@@ -1228,6 +1418,20 @@ const freshwaterMediumFish = [
       "Legend states that this particular variety of sculpin is a favorite of Oschon, the Wanderer, and that the god will oft dine on this fish while on His journeys through the realm of man.",
     isTradable: true
   },
+{
+  id: 43739,
+  eorzeaDb: "4e45baa3f72",
+  fishname: "Welkin Catfish",
+  alias: "Welkin_Catfish",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "welkincatfish",
+  imageDescription: "This catfish is often likened to the night sky due to the smattering of white splotches on its dark scales.",
+  isTradable: true
+},
+
+
   {
     id: 28926,
     eorzeaDb: "2e36aba8a98",
@@ -1241,6 +1445,18 @@ const freshwaterMediumFish = [
       "A king among zebra catfish, and lord of the waters of lower Watts River.",
     isTradable: true
   },
+  {
+  id: 43782,
+  eorzeaDb: "68629fb2fab",
+  fishname: "Windspath Eel",
+  alias: "Windspath_Eel",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "windspatheel",
+  imageDescription: "Found in the Knowable, this sleek wavekin differs in color to its wild kin.", 
+  isTradable: true
+},
   {
     id: 27474,
     eorzeaDb: "897efe8bffc",
@@ -1279,6 +1495,19 @@ const freshwaterMediumFish = [
       "This unusually hardy freshwater koi is found throughout Labyrinthos.",
     isTradable: true
   },
+  {
+  id: 43734,
+  eorzeaDb: "fc2c7ccf6b9",
+  fishname: "Yak T'el Catfish",
+  alias: "Yak_T%27el_Catfish",
+  fishsize: "m",
+  waterType: "fw",
+  image: true,
+  imageName: "yaktelcatfish",
+  imageDescription: "This widely adored wavekin can be found all across the lowlands of Yak T'el.",
+  isTradable: true
+},
+
   {
     id: 20020,
     eorzeaDb: "8ddee7c2511",
@@ -1329,7 +1558,8 @@ const freshwaterMediumFish = [
     imageDescription:
       "The pale yellow glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
     isTradable: true
-  },
+  }
+
 ];
 const freshwaterLargeFish = [
   {
@@ -1588,6 +1818,20 @@ const freshwaterLargeFish = [
       "Whether this ancient wavekin was always blind or if its eyes have simply been clouded by time is a riddle that no still-living person can answer.",
     isTradable: true
   },
+  
+
+  {
+  id: 43711,
+  eorzeaDb: "dd498cff909",
+  fishname: "Oxydoras",
+  alias: "Oxydoras",
+  fishsize: "l",
+  waterType: "fw",
+  image: true,
+  imageName: "oxydoras",
+  imageDescription: "If it looks like a bludgeon in the water, and floats like a bludgeon in the water...it may not be a bludgeon in the water. It might be this catfish instead.",
+  isTradable: true
+},
   {
     id: 40589,
     eorzeaDb: "33a3f0c0272",
@@ -1625,7 +1869,8 @@ const freshwaterLargeFish = [
     imageName: "whilomcatfish",
     imageDescription: "A small, red catfish native to the Whilom River.",
     isTradable: true
-  },
+  }
+
 ];
 
 const freshwaterXLargeFish = [
@@ -1666,6 +1911,18 @@ const freshwaterXLargeFish = [
     imageDescription: "A king among takitaro.",
     isTradable: true
   },
+      {
+  id: 46191,
+  eorzeaDb: "7d290ccf4d4",
+  fishname: "Iron Shadowtongue",
+  alias: "Iron_Shadowtongue",
+  fishsize: "xl",
+  waterType: "fw",
+  image: true,
+  imageName: "ironshadowtongue",
+  imageDescription: "A king among shadowtongues, and lord of the waters of Iq Rrax Tsoly.",
+  isTradable: true
+},
   {
     id: 12830,
     eorzeaDb: "c50b60be3bc",
@@ -1679,6 +1936,7 @@ const freshwaterXLargeFish = [
       "A giant freshwater cousin of the bonytongue found only in the Thaliak River.",
     isTradable: true
   },
+
   {
     id: 17579,
     eorzeaDb: "b164a0d88b2",
@@ -1756,7 +2014,7 @@ const freshwaterXLargeFish = [
     imageDescription:
       "This massive predator has haunted the nightmares of Gyr Abanians for generations as the legendary “impaler of Timmon Beck,” thanks to its centuries-old legacy of terrorizing smallfolk attempting to do their washing.",
     isTradable: true
-  },
+  }
 ];
 
 const saltWaterSmallFish = [
@@ -1890,6 +2148,18 @@ const saltWaterSmallFish = [
       "A saltwater wavekin with distinctive red and amber coloration.",
     isTradable: true
   },
+    {
+  id: 43789,
+  eorzeaDb: "e58da3c0dbe",
+  fishname: "Iris Wrasse",
+  alias: "Iris_Wrasse",
+  fishsize: "s",
+  waterType: "sw",
+  image: true,
+  imageName: "iriswrasse",
+  imageDescription: "These floral fish were once popular with the Endless residents of Canal Town.",
+  isTradable: true
+},
   {
     id: 36549,
     eorzeaDb: "eba3d8a3848",
@@ -1903,6 +2173,19 @@ const saltWaterSmallFish = [
       "Do not let its size fool you─this fish is a terror of the seas. Mainly because of its appearance.",
     isTradable: true
   },
+   {
+    id: 43667,
+    eorzeaDb: "fd2116a1c9e",
+    fishname: "Reasonscale Silverside",
+    alias: "Reasonscale_Silverside",
+    fishsize: "s",
+    waterType: "sw",
+    image: true,
+    imageName: "reasonscalesilverside",
+    imageDescription:
+      "After being introduced to the Stardust Sea, this striking silver fish soon began to thrive.",
+    isTradable: true
+  },
   {
     id: "43669",
     eorzeaDb: "646b77a7b4f",
@@ -1914,6 +2197,18 @@ const saltWaterSmallFish = [
     imageName: "shallowssot",
     imageDescription:
       "This saltwater fish can be found lurking in the shallows beneath the For'ard Cabins, where it tries to avoid the attention of predators and inquisitive anglers besides.",
+    isTradable: true
+  },
+  {
+    id: 43746,
+    eorzeaDb: "6bff00c809d",
+    fishname: "Sharknose Goby",
+    alias: "Sharknose_Goby",
+    fishsize: "s",
+    waterType: "sw",
+    image: true,
+    imageName: "sharknosegoby",
+    imageDescription: "Some speculate that this small saltwater fish may have migrated to the cenote from the sea.",
     isTradable: true
   },
   {
@@ -1942,6 +2237,7 @@ const saltWaterSmallFish = [
       "Though this wavekin may be small, it attempts to remedy such shortcomings by sporting splendidly spectral scales. In doing so, however, it has become more vulnerable to predators and skilled anglers.",
     isTradable: true
   },
+
   {
     id: 36535,
     eorzeaDb: "2b7d389cad0",
@@ -1967,7 +2263,7 @@ const saltWaterSmallFish = [
     imageDescription:
       "A striped saltwater fish indigenous to the cold northern waters of the Bloodbrine Sea.",
     isTradable: true
-  },
+  }
 ];
 
 const saltWaterMediumFish = [
@@ -2034,6 +2330,18 @@ const saltWaterMediumFish = [
     imageName: "bonefish",
     imageDescription:
       "These unappetizing specimens proliferate in the Derelicts, where residents have little choice but to scrape what flesh they can from them.",
+    isTradable: true
+  },
+  {
+    id: 43790,
+    eorzeaDb: "1d9f6b3e7a4",
+    fishname: "Canal Drum",
+    alias: "Canal_Drum",
+    fishsize: "m",
+    waterType: "sw",
+    image: true,
+    imageName: "canaldrum",
+    imageDescription: "A girthy wavekin named after the drums used by Canal Town street performers of old.",
     isTradable: true
   },
   {
@@ -2436,7 +2744,8 @@ const saltWaterMediumFish = [
     imageDescription:
       "Groupers gather in swift currents of the Ruby Sea and the Rasen Kaikyo to feed on the abundant life drawn to the area.",
     isTradable: true
-  },
+  }
+
 ];
 
 const saltWaterLargeFish = [
@@ -2463,6 +2772,18 @@ const saltWaterLargeFish = [
     image: true,
     imageName: "bombardfish",
     imageDescription: "A king among balloonfish.",
+    isTradable: true
+  },
+  {
+    id: 47988,
+    eorzeaDb: "d3ed1e06d5c",
+    fishname: "Cabinkeep Permit",
+    alias: "Cabinkeep_Permit",
+    fishsize: "l",
+    waterType: "sw",
+    image: true,
+    imageName: "cabinkeeppermit",
+    imageDescription: "A king among permits, and lord of the shallows beneath the For'ard Cabins.",
     isTradable: true
   },
   {
@@ -2606,7 +2927,7 @@ const saltWaterLargeFish = [
     imageDescription:
       "Unlike those of the mystical zebra, the pronounced “stripes” upon this wavekin's back are more accurately compared to a tiger's spots.",
     isTradable: true
-  },
+  }
 ];
 const saltWaterXLargeFish = [
   {
@@ -2634,6 +2955,18 @@ const saltWaterXLargeFish = [
     imageDescription:
       "Few creatures can claim to have an entire ecosystem on their back, although this appears to afford the host no practical benefits whatsoever.",
     isTradable: false
+  },
+  {
+    id: 43795,
+    eorzeaDb: "45d29ae5ca1",
+    fishname: "Copper Shark",
+    alias: "Copper_Shark",
+    fishsize: "xl",
+    waterType: "sw",
+    image: true,
+    imageName: "coppershark",
+    imageDescription: "While this giant shark may look like a ferocious apex predator, this particular species is, in fact, surprisingly mild-mannered.",
+    isTradable: true
   },
   {
     id: 4922,
@@ -2894,6 +3227,9 @@ const saltWaterXLargeFish = [
       "Legends say that this gargantuan saltwater fish once ripped a hundred-man galleon in two with its saw-like head.",
     isTradable: true
   }
+
+
+
 ];
 
 function generateFishList(listName, containerName) {
