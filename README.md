@@ -1,7 +1,7 @@
 # 🐟 Feesh Seeing 
 ### *A cozy visual guide for your FFXIV aquarium planning.*
 
-![Feesh Seeing Preview](https://feeshseeing.github.io/img/website-preview.png)
+![Feesh Seeing Preview](https://feeshseeing.github.io/img/feesh-preview.png)
 
 [**Explore the Fish Library**](https://feeshseeing.github.io/)
 
