@@ -48,7 +48,7 @@ Want to help keep the library up to date?
 ---
 
 ## 💌 Credits & Disclaimer
-Made with ❤️ by [Hibari Urabio/FeeshSeeing].
+Made with ❤️ by [Hibari Urabito/FeeshSeeing].
 
 *Final Fantasy XIV © 2010 - 2024 SQUARE ENIX CO., LTD. All Rights Reserved. This is a fan-made tool and is not affiliated with Square Enix.*
 
