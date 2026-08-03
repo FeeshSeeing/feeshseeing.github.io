@@ -1,3236 +1,3184 @@
 const freshwaterSmallFish = [
   {
-    id: 17590,
-    eorzeaDb: "163947084c9",
-    fishname: "Armor Fish",
-    alias: "Armor_Fish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "armorfish",
-    imageDescription:
-      "A massive glowing freshwater fish found living in the Thaliak River.",
-    isTradable: true
+    "id": 17590,
+    "eorzeaDb": "",
+    "fishname": "Armor Fish",
+    "alias": "Armor_Fish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "armorfish",
+    "imageDescription": "A massive glowing freshwater fish found living in the Thaliak River. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 27483,
-    eorzeaDb: "936a8eba187",
-    fishname: "Black Tri-star",
-    alias: "Black_Tri-star",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "blacktristar",
-    imageDescription: "A spotted freshwater fish found at Lozatl's Conquest.",
-    isTradable: true
+    "id": 27483,
+    "eorzeaDb": "",
+    "fishname": "Black Tri-star",
+    "alias": "Black_Tri_star",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "blacktristar",
+    "imageDescription": "A spotted freshwater fish found at Lozatl's Conquest. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36410,
-    eorzeaDb: "ff0c8cf9777",
-    fishname: "Blowgun",
-    alias: "Blowgun",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "blowgun",
-    imageDescription:
-      "Researchers are currently observing the life-cycle of this freshwater fish at the Mover Beta.",
-    isTradable: true
+    "id": 43743,
+    "eorzeaDb": "",
+    "fishname": "Blind Brotula",
+    "alias": "Blind_Brotula",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "blindbrotula",
+    "imageDescription": "As the name suggests, this small, scaleless fish is utterly sightless as well. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 12739,
-    eorzeaDb: "c49b66cf508",
-    fishname: "Bubble Eye",
-    alias: "Bubble_Eye",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "bubbleeye",
-    imageDescription:
-      "A freshwater fish found only in the pools and lakes of Abalathia's floating islets.",
-    isTradable: true
+    "id": 36410,
+    "eorzeaDb": "",
+    "fishname": "Blowgun",
+    "alias": "Blowgun",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "blowgun",
+    "imageDescription": "Researchers are currently observing the life-cycle of this freshwater fish at the Mover Beta. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 38830,
-    eorzeaDb: "ce7c3b927b5",
-    fishname: "Catastrophizer",
-    alias: "Catastrophizer",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "catastrophizer",
-    imageDescription:
-      "A king among ponderers, and lord of the waters of the reflecting pool.",
-    isTradable: true
+    "id": 43750,
+    "eorzeaDb": "",
+    "fishname": "Bonytail Chub",
+    "alias": "Bonytail_Chub",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bonytailchub",
+    "imageDescription": "A small, elusive freshwater fish that lurks in the waters of Niikwerepi. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 4926,
-    eorzeaDb: "79f79fe2ad7",
-    fishname: "Chub",
-    alias: "Chub",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "chub",
-    imageDescription:
-      "A common freshwater fish found in rivers across Eorzea. Prefers the slow-moving waters found near a river's mouth to the rapids found upstream.",
-    isTradable: true
+    "id": 12739,
+    "eorzeaDb": "",
+    "fishname": "Bubble Eye",
+    "alias": "Bubble_Eye",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bubbleeye",
+    "imageDescription": "A freshwater fish found only in the pools and lakes of Abalathia's floating islets. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 4948,
-    eorzeaDb: "deb8ad64910",
-    fishname: "Copperfish",
-    alias: "Copperfish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "copperfish",
-    imageDescription:
-      "The copperfish's dull orange scales─a hue rare in freshwater wavekin─make this species popular amongst Ul'dahn nobles, who apparently prefer even their fish to be the color of their coin.",
-    isTradable: true
+    "id": 38830,
+    "eorzeaDb": "",
+    "fishname": "Catastrophizer",
+    "alias": "Catastrophizer",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "catastrophizer",
+    "imageDescription": "A king among ponderers, and lord of the waters of the reflecting pool. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36460,
-    eorzeaDb: "6edcc64c9a5",
-    fishname: "Dark Crown",
-    alias: "Dark_Crown",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "darkcrown",
-    imageDescription:
-      "A fish whose long, beautiful fin ensures it stands out at all times. If it had the cognitive capacity, it would no doubt be so vain.",
-    isTradable: true
+    "id": 43736,
+    "eorzeaDb": "",
+    "fishname": "Checkered Cichlid",
+    "alias": "Checkered_Cichlid",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "checkeredcichlid",
+    "imageDescription": "This small, shy fish is named for the rows of square dark spots on its body. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 27494,
-    eorzeaDb: "8759a88d681",
-    fishname: "Darkdweller",
-    alias: "Darkdweller",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "darkdweller",
-    imageDescription: "A sinister-looking cave dweller native to Woven Oath.",
-    isTradable: true
+    "id": 4926,
+    "eorzeaDb": "",
+    "fishname": "Chub",
+    "alias": "Chub",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "chub",
+    "imageDescription": "A common freshwater fish found in rivers across Eorzea. Prefers the slow-moving waters found near a river's mouth to the rapids found upstream. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36481,
-    eorzeaDb: "cde902ba5d9",
-    fishname: "Dermogenys",
-    alias: "Dermogenys",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "dermogenys",
-    imageDescription:
-      "A small, pale fish with a snout that is hard to ignore. Testing to determine whether it is self-conscious has thus far been inconclusive.",
-    isTradable: true
+    "id": 4948,
+    "eorzeaDb": "",
+    "fishname": "Copperfish",
+    "alias": "Copperfish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "copperfish",
+    "imageDescription": "The copperfish's dull orange scales─a hue rare in freshwater wavekin─make this species popular amongst Ul'dahn nobles, who apparently prefer even their fish to be the color of their coin. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 20211,
-    eorzeaDb: "ee0defbf946",
-    fishname: "Doman Bubble Eye",
-    alias: "Doman_Bubble_Eye",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "domanbubbleeye",
-    imageDescription:
-      "A variety of bubble eye goldfish selectively bred by Doman royalty for innumerable generations.",
-    isTradable: true
+    "id": 36460,
+    "eorzeaDb": "",
+    "fishname": "Dark Crown",
+    "alias": "Dark_Crown",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "darkcrown",
+    "imageDescription": "A fish whose long, beautiful fin ensures it stands out at all times. If it had the cognitive capacity, it would no doubt be so vain. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 12742,
-    eorzeaDb: "5fd3f0c1c87",
-    fishname: "Dravanian Squeaker",
-    alias: "Dravanian_Squeaker",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "dravaniansqueaker",
-    imageDescription:
-      "A peculiar breed of freshwater catfish that swims upside down. It was first discovered in Weston Waters.",
-    isTradable: true
+    "id": 27494,
+    "eorzeaDb": "",
+    "fishname": "Darkdweller",
+    "alias": "Darkdweller",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "darkdweller",
+    "imageDescription": "A sinister-looking cave dweller native to Woven Oath. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 20233,
-    eorzeaDb: "7b3a7480eeb",
-    fishname: "Eternal Eye",
-    alias: "Eternal_Eye",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "eternaleye",
-    imageDescription:
-      "This tiny species' skin exhibits a violet hue rarely seen in freshwater fish.",
-    isTradable: true
-  },
-    {
-    id: 43684,
-    eorzeaDb: "d67058d2fb3",
-    fishname: "First Feastfish",
-    alias: "First_Feastfish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "firstfeastfish",
-    imageDescription:
-      "A vaguely egg-shaped freshwater fish found in the depths of Karvarhur the First.",
-    isTradable: true
+    "id": 36481,
+    "eorzeaDb": "",
+    "fishname": "Dermogenys",
+    "alias": "Dermogenys",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "dermogenys",
+    "imageDescription": "A small, pale fish with a snout that is hard to ignore. Testing to determine whether it is self-conscious has thus far been inconclusive. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 41410,
-    eorzeaDb: "29272b0d980",
-    fishname: "Furcacauda",
-    alias: "Furcacauda",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "furcacauda",
-    imageDescription:
-      "Named for its forked tail, this elusive inhabitant of Lethe sports a remarkable bone structure rarely found among wavekin.",
-    isTradable: true
+    "id": 20211,
+    "eorzeaDb": "",
+    "fishname": "Doman Bubble Eye",
+    "alias": "Doman_Bubble_Eye",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "domanbubbleeye",
+    "imageDescription": "A variety of bubble eye goldfish selectively bred by Doman royalty for innumerable generations. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 24204,
-    eorzeaDb: "d5cecb3aebb",
-    fishname: "Green Prismfish",
-    alias: "Green_Prismfish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "greenprismfish",
-    imageDescription:
-      "Due to its shockingly bright coloration, this wind-aspected fish is oft sought after for display in garden ponds, but almost never for consumption.",
-    isTradable: true
+    "id": 12742,
+    "eorzeaDb": "",
+    "fishname": "Dravanian Squeaker",
+    "alias": "Dravanian_Squeaker",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "dravaniansqueaker",
+    "imageDescription": "A peculiar breed of freshwater catfish that swims upside down. It was first discovered in Weston Waters. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36436,
-    eorzeaDb: "96064ed0b69",
-    fishname: "Green Swordtail",
-    alias: "Green_Swordtail",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "greenswordtail",
-    imageDescription:
-      "A long-tailed freshwater fish found throughout Thavnair.",
-    isTradable: true
-  },
-
-  {
-    id: 43741,
-    eorzeaDb: "a7aae5fe047",
-    fishname: "Glittergill",
-    alias: "Glittergill",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "glittergill",
-    imageDescription:
-      "Renowned for its ethereal shine, this small freshwater fish calls the Sapsweet Cenote home.",
-    isTradable: true
+    "id": 20233,
+    "eorzeaDb": "",
+    "fishname": "Eternal Eye",
+    "alias": "Eternal_Eye",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "eternaleye",
+    "imageDescription": "This tiny species' skin exhibits a violet hue rarely seen in freshwater fish. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 4970,
-    eorzeaDb: "6d11aecfb7a",
-    fishname: "Grip Killifish",
-    alias: "Grip_Killifish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "gripkillifish",
-    imageDescription:
-      "A rare type of fish oft found in stagnant waters such as the isolated pools which collect in the basin of Empty Heart on the western finger of the Gods' Grip.",
-    isTradable: true
+    "id": 43684,
+    "eorzeaDb": "",
+    "fishname": "First Feastfish",
+    "alias": "First_Feastfish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "firstfeastfish",
+    "imageDescription": "A vaguely egg-shaped freshwater fish found in the depths of Karvarhur the First. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 21178,
-    eorzeaDb: "b7ce980b7ae",
-    fishname: "Guppy",
-    alias: "Guppy",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "guppy",
-    imageDescription:
-      "This tiny fish once found throughout the Three Great Continents has been harvested to near extinction, and is now prized by pisciculturists.",
-    isTradable: true
+    "id": 41410,
+    "eorzeaDb": "",
+    "fishname": "Furcacauda",
+    "alias": "Furcacauda",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "furcacauda",
+    "imageDescription": "Named for its forked tail, this elusive inhabitant of Lethe sports a remarkable bone structure rarely found among wavekin. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36444,
-    eorzeaDb: "7af00a4f62d",
-    fishname: "Half-moon Betta",
-    alias: "Half-moon_Betta",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "halfmoonbetta",
-    imageDescription:
-      "This tropical fish is known for its fluttering tail fin.",
-    isTradable: true
+    "id": 43741,
+    "eorzeaDb": "",
+    "fishname": "Glittergill",
+    "alias": "Glittergill",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "glittergill",
+    "imageDescription": "Renowned for its ethereal shine, this small freshwater fish calls the Sapsweet Cenote home. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36447,
-    eorzeaDb: "bfa42ebde55",
-    fishname: "Handy Hamsa",
-    alias: "Handy_Hamsa",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "handyhamsa",
-    imageDescription:
-      "This small freshwater fish is named after the Thavnairian fowl it so adorably resembles─according to the Hannish, anyway.",
-    isTradable: true
+    "id": 24204,
+    "eorzeaDb": "",
+    "fishname": "Green Prismfish",
+    "alias": "Green_Prismfish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "greenprismfish",
+    "imageDescription": "Due to its shockingly bright coloration, this wind-aspected fish is oft sought after for display in garden ponds, but almost never for consumption. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 24203,
-    eorzeaDb: "d273b624311",
-    fishname: "Indigo Prismfish",
-    alias: "Indigo_Prismfish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "indigoprismfish",
-    imageDescription:
-      "An elementally aspected, elegantly colored, and vanishingly rare cousin to the common carp.",
-    isTradable: true
-  },
-    {
-    id: 43724,
-    eorzeaDb: "d900ed6da48",
-    fishname: "Iq Rrax Leaffish",
-    alias: "Iq_Rrax_Leaffish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "iqrraxleaffish",
-    imageDescription:
-      "Able to disguise itself as a dead leaf, this wavekin plies the cenote in search of prey.",
-    isTradable: true
-  },
-    {
-    id: 43704,
-    eorzeaDb: "3d1711f9242",
-    fishname: "Ku'uxage Bitterling",
-    alias: "Ku%27uxage_Bitterling",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "kuuxagebitterling",
-    imageDescription:
-      "This variety of bitterling has a habit of leaping through the waterfalls of Ku'uxage.",
-    isTradable: true
+    "id": 36436,
+    "eorzeaDb": "",
+    "fishname": "Green Swordtail",
+    "alias": "Green_Swordtail",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "greenswordtail",
+    "imageDescription": "A long-tailed freshwater fish found throughout Thavnair. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 27475,
-    eorzeaDb: "89dc5c9ae4e",
-    fishname: "Lemonfish",
-    alias: "Lemonfish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "lemonfish",
-    imageDescription: "A speckled, bright-yellow freshwater fish.",
-    isTradable: true
+    "id": 4970,
+    "eorzeaDb": "",
+    "fishname": "Grip Killifish",
+    "alias": "Grip_Killifish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "gripkillifish",
+    "imageDescription": "A rare type of fish oft found in stagnant waters such as the isolated pools which collect in the basin of Empty Heart on the western finger of the Gods' Grip. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 28065,
-    eorzeaDb: "bcadd39dad2",
-    fishname: "Loose Pendant",
-    alias: "Loose_Pendant",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "loosependant",
-    imageDescription:
-      "A king among Crystarium tetra, and lord of the waters that flow through the Crystarium Personal Suites.",
-    isTradable: true
+    "id": 21178,
+    "eorzeaDb": "",
+    "fishname": "Guppy",
+    "alias": "Guppy",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "guppy",
+    "imageDescription": "This tiny fish once found throughout the Three Great Continents has been harvested to near extinction, and is now prized by pisciculturists. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 32049,
-    eorzeaDb: "71462535eed",
-    fishname: "Moonlight Guppy",
-    alias: "Moonlight_Guppy",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "moonlightguppy",
-    imageDescription:
-      "A queen among platinum guppies, and lady of the waters of the rusted reservoir.",
-    isTradable: true
+    "id": 36444,
+    "eorzeaDb": "",
+    "fishname": "Half-moon Betta",
+    "alias": "Half_moon_Betta",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "halfmoonbetta",
+    "imageDescription": "This tropical fish is known for its fluttering tail fin. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 43698,
-    eorzeaDb: "c8c093ea47b",
-    fishname: "Oho Hunu",
-    alias: "Oho_Hunu",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "ohohunu",
-    imageDescription:
-      "This diminutive wavekin is known as one of the swiftest swimmers in Ihuykatumu.",
-    isTradable: true
-},
-    {
-    id: 43766,
-    eorzeaDb: "9c231821255",
-    fishname: "Outskirts Sniffer",
-    alias: "Outskirts_Sniffer",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "outskirtssniffer",
-    imageDescription:
-      "Although peculiar in appearance, this wavekin is as hardy and tenacious as the people of the outskirts themselves.",
-    isTradable: true
+    "id": 36447,
+    "eorzeaDb": "",
+    "fishname": "Handy Hamsa",
+    "alias": "Handy_Hamsa",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "handyhamsa",
+    "imageDescription": "This small freshwater fish is named after the Thavnairian fowl it so adorably resembles─according to the Hannish, anyway. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 43666,
-    eorzeaDb: "08ec2716f00",
-    fishname: "Petticoat Tetra",
-    alias: "Petticoat_Tetra",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "petticoattetra",
-    imageDescription:
-      "Native to Downripple, this freshwater fish is readily identified by its black skirt-like fins.",
-    isTradable: true
+    "id": 24203,
+    "eorzeaDb": "",
+    "fishname": "Indigo Prismfish",
+    "alias": "Indigo_Prismfish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "indigoprismfish",
+    "imageDescription": "An elementally aspected, elegantly colored, and vanishingly rare cousin to the common carp. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 27543,
-    eorzeaDb: "b4b62afeb1e",
-    fishname: "Poecilia",
-    alias: "Poecilia",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "poecilia",
-    imageDescription:
-      "A freshwater wavekin with bright coloration resembling that of many pixies.",
-    isTradable: true
+    "id": 43724,
+    "eorzeaDb": "",
+    "fishname": "Iq Rrax Leaffish",
+    "alias": "Iq_Rrax_Leaffish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "iqrraxleaffish",
+    "imageDescription": "Able to disguise itself as a dead leaf, this wavekin plies the cenote in search of prey. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 21175,
-    eorzeaDb: "bec299775ba",
-    fishname: "Rockfish",
-    alias: "Rockfish",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "rockfish",
-    imageDescription:
-      "Despite the insistence of fishers raised on colorful local folklore, the massive knob atop this freshwater fish's head does not contain hidden treasure.",
-    isTradable: true
+    "id": 43781,
+    "eorzeaDb": "",
+    "fishname": "Knight Goby",
+    "alias": "Knight_Goby",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "knightgoby",
+    "imageDescription": "This fish is named after Alexandria's proud, armor-clad knights of yore. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36541,
-    eorzeaDb: "a89a3de1485",
-    fishname: "Rummy-nosed Tetra",
-    alias: "Rummy-nosed_Tetra",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "rummynosedtetra",
-    imageDescription:
-      "A crimson-faced wavekin which has found a home in the Font of Maya.",
-    isTradable: true
+    "id": 43704,
+    "eorzeaDb": "",
+    "fishname": "Ku'uxage Bitterling",
+    "alias": "Ku_uxage_Bitterling",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "kuuxagebitterling",
+    "imageDescription": "This variety of bitterling has a habit of leaping through the waterfalls of Ku'uxage. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 20021,
-    eorzeaDb: "9a8f586f375",
-    fishname: "Seraphim",
-    alias: "Seraphim",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "seraphim",
-    imageDescription:
-      "The beauty of this small freshwater fish native to Yanxia is oft compared to the angels of ancient eastern scripture.",
-    isTradable: true
+    "id": 27475,
+    "eorzeaDb": "",
+    "fishname": "Lemonfish",
+    "alias": "Lemonfish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "lemonfish",
+    "imageDescription": "A speckled, bright-yellow freshwater fish. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 27468,
-    eorzeaDb: "574483fbf85",
-    fishname: "Spotted Blue-eye",
-    alias: "Spotted_Blue-eye",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "spottedblueeye",
-    imageDescription: "A large-finned killifish found in Il Mheg.",
-    isTradable: true
-  },
-    {
-    id: 43829,
-    eorzeaDb: "3821f4617fd",
-    fishname: "Sunlit Prism",
-    alias: "Sunlit_Prism",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "sunlitprism",
-    imageDescription:
-      "This small freshwater fish is drawn to shallow, well-lit waters.",
-    isTradable: true
+    "id": 28065,
+    "eorzeaDb": "",
+    "fishname": "Loose Pendant",
+    "alias": "Loose_Pendant",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "loosependant",
+    "imageDescription": "A king among Crystarium tetra, and lord of the waters that flow through the Crystarium Personal Suites. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 32052,
-    eorzeaDb: "78826b6128d",
-    fishname: "Sunken Tome",
-    alias: "Sunken_Tome",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "sunkentome",
-    imageDescription:
-      "A king among spotted ctenopoma, and lord of the waters of the Haughty One.",
-    isTradable: true
-  },
-    {
-    id: 43777,
-    eorzeaDb: "f16dbefe42b",
-    fishname: "Stickleback",
-    alias: "Stickleback",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "stickleback",
-    imageDescription:
-      "This moderately sized wavekin is easily identified by its prickly spines.",
-    isTradable: true
+    "id": 32049,
+    "eorzeaDb": "",
+    "fishname": "Moonlight Guppy",
+    "alias": "Moonlight_Guppy",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "moonlightguppy",
+    "imageDescription": "A queen among platinum guppies, and lady of the waters of the rusted reservoir. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: "24995",
-    eorzeaDb: "9ca5d5e1921",
-    fishname: "The Unconditional",
-    alias: "The_Unconditional",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "theunconditional",
-    imageDescription:
-      "Not so much a lord as a god of Dotharl Khaa, this particular specimen is thought to be a blessing sent by the Dusk Mother and Dawn Father themselves. As such, this catch might be best left unboasted of.",
-    isTradable: true
-  },
-    {
-    id: 43772,
-    eorzeaDb: "94ac01548b5",
-    fishname: "Thundering Redbelly",
-    alias: "Thundering_Redbelly",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "thunderingredbelly",
-    imageDescription:
-      "The flashes of red adorning this diminutive wavekin's belly bring to mind raging thunderstorms─according to the scholar that named this species, at the very least.",
-    isTradable: true
+    "id": 43698,
+    "eorzeaDb": "",
+    "fishname": "Oho Hunu",
+    "alias": "Oho_Hunu",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "ohohunu",
+    "imageDescription": "This diminutive wavekin is known as one of the swiftest swimmers in Ihuykatumu. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: "27481",
-    eorzeaDb: "bb22fe472ce",
-    fishname: "Toadhead",
-    alias: "Toadhead",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "toadhead",
-    imageDescription: "A dazed-looking fish found in Il Mheg.",
-    isTradable: true
+    "id": 43766,
+    "eorzeaDb": "",
+    "fishname": "Outskirts Sniffer",
+    "alias": "Outskirts_Sniffer",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "outskirtssniffer",
+    "imageDescription": "Although peculiar in appearance, this wavekin is as hardy and tenacious as the people of the outskirts themselves. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: "43738",
-    eorzeaDb: "9e10a14480c",
-    fishname: "Variatus",
-    alias: "Variatus",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "variatus",
-    imageDescription:
-      "A colorful freshwater fish prized for its striking red and yellow scales.",
-    isTradable: true
-  },
-    {
-    id: 43815,
-    eorzeaDb: "978601a3e73",
-    fishname: "Variegated Sisterscale",
-    alias: "Variegated_Sisterscale",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "variegatedsisterscale",
-    imageDescription:
-      "With resplendent rainbow scales and pink fins, this pretty fish has many admirers in the angler community.",
-    isTradable: true
+    "id": 43666,
+    "eorzeaDb": "",
+    "fishname": "Petticoat Tetra",
+    "alias": "Petticoat_Tetra",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "petticoattetra",
+    "imageDescription": "Native to Downripple, this freshwater fish is readily identified by its black skirt-like fins.  [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 38939,
-    eorzeaDb: "5b69b079d95",
-    fishname: "Verdigris Guppy",
-    alias: "Verdigris_Guppy",
-    fishsize: "s",
-    waterType: "fw",
-    image: true,
-    imageName: "verdigrisguppy",
-    imageDescription:
-      "A fish prized not only for its green mottled beauty, but for the rarity of materials its body provides.",
-    isTradable: true
+    "id": 27543,
+    "eorzeaDb": "",
+    "fishname": "Poecilia",
+    "alias": "Poecilia",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "poecilia",
+    "imageDescription": "A freshwater wavekin with bright coloration resembling that of many pixies. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 21175,
+    "eorzeaDb": "",
+    "fishname": "Rockfish",
+    "alias": "Rockfish",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "rockfish",
+    "imageDescription": "Despite the insistence of fishers raised on colorful local folklore, the massive knob atop this freshwater fish's head does not contain hidden treasure. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36541,
+    "eorzeaDb": "",
+    "fishname": "Rummy-nosed Tetra",
+    "alias": "Rummy_nosed_Tetra",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "rummynosedtetra",
+    "imageDescription": "A crimson-faced wavekin which has found a home in the Font of Maya. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20021,
+    "eorzeaDb": "",
+    "fishname": "Seraphim",
+    "alias": "Seraphim",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "seraphim",
+    "imageDescription": "The beauty of this small freshwater fish native to Yanxia is oft compared to the angels of ancient eastern scripture. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27468,
+    "eorzeaDb": "",
+    "fishname": "Spotted Blue-eye",
+    "alias": "Spotted_Blue_eye",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "spottedblueeye",
+    "imageDescription": "A large-finned killifish found in Il Mheg. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43777,
+    "eorzeaDb": "",
+    "fishname": "Stickleback",
+    "alias": "Stickleback",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "stickleback",
+    "imageDescription": "This moderately sized wavekin is easily identified by its prickly spines. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 32052,
+    "eorzeaDb": "",
+    "fishname": "Sunken Tome",
+    "alias": "Sunken_Tome",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "sunkentome",
+    "imageDescription": "A king among spotted ctenopoma, and lord of the waters of the Haughty One. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43829,
+    "eorzeaDb": "",
+    "fishname": "Sunlit Prism",
+    "alias": "Sunlit_Prism",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "sunlitprism",
+    "imageDescription": "This small freshwater fish is drawn to shallow, well-lit waters. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 24995,
+    "eorzeaDb": "",
+    "fishname": "The Unconditional",
+    "alias": "The_Unconditional",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "theunconditional",
+    "imageDescription": "Not so much a lord as a god of Dotharl Khaa, this particular specimen is thought to be a blessing sent by the Dusk Mother and Dawn Father themselves. As such, this catch might be best left unboasted of. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43772,
+    "eorzeaDb": "",
+    "fishname": "Thundering Redbelly",
+    "alias": "Thundering_Redbelly",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "thunderingredbelly",
+    "imageDescription": "The flashes of red adorning this diminutive wavekin's belly bring to mind raging thunderstorms─according to the scholar that named this species, at the very least. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27481,
+    "eorzeaDb": "",
+    "fishname": "Toadhead",
+    "alias": "Toadhead",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "toadhead",
+    "imageDescription": "A dazed-looking fish found in Il Mheg. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43738,
+    "eorzeaDb": "",
+    "fishname": "Variatus",
+    "alias": "Variatus",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "variatus",
+    "imageDescription": "A colorful freshwater fish prized for its striking red and yellow scales. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43815,
+    "eorzeaDb": "",
+    "fishname": "Variegated Sisterscale",
+    "alias": "Variegated_Sisterscale",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "variegatedsisterscale",
+    "imageDescription": "With resplendent rainbow scales and pink fins, this pretty fish has many admirers in the angler community. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 38939,
+    "eorzeaDb": "",
+    "fishname": "Verdigris Guppy",
+    "alias": "Verdigris_Guppy",
+    "fishsize": "s",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "verdigrisguppy",
+    "imageDescription": "A fish prized not only for its green mottled beauty, but for the rarity of materials its body provides. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   }
 ];
 
 const freshwaterMediumFish = [
   {
-    id: 4999,
-    eorzeaDb: "3c03d034e30",
-    fishname: "Archerfish",
-    alias: "Archerfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "archerfish",
-    imageDescription:
-      "When feeding, the archerfish will lift its head ever so slightly above a lake's or river's surface and spit a stream of water up to a yalm to strike flies from low-lying branches into the water with remarkable accuracy.",
-    isTradable: true
-  },
-  {
-    id: 36543,
-    eorzeaDb: "2e2a228124b",
-    fishname: "Atamra Cichlid",
-    alias: "Atamra_Cichlid",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "atamracichlid",
-    mageDescription:
-      "The red of this tropical wavekin is reminiscent of a certain fruit.",
-    isTradable: true
-  },
-  {
-  id: 43710,
-  eorzeaDb: "f580ab8ea14",
-  fishname: "Banded Candiru",
-  alias: "Banded_Candiru",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "bandedcandiru",
-  imageDescription: "A deceptive wavekin that utilizes its striking scales to deter predators.",
-  isTradable: true
-},
-  {
-    id: 27536,
-    eorzeaDb: "75d74b61567",
-    fishname: "Big-eye",
-    alias: "Big-eye",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "bigeye",
-    imageDescription: "A colorful freshwater fish native to Il Mheg.",
-    isTradable: true
-  },
-  {
-    id: 27566,
-    eorzeaDb: "209427fab06",
-    fishname: "Blue Mountain Bubble",
-    alias: "Blue_Mountain_Bubble",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "bluemountainbubble",
-    imageDescription:
-      "The fins of this rotund fish, native to Longmirror Lake, are suggestive of butterfly wings.",
-    isTradable: true
-  },
-  {
-    id: 20053,
-    eorzeaDb: "6a2ac49107f",
-    fishname: "Blue Prismfish",
-    alias: "Blue_Prismfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "blueprismfish",
-    imageDescription:
-      "The pale blue glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
-    isTradable: true
-  },
-  {
-    id: 7699,
-    eorzeaDb: "ed8d77592dd",
-    fishname: "Blue Widow",
-    alias: "Blue_Widow",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "bluewidow",
-    imageDescription:
-      "A king among bluebell salmon, and lord of the waters of Murmur Rills.",
-    isTradable: true
-  },
-  {
-    id: 36434,
-    eorzeaDb: "c260606b028",
-    fishname: "Bluegill",
-    alias: "Bluegill",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "bluegill",
-    imageDescription:
-      "This voracious freshwater fish, once indigenous to the island, has long since found its way into Thavnair's water sources.",
-    isTradable: true
-  },
-  {
-    id: 4973,
-    eorzeaDb: "ad18605f0a6",
-    fishname: "Bonytongue",
-    alias: "Bonytongue",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "bonytongue",
-    imageDescription:
-      "A single flat tooth on the bottom of this freshwater species' mouth gives the bonytongue its name.",
-    isTradable: true
-  },
-  {
-    id: 20220,
-    eorzeaDb: "f1d10478718",
-    fishname: "Cherubfish",
-    alias: "Cherubfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "cherubfish",
-    imageDescription:
-      "A rare freshwater fish native to Yanxia and the Azim Steppe.",
-    isTradable: true
-  },
-
-  {
-    id: 4979,
-    eorzeaDb: "5471a2d1fb9",
-    fishname: "Clown Loach",
-    alias: "Clown_Loach",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "clownloach",
-    imageDescription:
-      "Bright patterns, similar to a clown's motley, cover this small freshwater fish from head to tail.",
-    isTradable: true
-  },
-  {
-    id: 27490,
-    eorzeaDb: "355add8396c",
-    fishname: "Clown Tetra",
-    alias: "Clown_Tetra",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "clowntetra",
-    imageDescription: "A freshwater fish patterned with broad black stripes.",
-    isTradable: true
-  },
-    {
-  id: 46190,
-  eorzeaDb: "912bc9a9369",
-  fishname: "Crenicichla Miyaka",
-  alias: "Crenicichla_Miyaka",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "crenicichlamiyaka",
-  imageDescription: "A king among crenicichla, and lord of the waters of the Dewspun Bank.",
-  isTradable: true
-},
-  {
-    id: 7902,
-    eorzeaDb: "17f1b0a9edc",
-    fishname: "Cupfish",
-    alias: "Cupfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "cupfish",
-    imageDescription:
-      "A rare freshwater fish which spends the entirety of its life hiding in locations which rarely see the light of the sun.",
-    isTradable: true
-  },
-  {
-    id: 4959,
-    eorzeaDb: "add2842305e",
-    fishname: "Dark Bass",
-    alias: "Dark_Bass",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "darkbass",
-    imageDescription:
-      "This freshwater fish, known for its voracious appetite, is originally native to the southern continent of Meracydia.",
-    isTradable: true
-  },
-  {
-    id: 4987,
-    eorzeaDb: "0d060575c65",
-    fishname: "Discus",
-    alias: "Discus",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "discus",
-    imageDescription:
-      "A colorful freshwater fish that can only survive in rivers located in more temperate climes.",
-    isTradable: true
-  },
-  {
-    id: 12764,
-    eorzeaDb: "10426e03a94",
-    fishname: "Dragonhead",
-    alias: "Dragonhead",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "dragonhead",
-    imageDescription:
-      "A freshwater fish native to the Iron Feast. The skull on its head does not appear to be that of a dragon, but rather of a dragonfly.",
-    isTradable: true
-  },
-  {
-    id: 20221,
-    eorzeaDb: "9cec0de8cfc",
-    fishname: "Dusk Herald",
-    alias: "Dusk_Herald",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "duskherald",
-    imageDescription:
-      "The dusk herald is a fair-sized fish commonly found in the One River.",
-    isTradable: true
-  },
-  {
-    id: 22398,
-    eorzeaDb: "d02db7e5fe4",
-    fishname: "Elder Gourami",
-    alias: "Elder_Gourami",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "eldergourami",
-    imageDescription:
-      "Despite the beard-like ventral fins which give this freshwater wavekin an aged look, gourami only have an average lifespan of three to five summers.",
-    isTradable: true
-  },
-    {
-  id: 43812,
-  eorzeaDb: "ab236a20755",
-  fishname: "Emberwisp",
-  alias: "Emberwisp",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "emberwisp",
-  imageDescription: "This wavekin is said to be a discarded torch come to life, fated to roam the waters forevermore.", 
-  isTradable: true
-},
-  {
-    id: 27577,
-    eorzeaDb: "bbaa1652b47",
-    fishname: "Everdark Bass",
-    alias: "Everdark_Bass",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "everdarkbass",
-    imageDescription:
-      "This species was allegedly bred by the Voeburtites in their homeland before making its way to the Rak'tika Greatwood.",
-    isTradable: true
-  },
-  {
-    id: 36448,
-    eorzeaDb: "b0045a57010",
-    fishname: "Flowerhorn",
-    alias: "Flowerhorn",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "flowerhorn",
-    imageDescription:
-      "A colorful freshwater fish with an enormous hump on its head.",
-    isTradable: true
-  },
-
-  {
-    id: 36441,
-    eorzeaDb: "6dd48c40caa",
-    fishname: "Forgeflame",
-    alias: "Forgeflame",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "forgeflame",
-    imageDescription:
-      "With its brightly colored fins, this fish evokes the image of metal on its way to becoming something greater.",
-    isTradable: true
-  },
-  {
-    id: 27530,
-    eorzeaDb: "8961409ccbd",
-    fishname: "Geayi",
-    alias: "Geayi",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "geayi",
-    imageDescription:
-      "This wavekin is instantly recognizable by the two bold black stripes that stand out starkly against its otherwise pale scales.",
-    isTradable: true
-  },
-  {
-    id: 5011,
-    eorzeaDb: "a6c9c6aafc1",
-    fishname: "Goldfish",
-    alias: "Goldfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "goldfish",
-    imageDescription:
-      "The brilliant luster of this freshwater fish native to the Far East has made it a popular addition to the aquariums and garden ponds of Ul'dahn patricians.",
-    isTradable: true
-  },
-  {
-    id: 36405,
-    eorzeaDb: "2ff7a070ad1",
-    fishname: "Greengill Salmon",
-    alias: "Greengill_Salmon",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "greengillsalmon",
-    imageDescription:
-      "This freshwater wavekin is bred for research purposes at the Mover Alpha.",
-    isTradable: true
-  },
-  {
-    id: 7709,
-    eorzeaDb: "043add21ab9",
-    fishname: "High Perch",
-    alias: "High_Perch",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "highperch",
-    imageDescription:
-      "A king among La Noscean perch, and lord of the waters of the Nym River.",
-    isTradable: true
-  },
-  {
-  id: 43701,
-  eorzeaDb: "82b40a09038",
-  fishname: "Hunu Peacock Bass",
-  alias: "Hunu_Peacock_Bass",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "hunupeacockbass",
-  imageDescription: "This member of the peacock bass family is readily identified by its fiery lateral markings.",
-  isTradable: true
-},
-  {
-  id: 44345,
-  eorzeaDb: "145c94809fa",
-  fishname: "Hwittayoanaan Cichlid",
-  alias: "Hwittayoanaan_Cichlid",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "hwittayoanaancichlid",
-  imageDescription: "A king among Pyariyoanaan cichlids, and lord of the waters of Niikwerepi.",
-  isTradable: true
-},
-  {
-    id: 20045,
-    eorzeaDb: "1167434a3fc",
-    fishname: "Idle Goby",
-    alias: "Idle_Goby",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "idlegoby",
-    imageDescription:
-      "This large goby uses its natural black and brown mottling to conceal itself in the sandy bed of the Slow Wash.",
-    isTradable: true
-  },
-  {
-    id: 36461,
-    eorzeaDb: "667c47162b6",
-    fishname: "Imperial Pleco",
-    alias: "Imperial_Pleco",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "imperialpleco",
-    imageDescription:
-      "A striped fish which can be seen flitting about the waters of the capital, much to its people's chagrin.",
-    isTradable: true
-  },
-  {
-    id: 27563,
-    eorzeaDb: "64f6b9436c3",
-    fishname: "Jester Fish",
-    alias: "Jester_Fish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "jesterfish",
-    imageDescription:
-      "A freshwater wavekin with colorful fins and bulging eyes.",
-    isTradable: true
-  },
-  {
-    id: 5023,
-    eorzeaDb: "186fa57f66c",
-    fishname: "Judgment Staff",
-    alias: "Judgment_Staff",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "judgmentstaff",
-    imageDescription:
-      "Named after the primal Ramuh's signature weapon, this strange freshwater fish will only feed when the weather is rainy.",
-    isTradable: true
-  },
-  {
-    id: "43707",
-    eorzeaDb: "d928050d15b",
-    fishname: "Ka Puyhu",
-    alias: "Ka_Puyhu",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "kapuyhu",
-    imageDescription:
-      "A multitude of colors adorn the scales of this aesthetically pleasing wavekin.",
-    isTradable: true
-  },
-  {
-    id: 36499,
-    eorzeaDb: "abb0f513f22",
-    fishname: "Katoptron",
-    alias: "Katoptron",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "katoptron",
-    imageDescription:
-      "A mystifying fish whose scales seem to reflect the movement of the stars.",
-    isTradable: true
-  },
-  {
-    id: 12743,
-    eorzeaDb: "20d8193888a",
-    fishname: "Kissing Fish",
-    alias: "Kissing_Fish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "kissingfish",
-    imageDescription:
-      "An adorable freshwater fish native to the waters of Eil Tohm.",
-    isTradable: true
-  },
-  {
-    id: 36418,
-    eorzeaDb: "67f08cc4ddc",
-    fishname: "Longear Sunfish",
-    alias: "Longear_Sunfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "longearsunfish",
-    imageDescription:
-      "A freshwater fish named for the earlike protrusions on the sides of its face.",
-    isTradable: true
-  },
-  {
-    id: 12750,
-    eorzeaDb: "ed088c9a8b9",
-    fishname: "Marble Oscar",
-    alias: "Marble_Oscar",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "marbleoscar",
-    imageDescription:
-      "A freshwater fish which prefers the heated pools of the Smoldering Wastes to the cooler waters of surrounding rivers.",
-    isTradable: true
-  },
-  {
-    id: 27546,
-    eorzeaDb: "d74dc09074f",
-    fishname: "Mirrorfish",
-    alias: "Mirrorfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "mirrorfish",
-    imageDescription:
-      "A freshwater wavekin native to Il Mheg known for its reflective scales.",
-    isTradable: true
-  },
-  {
-    id: 7940,
-    eorzeaDb: "c30767cea80",
-    fishname: "Mirrorscale",
-    alias: "Mirrorscale",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "mirrorscale",
-    imageDescription: "A king among silverfish.",
-    isTradable: true
-  },
-  {
-    id: 20185,
-    eorzeaDb: "c8a52780848",
-    fishname: "Nagxian Mullet",
-    alias: "Nagxian_Mullet",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "nagxianmullet",
-    imageDescription:
-      "A thin, eel-like fish native to Nagxia, but found throughout the One River.",
-    isTradable: true
-  },
-  {
-    id: 27531,
-    eorzeaDb: "9d886ac412b",
-    fishname: "Noblefish",
-    alias: "Noblefish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "noblefish",
-    imageDescription: "An elegantly shaped freshwater wavekin.",
-    isTradable: true
-  },
-  {
-    id: 12768,
-    eorzeaDb: "c1009ba7ac1",
-    fishname: "Noontide Oscar",
-    alias: "Noontide_Oscar",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "noontideoscar",
-    imageDescription:
-      "An albino marble oscar only found with consistency in the corrupted waters of Eil Tohm.",
-    isTradable: true
-  },
-  {
-    id: 12781,
-    eorzeaDb: "c9ee71f3316",
-    fishname: "Orn Butterfly",
-    alias: "Orn_Butterfly",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "ornbutterfly",
-    imageDescription:
-      "A freshwater fish native to the Orn Wild, yet also found in the Quickspill Delta of the Thaliak River.",
-    isTradable: true
-  },
-  {
-    id: 5007,
-    eorzeaDb: "aee3dccea6a",
-    fishname: "Paglth'an Discus",
-    alias: "Paglth%27an_Discus",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "paglthandiscus",
-    imageDescription:
-      "A brightly colored freshwater fish native to the warm waters in and around the Amalj'aa territory of Paglth'an.",
-    isTradable: true
-  },
-  {
-    id: 36392,
-    eorzeaDb: "ffd9a6a1bd4",
-    fishname: "Peacock Bass",
-    alias: "Peacock_Bass",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "peacockbass",
-    imageDescription: "A decent-sized fish known for its speckled scales.",
-    isTradable: true
-  },
-  {
-    id: 12741,
-    eorzeaDb: "c791420a7ba",
-    fishname: "Pipira Pira",
-    alias: "Pipira_Pira",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "pipirapira",
-    imageDescription:
-      "A deadly freshwater fish which will tear away flesh with its razor-sharp teeth. Crossing the Whilom River barefoot is not recommended.",
-    isTradable: true
-  },
-  {
-  id: 44344,
-  eorzeaDb: "5df1f69facb",
-  fishname: "Pixel Loach",
-  alias: "Pixel_Loach",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "pixelloach",
-  imageDescription: "A king among Mosaic loaches, and lord of the artificial ponds of Solution Nine's residential sector.",
-  isTradable: true
-},
-  {
-    id: 27525,
-    eorzeaDb: "2fe67c7bca6",
-    fishname: "Platinum Bream",
-    alias: "Platinum_Bream",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "platinumbream",
-    imageDescription: "A shimmering, silvery fish.",
-    isTradable: true
-  },
-  {
-    id: 27557,
-    eorzeaDb: "42d8121613c",
-    fishname: "Queensgown",
-    alias: "Queensgown",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "queensgown",
-    imageDescription: "A freshwater fish named for its fabulously frilly fins.",
-    isTradable: true
-  },
-  {
-    id: 36443,
-    eorzeaDb: "a2f76e21869",
-    fishname: "Radzbalik",
-    alias: "Radzbalik",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "radzbalik",
-    imageDescription:
-      "A freshwater fish beloved for its resplendent coloration.",
-    isTradable: true
-  },
-  {
-    id: 36407,
-    eorzeaDb: "27a656fa5e1",
-    fishname: "Raiamas",
-    alias: "Raiamas",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "raiamas",
-    imageDescription:
-      "A freshwater fish known for its shimmering emerald scales.",
-    isTradable: true
-  },
-  {
-    id: 4905,
-    eorzeaDb: "69dde9a0331",
-    fishname: "Raincaller",
-    alias: "Raincaller",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "raincaller",
-    imageDescription:
-      "A deep-blue freshwater fish native to the lakes and swamps of the Black Shroud. They can be seen sticking their heads out of the water whenever it rains, leading people to believe it is the fish summoning the storm. However, naturalists have surmised that the fish are simply rising to the surface in search of food, mistaking the drops of water for insects.",
-    isTradable: true
-  },
-
-  {
-    id: 22397,
-    eorzeaDb: "d296197cca3",
-    fishname: "Red Prismfish",
-    alias: "Red_Prismfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "redprismfish",
-    imageDescription:
-      "The pale red glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
-    isTradable: true
-  },
-  {
-    id: 20193,
-    eorzeaDb: "a1c93f370a0",
-    fishname: "Redfin",
-    alias: "Redfin",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "redfin",
-    imageDescription:
-      "Second only to the blue-fish in mediocrity of monikers, the freshwater redfin of the One River─unsurprisingly─has bright-red fins.",
-    isTradable: true
-  },
-  {
-    id: 20218,
-    eorzeaDb: "80b112a65b9",
-    fishname: "River Bream",
-    alias: "River_Bream",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "riverbream",
-    imageDescription:
-      "Unlike sea breams, this quirky cousin will travel back and forth 'twixt the brackish waters of a river's delta and the fresher waters upstream.",
-    isTradable: true
-  },
-  {
-    id: 20229,
-    eorzeaDb: "449edc75fa2",
-    fishname: "Sailfin",
-    alias: "Sailfin",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "sailfin",
-    imageDescription:
-      "A unique freshwater fish featuring astonishingly overgrown dorsal and anal fins.",
-    isTradable: true
-  },
-  {
-    id: 20051,
-    eorzeaDb: "e60aa331ef9",
-    fishname: "Silken Koi",
-    alias: "Silken_Koi",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "silkenkoi",
-    imageDescription:
-      "A plump freshwater wavekin with pearlescent scales and a name that sounds better than the fish tastes.",
-    isTradable: true
-  },
-  {
-    id: 27415,
-    eorzeaDb: "583cebc1fa7",
-    fishname: "Sinspitter",
-    alias: "Sinspitter",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "sinspitter",
-    imageDescription:
-      "This Crystarium freshwater fish is in fact much prettier than its crude name implies.",
-    isTradable: true
-  },
-  {
-    id: 36400,
-    eorzeaDb: "b1d2f6b7b09",
-    fishname: "Tessera",
-    alias: "Tessera",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "tessera",
-    imageDescription:
-      "This cichlid doubles as a mosaic tile to the imaginative minds of Labyrinthos. (No fish were harmed in the making of this secret underground facility.)",
-    isTradable: true
-  },
-  {
-    id: 23059,
-    eorzeaDb: "67bd55ec86d",
-    fishname: "The Archbishop",
-    alias: "The_Archbishop",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "thearchbishop",
-    imageDescription:
-      "A king among cardinalfish, and lord of the waters of the Comet's Tail.",
-    isTradable: true
-  },
-  {
-    id: "43754",
-    eorzeaDb: "373d34a0b45",
-    fishname: "Trailtrout",
-    alias: "Trailtrout",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "trailtrout",
-    imageDescription:
-      "Coveted for its fatty flesh, this type of trout dwells in the depths of Lake Toari.",
-    isTradable: true
-  },
-  {
-    id: 4951,
-    eorzeaDb: "0477d9c70cd",
-    fishname: "Tricolored Carp",
-    alias: "Tricolored_Carp",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "tricoloredcarp",
-    imageDescription:
-      "Patches of gold, silver, and bronze cover this medium-sized freshwater fish's body, making it a favorite choice for the private garden pools of Ul'dahn nobles.",
-    isTradable: true
-  },
-  {
-    id: 21177,
-    eorzeaDb: "15feab733f0",
-    fishname: "Violet Prismfish",
-    alias: "Violet_Prismfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "violetprismfish",
-    imageDescription:
-      "The pale violet glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
-    isTradable: true
-  },
-  {
-    id: 5013,
-    eorzeaDb: "47176721a9a",
-    fishname: "Wandering Sculpin",
-    alias: "Wandering_Sculpin",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "wanderingsculpin",
-    imageDescription:
-      "Legend states that this particular variety of sculpin is a favorite of Oschon, the Wanderer, and that the god will oft dine on this fish while on His journeys through the realm of man.",
-    isTradable: true
-  },
-{
-  id: 43739,
-  eorzeaDb: "4e45baa3f72",
-  fishname: "Welkin Catfish",
-  alias: "Welkin_Catfish",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "welkincatfish",
-  imageDescription: "This catfish is often likened to the night sky due to the smattering of white splotches on its dark scales.",
-  isTradable: true
-},
-
-
-  {
-    id: 28926,
-    eorzeaDb: "2e36aba8a98",
-    fishname: "White Ronso",
-    alias: "White_Ronso",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "whiteronso",
-    imageDescription:
-      "A king among zebra catfish, and lord of the waters of lower Watts River.",
-    isTradable: true
-  },
-  {
-  id: 43782,
-  eorzeaDb: "68629fb2fab",
-  fishname: "Windspath Eel",
-  alias: "Windspath_Eel",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "windspatheel",
-  imageDescription: "Found in the Knowable, this sleek wavekin differs in color to its wild kin.", 
-  isTradable: true
-},
-  {
-    id: 27474,
-    eorzeaDb: "897efe8bffc",
-    fishname: "Wimple Carp",
-    alias: "Wimple_Carp",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "wimplecarp",
-    imageDescription: "A striped freshwater fish found in Handmirror Lake.",
-    isTradable: true
-  },
-  {
-    id: 27430,
-    eorzeaDb: "7184a5ee620",
-    fishname: "Xanthic Bass",
-    alias: "Xanthic_Bass",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "xanthicbass",
-    imageDescription:
-      "This unusually vivid freshwater bass has scales of yellow and burnt orange.",
-    isTradable: true
-  },
-  {
-    id: 36398,
-    eorzeaDb: "a652c88e481",
-    fishname: "Xenocypris",
-    alias: "Xenocypris",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "xenocypris",
-    imageDescription:
-      "This unusually hardy freshwater koi is found throughout Labyrinthos.",
-    isTradable: true
-  },
-  {
-  id: 43734,
-  eorzeaDb: "fc2c7ccf6b9",
-  fishname: "Yak T'el Catfish",
-  alias: "Yak_T%27el_Catfish",
-  fishsize: "m",
-  waterType: "fw",
-  image: true,
-  imageName: "yaktelcatfish",
-  imageDescription: "This widely adored wavekin can be found all across the lowlands of Yak T'el.",
-  isTradable: true
-},
-
-  {
-    id: 20020,
-    eorzeaDb: "8ddee7c2511",
-    fishname: "Yanxian Barramundi",
-    alias: "Yanxian_Barramundi",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "yanxianbarramundi",
-    imageDescription:
-      "This large carnivorous specimen is native to the southeastern reaches of the One River where the waters run slow and deep.",
-    isTradable: true
-  },
-  {
-    id: 43713,
-    eorzeaDb: "e8f25bbca6c",
-    fishname: "Yellow Peacock Bass",
-    alias: "Yellow_Peacock_Bass",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "yellowpeacockbass",
-    imageDescription:
-      "The banded markings of this moderately large wavekin set it apart from other varieties of peacock bass.",
-    isTradable: true
-  },
-  {
-    id: 27486,
-    eorzeaDb: "3d08e225939",
-    fishname: "Yellow Pipira",
-    alias: "Yellow_Pipira",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "yellowpipira",
-    imageDescription: "A tiny-yet-fierce fish from the Rak'tika Greatwood.",
-    isTradable: true
-  },
-  {
-    id: 20052,
-    eorzeaDb: "7e7aa3e0572",
-    fishname: "Yellow Prismfish",
-    alias: "Yellow_Prismfish",
-    fishsize: "m",
-    waterType: "fw",
-    image: true,
-    imageName: "yellowprismfish",
-    imageDescription:
-      "The pale yellow glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours.",
-    isTradable: true
+    "id": 4999,
+    "eorzeaDb": "",
+    "fishname": "Archerfish",
+    "alias": "Archerfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "archerfish",
+    "imageDescription": "When feeding, the archerfish will lift its head ever so slightly above a lake's or river's surface and spit a stream of water up to a yalm to strike flies from low-lying branches into the water with remarkable accuracy. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43725,
+    "eorzeaDb": "",
+    "fishname": "Archmatron Angelfish",
+    "alias": "Archmatron_Angelfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "archmatronangelfish",
+    "imageDescription": "This majestic freshwater fish is commonly found in the still waters of Iq Rrax Tsoly. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36543,
+    "eorzeaDb": "",
+    "fishname": "Atamra Cichlid",
+    "alias": "Atamra_Cichlid",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "atamracichlid",
+    "imageDescription": "The red of this tropical wavekin is reminiscent of a certain fruit. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43710,
+    "eorzeaDb": "",
+    "fishname": "Banded Candiru",
+    "alias": "Banded_Candiru",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bandedcandiru",
+    "imageDescription": "A deceptive wavekin that utilizes its striking scales to deter predators. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27536,
+    "eorzeaDb": "",
+    "fishname": "Big-eye",
+    "alias": "Big_eye",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bigeye",
+    "imageDescription": "A colorful freshwater fish native to Il Mheg. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27566,
+    "eorzeaDb": "",
+    "fishname": "Blue Mountain Bubble",
+    "alias": "Blue_Mountain_Bubble",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bluemountainbubble",
+    "imageDescription": "The fins of this rotund fish, native to Longmirror Lake, are suggestive of butterfly wings. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20053,
+    "eorzeaDb": "",
+    "fishname": "Blue Prismfish",
+    "alias": "Blue_Prismfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "blueprismfish",
+    "imageDescription": "The pale blue glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 7699,
+    "eorzeaDb": "",
+    "fishname": "Blue Widow",
+    "alias": "Blue_Widow",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bluewidow",
+    "imageDescription": "A king among bluebell salmon, and lord of the waters of Murmur Rills. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36434,
+    "eorzeaDb": "",
+    "fishname": "Bluegill",
+    "alias": "Bluegill",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bluegill",
+    "imageDescription": "This voracious freshwater fish, once indigenous to the island, has long since found its way into Thavnair's water sources. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 4973,
+    "eorzeaDb": "",
+    "fishname": "Bonytongue",
+    "alias": "Bonytongue",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bonytongue",
+    "imageDescription": "A single flat tooth on the bottom of this freshwater species' mouth gives the bonytongue its name. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20220,
+    "eorzeaDb": "",
+    "fishname": "Cherubfish",
+    "alias": "Cherubfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "cherubfish",
+    "imageDescription": "A rare freshwater fish native to Yanxia and the Azim Steppe. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 4979,
+    "eorzeaDb": "",
+    "fishname": "Clown Loach",
+    "alias": "Clown_Loach",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "clownloach",
+    "imageDescription": "Bright patterns, similar to a clown's motley, cover this small freshwater fish from head to tail. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27490,
+    "eorzeaDb": "",
+    "fishname": "Clown Tetra",
+    "alias": "Clown_Tetra",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "clowntetra",
+    "imageDescription": "A freshwater fish patterned with broad black stripes. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20183,
+    "eorzeaDb": "",
+    "fishname": "Common Bitterling",
+    "alias": "Common_Bitterling",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "commonbitterling",
+    "imageDescription": "This freshwater fish is found on both the Othardian east coast and in Shishu─the Hingan island upon which sits Kugane. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 46190,
+    "eorzeaDb": "",
+    "fishname": "Crenicichla Miyaka",
+    "alias": "Crenicichla_Miyaka",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "crenicichlamiyaka",
+    "imageDescription": "A king among crenicichla, and lord of the waters of the Dewspun Bank. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 4986,
+    "eorzeaDb": "",
+    "fishname": "Crimson Trout",
+    "alias": "Crimson_Trout",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "crimsontrout",
+    "imageDescription": "A red-scaled trout commonly found in the rivers originating on Abalathia's Spine. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 7902,
+    "eorzeaDb": "",
+    "fishname": "Cupfish",
+    "alias": "Cupfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "cupfish",
+    "imageDescription": "A rare freshwater fish which spends the entirety of its life hiding in locations which rarely see the light of the sun. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 4959,
+    "eorzeaDb": "",
+    "fishname": "Dark Bass",
+    "alias": "Dark_Bass",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "darkbass",
+    "imageDescription": "This freshwater fish, known for its voracious appetite, is originally native to the southern continent of Meracydia. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 4987,
+    "eorzeaDb": "",
+    "fishname": "Discus",
+    "alias": "Discus",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "discus",
+    "imageDescription": "A colorful freshwater fish that can only survive in rivers located in more temperate climes. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12764,
+    "eorzeaDb": "",
+    "fishname": "Dragonhead",
+    "alias": "Dragonhead",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "dragonhead",
+    "imageDescription": "A freshwater fish native to the Iron Feast. The skull on its head does not appear to be that of a dragon, but rather of a dragonfly. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20221,
+    "eorzeaDb": "",
+    "fishname": "Dusk Herald",
+    "alias": "Dusk_Herald",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "duskherald",
+    "imageDescription": "The dusk herald is a fair-sized fish commonly found in the One River. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 22398,
+    "eorzeaDb": "",
+    "fishname": "Elder Gourami",
+    "alias": "Elder_Gourami",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "eldergourami",
+    "imageDescription": "Despite the beard-like ventral fins which give this freshwater wavekin an aged look, gourami only have an average lifespan of three to five summers. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43812,
+    "eorzeaDb": "",
+    "fishname": "Emberwisp",
+    "alias": "Emberwisp",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "emberwisp",
+    "imageDescription": "This wavekin is said to be a discarded torch come to life, fated to roam the waters forevermore. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27577,
+    "eorzeaDb": "",
+    "fishname": "Everdark Bass",
+    "alias": "Everdark_Bass",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "everdarkbass",
+    "imageDescription": "This species was allegedly bred by the Voeburtites in their homeland before making its way to the Rak'tika Greatwood. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36448,
+    "eorzeaDb": "",
+    "fishname": "Flowerhorn",
+    "alias": "Flowerhorn",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "flowerhorn",
+    "imageDescription": "A colorful freshwater fish with an enormous hump on its head. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36441,
+    "eorzeaDb": "",
+    "fishname": "Forgeflame",
+    "alias": "Forgeflame",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "forgeflame",
+    "imageDescription": "With its brightly colored fins, this fish evokes the image of metal on its way to becoming something greater. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27530,
+    "eorzeaDb": "",
+    "fishname": "Geayi",
+    "alias": "Geayi",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "geayi",
+    "imageDescription": "This wavekin is instantly recognizable by the two bold black stripes that stand out starkly against its otherwise pale scales. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 5011,
+    "eorzeaDb": "",
+    "fishname": "Goldfish",
+    "alias": "Goldfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "goldfish",
+    "imageDescription": "The brilliant luster of this freshwater fish native to the Far East has made it a popular addition to the aquariums and garden ponds of Ul'dahn patricians. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36405,
+    "eorzeaDb": "",
+    "fishname": "Greengill Salmon",
+    "alias": "Greengill_Salmon",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "greengillsalmon",
+    "imageDescription": "This freshwater wavekin is bred for research purposes at the Mover Alpha. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 7709,
+    "eorzeaDb": "",
+    "fishname": "High Perch",
+    "alias": "High_Perch",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "highperch",
+    "imageDescription": "A king among La Noscean perch, and lord of the waters of the Nym River. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20090,
+    "eorzeaDb": "",
+    "fishname": "Highland Perch",
+    "alias": "Highland_Perch",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "highlandperch",
+    "imageDescription": "Once common throughout the Gyr Abanian highlands, overfishing has relegated the remainder of the species to Mirage Creek. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43701,
+    "eorzeaDb": "",
+    "fishname": "Hunu Peacock Bass",
+    "alias": "Hunu_Peacock_Bass",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "hunupeacockbass",
+    "imageDescription": "This member of the peacock bass family is readily identified by its fiery lateral markings. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 44345,
+    "eorzeaDb": "",
+    "fishname": "Hwittayoanaan Cichlid",
+    "alias": "Hwittayoanaan_Cichlid",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "hwittayoanaancichlid",
+    "imageDescription": "A king among Pyariyoanaan cichlids, and lord of the waters of Niikwerepi. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20045,
+    "eorzeaDb": "",
+    "fishname": "Idle Goby",
+    "alias": "Idle_Goby",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "idlegoby",
+    "imageDescription": "This large goby uses its natural black and brown mottling to conceal itself in the sandy bed of the Slow Wash. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36461,
+    "eorzeaDb": "",
+    "fishname": "Imperial Pleco",
+    "alias": "Imperial_Pleco",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "imperialpleco",
+    "imageDescription": "A striped fish which can be seen flitting about the waters of the capital, much to its people's chagrin. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27563,
+    "eorzeaDb": "",
+    "fishname": "Jester Fish",
+    "alias": "Jester_Fish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "jesterfish",
+    "imageDescription": "A freshwater wavekin with colorful fins and bulging eyes. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 5023,
+    "eorzeaDb": "",
+    "fishname": "Judgment Staff",
+    "alias": "Judgment_Staff",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "judgmentstaff",
+    "imageDescription": "Named after the primal Ramuh's signature weapon, this strange freshwater fish will only feed when the weather is rainy. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43707,
+    "eorzeaDb": "",
+    "fishname": "Ka Puyhu",
+    "alias": "Ka_Puyhu",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "kapuyhu",
+    "imageDescription": "A multitude of colors adorn the scales of this aesthetically pleasing wavekin. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36499,
+    "eorzeaDb": "",
+    "fishname": "Katoptron",
+    "alias": "Katoptron",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "katoptron",
+    "imageDescription": "A mystifying fish whose scales seem to reflect the movement of the stars. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12743,
+    "eorzeaDb": "",
+    "fishname": "Kissing Fish",
+    "alias": "Kissing_Fish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "kissingfish",
+    "imageDescription": "An adorable freshwater fish native to the waters of Eil Tohm. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36418,
+    "eorzeaDb": "",
+    "fishname": "Longear Sunfish",
+    "alias": "Longear_Sunfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "longearsunfish",
+    "imageDescription": "A freshwater fish named for the earlike protrusions on the sides of its face. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12750,
+    "eorzeaDb": "",
+    "fishname": "Marble Oscar",
+    "alias": "Marble_Oscar",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "marbleoscar",
+    "imageDescription": "A freshwater fish which prefers the heated pools of the Smoldering Wastes to the cooler waters of surrounding rivers. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27546,
+    "eorzeaDb": "",
+    "fishname": "Mirrorfish",
+    "alias": "Mirrorfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "mirrorfish",
+    "imageDescription": "A freshwater wavekin native to Il Mheg known for its reflective scales. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 7940,
+    "eorzeaDb": "",
+    "fishname": "Mirrorscale",
+    "alias": "Mirrorscale",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "mirrorscale",
+    "imageDescription": "A king among silverfish. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20185,
+    "eorzeaDb": "",
+    "fishname": "Nagxian Mullet",
+    "alias": "Nagxian_Mullet",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "nagxianmullet",
+    "imageDescription": "A thin, eel-like fish native to Nagxia, but found throughout the One River. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27531,
+    "eorzeaDb": "",
+    "fishname": "Noblefish",
+    "alias": "Noblefish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "noblefish",
+    "imageDescription": "An elegantly shaped freshwater wavekin. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12768,
+    "eorzeaDb": "",
+    "fishname": "Noontide Oscar",
+    "alias": "Noontide_Oscar",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "noontideoscar",
+    "imageDescription": "An albino marble oscar only found with consistency in the corrupted waters of Eil Tohm. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12781,
+    "eorzeaDb": "",
+    "fishname": "Orn Butterfly",
+    "alias": "Orn_Butterfly",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "ornbutterfly",
+    "imageDescription": "A freshwater fish native to the Orn Wild, yet also found in the Quickspill Delta of the Thaliak River. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 5007,
+    "eorzeaDb": "",
+    "fishname": "Paglth'an Discus",
+    "alias": "Paglth_an_Discus",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "paglthandiscus",
+    "imageDescription": "A brightly colored freshwater fish native to the warm waters in and around the Amalj'aa territory of Paglth'an. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36392,
+    "eorzeaDb": "",
+    "fishname": "Peacock Bass",
+    "alias": "Peacock_Bass",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "peacockbass",
+    "imageDescription": "A decent-sized fish known for its speckled scales. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12741,
+    "eorzeaDb": "",
+    "fishname": "Pipira Pira",
+    "alias": "Pipira_Pira",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "pipirapira",
+    "imageDescription": "A deadly freshwater fish which will tear away flesh with its razor-sharp teeth. Crossing the Whilom River barefoot is not recommended. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 44344,
+    "eorzeaDb": "",
+    "fishname": "Pixel Loach",
+    "alias": "Pixel_Loach",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "pixelloach",
+    "imageDescription": "A king among Mosaic loaches, and lord of the artificial ponds of Solution Nine's residential sector. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27525,
+    "eorzeaDb": "",
+    "fishname": "Platinum Bream",
+    "alias": "Platinum_Bream",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "platinumbream",
+    "imageDescription": "A shimmering, silvery fish. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27557,
+    "eorzeaDb": "",
+    "fishname": "Queensgown",
+    "alias": "Queensgown",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "queensgown",
+    "imageDescription": "A freshwater fish named for its fabulously frilly fins. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36443,
+    "eorzeaDb": "",
+    "fishname": "Radzbalik",
+    "alias": "Radzbalik",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "radzbalik",
+    "imageDescription": "A freshwater fish beloved for its resplendent coloration. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36407,
+    "eorzeaDb": "",
+    "fishname": "Raiamas",
+    "alias": "Raiamas",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "raiamas",
+    "imageDescription": "A freshwater fish known for its shimmering emerald scales. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 4905,
+    "eorzeaDb": "",
+    "fishname": "Raincaller",
+    "alias": "Raincaller",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "raincaller",
+    "imageDescription": "A deep-blue freshwater fish native to the lakes and swamps of the Black Shroud. They can be seen sticking their heads out of the water whenever it rains, leading people to believe it is the fish summoning the storm. However, naturalists have surmised that the fish are simply rising to the surface in search of food, mistaking the drops of water for insects. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 22397,
+    "eorzeaDb": "",
+    "fishname": "Red Prismfish",
+    "alias": "Red_Prismfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "redprismfish",
+    "imageDescription": "The pale red glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20193,
+    "eorzeaDb": "",
+    "fishname": "Redfin",
+    "alias": "Redfin",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "redfin",
+    "imageDescription": "Second only to the blue-fish in mediocrity of monikers, the freshwater redfin of the One River─unsurprisingly─has bright-red fins. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20218,
+    "eorzeaDb": "",
+    "fishname": "River Bream",
+    "alias": "River_Bream",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "riverbream",
+    "imageDescription": "Unlike sea breams, this quirky cousin will travel back and forth 'twixt the brackish waters of a river's delta and the fresher waters upstream. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20229,
+    "eorzeaDb": "",
+    "fishname": "Sailfin",
+    "alias": "Sailfin",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "sailfin",
+    "imageDescription": "A unique freshwater fish featuring astonishingly overgrown dorsal and anal fins. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20051,
+    "eorzeaDb": "",
+    "fishname": "Silken Koi",
+    "alias": "Silken_Koi",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "silkenkoi",
+    "imageDescription": "A plump freshwater wavekin with pearlescent scales and a name that sounds better than the fish tastes. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27415,
+    "eorzeaDb": "",
+    "fishname": "Sinspitter",
+    "alias": "Sinspitter",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "sinspitter",
+    "imageDescription": "This Crystarium freshwater fish is in fact much prettier than its crude name implies. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36400,
+    "eorzeaDb": "",
+    "fishname": "Tessera",
+    "alias": "Tessera",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "tessera",
+    "imageDescription": "This cichlid doubles as a mosaic tile to the imaginative minds of Labyrinthos. (No fish were harmed in the making of this secret underground facility.) [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 23059,
+    "eorzeaDb": "",
+    "fishname": "The Archbishop",
+    "alias": "The_Archbishop",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "thearchbishop",
+    "imageDescription": "A king among cardinalfish, and lord of the waters of the Comet's Tail. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 44346,
+    "eorzeaDb": "",
+    "fishname": "Thunderswift Trout",
+    "alias": "Thunderswift_Trout",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "thunderswifttrout",
+    "imageDescription": "A veritable king among trout, and lord of the stagnant waters of the driftdowns. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43768,
+    "eorzeaDb": "",
+    "fishname": "Tiger Muskellunge",
+    "alias": "Tiger_Muskellunge",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "tigermuskellunge",
+    "imageDescription": "A tough hybrid species that is unable to propagate itself, despite its advantageous traits. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43754,
+    "eorzeaDb": "",
+    "fishname": "Trailtrout",
+    "alias": "Trailtrout",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "trailtrout",
+    "imageDescription": "Coveted for its fatty flesh, this type of trout dwells in the depths of Lake Toari. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 4951,
+    "eorzeaDb": "",
+    "fishname": "Tricolored Carp",
+    "alias": "Tricolored_Carp",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "tricoloredcarp",
+    "imageDescription": "Patches of gold, silver, and bronze cover this medium-sized freshwater fish's body, making it a favorite choice for the private garden pools of Ul'dahn nobles. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 21177,
+    "eorzeaDb": "",
+    "fishname": "Violet Prismfish",
+    "alias": "Violet_Prismfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "violetprismfish",
+    "imageDescription": "The pale violet glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 5013,
+    "eorzeaDb": "",
+    "fishname": "Wandering Sculpin",
+    "alias": "Wandering_Sculpin",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "wanderingsculpin",
+    "imageDescription": "Legend states that this particular variety of sculpin is a favorite of Oschon, the Wanderer, and that the god will oft dine on this fish while on His journeys through the realm of man. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43739,
+    "eorzeaDb": "",
+    "fishname": "Welkin Catfish",
+    "alias": "Welkin_Catfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "welkincatfish",
+    "imageDescription": "This catfish is often likened to the night sky due to the smattering of white splotches on its dark scales. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 28926,
+    "eorzeaDb": "",
+    "fishname": "White Ronso",
+    "alias": "White_Ronso",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "whiteronso",
+    "imageDescription": "A king among zebra catfish, and lord of the waters of lower Watts River. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27474,
+    "eorzeaDb": "",
+    "fishname": "Wimple Carp",
+    "alias": "Wimple_Carp",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "wimplecarp",
+    "imageDescription": "A striped freshwater fish found in Handmirror Lake. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43782,
+    "eorzeaDb": "",
+    "fishname": "Windspath Eel",
+    "alias": "Windspath_Eel",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "windspatheel",
+    "imageDescription": "Found in the Knowable, this sleek wavekin differs in color to its wild kin. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27430,
+    "eorzeaDb": "",
+    "fishname": "Xanthic Bass",
+    "alias": "Xanthic_Bass",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "xanthicbass",
+    "imageDescription": "This unusually vivid freshwater bass has scales of yellow and burnt orange. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36398,
+    "eorzeaDb": "",
+    "fishname": "Xenocypris",
+    "alias": "Xenocypris",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "xenocypris",
+    "imageDescription": "This unusually hardy freshwater koi is found throughout Labyrinthos. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43734,
+    "eorzeaDb": "",
+    "fishname": "Yak T'el Catfish",
+    "alias": "Yak_T_el_Catfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "yaktelcatfish",
+    "imageDescription": "This widely adored wavekin can be found all across the lowlands of Yak T'el. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20020,
+    "eorzeaDb": "",
+    "fishname": "Yanxian Barramundi",
+    "alias": "Yanxian_Barramundi",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "yanxianbarramundi",
+    "imageDescription": "This large carnivorous specimen is native to the southeastern reaches of the One River where the waters run slow and deep. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 43713,
+    "eorzeaDb": "",
+    "fishname": "Yellow Peacock Bass",
+    "alias": "Yellow_Peacock_Bass",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "yellowpeacockbass",
+    "imageDescription": "The banded markings of this moderately large wavekin set it apart from other varieties of peacock bass. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27486,
+    "eorzeaDb": "",
+    "fishname": "Yellow Pipira",
+    "alias": "Yellow_Pipira",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "yellowpipira",
+    "imageDescription": "A tiny-yet-fierce fish from the Rak'tika Greatwood. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20052,
+    "eorzeaDb": "",
+    "fishname": "Yellow Prismfish",
+    "alias": "Yellow_Prismfish",
+    "fishsize": "m",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "yellowprismfish",
+    "imageDescription": "The pale yellow glow emitted by this freshwater fish is believed to be caused by unbalanced levels of aspected aether in the wavekin's humours. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   }
-
 ];
+
 const freshwaterLargeFish = [
   {
-    id: 27436,
-    eorzeaDb: "a6f54f012f8",
-    fishname: "Albino Garfish",
-    alias: "Albino_Garfish",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "albinogarfish",
-    imageDescription:
-      "Its ghostly color and threatening size makes encountering this sort of garfish a uniquely alarming experience for folk fishing in the Source.",
-    isTradable: true
+    "id": 27436,
+    "eorzeaDb": "",
+    "fishname": "Albino Garfish",
+    "alias": "Albino_Garfish",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "albinogarfish",
+    "imageDescription": "Its ghostly color and threatening size makes encountering this sort of garfish a uniquely alarming experience for folk fishing in the Source. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 27579,
-    eorzeaDb: "8a29ce42dca",
-    fishname: "Anpa's Handmaid",
-    alias: "Anpa%27s_Handmaid",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "anpashandmaid",
-    imageDescription: "A large, silvery wavekin that features in Ronkan myth.",
-    isTradable: true
+    "id": 27579,
+    "eorzeaDb": "",
+    "fishname": "Anpa's Handmaid",
+    "alias": "Anpa_s_Handmaid",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "anpashandmaid",
+    "imageDescription": "A large, silvery wavekin that features in Ronkan myth. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 8776,
-    eorzeaDb: "0cd01baf428",
-    fishname: "Blood Red Bonytongue",
-    alias: "Blood_Red_Bonytongue",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "bloodredbonytongue",
-    imageDescription: "A king among bonytongue.",
-    isTradable: true
+    "id": 8776,
+    "eorzeaDb": "",
+    "fishname": "Blood Red Bonytongue",
+    "alias": "Blood_Red_Bonytongue",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "bloodredbonytongue",
+    "imageDescription": "A king among bonytongue. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20192,
-    eorzeaDb: "78b70845042",
-    fishname: "Cavalry Catfish",
-    alias: "Cavalry_Catfish",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "cavalrycatfish",
-    imageDescription:
-      "This large, aggressive freshwater fish will “charge” most anything moving, regardless of its size.",
-    isTradable: true
+    "id": 20192,
+    "eorzeaDb": "",
+    "fishname": "Cavalry Catfish",
+    "alias": "Cavalry_Catfish",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "cavalrycatfish",
+    "imageDescription": "This large, aggressive freshwater fish will “charge” most anything moving, regardless of its size. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 36485,
-    eorzeaDb: "a09750c0ecc",
-    fishname: "Colossoma",
-    alias: "Colossoma",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "colossoma",
-    imageDescription:
-      "This impressive specimen can be found lingering among the aquatic vegetation in the lower Hungering Gardens.",
-    isTradable: true
+    "id": 36485,
+    "eorzeaDb": "",
+    "fishname": "Colossoma",
+    "alias": "Colossoma",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "colossoma",
+    "imageDescription": "This impressive specimen can be found lingering among the aquatic vegetation in the lower Hungering Gardens. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 5025,
-    eorzeaDb: "aef6af387ae",
-    fishname: "Emperor Fish",
-    alias: "Emperor_Fish",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "emperorfish",
-    imageDescription:
-      "This giant freshwater fish lives out its adulthood feeding in the Indigo Deep before returning all the way back up to the head of the White Maiden to spawn.",
-    isTradable: true
+    "id": 43697,
+    "eorzeaDb": "",
+    "fishname": "Driftwood Catfish",
+    "alias": "Driftwood_Catfish",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "driftwoodcatfish",
+    "imageDescription": "This species' resemblance to waterborne wooden debris gives it the edge when pursuing its prey. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20184,
-    eorzeaDb: "054af32e12d",
-    fishname: "Fifty-summer Cod",
-    alias: "Fifty-summer_Cod",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "fiftysummercod",
-    imageDescription:
-      "This long-living freshwater cod is commonly found in the One River.",
-    isTradable: true
+    "id": 5025,
+    "eorzeaDb": "",
+    "fishname": "Emperor Fish",
+    "alias": "Emperor_Fish",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "emperorfish",
+    "imageDescription": "This giant freshwater fish lives out its adulthood feeding in the Indigo Deep before returning all the way back up to the head of the White Maiden to spawn. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 27559,
-    eorzeaDb: "d0be0d76a7a",
-    fishname: "Ghoulfish",
-    alias: "Ghoulfish",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "ghoulfish",
-    imageDescription:
-      "The flesh of this Il Mheg native's head is transparent, rendering its bright-purple innards visible to all who gaze upon it─whether they like it or not.",
-    isTradable: true
+    "id": 20184,
+    "eorzeaDb": "",
+    "fishname": "Fifty-summer Cod",
+    "alias": "Fifty_summer_Cod",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "fiftysummercod",
+    "imageDescription": "This long-living freshwater cod is commonly found in the One River. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: "43785",
-    eorzeaDb: "63714291b2a",
-    fishname: "Giant Snakehead",
-    alias: "Giant_Snakehead",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "giantsnakehead",
-    imageDescription:
-      "Easily mistaken for a mighty scalekin, this vibrant fish can be found in Mu Springs Eternal.",
-    isTradable: true
+    "id": 27559,
+    "eorzeaDb": "",
+    "fishname": "Ghoulfish",
+    "alias": "Ghoulfish",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "ghoulfish",
+    "imageDescription": "The flesh of this Il Mheg native's head is transparent, rendering its bright-purple innards visible to all who gaze upon it─whether they like it or not.  [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 30434,
-    eorzeaDb: "8b554c373f4",
-    fishname: "Giant Taimen",
-    alias: "Giant_Taimen",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "gianttaimen",
-    imageDescription:
-      "A king among hucho taimen, and lord of the waters of upper Watts River.",
-    isTradable: true
+    "id": 43785,
+    "eorzeaDb": "",
+    "fishname": "Giant Snakehead",
+    "alias": "Giant_Snakehead",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "giantsnakehead",
+    "imageDescription": "Easily mistaken for a mighty scalekin, this vibrant fish can be found in Mu Springs Eternal. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 5000,
-    eorzeaDb: "c215ed38e9f",
-    fishname: "Goblin Perch",
-    alias: "Goblin_Perch",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "goblinperch",
-    imageDescription:
-      "The goblins claim that they brought this variety of perch back from their years-long pilgrimage into Othard and Ilsabard...because it tasted so divine.",
-    isTradable: true
+    "id": 30434,
+    "eorzeaDb": "",
+    "fishname": "Giant Taimen",
+    "alias": "Giant_Taimen",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "gianttaimen",
+    "imageDescription": "A king among hucho taimen, and lord of the waters of upper Watts River. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20204,
-    eorzeaDb: "35361ea4149",
-    fishname: "Grass Shark",
-    alias: "Grass_Shark",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "grassshark",
-    imageDescription:
-      "Grass sharks are massive, their size rivaling that of even the Glass Ocean's greatest predators─an amazing feat considering grass sharks live their entire lives in the confines of the One River.",
-    isTradable: true
+    "id": 5000,
+    "eorzeaDb": "",
+    "fishname": "Goblin Perch",
+    "alias": "Goblin_Perch",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "goblinperch",
+    "imageDescription": "The goblins claim that they brought this variety of perch back from their years-long pilgrimage into Othard and Ilsabard...because it tasted so divine. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 37845,
-    eorzeaDb: "df752c62cb6",
-    fishname: "Greatsword Snook",
-    alias: "Greatsword_Snook",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "greatswordsnook",
-    imageDescription:
-      "A king among swordspine snook, and lord of the waters of Oinops.",
-    isTradable: true
+    "id": 20204,
+    "eorzeaDb": "",
+    "fishname": "Grass Shark",
+    "alias": "Grass_Shark",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "grassshark",
+    "imageDescription": "Grass sharks are massive, their size rivaling that of even the Glass Ocean's greatest predators─an amazing feat considering grass sharks live their entire lives in the confines of the One River. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 7943,
-    eorzeaDb: "4a551907bee",
-    fishname: "Hannibal",
-    alias: "Hannibal",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "hannibal",
-    imageDescription: "A king among alligator garfish.",
-    isTradable: true
+    "id": 37845,
+    "eorzeaDb": "",
+    "fishname": "Greatsword Snook",
+    "alias": "Greatsword_Snook",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "greatswordsnook",
+    "imageDescription": "A king among swordspine snook, and lord of the waters of Oinops. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20228,
-    eorzeaDb: "a167f25cbaf",
-    fishname: "Ichthyosaur",
-    alias: "Ichthyosaur",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "ichthyosaur",
-    imageDescription:
-      "Let not its dolphin-like appearance fool you. The ichthyosaur is a ravenous scalekin that feeds on squid, fish, and the occasional man overboard.",
-    isTradable: true
+    "id": 7943,
+    "eorzeaDb": "",
+    "fishname": "Hannibal",
+    "alias": "Hannibal",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "hannibal",
+    "imageDescription": "A king among alligator garfish. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 43808,
-    eorzeaDb: "94b3ad9bfcb",
-    fishname: "Karvarichthys",
-    alias: "Karvarichthys",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "karvarichthys",
-    imageDescription:
-      "Let not its dolphin-like appearance fool you. The ichthyosaur is a ravenous scalekin that feeds on squid, fish, and the occasional man overboard.",
-    isTradable: true
+    "id": 20228,
+    "eorzeaDb": "",
+    "fishname": "Ichthyosaur",
+    "alias": "Ichthyosaur",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "ichthyosaur",
+    "imageDescription": "Let not its dolphin-like appearance fool you. The ichthyosaur is a ravenous scalekin that feeds on squid, fish, and the occasional man overboard. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 27534,
-    eorzeaDb: "40ae818e191",
-    fishname: "Little Bismarck",
-    alias: "Little_Bismarck",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "littlebismarck",
-    imageDescription:
-      "Fishers who wish to keep all of their remaining limbs intact would do well to remember that the name of this wavekin is not indicative of diminutive size─almost all creatures are “little” compared to Bismarck.",
-    isTradable: true
+    "id": 43808,
+    "eorzeaDb": "",
+    "fishname": "Karvarichthys",
+    "alias": "Karvarichthys",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "karvarichthys",
+    "imageDescription": "This looming wavekin has inhabited the depths of Karvarhur the First since ancient times, remaining, for the most part, unchanged. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 27560,
-    eorzeaDb: "ff5612c89da",
-    fishname: "Measan Deala",
-    alias: "Measan_Deala",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "measandeala",
-    imageDescription: "A lemon yellow freshwater fish native to Il Mheg.",
-    isTradable: true
+    "id": 27534,
+    "eorzeaDb": "",
+    "fishname": "Little Bismarck",
+    "alias": "Little_Bismarck",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "littlebismarck",
+    "imageDescription": "Fishers who wish to keep all of their remaining limbs intact would do well to remember that the name of this wavekin is not indicative of diminutive size─almost all creatures are “little” compared to Bismarck. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 22389,
-    eorzeaDb: "f9919aea5c7",
-    fishname: "Mirage Mahi",
-    alias: "Mirage_Mahi",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "miragemahi",
-    imageDescription:
-      "A sizable catch found primarily in the freshwater highland rivers of Gyr Abania.",
-    isTradable: true
+    "id": 27560,
+    "eorzeaDb": "",
+    "fishname": "Measan Deala",
+    "alias": "Measan_Deala",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "measandeala",
+    "imageDescription": "A lemon yellow freshwater fish native to Il Mheg. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 27532,
-    eorzeaDb: "fa34050ce28",
-    fishname: "Misteye",
-    alias: "Misteye",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "misteye",
-    imageDescription:
-      "Whether this ancient wavekin was always blind or if its eyes have simply been clouded by time is a riddle that no still-living person can answer.",
-    isTradable: true
-  },
-  
-
-  {
-  id: 43711,
-  eorzeaDb: "dd498cff909",
-  fishname: "Oxydoras",
-  alias: "Oxydoras",
-  fishsize: "l",
-  waterType: "fw",
-  image: true,
-  imageName: "oxydoras",
-  imageDescription: "If it looks like a bludgeon in the water, and floats like a bludgeon in the water...it may not be a bludgeon in the water. It might be this catfish instead.",
-  isTradable: true
-},
-  {
-    id: 40589,
-    eorzeaDb: "33a3f0c0272",
-    fishname: "Spectral Kotsu Zetsu",
-    alias: "Spectral_Kotsu_Zetsu",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "spectralkotsuzetsu",
-    imageDescription:
-      "The bone-like tongues of these spectral wavekin are surprisingly sturdy despite their crystalline appearance, and are often used by highly skilled artisans to craft priceless accessories.",
-    isTradable: true
+    "id": 22389,
+    "eorzeaDb": "",
+    "fishname": "Mirage Mahi",
+    "alias": "Mirage_Mahi",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "miragemahi",
+    "imageDescription": "A sizable catch found primarily in the freshwater highland rivers of Gyr Abania. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 12749,
-    eorzeaDb: "8011e3472d2",
-    fishname: "Vanuhead",
-    alias: "Vanuhead",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "vanuhead",
-    imageDescription:
-      "A freshwater fish inhabiting the Eddies─an isolated lake found atop one of Abalathia's floating islets.",
-    isTradable: true
+    "id": 27532,
+    "eorzeaDb": "",
+    "fishname": "Misteye",
+    "alias": "Misteye",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "misteye",
+    "imageDescription": "Whether this ancient wavekin was always blind or if its eyes have simply been clouded by time is a riddle that no still-living person can answer. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 12721,
-    eorzeaDb: "210177619aa",
-    fishname: "Whilom Catfish",
-    alias: "Whilom_Catfish",
-    fishsize: "l",
-    waterType: "fw",
-    image: true,
-    imageName: "whilomcatfish",
-    imageDescription: "A small, red catfish native to the Whilom River.",
-    isTradable: true
+    "id": 43711,
+    "eorzeaDb": "",
+    "fishname": "Oxydoras",
+    "alias": "Oxydoras",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "oxydoras",
+    "imageDescription": "If it looks like a bludgeon in the water, and floats like a bludgeon in the water...it may not be a bludgeon in the water. It might be this catfish instead. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 40589,
+    "eorzeaDb": "",
+    "fishname": "Spectral Kotsu Zetsu",
+    "alias": "Spectral_Kotsu_Zetsu",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "spectralkotsuzetsu",
+    "imageDescription": "The bone-like tongues of these spectral wavekin are surprisingly sturdy despite their crystalline appearance, and are often used by highly skilled artisans to craft priceless accessories. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12749,
+    "eorzeaDb": "",
+    "fishname": "Vanuhead",
+    "alias": "Vanuhead",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "vanuhead",
+    "imageDescription": "A freshwater fish inhabiting the Eddies─an isolated lake found atop one of Abalathia's floating islets. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12721,
+    "eorzeaDb": "",
+    "fishname": "Whilom Catfish",
+    "alias": "Whilom_Catfish",
+    "fishsize": "l",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "whilomcatfish",
+    "imageDescription": "A small, red catfish native to the Whilom River. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   }
-
 ];
 
 const freshwaterXLargeFish = [
   {
-    id: 8762,
-    eorzeaDb: "815f316bfc3",
-    fishname: "Canavan",
-    alias: "Canavan",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "canavan",
-    imageDescription: "A king among morinabaligi.",
-    isTradable: true
+    "id": 8762,
+    "eorzeaDb": "",
+    "fishname": "Canavan",
+    "alias": "Canavan",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "canavan",
+    "imageDescription": "A king among morinabaligi. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 12803,
-    eorzeaDb: "620321e7c02",
-    fishname: "Euphotic Pirarucu",
-    alias: "Euphotic_Pirarucu",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "euphoticpirarucu",
-    imageDescription:
-      "A biologically engineered fish found in Azys Lla's Delta Quadrant.",
-    isTradable: true
+    "id": 49801,
+    "eorzeaDb": "",
+    "fishname": "Esperance Carp",
+    "alias": "Esperance_Carp",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "esperancecarp",
+    "imageDescription": "A king among ultimoat carp, and lord of the waters of Proto Alexandria. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 8774,
-    eorzeaDb: "03434153dc5",
-    fishname: "Giant Takitaro",
-    alias: "Giant_Takitaro",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "gianttakitaro",
-    imageDescription: "A king among takitaro.",
-    isTradable: true
-  },
-      {
-  id: 46191,
-  eorzeaDb: "7d290ccf4d4",
-  fishname: "Iron Shadowtongue",
-  alias: "Iron_Shadowtongue",
-  fishsize: "xl",
-  waterType: "fw",
-  image: true,
-  imageName: "ironshadowtongue",
-  imageDescription: "A king among shadowtongues, and lord of the waters of Iq Rrax Tsoly.",
-  isTradable: true
-},
-  {
-    id: 12830,
-    eorzeaDb: "c50b60be3bc",
-    fishname: "Loosetongue",
-    alias: "Loosetongue",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "loosetongue",
-    imageDescription:
-      "A giant freshwater cousin of the bonytongue found only in the Thaliak River.",
-    isTradable: true
-  },
-
-  {
-    id: 17579,
-    eorzeaDb: "b164a0d88b2",
-    fishname: "Paikiller",
-    alias: "Paikiller",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "paikiller",
-    imageDescription:
-      "A king among catkillers, and lord of the waters of the Eddies.",
-    isTradable: true
+    "id": 12803,
+    "eorzeaDb": "",
+    "fishname": "Euphotic Pirarucu",
+    "alias": "Euphotic_Pirarucu",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "euphoticpirarucu",
+    "imageDescription": "A biologically engineered fish found in Azys Lla's Delta Quadrant. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 12752,
-    eorzeaDb: "a413a47e78c",
-    fishname: "Tigerfish",
-    alias: "Tigerfish",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "tigerfish",
-    imageDescription:
-      "A striped freshwater fish native to the Quickspill Delta.",
-    isTradable: true
-  },
-    {
-    id: 47993,
-    eorzeaDb: "73054dca5f2",
-    fishname: "Ttokatoa",
-    alias: "Ttokatoa",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "ttokatoa",
-    imageDescription:
-      "A king among Turali paddlefish, and lord of the expanse of Lake Toari.",
-    isTradable: true
+    "id": 8774,
+    "eorzeaDb": "",
+    "fishname": "Giant Takitaro",
+    "alias": "Giant_Takitaro",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "gianttakitaro",
+    "imageDescription": "A king among takitaro. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 27437,
-    eorzeaDb: "30f4a123c61",
-    fishname: "Vicejaw",
-    alias: "Vicejaw",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "vicejaw",
-    imageDescription:
-      "An armor-plated fish found near the Isle of Ken, as vicious as it is ancient.",
-    isTradable: true
+    "id": 46191,
+    "eorzeaDb": "",
+    "fishname": "Iron Shadowtongue",
+    "alias": "Iron_Shadowtongue",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "ironshadowtongue",
+    "imageDescription": "A king among shadowtongues, and lord of the waters of Iq Rrax Tsoly. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 24994,
-    eorzeaDb: "663a9218fd6",
-    fishname: "Warden of the Seven Hues",
-    alias: "Warden_of_the_Seven_Hues",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "wardenofthesevenhues",
-    imageDescription:
-      "Though beautiful, this polychromatic carp ruled Prism Lake with an iron fin...until now.",
-    isTradable: true
+    "id": 12830,
+    "eorzeaDb": "",
+    "fishname": "Loosetongue",
+    "alias": "Loosetongue",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "loosetongue",
+    "imageDescription": "A giant freshwater cousin of the bonytongue found only in the Thaliak River. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 24990,
-    eorzeaDb: "60b55b3ced7",
-    fishname: "Xenacanthus",
-    alias: "Xenacanthus",
-    fishsize: "xl",
-    waterType: "fw",
-    image: true,
-    imageName: "xenacanthus",
-    imageDescription:
-      "This massive predator has haunted the nightmares of Gyr Abanians for generations as the legendary “impaler of Timmon Beck,” thanks to its centuries-old legacy of terrorizing smallfolk attempting to do their washing.",
-    isTradable: true
+    "id": 17579,
+    "eorzeaDb": "",
+    "fishname": "Paikiller",
+    "alias": "Paikiller",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "paikiller",
+    "imageDescription": "A king among catkillers, and lord of the waters of the Eddies. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 12752,
+    "eorzeaDb": "",
+    "fishname": "Tigerfish",
+    "alias": "Tigerfish",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "tigerfish",
+    "imageDescription": "A striped freshwater fish native to the Quickspill Delta. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 47993,
+    "eorzeaDb": "",
+    "fishname": "Ttokatoa",
+    "alias": "Ttokatoa",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "ttokatoa",
+    "imageDescription": "A king among Turali paddlefish, and lord of the expanse of Lake Toari. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 27437,
+    "eorzeaDb": "",
+    "fishname": "Vicejaw",
+    "alias": "Vicejaw",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "vicejaw",
+    "imageDescription": "An armor-plated fish found near the Isle of Ken, as vicious as it is ancient. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 24994,
+    "eorzeaDb": "",
+    "fishname": "Warden of the Seven Hues",
+    "alias": "Warden_of_the_Seven_Hues",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "wardenofthesevenhues",
+    "imageDescription": "Though beautiful, this polychromatic carp ruled Prism Lake with an iron fin...until now. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 24990,
+    "eorzeaDb": "",
+    "fishname": "Xenacanthus",
+    "alias": "Xenacanthus",
+    "fishsize": "xl",
+    "waterType": "fw",
+    "image": true,
+    "imageName": "xenacanthus",
+    "imageDescription": "This massive predator has haunted the nightmares of Gyr Abanians for generations as the legendary “impaler of Timmon Beck,” thanks to its centuries-old legacy of terrorizing smallfolk attempting to do their washing. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   }
 ];
 
 const saltWaterSmallFish = [
   {
-    id: 27501,
-    eorzeaDb: "cafe64f1d8c",
-    fishname: "Bubble Angler",
-    alias: "Bubble_Angler",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "bubbleangler",
-    imageDescription:
-      "The see-through flesh of this bizarre anglerfish makes it all the more disturbing to look at.",
-    isTradable: true
+    "id": 27501,
+    "eorzeaDb": "",
+    "fishname": "Bubble Angler",
+    "alias": "Bubble_Angler",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "bubbleangler",
+    "imageDescription": "The see-through flesh of this bizarre anglerfish makes it all the more disturbing to look at. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 4876,
-    eorzeaDb: "dfc1f38ce38",
-    fishname: "Coral Butterfly",
-    alias: "Coral_Butterfly",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "coralbutterfly",
-    imageDescription:
-      "A colorful saltwater fish commonly found in the warm seas around the island of Bianaq. Not known for its flavor, the wavekin is most often kept as a pet.",
-    isTradable: true
+    "id": 4876,
+    "eorzeaDb": "",
+    "fishname": "Coral Butterfly",
+    "alias": "Coral_Butterfly",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "coralbutterfly",
+    "imageDescription": "A colorful saltwater fish commonly found in the warm seas around the island of Bianaq. Not known for its flavor, the wavekin is most often kept as a pet. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36387,
-    eorzeaDb: "859ab3eae43",
-    fishname: "Dog-faced Puffer",
-    alias: "Dog-faced_Puffer",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "dogfacedpuffer",
-    imageDescription:
-      "A saltwater fish recognized by its dark facial markings.",
-    isTradable: true
+    "id": 36387,
+    "eorzeaDb": "",
+    "fishname": "Dog-faced Puffer",
+    "alias": "Dog_faced_Puffer",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "dogfacedpuffer",
+    "imageDescription": "A saltwater fish recognized by its dark facial markings. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 27423,
-    eorzeaDb: "a2cc569dbb6",
-    fishname: "Eulmore Butterfly",
-    alias: "Eulmore_Butterfly",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "eulmorebutterfly",
-    imageDescription:
-      "A brightly colored and riotously patterned fish that looks right at home in the gaudy environs of Eulmore.",
-    isTradable: true
+    "id": 27423,
+    "eorzeaDb": "",
+    "fishname": "Eulmore Butterfly",
+    "alias": "Eulmore_Butterfly",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "eulmorebutterfly",
+    "imageDescription": "A brightly colored and riotously patterned fish that looks right at home in the gaudy environs of Eulmore. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36450,
-    eorzeaDb: "67e31c8fd0b",
-    fishname: "Fiery Goby",
-    alias: "Fiery_Goby",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "fierygoby",
-    imageDescription:
-      "This saltwater fish sputters along like a flickering flame.",
-    isTradable: true
+    "id": 36450,
+    "eorzeaDb": "",
+    "fishname": "Fiery Goby",
+    "alias": "Fiery_Goby",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "fierygoby",
+    "imageDescription": "This saltwater fish sputters along like a flickering flame. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 4874,
-    eorzeaDb: "9f1826ea754",
-    fishname: "Harbor Herring",
-    alias: "Harbor_Herring",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "harborherring",
-    imageDescription:
-      "This particular variety of herring will gather in busy harbors to feed on the small sea creatures which consume the waste dumped from ships.",
-    isTradable: true
+    "id": 4874,
+    "eorzeaDb": "",
+    "fishname": "Harbor Herring",
+    "alias": "Harbor_Herring",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "harborherring",
+    "imageDescription": "This particular variety of herring will gather in busy harbors to feed on the small sea creatures which consume the waste dumped from ships. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 20048,
-    eorzeaDb: "b1059e136c6",
-    fishname: "Harutsuge",
-    alias: "Harutsuge",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "harutsuge",
-    imageDescription:
-      "This saltwater fish has a distinct crimson coloring that makes it popular amongst aquarium owners.",
-    isTradable: true
+    "id": 20048,
+    "eorzeaDb": "",
+    "fishname": "Harutsuge",
+    "alias": "Harutsuge",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "harutsuge",
+    "imageDescription": "This saltwater fish has a distinct crimson coloring that makes it popular amongst aquarium owners. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 20162,
-    eorzeaDb: "d582d6ccead",
-    fishname: "Hatchetfish",
-    alias: "Hatchetfish",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "hatchetfish",
-    imageDescription:
-      "The Ruby Sea hatchetfish earns its name from its overgrown head which, if you squint hard enough, might appear similar to the head of a timberlord's hatchet.",
-    isTradable: true
+    "id": 20162,
+    "eorzeaDb": "",
+    "fishname": "Hatchetfish",
+    "alias": "Hatchetfish",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "hatchetfish",
+    "imageDescription": "The Ruby Sea hatchetfish earns its name from its overgrown head which, if you squint hard enough, might appear similar to the head of a timberlord's hatchet. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36537,
-    eorzeaDb: "005b29df239",
-    fishname: "Meyhane Reveler",
-    alias: "Meyhane_Reveler",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "meyhanereveler",
-    imageDescription:
-      "The beauty of this saltwater fish is of great interest to the people of Thavnair─and even greater interest to travelers passing through.",
-    isTradable: true
+    "id": 43789,
+    "eorzeaDb": "",
+    "fishname": "Iris Wrasse",
+    "alias": "Iris_Wrasse",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "iriswrasse",
+    "imageDescription": "These floral fish were once popular with the Endless residents of Canal Town. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 36575,
-    eorzeaDb: "2b40a405ed7",
-    fishname: "Mini Yasha",
-    alias: "Mini_Yasha",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "miniyasha",
-    imageDescription:
-      "A saltwater wavekin with distinctive red and amber coloration.",
-    isTradable: true
-  },
-    {
-  id: 43789,
-  eorzeaDb: "e58da3c0dbe",
-  fishname: "Iris Wrasse",
-  alias: "Iris_Wrasse",
-  fishsize: "s",
-  waterType: "sw",
-  image: true,
-  imageName: "iriswrasse",
-  imageDescription: "These floral fish were once popular with the Endless residents of Canal Town.",
-  isTradable: true
-},
-  {
-    id: 36549,
-    eorzeaDb: "eba3d8a3848",
-    fishname: "Onihige",
-    alias: "Onihige",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "onihige",
-    imageDescription:
-      "Do not let its size fool you─this fish is a terror of the seas. Mainly because of its appearance.",
-    isTradable: true
-  },
-   {
-    id: 43667,
-    eorzeaDb: "fd2116a1c9e",
-    fishname: "Reasonscale Silverside",
-    alias: "Reasonscale_Silverside",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "reasonscalesilverside",
-    imageDescription:
-      "After being introduced to the Stardust Sea, this striking silver fish soon began to thrive.",
-    isTradable: true
+    "id": 36537,
+    "eorzeaDb": "",
+    "fishname": "Meyhane Reveler",
+    "alias": "Meyhane_Reveler",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "meyhanereveler",
+    "imageDescription": "The beauty of this saltwater fish is of great interest to the people of Thavnair─and even greater interest to travelers passing through. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: "43669",
-    eorzeaDb: "646b77a7b4f",
-    fishname: "Shallows Sot",
-    alias: "Shallows_Sot",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "shallowssot",
-    imageDescription:
-      "This saltwater fish can be found lurking in the shallows beneath the For'ard Cabins, where it tries to avoid the attention of predators and inquisitive anglers besides.",
-    isTradable: true
+    "id": 36575,
+    "eorzeaDb": "",
+    "fishname": "Mini Yasha",
+    "alias": "Mini_Yasha",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "miniyasha",
+    "imageDescription": "A saltwater wavekin with distinctive red and amber coloration. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 43746,
-    eorzeaDb: "6bff00c809d",
-    fishname: "Sharknose Goby",
-    alias: "Sharknose_Goby",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "sharknosegoby",
-    imageDescription: "Some speculate that this small saltwater fish may have migrated to the cenote from the sea.",
-    isTradable: true
+    "id": 36549,
+    "eorzeaDb": "",
+    "fishname": "Onihige",
+    "alias": "Onihige",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "onihige",
+    "imageDescription": "Do not let its size fool you─this fish is a terror of the seas. Mainly because of its appearance. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 32063,
-    eorzeaDb: "a6199a61961",
-    fishname: "Spectral Butterfly",
-    alias: "Spectral_Butterfly",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "spectralbutterfly",
-    imageDescription:
-      "Some believe their appearance to be an omen of considerable riches on the horizon. Considering that these wavekin fetch a pretty gil at market, perhaps there is some truth to it.",
-    isTradable: true
+    "id": 43667,
+    "eorzeaDb": "",
+    "fishname": "Reasonscale Silverside",
+    "alias": "Reasonscale_Silverside",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "reasonscalesilverside",
+    "imageDescription": "After being introduced to the Stardust Sea, this striking silver fish soon began to thrive. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 40549,
-    eorzeaDb: "83eb8393ab5",
-    fishname: "Spectral Wrasse",
-    alias: "Spectral_Wrasse",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "spectralwrasse",
-    imageDescription:
-      "Though this wavekin may be small, it attempts to remedy such shortcomings by sporting splendidly spectral scales. In doing so, however, it has become more vulnerable to predators and skilled anglers.",
-    isTradable: true
-  },
-
-  {
-    id: 36535,
-    eorzeaDb: "2b7d389cad0",
-    fishname: "Tebqeyiq Smelt",
-    alias: "Tebqeyiq_Smelt",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "tebqeyiqsmelt",
-    imageDescription:
-      "For every vivid specimen of this species found, there is another far less interesting to look upon─but such is the nature of tropical fish.",
-    isTradable: true
+    "id": 43669,
+    "eorzeaDb": "",
+    "fishname": "Shallows Sot",
+    "alias": "Shallows_Sot",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "shallowssot",
+    "imageDescription": "This saltwater fish can be found lurking in the shallows beneath the For'ard Cabins, where it tries to avoid the attention of predators and inquisitive anglers besides. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   },
   {
-    id: 4879,
-    eorzeaDb: "dfadd6c4f73",
-    fishname: "Tiger Cod",
-    alias: "Tiger_Cod",
-    fishsize: "s",
-    waterType: "sw",
-    image: true,
-    imageName: "tigercod",
-    imageDescription:
-      "A striped saltwater fish indigenous to the cold northern waters of the Bloodbrine Sea.",
-    isTradable: true
+    "id": 43746,
+    "eorzeaDb": "",
+    "fishname": "Sharknose Goby",
+    "alias": "Sharknose_Goby",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "sharknosegoby",
+    "imageDescription": "Some speculate that this small saltwater fish may have migrated to the cenote from the sea. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 32063,
+    "eorzeaDb": "",
+    "fishname": "Spectral Butterfly",
+    "alias": "Spectral_Butterfly",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "spectralbutterfly",
+    "imageDescription": "Some believe their appearance to be an omen of considerable riches on the horizon. Considering that these wavekin fetch a pretty gil at market, perhaps there is some truth to it. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 40549,
+    "eorzeaDb": "",
+    "fishname": "Spectral Wrasse",
+    "alias": "Spectral_Wrasse",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "spectralwrasse",
+    "imageDescription": "Though this wavekin may be small, it attempts to remedy such shortcomings by sporting splendidly spectral scales. In doing so, however, it has become more vulnerable to predators and skilled anglers. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 36535,
+    "eorzeaDb": "",
+    "fishname": "Tebqeyiq Smelt",
+    "alias": "Tebqeyiq_Smelt",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "tebqeyiqsmelt",
+    "imageDescription": "For every vivid specimen of this species found, there is another far less interesting to look upon─but such is the nature of tropical fish. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 4879,
+    "eorzeaDb": "",
+    "fishname": "Tiger Cod",
+    "alias": "Tiger_Cod",
+    "fishsize": "s",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "tigercod",
+    "imageDescription": "A striped saltwater fish indigenous to the cold northern waters of the Bloodbrine Sea. [Suitable for display in aquariums tier 1 and higher.] [Suitable for printing on small canvases.]",
+    "isTradable": true
   }
 ];
 
 const saltWaterMediumFish = [
   {
-    id: 36679,
-    eorzeaDb: "",
-    fishname: "Aetherolectric Guitarfish",
-    alias: "Aetherolectric_Guitarfish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "aetherolectricguitarfish",
-    imageDescription:
-      "A king among guitarfish, and lord of the waters of Scholar's Harbor.",
-    isTradable: true
+    "id": 36679,
+    "eorzeaDb": "",
+    "fishname": "Aetherolectric Guitarfish",
+    "alias": "Aetherolectric_Guitarfish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "aetherolectricguitarfish",
+    "imageDescription": "A king among guitarfish, and lord of the waters of Scholar's Harbor. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 4883,
-    eorzeaDb: "e8d1d8ed4c8",
-    fishname: "Angelfish",
-    alias: "Angelfish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "angelfish",
-    imageDescription:
-      "A small colorful fish native to the warmer waters of the seas near Meracydia. Since the Calamity, more and more have been caught off Eorzea's southern coastline.",
-    isTradable: true
+    "id": 4883,
+    "eorzeaDb": "",
+    "fishname": "Angelfish",
+    "alias": "Angelfish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "angelfish",
+    "imageDescription": "A small colorful fish native to the warmer waters of the seas near Meracydia. Since the Calamity, more and more have been caught off Eorzea's southern coastline. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 20145,
-    eorzeaDb: "6b6f1df8cdd",
-    fishname: "Black Boxfish",
-    alias: "Black_Boxfish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "blackboxfish",
-    imageDescription:
-      "This saltwater cousin to the puffers changes color several times during its development, and it is only in the final years of adulthood that it bears the hue from which it earns its moniker.",
-    isTradable: true
+    "id": 33240,
+    "eorzeaDb": "",
+    "fishname": "Aquamaton",
+    "alias": "Aquamaton",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "aquamaton",
+    "imageDescription": "Those hoping to catch their dinner in Seagazer Shoals are in for a shock if they reel in one of these strange, dwarven contraptions. Apparently, they fetch a high price at market, assuming one can find a buyer. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 4886,
-    eorzeaDb: "2cc339576d4",
-    fishname: "Blowfish",
-    alias: "Blowfish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "blowfish",
-    imageDescription:
-      "A saltwater fish that, when provoked, blows up to three times its normal size to intimidate the would-be attacker. It is also known to have an organ which contains a potent silencing poison.",
-    isTradable: true
+    "id": 20145,
+    "eorzeaDb": "",
+    "fishname": "Black Boxfish",
+    "alias": "Black_Boxfish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "blackboxfish",
+    "imageDescription": "This saltwater cousin to the puffers changes color several times during its development, and it is only in the final years of adulthood that it bears the hue from which it earns its moniker. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 27422,
-    eorzeaDb: "d0519ac31c8",
-    fishname: "Bonefish",
-    alias: "Bonefish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "bonefish",
-    imageDescription:
-      "These unappetizing specimens proliferate in the Derelicts, where residents have little choice but to scrape what flesh they can from them.",
-    isTradable: true
+    "id": 4886,
+    "eorzeaDb": "",
+    "fishname": "Blowfish",
+    "alias": "Blowfish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "blowfish",
+    "imageDescription": "A saltwater fish that, when provoked, blows up to three times its normal size to intimidate the would-be attacker. It is also known to have an organ which contains a potent silencing poison. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 43790,
-    eorzeaDb: "1d9f6b3e7a4",
-    fishname: "Canal Drum",
-    alias: "Canal_Drum",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "canaldrum",
-    imageDescription: "A girthy wavekin named after the drums used by Canal Town street performers of old.",
-    isTradable: true
+    "id": 27422,
+    "eorzeaDb": "",
+    "fishname": "Bonefish",
+    "alias": "Bonefish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "bonefish",
+    "imageDescription": "These unappetizing specimens proliferate in the Derelicts, where residents have little choice but to scrape what flesh they can from them. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36388,
-    eorzeaDb: "d1b9fc8c1bd",
-    fishname: "Cobalt Chromis",
-    alias: "Cobalt_Chromis",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "cobaltchromis",
-    imageDescription:
-      "This saltwater fish is prized for its brilliant blue hue.",
-    isTradable: true
+    "id": 43790,
+    "eorzeaDb": "",
+    "fishname": "Canal Drum",
+    "alias": "Canal_Drum",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "canaldrum",
+    "imageDescription": "A girthy wavekin named after the drums used by Canal Town street performers of old. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36557,
-    eorzeaDb: "4397f0b0834",
-    fishname: "Crown Fish",
-    alias: "Crown_Fish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "crownfish",
-    imageDescription:
-      "If one were judging by appearances alone, the marking around this fish's face would make it ruler of the seas. Alas, in the real world, the best it can hope for is to not be confused with the common clown fish.",
-    isTradable: true
+    "id": 36388,
+    "eorzeaDb": "",
+    "fishname": "Cobalt Chromis",
+    "alias": "Cobalt_Chromis",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "cobaltchromis",
+    "imageDescription": "This saltwater fish is prized for its brilliant blue hue. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36571,
-    eorzeaDb: "4c5253f6a0f",
-    fishname: "Deepbody Boarfish",
-    alias: "Deepbody_Boarfish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "deepbodyboarfish",
-    imageDescription:
-      "These saltwater wavekin are known far and wide for their unique shape and bright color.",
-    isTradable: true
+    "id": 36557,
+    "eorzeaDb": "",
+    "fishname": "Crown Fish",
+    "alias": "Crown_Fish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "crownfish",
+    "imageDescription": "If one were judging by appearances alone, the marking around this fish's face would make it ruler of the seas. Alas, in the real world, the best it can hope for is to not be confused with the common clown fish. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 20180,
-    eorzeaDb: "56f91e53210",
-    fishname: "False Scad",
-    alias: "False_Scad",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "falsescad",
-    imageDescription: "A common saltwater fish doing its best scad impression.",
-    isTradable: true
+    "id": 36571,
+    "eorzeaDb": "",
+    "fishname": "Deepbody Boarfish",
+    "alias": "Deepbody_Boarfish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "deepbodyboarfish",
+    "imageDescription": "These saltwater wavekin are known far and wide for their unique shape and bright color. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36425,
-    eorzeaDb: "cab806b29ea",
-    fishname: "Fate's Design",
-    alias: "Fate%27s_Design",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "fatesdesign",
-    imageDescription:
-      "A tropical fish known for its dazzling coloration and unique scale patterns.",
-    isTradable: true
+    "id": 20180,
+    "eorzeaDb": "",
+    "fishname": "False Scad",
+    "alias": "False_Scad",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "falsescad",
+    "imageDescription": "A common saltwater fish doing its best scad impression. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: "43672",
-    eorzeaDb: "fda093c6fda",
-    fishname: "Floating Fife",
-    alias: "Floating_Fife",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "floatingfife",
-    imageDescription:
-      "Though its name may imply otherwise, attempting to play lovely little ditties with this wavekin is ill-advised.",
-    isTradable: true
+    "id": 36425,
+    "eorzeaDb": "",
+    "fishname": "Fate's Design",
+    "alias": "Fate_s_Design",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "fatesdesign",
+    "imageDescription": "A tropical fish known for its dazzling coloration and unique scale patterns. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: "43794",
-    eorzeaDb: "83df62caddc",
-    fishname: "Forgotten One",
-    alias: "Forgotten_One",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "forgottenone",
-    imageDescription:
-      "A mysterious saltwater fish, about which next to nothing is known.",
-    isTradable: true
+    "id": 43672,
+    "eorzeaDb": "",
+    "fishname": "Floating Fife",
+    "alias": "Floating_Fife",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "floatingfife",
+    "imageDescription": "Though its name may imply otherwise, attempting to play lovely little ditties with this wavekin is ill-advised. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 4898,
-    eorzeaDb: "be2adeeb1a0",
-    fishname: "Fullmoon Sardine",
-    alias: "Fullmoon_Sardine",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "fullmoonsardine",
-    imageDescription:
-      "A tiny saltwater fish native to the waters of Vylbrand. Unlike other wavekin, they feed only at night, their activity increasing as Menphina waxes.",
-    isTradable: true
+    "id": 43794,
+    "eorzeaDb": "",
+    "fishname": "Forgotten One",
+    "alias": "Forgotten_One",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "forgottenone",
+    "imageDescription": "A mysterious saltwater fish, about which next to nothing is known. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36525,
-    eorzeaDb: "ce89619c6eb",
-    fishname: "Gilled Topknot",
-    alias: "Gilled_Topknot",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "gilledtopknot",
-    imageDescription:
-      "A tropical fish with sizable fins that protrude perhaps a little too far from its body.",
-    isTradable: true
+    "id": 4898,
+    "eorzeaDb": "",
+    "fishname": "Fullmoon Sardine",
+    "alias": "Fullmoon_Sardine",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "fullmoonsardine",
+    "imageDescription": "A tiny saltwater fish native to the waters of Vylbrand. Unlike other wavekin, they feed only at night, their activity increasing as Menphina waxes. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 20110,
-    eorzeaDb: "681c64c16ce",
-    fishname: "Glass Tuna",
-    alias: "Glass_Tuna",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "glasstuna",
-    imageDescription:
-      "One of the most popular ingredients in Hingan sushi, the giant Glass tuna are thought to follow the strong ocean currents for thousands of malms in their lifetime.",
-    isTradable: true
+    "id": 36525,
+    "eorzeaDb": "",
+    "fishname": "Gilled Topknot",
+    "alias": "Gilled_Topknot",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "gilledtopknot",
+    "imageDescription": "A tropical fish with sizable fins that protrude perhaps a little too far from its body. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 7685,
-    eorzeaDb: "50fb1847e4f",
-    fishname: "Goldenfin",
-    alias: "Goldenfin",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "goldenfin",
-    imageDescription:
-      "A king among coral butterflies, and lord of the waters of the Limsa Lominsa upper decks.",
-    isTradable: true
+    "id": 20110,
+    "eorzeaDb": "",
+    "fishname": "Glass Tuna",
+    "alias": "Glass_Tuna",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "glasstuna",
+    "imageDescription": "One of the most popular ingredients in Hingan sushi, the giant Glass tuna are thought to follow the strong ocean currents for thousands of malms in their lifetime. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 40570,
-    eorzeaDb: "720df1d03d8",
-    fishname: "Heavensent Shark",
-    alias: "Heavensent_Shark",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "heavensentshark",
-    imageDescription:
-      "This shark is believed to be the reincarnation of a tiger descended from Heaven-on-High.",
-    isTradable: true
+    "id": 7685,
+    "eorzeaDb": "",
+    "fishname": "Goldenfin",
+    "alias": "Goldenfin",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "goldenfin",
+    "imageDescription": "A king among coral butterflies, and lord of the waters of the Limsa Lominsa upper decks. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 4895,
-    eorzeaDb: "72fd3fcd035",
-    fishname: "Indigo Herring",
-    alias: "Indigo_Herring",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "indigoherring",
-    imageDescription:
-      "This blue-backed, white-bellied saltwater fish native to the Indigo Deep is known to migrate in large schools from north to south in the winter, and back again in the summer.",
-    isTradable: true
+    "id": 40570,
+    "eorzeaDb": "",
+    "fishname": "Heavensent Shark",
+    "alias": "Heavensent_Shark",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "heavensentshark",
+    "imageDescription": "This shark is believed to be the reincarnation of a tiger descended from Heaven-on-High. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 29719,
-    eorzeaDb: "86591ebb3a9",
-    fishname: "Jasperhead",
-    alias: "Jasperhead",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "jasperhead",
-    imageDescription:
-      "Sought for the gemlike objects that form in their stomachs, not in their heads, as the name might suggest.",
-    isTradable: true
+    "id": 4895,
+    "eorzeaDb": "",
+    "fishname": "Indigo Herring",
+    "alias": "Indigo_Herring",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "indigoherring",
+    "imageDescription": "This blue-backed, white-bellied saltwater fish native to the Indigo Deep is known to migrate in large schools from north to south in the winter, and back again in the summer. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36563,
-    eorzeaDb: "65f693cf672",
-    fishname: "Keeled Fugu",
-    alias: "Keeled_Fugu",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "keeledfugu",
-    imageDescription:
-      "Living within the abyssal zone, this fish is much smaller than it leads its predators to believe.",
-    isTradable: true
+    "id": 29719,
+    "eorzeaDb": "",
+    "fishname": "Jasperhead",
+    "alias": "Jasperhead",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "jasperhead",
+    "imageDescription": "Sought for the gemlike objects that form in their stomachs, not in their heads, as the name might suggest. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 27454,
-    eorzeaDb: "40886e4d45d",
-    fishname: "Kholusian Wrasse",
-    alias: "Kholusian_Wrasse",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "kholusianwrasse",
-    imageDescription:
-      "A knobbly-headed fish native to the oceans surrounding Kholusia.",
-    isTradable: true
+    "id": 36563,
+    "eorzeaDb": "",
+    "fishname": "Keeled Fugu",
+    "alias": "Keeled_Fugu",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "keeledfugu",
+    "imageDescription": "Living within the abyssal zone, this fish is much smaller than it leads its predators to believe. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 32100,
-    eorzeaDb: "f12865a6731",
-    fishname: "Lansquenet",
-    alias: "Lansquenet",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "lansquenet",
-    imageDescription:
-      "Something of a mercenary among fish, it offers protection to smaller fish, though it seems to receive little in return. Perhaps it eats a few of them when the others are not looking?",
-    isTradable: true
+    "id": 27454,
+    "eorzeaDb": "",
+    "fishname": "Kholusian Wrasse",
+    "alias": "Kholusian_Wrasse",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "kholusianwrasse",
+    "imageDescription": "A knobbly-headed fish native to the oceans surrounding Kholusia. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 29755,
-    eorzeaDb: "f6c0d4459df",
-    fishname: "Mythril Sovereign",
-    alias: "Mythril_Sovereign",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "mythrilsovereign",
-    imageDescription:
-      "Known for its beautifully shimmering scales, which are in contrast to its rather lackluster meat.",
-    isTradable: true
+    "id": 32100,
+    "eorzeaDb": "",
+    "fishname": "Lansquenet",
+    "alias": "Lansquenet",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "lansquenet",
+    "imageDescription": "Something of a mercenary among fish, it offers protection to smaller fish, though it seems to receive little in return. Perhaps it eats a few of them when the others are not looking? [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 7693,
-    eorzeaDb: "d3f3cbc3afb",
-    fishname: "Navigator's Brand",
-    alias: "Navigator%27s_Brand",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "navigatorsbrand",
-    imageDescription:
-      "A king among Navigator's daggers, and lord of the waters of the Brewer's Beacon.",
-    isTradable: false
+    "id": 29755,
+    "eorzeaDb": "",
+    "fishname": "Mythril Sovereign",
+    "alias": "Mythril_Sovereign",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "mythrilsovereign",
+    "imageDescription": "Known for its beautifully shimmering scales, which are in contrast to its rather lackluster meat. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36577,
-    eorzeaDb: "759442f53f2",
-    fishname: "Othardian Lumpsucker",
-    alias: "Othardian_Lumpsucker",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "othardianlumpsucker",
-    imageDescription:
-      "A deep-sea wavekin with fins that will cling desperately to just about anything to avoid swimming.",
-    isTradable: true
+    "id": 7693,
+    "eorzeaDb": "",
+    "fishname": "Navigator's Brand",
+    "alias": "Navigator_s_Brand",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "navigatorsbrand",
+    "imageDescription": "A king among Navigator's daggers, and lord of the waters of the Brewer's Beacon. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": false
   },
   {
-    id: 36568,
-    eorzeaDb: "0fd247c093f",
-    fishname: "Othardian Wrasse",
-    alias: "Othardian_Wrasse",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "othardianwrasse",
-    imageDescription:
-      "A saltwater creature known for its beautiful coloration.",
-    isTradable: true
+    "id": 36577,
+    "eorzeaDb": "",
+    "fishname": "Othardian Lumpsucker",
+    "alias": "Othardian_Lumpsucker",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "othardianlumpsucker",
+    "imageDescription": "A deep-sea wavekin with fins that will cling desperately to just about anything to avoid swimming. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36539,
-    eorzeaDb: "8d7e360bab7",
-    fishname: "Rasa Fish",
-    alias: "Rasa_Fish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "rasafish",
-    imageDescription:
-      "This wavekin's scales are so beautiful that they appear wrought from copper, and as such it fetches a rather impressive price at market.",
-    isTradable: true
+    "id": 36568,
+    "eorzeaDb": "",
+    "fishname": "Othardian Wrasse",
+    "alias": "Othardian_Wrasse",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "othardianwrasse",
+    "imageDescription": "A saltwater creature known for its beautiful coloration. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 20186,
-    eorzeaDb: "9c7275e5324",
-    fishname: "Redcoat",
-    alias: "Redcoat",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "redcoat",
-    imageDescription:
-      "A large, reddish orange fish with distinctively enormous eyes to help it see in the murky depths of the Ruby Sea.",
-    isTradable: true
+    "id": 49794,
+    "eorzeaDb": "",
+    "fishname": "Purse of Riches",
+    "alias": "Purse_of_Riches",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "purseofriches",
+    "imageDescription": "A king among blue purses, and lord of the waters of High Tide Harbor. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 36426,
-    eorzeaDb: "4513817430c",
-    fishname: "Shadowdart Sardine",
-    alias: "Shadowdart_Sardine",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "shadowdartsardine",
-    imageDescription:
-      "This black-bodied fish makes its home in the seas surrounding Thavnair.",
-    isTradable: true
+    "id": 36539,
+    "eorzeaDb": "",
+    "fishname": "Rasa Fish",
+    "alias": "Rasa_Fish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "rasafish",
+    "imageDescription": "This wavekin's scales are so beautiful that they appear wrought from copper, and as such it fetches a rather impressive price at market. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 40525,
-    eorzeaDb: "93359d6bde8",
-    fishname: "Sirensong Mullet",
-    alias: "Sirensong_Mullet",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "sirensongmullet",
-    imageDescription: "Business in the front. Sirensong in the back.",
-    isTradable: true
+    "id": 20186,
+    "eorzeaDb": "",
+    "fishname": "Redcoat",
+    "alias": "Redcoat",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "redcoat",
+    "imageDescription": "A large, reddish orange fish with distinctively enormous eyes to help it see in the murky depths of the Ruby Sea. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 44342,
-    eorzeaDb: "9097b6a5a5e",
-    fishname: "Stardust Sleeper",
-    alias: "Stardust_Sleeper",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "stardustsleeper",
-    imageDescription:
-      "A king among Xty'iinbek sleepers, and lord of the depths of Xty'iinbek Tsoly",
-    isTradable: true
+    "id": 36426,
+    "eorzeaDb": "",
+    "fishname": "Shadowdart Sardine",
+    "alias": "Shadowdart_Sardine",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "shadowdartsardine",
+    "imageDescription": "This black-bodied fish makes its home in the seas surrounding Thavnair. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 29785,
-    eorzeaDb: "50aca4a9a6d",
-    fishname: "Spectral Discus",
-    alias: "Spectral_Discus",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "spectraldiscus",
-    imageDescription:
-      "This aetherially infused wavekin gathers rather a lot of unwanted attention, and it has no natural defenses to fend off curious predators.",
-    isTradable: true
+    "id": 40525,
+    "eorzeaDb": "",
+    "fishname": "Sirensong Mullet",
+    "alias": "Sirensong_Mullet",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "sirensongmullet",
+    "imageDescription": "Business in the front. Sirensong in the back. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 20100,
-    eorzeaDb: "f8c64301c72",
-    fishname: "Swordfish",
-    alias: "Swordfish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "swordfish",
-    imageDescription:
-      "Fishers seeking to land ocean-dwelling swordfish must take care not to accidentally impale themselves on the wavekin's serrated bladelike maw.",
-    isTradable: true
+    "id": 29785,
+    "eorzeaDb": "",
+    "fishname": "Spectral Discus",
+    "alias": "Spectral_Discus",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "spectraldiscus",
+    "imageDescription": "This aetherially infused wavekin gathers rather a lot of unwanted attention, and it has no natural defenses to fend off curious predators. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 28940,
-    eorzeaDb: "f6bdd0e41c9",
-    fishname: "Tripod Fish",
-    alias: "Tripod_Fish",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "tripodfish",
-    imageDescription:
-      "Many a seafarer has lain awake contemplating the cursed knowledge that, as its name implies, this fish can indeed stand on its fins.",
-    isTradable: true
+    "id": 44342,
+    "eorzeaDb": "",
+    "fishname": "Stardust Sleeper",
+    "alias": "Stardust_Sleeper",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "stardustsleeper",
+    "imageDescription": "A king among Xty'iinbek sleepers, and lord of the depths of Xty'iinbek Tsoly. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 38832,
-    eorzeaDb: "7b541f0a9f2",
-    fishname: "Vidyutvat Wrasse",
-    alias: "Vidyutvat_Wrasse",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "vidyutvatwrasse",
-    imageDescription:
-      "A king among garjana wrasse, and lord of the waters of the Great Runoff.",
-    isTradable: true
+    "id": 20100,
+    "eorzeaDb": "",
+    "fishname": "Swordfish",
+    "alias": "Swordfish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "swordfish",
+    "imageDescription": "Fishers seeking to land ocean-dwelling swordfish must take care not to accidentally impale themselves on the wavekin's serrated bladelike maw. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   },
   {
-    id: 20038,
-    eorzeaDb: "cd417f8c3d3",
-    fishname: "Zekki Grouper",
-    alias: "Zekki_Grouper",
-    fishsize: "m",
-    waterType: "sw",
-    image: true,
-    imageName: "zekkigrouper",
-    imageDescription:
-      "Groupers gather in swift currents of the Ruby Sea and the Rasen Kaikyo to feed on the abundant life drawn to the area.",
-    isTradable: true
+    "id": 28940,
+    "eorzeaDb": "",
+    "fishname": "Tripod Fish",
+    "alias": "Tripod_Fish",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "tripodfish",
+    "imageDescription": "Many a seafarer has lain awake contemplating the cursed knowledge that, as its name implies, this fish can indeed stand on its fins.  [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 38832,
+    "eorzeaDb": "",
+    "fishname": "Vidyutvat Wrasse",
+    "alias": "Vidyutvat_Wrasse",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "vidyutvatwrasse",
+    "imageDescription": "A king among garjana wrasse, and lord of the waters of the Great Runoff. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
+  },
+  {
+    "id": 20038,
+    "eorzeaDb": "",
+    "fishname": "Zekki Grouper",
+    "alias": "Zekki_Grouper",
+    "fishsize": "m",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "zekkigrouper",
+    "imageDescription": "Groupers gather in swift currents of the Ruby Sea and the Rasen Kaikyo to feed on the abundant life drawn to the area. [Suitable for display in aquariums tier 2 and higher.] [Suitable for printing on medium canvases.]",
+    "isTradable": true
   }
-
 ];
 
 const saltWaterLargeFish = [
   {
-    id: 36533,
-    eorzeaDb: "7135cc8563a",
-    fishname: "Blue Marlin",
-    alias: "Blue_Marlin",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "bluemarlin",
-    imageDescription:
-      "A large saltwater fish whose lustrous skin seems to shimmer even without sunlight.",
-    isTradable: true
+    "id": 36533,
+    "eorzeaDb": "",
+    "fishname": "Blue Marlin",
+    "alias": "Blue_Marlin",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "bluemarlin",
+    "imageDescription": "A large saltwater fish whose lustrous skin seems to shimmer even without sunlight. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 7924,
-    eorzeaDb: "4c7383894b9",
-    fishname: "Bombardfish",
-    alias: "Bombardfish",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "bombardfish",
-    imageDescription: "A king among balloonfish.",
-    isTradable: true
+    "id": 7924,
+    "eorzeaDb": "",
+    "fishname": "Bombardfish",
+    "alias": "Bombardfish",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "bombardfish",
+    "imageDescription": "A king among balloonfish. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 47988,
-    eorzeaDb: "d3ed1e06d5c",
-    fishname: "Cabinkeep Permit",
-    alias: "Cabinkeep_Permit",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "cabinkeeppermit",
-    imageDescription: "A king among permits, and lord of the shallows beneath the For'ard Cabins.",
-    isTradable: true
+    "id": 47988,
+    "eorzeaDb": "",
+    "fishname": "Cabinkeep Permit",
+    "alias": "Cabinkeep_Permit",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "cabinkeeppermit",
+    "imageDescription": "A king among permits, and lord of the shallows beneath the For'ard Cabins. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 4918,
-    eorzeaDb: "f69d8a1ef98",
-    fishname: "Coelacanth",
-    alias: "Coelacanth",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "coelacanth",
-    imageDescription:
-      "An ancient species of saltwater fish which appears to have flourished in times well before the Allagans built their empire.",
-    isTradable: true
+    "id": 4918,
+    "eorzeaDb": "",
+    "fishname": "Coelacanth",
+    "alias": "Coelacanth",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "coelacanth",
+    "imageDescription": "An ancient species of saltwater fish which appears to have flourished in times well before the Allagans built their empire. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20171,
-    eorzeaDb: "f0d15a63022",
-    fishname: "Corpse-eater",
-    alias: "Corpse-eater",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "corpseeater",
-    imageDescription:
-      "A large carnivorous wavekin that dwells in the warm currents of the southern seas.",
-    isTradable: true
+    "id": 20171,
+    "eorzeaDb": "",
+    "fishname": "Corpse-eater",
+    "alias": "Corpse_eater",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "corpseeater",
+    "imageDescription": "A large carnivorous wavekin that dwells in the warm currents of the southern seas. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 4893,
-    eorzeaDb: "8e00d51fe85",
-    fishname: "Hammerhead Shark",
-    alias: "Hammerhead_Shark",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "hammerheadshark",
-    imageDescription:
-      "A ravenous shark with a hammer-shaped head it uses to quickly detect its prey. This wavekin is most commonly found living in small schools in the Strait of Merlthor.",
-    isTradable: true
+    "id": 4893,
+    "eorzeaDb": "",
+    "fishname": "Hammerhead Shark",
+    "alias": "Hammerhead_Shark",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "hammerheadshark",
+    "imageDescription": "A ravenous shark with a hammer-shaped head it uses to quickly detect its prey. This wavekin is most commonly found living in small schools in the Strait of Merlthor. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20054,
-    eorzeaDb: "617d637486b",
-    fishname: "Hanatatsu",
-    alias: "Hanatatsu",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "hanatatsu",
-    imageDescription:
-      "Similar to the sea horse, the hanatatsu swims “standing,” though instead of resembling a beast of burden, this saltwater fish has taken on the appearance of a sprig of coral.",
-    isTradable: true
+    "id": 20054,
+    "eorzeaDb": "",
+    "fishname": "Hanatatsu",
+    "alias": "Hanatatsu",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "hanatatsu",
+    "imageDescription": "Similar to the sea horse, the hanatatsu swims “standing,” though instead of resembling a beast of burden, this saltwater fish has taken on the appearance of a sprig of coral. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 36580,
-    eorzeaDb: "f6ceb7de61d",
-    fishname: "Kitefin Shark",
-    alias: "Kitefin_Shark",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "kitefinshark",
-    imageDescription:
-      "A shark with shining, surreal eyes that stand out like gems against the dull background of its body.",
-    isTradable: true
+    "id": 36580,
+    "eorzeaDb": "",
+    "fishname": "Kitefin Shark",
+    "alias": "Kitefin_Shark",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "kitefinshark",
+    "imageDescription": "A shark with shining, surreal eyes that stand out like gems against the dull background of its body. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20226,
-    eorzeaDb: "84de0dd07e0",
-    fishname: "Motley Beakfish",
-    alias: "Motley_Beakfish",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "motleybeakfish",
-    imageDescription: "A striped carnivore that hunts the Ruby Sea.",
-    isTradable: true
+    "id": 20226,
+    "eorzeaDb": "",
+    "fishname": "Motley Beakfish",
+    "alias": "Motley_Beakfish",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "motleybeakfish",
+    "imageDescription": "A striped carnivore that hunts the Ruby Sea. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 4908,
-    eorzeaDb: "497c158dc07",
-    fishname: "Mummer Wrasse",
-    alias: "Mummer_Wrasse",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "mummerwrasse",
-    imageDescription:
-      "This saltwater fish's name comes from the odd lump on its head, thought to resemble a mummer's motley cap.",
-    isTradable: true
+    "id": 4908,
+    "eorzeaDb": "",
+    "fishname": "Mummer Wrasse",
+    "alias": "Mummer_Wrasse",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "mummerwrasse",
+    "imageDescription": "This saltwater fish's name comes from the odd lump on its head, thought to resemble a mummer's motley cap. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 36453,
-    eorzeaDb: "4c18d47bcf7",
-    fishname: "Roosterfish",
-    alias: "Roosterfish",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "roosterfish",
-    imageDescription:
-      "A saltwater fish with a spindly dorsal fin that makes its home in the Perfumed Tides.",
-    isTradable: true
+    "id": 36453,
+    "eorzeaDb": "",
+    "fishname": "Roosterfish",
+    "alias": "Roosterfish",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "roosterfish",
+    "imageDescription": "A saltwater fish with a spindly dorsal fin that makes its home in the Perfumed Tides. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 29787,
-    eorzeaDb: "16f6eb257cb",
-    fishname: "Spectral Bass",
-    alias: "Spectral_Bass",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "spectralbass",
-    imageDescription:
-      "This most ordinary of fish has become rather extraordinary thanks to being bathed in otherworldly aether, giving it a fetching blue tinge.",
-    isTradable: true
+    "id": 29787,
+    "eorzeaDb": "",
+    "fishname": "Spectral Bass",
+    "alias": "Spectral_Bass",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "spectralbass",
+    "imageDescription": "This most ordinary of fish has become rather extraordinary thanks to being bathed in otherworldly aether, giving it a fetching blue tinge. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 21176,
-    eorzeaDb: "e909be2f0b2",
-    fishname: "Ukiki",
-    alias: "Ukiki",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "ukiki",
-    imageDescription:
-      "Its Hingan name roughly translating to “floating tree,” this variety of Eastern sunfish neither floats nor is a tree.",
-    isTradable: true
+    "id": 21176,
+    "eorzeaDb": "",
+    "fishname": "Ukiki",
+    "alias": "Ukiki",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "ukiki",
+    "imageDescription": "Its Hingan name roughly translating to “floating tree,” this variety of Eastern sunfish neither floats nor is a tree. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20157,
-    eorzeaDb: "3e7daea8f61",
-    fishname: "Zebra Shark",
-    alias: "Zebra_Shark",
-    fishsize: "l",
-    waterType: "sw",
-    image: true,
-    imageName: "zebrashark",
-    imageDescription:
-      "Unlike those of the mystical zebra, the pronounced “stripes” upon this wavekin's back are more accurately compared to a tiger's spots.",
-    isTradable: true
+    "id": 20157,
+    "eorzeaDb": "",
+    "fishname": "Zebra Shark",
+    "alias": "Zebra_Shark",
+    "fishsize": "l",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "zebrashark",
+    "imageDescription": "Unlike those of the mystical zebra, the pronounced “stripes” upon this wavekin's back are more accurately compared to a tiger's spots. [Suitable for display in aquariums tier 3 and higher.] [Suitable for printing on large canvases.]",
+    "isTradable": true
   }
 ];
+
 const saltWaterXLargeFish = [
   {
-    id: 36454,
-    eorzeaDb: "7a0da3e63df",
-    fishname: "Basilosaurus",
-    alias: "Basilosaurus",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "basilosaurus",
-    imageDescription:
-      "This scourge of the seas bears physiological similarities to prehistoric whales.",
-    isTradable: true
+    "id": 36454,
+    "eorzeaDb": "",
+    "fishname": "Basilosaurus",
+    "alias": "Basilosaurus",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "basilosaurus",
+    "imageDescription": "This scourge of the seas bears physiological similarities to prehistoric whales. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 29789,
-    eorzeaDb: "580e9504772",
-    fishname: "Coral Manta",
-    alias: "Coral_Manta",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "coralmanta",
-    imageDescription:
-      "Few creatures can claim to have an entire ecosystem on their back, although this appears to afford the host no practical benefits whatsoever.",
-    isTradable: false
+    "id": 43795,
+    "eorzeaDb": "",
+    "fishname": "Copper Shark",
+    "alias": "Copper_Shark",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "coppershark",
+    "imageDescription": "While this giant shark may look like a ferocious apex predator, this particular species is, in fact, surprisingly mild-mannered. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 43795,
-    eorzeaDb: "45d29ae5ca1",
-    fishname: "Copper Shark",
-    alias: "Copper_Shark",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "coppershark",
-    imageDescription: "While this giant shark may look like a ferocious apex predator, this particular species is, in fact, surprisingly mild-mannered.",
-    isTradable: true
+    "id": 29789,
+    "eorzeaDb": "",
+    "fishname": "Coral Manta",
+    "alias": "Coral_Manta",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "coralmanta",
+    "imageDescription": "Few creatures can claim to have an entire ecosystem on their back, although this appears to afford the host no practical benefits whatsoever. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": false
   },
   {
-    id: 4922,
-    eorzeaDb: "e70f8fac750",
-    fishname: "Dinichthys",
-    alias: "Dinichthys",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "dinichthys",
-    imageDescription:
-      "A legendary saltwater fish covered in thick armor and said to have once been worshipped by the Sahagin.",
-    isTradable: true
+    "id": 4922,
+    "eorzeaDb": "",
+    "fishname": "Dinichthys",
+    "alias": "Dinichthys",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "dinichthys",
+    "imageDescription": "A legendary saltwater fish covered in thick armor and said to have once been worshipped by the Sahagin. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 29782,
-    eorzeaDb: "a8020243bd4",
-    fishname: "Funnel Shark",
-    alias: "Funnel_Shark",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "funnelshark",
-    imageDescription:
-      "Its gaping maw draws in all manner of ocean life, along with a range of less-than-edible objects.",
-    isTradable: true
+    "id": 29782,
+    "eorzeaDb": "",
+    "fishname": "Funnel Shark",
+    "alias": "Funnel_Shark",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "funnelshark",
+    "imageDescription": "Its gaping maw draws in all manner of ocean life, along with a range of less-than-edible objects. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 41408,
-    eorzeaDb: "acda0f80dce",
-    fishname: "Gharlichthys",
-    alias: "Gharlichthys",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "gharlichthys",
-    imageDescription:
-      "This colossal inhabitant of the Perfumed Tides is thought to be one of the largest living fish on the star, growing nearly twenty fulms long. Those who miraculously haul one up from the depths should either be commended for their bravery or scolded for their folly.",
-    isTradable: true
+    "id": 41408,
+    "eorzeaDb": "",
+    "fishname": "Gharlichthys",
+    "alias": "Gharlichthys",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "gharlichthys",
+    "imageDescription": "This colossal inhabitant of the Perfumed Tides is thought to be one of the largest living fish on the star, growing nearly twenty fulms long. Those who miraculously haul one up from the depths should either be commended for their bravery or scolded for their folly. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 7941,
-    eorzeaDb: "e8796b5b491",
-    fishname: "Helmsman's Hand",
-    alias: "Helmsman%27s_Hand",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "helmsmanshand",
-    imageDescription: "A king among sunfish.",
-    isTradable: true
+    "id": 7941,
+    "eorzeaDb": "",
+    "fishname": "Helmsman's Hand",
+    "alias": "Helmsman_s_Hand",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "helmsmanshand",
+    "imageDescription": "A king among sunfish. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: "43792",
-    eorzeaDb: "d349604b216",
-    fishname: "Hydro Louvar",
-    alias: "Hydro_Louvar",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "hydrolouvar",
-    imageDescription:
-      "This hulking, formerly migratory species thrives in temperate seas.",
-    isTradable: true
+    "id": 43792,
+    "eorzeaDb": "",
+    "fishname": "Hydro Louvar",
+    "alias": "Hydro_Louvar",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "hydrolouvar",
+    "imageDescription": "This hulking, formerly migratory species thrives in temperate seas. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 7684,
-    eorzeaDb: "27a3e715b0f",
-    fishname: "Junkmonger",
-    alias: "Junkmonger_(Seafood)",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "junkmonger",
-    imageDescription:
-      "A king among goosefish, and lord of the waters of Skull Valley.",
-    isTradable: true
+    "id": 7684,
+    "eorzeaDb": "",
+    "fishname": "Junkmonger",
+    "alias": "Junkmonger",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "junkmonger",
+    "imageDescription": "A king among goosefish, and lord of the waters of Skull Valley. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 33244,
-    eorzeaDb: "5253f1c589e",
-    fishname: "Lancetfish",
-    alias: "Lancetfish",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "lancetfish",
-    imageDescription:
-      "Those fishing the waters of the northwest Caliban Gorge are advised that, if they attempt to handle this bellicose wavekin, they should avoid the pointy bits. Many will attest, however, that as practically the entire fish fits that description, it is best to simply give it as wide a berth as possible.",
-    isTradable: true
+    "id": 33244,
+    "eorzeaDb": "",
+    "fishname": "Lancetfish",
+    "alias": "Lancetfish",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "lancetfish",
+    "imageDescription": "Those fishing the waters of the northwest Caliban Gorge are advised that, if they attempt to handle this bellicose wavekin, they should avoid the pointy bits. Many will attest, however, that as practically the entire fish fits that description, it is best to simply give it as wide a berth as possible. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 20018,
-    eorzeaDb: "5970c533354",
-    fishname: "Liopleurodon",
-    alias: "Liopleurodon",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "liopleurodon",
-    imageDescription:
-      "Though king of the five seas and beyond, scholars classify the liopleurodon with scalekin rather than wavekin.",
-    isTradable: true
+    "id": 20018,
+    "eorzeaDb": "",
+    "fishname": "Liopleurodon",
+    "alias": "Liopleurodon",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "liopleurodon",
+    "imageDescription": "Though king of the five seas and beyond, scholars classify the liopleurodon with scalekin rather than wavekin. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 4917,
-    eorzeaDb: "550d1a57476",
-    fishname: "Mazlaya Marlin",
-    alias: "Mazlaya_Marlin",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "mazlayamarlin",
-    imageDescription:
-      "A large saltwater fish found in the warm waters south of the Sea of Ash and known for its remarkable swimming speed.",
-    isTradable: true
+    "id": 4917,
+    "eorzeaDb": "",
+    "fishname": "Mazlaya Marlin",
+    "alias": "Mazlaya_Marlin",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "mazlayamarlin",
+    "imageDescription": "A large saltwater fish found in the warm waters south of the Sea of Ash and known for its remarkable swimming speed. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 4923,
-    eorzeaDb: "2b7dda20b59",
-    fishname: "Megalodon",
-    alias: "Megalodon",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "megalodon",
-    imageDescription:
-      "A legendary shark with a mouth so big and an appetite so large, it is said it can swallow an adult Roegadyn whole.",
-    isTradable: true
+    "id": 4923,
+    "eorzeaDb": "",
+    "fishname": "Megalodon",
+    "alias": "Megalodon",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "megalodon",
+    "imageDescription": "A legendary shark with a mouth so big and an appetite so large, it is said it can swallow an adult Roegadyn whole. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 27503,
-    eorzeaDb: "758e0901f91",
-    fishname: "Ondobane",
-    alias: "Ondobane",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "ondobane",
-    imageDescription:
-      "This shark, native to the Tempest, is voracious, territorial, and massive─which savvy fishers may recognize as the worst combination of traits for a shark to have.",
-    isTradable: true
+    "id": 27503,
+    "eorzeaDb": "",
+    "fishname": "Ondobane",
+    "alias": "Ondobane",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "ondobane",
+    "imageDescription": "This shark, native to the Tempest, is voracious, territorial, and massive─which savvy fishers may recognize as the worst combination of traits for a shark to have. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 27424,
-    eorzeaDb: "690086bad31",
-    fishname: "Red Hammerhead",
-    alias: "Red_Hammerhead",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "redhammerhead",
-    imageDescription:
-      "Despite its whimsical appearance, this shark is nevertheless perfectly capable of biting one's face off if provoked.",
-    isTradable: true
+    "id": 27424,
+    "eorzeaDb": "",
+    "fishname": "Red Hammerhead",
+    "alias": "Red_Hammerhead",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "redhammerhead",
+    "imageDescription": "Despite its whimsical appearance, this shark is nevertheless perfectly capable of biting one's face off if provoked. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 23054,
-    eorzeaDb: "77e10fd9ba2",
-    fishname: "Shrieker",
-    alias: "Shrieker",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "shrieker",
-    imageDescription:
-      "Anyone who has seen far enough into the maw of a shrieker to confirm whether its rows of teeth line not just one, but two pharyngeal jaws could not have lived to tell the tale, so the anatomy of this cryptid remains shrouded in mystery.",
-    isTradable: true
+    "id": 23054,
+    "eorzeaDb": "",
+    "fishname": "Shrieker",
+    "alias": "Shrieker",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "shrieker",
+    "imageDescription": "Anyone who has seen far enough into the maw of a shrieker to confirm whether its rows of teeth line not just one, but two pharyngeal jaws could not have lived to tell the tale, so the anatomy of this cryptid remains shrouded in mystery. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 4903,
-    eorzeaDb: "41fb9d7c649",
-    fishname: "Silver Shark",
-    alias: "Silver_Shark",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "silvershark",
-    imageDescription:
-      "A large, spindle-shaped shark commonly found in the Sea of Ash and known to attack without provocation.",
-    isTradable: true
+    "id": 4903,
+    "eorzeaDb": "",
+    "fishname": "Silver Shark",
+    "alias": "Silver_Shark",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "silvershark",
+    "imageDescription": "A large, spindle-shaped shark commonly found in the Sea of Ash and known to attack without provocation. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 7690,
-    eorzeaDb: "1ac03db6d34",
-    fishname: "Silver Sovereign",
-    alias: "Silver_Sovereign",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "silversovereign",
-    imageDescription:
-      "Known also by the name of tarpon, this rare fish is said to have swum the oceans of Eorzea since the dawn of time. Lord of the waters of Oschon's Torch.",
-    isTradable: false
+    "id": 7690,
+    "eorzeaDb": "",
+    "fishname": "Silver Sovereign",
+    "alias": "Silver_Sovereign",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "silversovereign",
+    "imageDescription": "Known also by the name of tarpon, this rare fish is said to have swum the oceans of Eorzea since the dawn of time. Lord of the waters of Oschon's Torch.  [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": false
   },
   {
-    id: 29788,
-    eorzeaDb: "440799484ef",
-    fishname: "Sothis",
-    alias: "Sothis",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "sothis",
-    imageDescription:
-      "It is unclear how this species of turtle came to have a shell covered in glittering crystal, though it does give oceanic hunters pause for thought before they attempt to bite down on it. This could be considered a form of unnatural protection.",
-    isTradable: false
+    "id": 29788,
+    "eorzeaDb": "",
+    "fishname": "Sothis",
+    "alias": "Sothis",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "sothis",
+    "imageDescription": "It is unclear how this species of turtle came to have a shell covered in glittering crystal, though it does give oceanic hunters pause for thought before they attempt to bite down on it. This could be considered a form of unnatural protection. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": false
   },
   {
-    id: 29784,
-    eorzeaDb: "897db871a6f",
-    fishname: "Spectral Megalodon",
-    alias: "Spectral_Megalodon",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "spectralmegalodon",
-    imageDescription:
-      "Due to the fact that most of its prey are petrified upon catching sight of this ominously glowing predator, it has rather an easy time finding a steady supply of food.",
-    isTradable: true
+    "id": 29784,
+    "eorzeaDb": "",
+    "fishname": "Spectral Megalodon",
+    "alias": "Spectral_Megalodon",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "spectralmegalodon",
+    "imageDescription": "Due to the fact that most of its prey are petrified upon catching sight of this ominously glowing predator, it has rather an easy time finding a steady supply of food. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   },
   {
-    id: 29790,
-    eorzeaDb: "7284d60b92a",
-    fishname: "Stonescale",
-    alias: "Stonescale",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "stonescale",
-    imageDescription:
-      "The thick covering of rock-like substance does little to improve this shark's mobility. Being an apex predator means it has little need of excessive armor plating.",
-    isTradable: false
+    "id": 29790,
+    "eorzeaDb": "",
+    "fishname": "Stonescale",
+    "alias": "Stonescale",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "stonescale",
+    "imageDescription": "The thick covering of rock-like substance does little to improve this shark's mobility. Being an apex predator means it has little need of excessive armor plating. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": false
   },
   {
-    id: 40540,
-    eorzeaDb: "acba3f892d1",
-    fishname: "Taniwha",
-    alias: "Taniwha",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "taniwha",
-    imageDescription:
-      "Respected and feared by the peoples of the south sea isles, this ancient sea creature is the subject of myriad myths and legends.",
-    isTradable: false
+    "id": 40540,
+    "eorzeaDb": "",
+    "fishname": "Taniwha",
+    "alias": "Taniwha",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "taniwha",
+    "imageDescription": "Respected and feared by the peoples of the south sea isles, this ancient sea creature is the subject of myriad myths and legends. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": false
   },
   {
-    id: 4924,
-    eorzeaDb: "8ab1b192a64",
-    fishname: "Titanic Sawfish",
-    alias: "Titanic_Sawfish",
-    fishsize: "xl",
-    waterType: "sw",
-    image: true,
-    imageName: "titanicsawfish",
-    imageDescription:
-      "Legends say that this gargantuan saltwater fish once ripped a hundred-man galleon in two with its saw-like head.",
-    isTradable: true
+    "id": 4924,
+    "eorzeaDb": "",
+    "fishname": "Titanic Sawfish",
+    "alias": "Titanic_Sawfish",
+    "fishsize": "xl",
+    "waterType": "sw",
+    "image": true,
+    "imageName": "titanicsawfish",
+    "imageDescription": "Legends say that this gargantuan saltwater fish once ripped a hundred-man galleon in two with its saw-like head. [Suitable for display in aquariums tier 4 and higher.] [Suitable for printing on extra large canvases.]",
+    "isTradable": true
   }
-
-
-
 ];
+
+
 
 function generateFishList(listName, containerName) {
   const fragment = document.createDocumentFragment();
@@ -3250,12 +3198,9 @@ function generateFishList(listName, containerName) {
       };
 
       for (const prop in dataset) {
-        //if (dataset[prop]) ahref.setAttribute(`data-${prop}`, dataset[prop]);
         if (dataset[prop] !== undefined) {
-          // convert boolean to string explicitly
           ahref.setAttribute(`data-${prop.replace(/[A-Z]/g, m => "-" + m.toLowerCase())}`, dataset[prop]);
         }
-        
       }
 
       Object.assign(ahref, {
@@ -3269,7 +3214,7 @@ function generateFishList(listName, containerName) {
       li.appendChild(ahref);
     } else {
       li.textContent = item.fishname;
-      li.classList.add("no-image"); // fallback when image = false 
+      li.classList.add("no-image"); 
     }
     fragment.appendChild(li);
   });
@@ -3278,50 +3223,49 @@ function generateFishList(listName, containerName) {
 }
 
 // Freshwater
-//Small Fish
-const freshWaterSmallList = document.querySelector(
-  ".freshwater--menu-list ul.small"
-);
-generateFishList(freshwaterSmallFish, freshWaterSmallList);
-
-//Medium Fish
-const freshWaterMediumList = document.querySelector(
-  ".freshwater--menu-list ul.medium"
-);
-generateFishList(freshwaterMediumFish, freshWaterMediumList);
-
-//Large Fish
-const freshWaterLargeList = document.querySelector(
-  ".freshwater--menu-list ul.large"
-);
-generateFishList(freshwaterLargeFish, freshWaterLargeList);
-
-//XLarge Fish
-const freshWaterXLargeList = document.querySelector(
-  ".freshwater--menu-list ul.xlarge"
-);
-generateFishList(freshwaterXLargeFish, freshWaterXLargeList);
+generateFishList(freshwaterSmallFish, document.querySelector(".freshwater--menu-list ul.small"));
+generateFishList(freshwaterMediumFish, document.querySelector(".freshwater--menu-list ul.medium"));
+generateFishList(freshwaterLargeFish, document.querySelector(".freshwater--menu-list ul.large"));
+generateFishList(freshwaterXLargeFish, document.querySelector(".freshwater--menu-list ul.xlarge"));
 
 // Saltwater
-//Small Fish
-const saltWaterSmallList = document.querySelector(
-  ".saltwater--menu-list ul.small"
-);
-generateFishList(saltWaterSmallFish, saltWaterSmallList);
+generateFishList(saltWaterSmallFish, document.querySelector(".saltwater--menu-list ul.small"));
+generateFishList(saltWaterMediumFish, document.querySelector(".saltwater--menu-list ul.medium"));
+generateFishList(saltWaterLargeFish, document.querySelector(".saltwater--menu-list ul.large"));
+generateFishList(saltWaterXLargeFish, document.querySelector(".saltwater--menu-list ul.xlarge"));
 
-//Medium Fish
-const saltWaterMediumList = document.querySelector(
-  ".saltwater--menu-list ul.medium"
-);
-generateFishList(saltWaterMediumFish, saltWaterMediumList);
 
-//Large Fish
-const saltWaterLargeList = document.querySelector(
-  ".saltwater--menu-list ul.large"
-);
-generateFishList(saltWaterLargeFish, saltWaterLargeList);
-//XLarge Fish
-const saltWaterXLargeList = document.querySelector(
-  ".saltwater--menu-list ul.xlarge"
-);
-generateFishList(saltWaterXLargeFish, saltWaterXLargeList);
+
+// document.querySelectorAll('div[class*="menu-list"] ul > li > a').forEach((link, index) => {
+//   setTimeout(() => {
+//     link.click();
+//   }, index * 50); // 300ms delay between each click so it doesn't trigger instantly all at once
+// });
+
+
+
+
+
+
+
+
+
+
+
+//http://127.0.0.1:5500/img/sw/m/aquamaton.png 404 (Not Found)
+//http://127.0.0.1:5500/img/sw/m/purseofriches.png 404 (Not Found)
+
+
+//http://127.0.0.1:5500/img/fw/s/blindbrotula.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/s/bonytailchub.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/s/checkeredcichlid.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/s/knightgoby.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/m/archmatronangelfish.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/m/commonbitterling.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/m/crimsontrout.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/m/thunderswifttrout.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/m/highlandperch.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/l/driftwoodcatfish.png 404 (Not Found)
+//http://127.0.0.1:5500/img/fw/m/tigermuskellunge.png 404 (Not Found)
+
+//http://127.0.0.1:5500/img/fw/xl/esperancecarp.png 404 (Not Found)
